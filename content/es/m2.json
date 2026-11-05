@@ -1,0 +1,293 @@
+{
+  "bloques": [
+    {
+      "id": "m2-cortes",
+      "numero": "2.1",
+      "titulo": "Las Cortes Generales: Congreso y Senado",
+      "resumen": [
+        "Las {{cortes-generales|Cortes Generales}} son el Parlamento de España y tienen dos Cámaras.",
+        "El {{congreso|Congreso}} aprueba leyes, controla al Gobierno e inviste a su Presidente.",
+        "El {{senado|Senado}} es la Cámara territorial: puede vetar o enmendar, pero el Congreso tiene la última palabra en muchos procedimientos."
+      ],
+      "explicacion": [
+        { "tipo": "p", "texto": "La Constitución permite entre 300 y 400 diputados (art. 68.1) y la ley electoral fija 350 (LOREG, art. 162.1). Ninguna de las fuentes consultadas da una fórmula ni una justificación de esa cifra." },
+        { "tipo": "esquema", "esquema": {
+          "tipo": "comparativa",
+          "titulo": "Congreso y Senado, comparados",
+          "columnas": ["", "Congreso de los Diputados", "Senado"],
+          "filas": [
+            ["Composición", "350 diputados (LOREG, art. 162.1)", "Senadores elegidos en provincias, islas, Ceuta y Melilla, más los designados por las comunidades autónomas (art. 69)"],
+            ["Cómo se elige", "Por provincias, con representación proporcional (art. 68)", "Votando a candidatos concretos; los designados, por los parlamentos autonómicos (art. 69)"],
+            ["Mandato", "Cuatro años o hasta la disolución (art. 68.4)", "Cuatro años o hasta la disolución (art. 69.6)"],
+            ["Investidura", "La vota (art. 99)", "No participa"],
+            ["Control del Gobierno", "Preguntas e interpelaciones (art. 111), cuestión de confianza y moción de censura (arts. 112 y 113)", "Preguntas e interpelaciones (art. 111)"],
+            ["Papel en las leyes", "Aprueba primero los proyectos y decide sobre vetos y enmiendas (art. 90)", "En dos meses puede vetar o enmendar (art. 90.2)"]
+          ]
+        } },
+        { "tipo": "p", "texto": "Las Cámaras funcionan en {{pleno|Pleno}} y en {{comision-parlamentaria|Comisiones}} (art. 75.1). Cuando no están reunidas o han sido disueltas, la {{diputacion-permanente|Diputación Permanente}} vela por sus poderes (art. 78)." },
+        { "tipo": "aviso", "etiqueta": "DATO OFICIAL", "texto": "Las Cortes están disueltas desde la publicación del Real Decreto 806/2026, el 6 de octubre de 2026 ([ver fuente](#/fuentes/boe-rd-806-2026)). La composición que muestre la web será la del momento de la disolución." },
+        { "tipo": "aviso", "etiqueta": "SIMULACIÓN", "texto": "Recorrido de una ley inventada, la «Ley de bibliotecas abiertas»: el Congreso la aprueba, el Senado introduce dos enmiendas y el Congreso acepta una y rechaza otra por mayoría simple." }
+      ],
+      "ejemplo": "Un proyecto de ley pasa por el Congreso, luego por el Senado y, si este lo enmienda, vuelve al Congreso, que decide si acepta los cambios.",
+      "error": {
+        "titulo": "No es lo mismo el Congreso que las Cortes Generales",
+        "texto": "Las Cortes Generales son las dos Cámaras juntas. El Congreso es una de ellas: la que vota la investidura y puede retirar la confianza al Gobierno."
+      },
+      "normas": ["ce-66", "ce-68-1", "loreg-162-1", "ce-68-4", "ce-69-1", "ce-69-5", "ce-75-1", "ce-78-1", "ce-90-2"],
+      "profundizar": ["congreso", "senado", "moncloa-congreso", "moncloa-senado"]
+    },
+    {
+      "id": "m2-leyes",
+      "numero": "2.2",
+      "titulo": "Cómo se aprueba una ley",
+      "resumen": [
+        "Una ley empieza con un {{proyecto-de-ley|proyecto}} del Gobierno o una {{proposicion-de-ley|proposición}} de otros.",
+        "Se debate y se enmienda en el Congreso y pasa al Senado, que tiene dos meses.",
+        "Después el Rey la sanciona, se publica en el BOE y entra en vigor."
+      ],
+      "explicacion": [
+        { "tipo": "esquema", "esquema": {
+          "tipo": "pasos",
+          "titulo": "El recorrido de una ley ordinaria",
+          "pasos": [
+            { "titulo": "1. Iniciativa", "texto": "Gobierno (proyecto); Congreso, Senado, Asambleas autonómicas o la ciudadanía con 500.000 firmas (proposición) (arts. 87 a 89)." },
+            { "titulo": "2. Congreso", "institucion": "congreso", "texto": "Debate, {{enmienda|enmiendas}} y votación." },
+            { "titulo": "3. Senado", "institucion": "senado", "texto": "En dos meses (veinte días si es urgente) puede aprobar, vetar por mayoría absoluta o enmendar (art. 90)." },
+            { "titulo": "4. Vuelta al Congreso", "institucion": "congreso", "texto": "Levanta el {{veto|veto}} por mayoría absoluta o, pasados dos meses, por mayoría simple; decide las enmiendas por mayoría simple (art. 90.2)." },
+            { "titulo": "5. Sanción y promulgación", "texto": "El Rey la {{sancion|sanciona}} en quince días y la {{promulgacion|promulga}} (art. 91)." },
+            { "titulo": "6. Publicación", "texto": "Se {{publicacion|publica}} en el BOE (art. 91)." },
+            { "titulo": "7. Entrada en vigor", "texto": "Cuando diga la ley; si no dice nada, a los veinte días de su publicación (Código Civil, art. 2.1)." }
+          ]
+        } },
+        { "tipo": "p", "texto": "Las leyes orgánicas siguen el mismo camino, pero exigen mayoría absoluta del Congreso en una votación final sobre el conjunto (art. 81.2)." },
+        { "tipo": "p", "texto": "El real decreto-ley sigue otro camino: lo dicta el Gobierno y el Congreso lo convalida o deroga en treinta días (art. 86). Lo explica el [bloque sobre tipos de normas](#/estado/m1-normas)." },
+        { "tipo": "p", "etiqueta": "PENDIENTE DE VERIFICAR", "texto": "La tramitación urgente y la lectura única dependen del Reglamento del Congreso; se explicarán cuando se hayan comprobado sus artículos." }
+      ],
+      "ejemplo": "Igual que un documento de grupo pasa por varias revisiones antes de enviarse, una ley pasa por el Congreso, el Senado, la sanción y la publicación antes de aplicarse.",
+      "error": {
+        "titulo": "No es lo mismo que el Congreso apruebe una ley que esté en vigor",
+        "texto": "Tras el Congreso faltan el Senado, la sanción, la publicación y la entrada en vigor. Hasta entonces, la norma no se aplica."
+      },
+      "normas": ["ce-87", "ce-88", "ce-90-2", "ce-90-3", "ce-91", "ce-81", "ce-86-2", "cc-2-1"],
+      "profundizar": ["congreso", "senado", "boe"]
+    },
+    {
+      "id": "m2-control",
+      "numero": "2.3",
+      "titulo": "Control del Gobierno y cambio de Gobierno",
+      "resumen": [
+        "El Gobierno responde ante el Congreso de su gestión política.",
+        "Las Cámaras le hacen preguntas e interpelaciones; el Congreso puede aprobar una {{mocion-de-censura|moción de censura}} con un candidato alternativo.",
+        "El Presidente puede plantear una {{cuestion-de-confianza|cuestión de confianza}} y proponer la {{disolucion-de-las-cortes|disolución}} de las Cortes."
+      ],
+      "explicacion": [
+        { "tipo": "h3", "texto": "Herramientas de control" },
+        { "tipo": "lista", "items": [
+          "**Preguntas e interpelaciones**: el Gobierno y cada ministro deben responderlas en las Cámaras; una interpelación puede acabar en una moción (art. 111).",
+          "**Comparecencias e información**: las Cámaras pueden reclamar la presencia de los miembros del Gobierno y pedirle información (arts. 109 y 110)."
+        ] },
+        { "tipo": "p", "etiqueta": "PENDIENTE DE VERIFICAR", "texto": "Las comisiones de investigación se explicarán cuando se haya comprobado el artículo que las regula." },
+        { "tipo": "esquema", "esquema": {
+          "tipo": "comparativa",
+          "titulo": "Moción de censura y cuestión de confianza",
+          "columnas": ["", "Moción de censura (art. 113)", "Cuestión de confianza (art. 112)"],
+          "filas": [
+            ["Quién la inicia", "Al menos una décima parte de los diputados (35 de 350)", "El Presidente del Gobierno, tras deliberar el Consejo de Ministros"],
+            ["Qué incluye", "Un candidato alternativo a la Presidencia", "Su programa o una declaración de política general"],
+            ["Mayoría", "Absoluta (176 de 350)", "Simple"],
+            ["Si prospera", "El Gobierno dimite y el candidato queda investido (art. 114.2)", "El Gobierno sigue"],
+            ["Si fracasa", "Sus firmantes no pueden presentar otra en el mismo periodo de sesiones", "El Gobierno dimite y se abre una nueva investidura (art. 114.1)"]
+          ]
+        } },
+        { "tipo": "h3", "texto": "Reprobación" },
+        { "tipo": "p", "texto": "Las noticias hablan a veces de «reprobación»: un pronunciamiento de una Cámara contra un miembro del Gobierno. La Constitución no la menciona; el cese por decisión del Congreso solo llega con la moción de censura o al negar la confianza (arts. 113 y 114)." },
+        { "tipo": "h3", "texto": "Disolución anticipada" },
+        { "tipo": "p", "texto": "El Presidente del Gobierno, tras deliberar el Consejo de Ministros y bajo su exclusiva responsabilidad, puede proponerla; la decreta el Rey (art. 115.1). No cabe con una moción de censura en trámite ni antes de un año desde la anterior, salvo el caso del artículo 99.5." },
+        { "tipo": "h3", "texto": "Órganos de apoyo" },
+        { "tipo": "lista", "items": [
+          "{{defensor-del-pueblo|Defensor del Pueblo}}: alto comisionado de las Cortes para defender los derechos (art. 54).",
+          "{{tribunal-de-cuentas|Tribunal de Cuentas}}: fiscaliza las cuentas del Estado y del sector público y depende de las Cortes (art. 136)."
+        ] }
+      ],
+      "ejemplo": "Es como si los vecinos solo pudieran cambiar al presidente de la comunidad eligiendo a la vez a otro: sin sustituto, no hay cambio.",
+      "error": {
+        "titulo": "No es lo mismo una reprobación que una moción de censura",
+        "texto": "La Constitución no regula la reprobación ni le da efectos de cese. La moción de censura, si logra mayoría absoluta, sustituye al Gobierno por el candidato que incluye."
+      },
+      "normas": ["ce-108", "ce-111-1", "ce-112", "ce-113", "ce-114", "ce-115-1", "ce-54", "ce-136-1"],
+      "profundizar": ["congreso", "defensor-pueblo", "tcu", "moncloa-ce-titulo-5"]
+    },
+    {
+      "id": "m2-gobierno",
+      "numero": "2.4",
+      "titulo": "El Gobierno",
+      "resumen": [
+        "El {{gobierno|Gobierno}} lo forman el {{presidente-del-gobierno|Presidente}}, los Vicepresidentes si los hay y los {{ministro|Ministros}}.",
+        "Dirige la política interior y exterior, la Administración y la defensa; no aprueba leyes por sí solo.",
+        "Tras unas elecciones generales, el Gobierno cesa y sigue {{gobierno-en-funciones|en funciones}} hasta que toma posesión el nuevo."
+      ],
+      "explicacion": [
+        { "tipo": "esquema", "esquema": {
+          "tipo": "grupos",
+          "titulo": "Quién hace qué",
+          "grupos": [
+            { "titulo": "Presidente del Gobierno", "institucion": "gobierno", "items": ["Dirige la acción del Gobierno y coordina a sus miembros (art. 98.2).", "Propone al Rey el nombramiento de los ministros (art. 100)."] },
+            { "titulo": "Ministros", "institucion": "gobierno", "items": ["Dirigen sus departamentos con responsabilidad directa en su gestión (art. 98.2)."] },
+            { "titulo": "Consejo de Ministros", "institucion": "gobierno", "items": ["Aprueba proyectos de ley, el proyecto de Presupuestos, reales decretos-leyes y reglamentos (Ley 50/1997, art. 5)."] },
+            { "titulo": "Diputados y senadores", "institucion": "congreso", "items": ["Legislan y controlan al Gobierno (art. 66.2)."] }
+          ]
+        } },
+        { "tipo": "p", "texto": "«Gobernar» es dirigir la política interior y exterior, la Administración civil y militar y la defensa, y ejecutar las leyes (art. 97). Las leyes las aprueban las Cortes." },
+        { "tipo": "h3", "texto": "Gobierno en funciones" },
+        { "tipo": "p", "texto": "El Gobierno cesa tras la celebración de elecciones generales, por pérdida de la confianza del Congreso o por dimisión o fallecimiento de su Presidente (art. 101.1). Hasta que llega el nuevo, sigue en funciones (art. 101.2)." },
+        { "tipo": "p", "texto": "En funciones limita su gestión al despacho ordinario. No puede proponer la disolución, plantear la cuestión de confianza, aprobar el proyecto de Presupuestos ni presentar proyectos de ley (Ley 50/1997, art. 21)." },
+        { "tipo": "aviso", "etiqueta": "EXPLICACIÓN DIDÁCTICA", "texto": "Convocar elecciones no pone al Gobierno en funciones: según el artículo 101.1, cesa tras celebrarse. Con la votación fijada el 29 de noviembre de 2026, el cese llegará después de esa fecha." },
+        { "tipo": "p", "texto": "El Gobierno es un órgano del Estado; la Administración es el aparato que, bajo su dirección, aplica las normas y presta servicios (arts. 97 y 103)." }
+      ],
+      "ejemplo": "Si un ministerio aprueba el formulario para pedir una ayuda, actúa el Gobierno; si una oficina tramita tu solicitud, actúa la Administración.",
+      "error": {
+        "titulo": "No es lo mismo gobernar que legislar",
+        "texto": "El Gobierno propone proyectos de ley, pero las leyes las aprueban las Cortes. Solo ante una extraordinaria y urgente necesidad puede dictar decretos-leyes, que el Congreso debe convalidar."
+      },
+      "normas": ["ce-97", "ce-98", "ce-100", "ce-101", "lg-1-2", "lg-5-1", "lg-21", "ce-103-1"],
+      "profundizar": ["boe-ley-gobierno", "moncloa-ce-titulo-4"]
+    },
+    {
+      "id": "m2-justicia",
+      "numero": "2.5",
+      "titulo": "La Justicia",
+      "resumen": [
+        "Los jueces y magistrados forman el {{poder-judicial|Poder Judicial}}: son independientes y solo están sometidos a la ley.",
+        "El {{cgpj|Consejo General del Poder Judicial}} lo gobierna y el {{tribunal-supremo|Tribunal Supremo}} es su órgano superior.",
+        "El {{tribunal-constitucional|Tribunal Constitucional}} no forma parte del Poder Judicial: controla que las leyes respeten la Constitución."
+      ],
+      "explicacion": [
+        { "tipo": "esquema", "esquema": {
+          "tipo": "grupos",
+          "titulo": "Piezas de la Justicia",
+          "grupos": [
+            { "titulo": "Juzgados y tribunales", "institucion": "justicia", "items": ["Juzgan y hacen ejecutar lo juzgado (art. 117.3).", "El Tribunal Supremo es el órgano superior en todos los órdenes, salvo garantías constitucionales (art. 123.1)."] },
+            { "titulo": "Consejo General del Poder Judicial", "institucion": "justicia", "items": ["Órgano de gobierno del Poder Judicial: nombramientos, ascensos, inspección y régimen disciplinario según la ley orgánica (art. 122.2)."] },
+            { "titulo": "Ministerio Fiscal", "institucion": "justicia", "items": ["Promueve la acción de la justicia en defensa de la legalidad y de los derechos (art. 124.1)."] },
+            { "titulo": "Tribunal Constitucional (fuera del Poder Judicial)", "items": ["Recursos de inconstitucionalidad, amparo y conflictos de competencia (art. 161)."] }
+          ]
+        } },
+        { "tipo": "h3", "texto": "De la investigación a la sentencia: un caso inventado" },
+        { "tipo": "p", "etiqueta": "SIMULACIÓN", "texto": "La persona X es ficticia. El caso solo sirve para distinguir las fases." },
+        { "tipo": "esquema", "esquema": {
+          "tipo": "pasos",
+          "titulo": "Un proceso penal ficticio",
+          "pasos": [
+            { "titulo": "Investigación", "texto": "Un juez investiga si X pudo cometer un delito. X tiene derecho a la presunción de inocencia (art. 24.2)." },
+            { "titulo": "Acusación", "texto": "Si hay indicios, la fiscalía u otras partes acusan. X tiene derecho a conocer la acusación y a defenderse con abogado (art. 24.2)." },
+            { "titulo": "Juicio", "texto": "Un tribunal escucha a las partes y valora las pruebas en un proceso público con garantías (art. 24.2)." },
+            { "titulo": "Sentencia", "texto": "El tribunal absuelve o condena. Una investigación o una acusación no son una condena." }
+          ]
+        } },
+        { "tipo": "h3", "texto": "Cómo se nombran" },
+        { "tipo": "lista", "items": [
+          "**CGPJ**: lo preside el Presidente del Tribunal Supremo y tiene veinte miembros nombrados por el Rey por cinco años: doce entre jueces y magistrados según la ley orgánica, y cuatro a propuesta del Congreso y cuatro del Senado, por tres quintos (art. 122.3).",
+          "**Tribunal Constitucional**: doce miembros nombrados por el Rey: cuatro a propuesta del Congreso y cuatro del Senado (tres quintos), dos del Gobierno y dos del CGPJ; por nueve años, renovados por terceras partes cada tres (art. 159).",
+          "**Fiscal General del Estado**: lo nombra el Rey a propuesta del Gobierno, oído el CGPJ (art. 124.4)."
+        ] },
+        { "tipo": "p", "etiqueta": "PENDIENTE DE VERIFICAR", "texto": "Cómo elige la ley orgánica a los doce miembros judiciales del CGPJ se explicará cuando se haya comprobado su texto vigente. Las valoraciones sobre las renovaciones se atribuirán siempre a quien las haga." }
+      ],
+      "ejemplo": "Que un juez investigue a alguien no significa que sea culpable: la culpabilidad la declara una sentencia.",
+      "error": {
+        "titulo": "No es lo mismo el Tribunal Constitucional que el Tribunal Supremo",
+        "texto": "El Supremo es el órgano judicial superior. El Constitucional, regulado aparte, juzga si las leyes respetan la Constitución y protege los derechos fundamentales con el amparo."
+      },
+      "normas": ["ce-117-1", "ce-117-3", "ce-122", "ce-123-1", "ce-124", "ce-159", "ce-161-1", "ce-163", "ce-24"],
+      "profundizar": ["cgpj", "tc", "boe-constitucion"]
+    },
+    {
+      "id": "m2-jefatura",
+      "numero": "2.6",
+      "titulo": "La Jefatura del Estado",
+      "resumen": [
+        "El Rey es el {{jefatura-del-estado|Jefe del Estado}}: símbolo de su unidad y permanencia, arbitra y modera el funcionamiento de las instituciones.",
+        "Sanciona las leyes, convoca y disuelve las Cortes y propone el candidato a Presidente del Gobierno.",
+        "No gobierna: sus actos necesitan {{refrendo|refrendo}} y de ellos responde quien los refrenda."
+      ],
+      "explicacion": [
+        { "tipo": "esquema", "esquema": {
+          "tipo": "grupos",
+          "titulo": "Qué hace y qué no hace el Rey",
+          "grupos": [
+            { "titulo": "Hace", "items": ["Sanciona y promulga las leyes (arts. 62.a y 91).", "Convoca y disuelve las Cortes; la disolución anticipada, a propuesta del Presidente del Gobierno (arts. 62.b y 115).", "Propone el candidato a Presidente tras consultar a los grupos y lo nombra si obtiene la confianza (art. 99).", "Nombra y separa a los ministros a propuesta del Presidente (art. 100)."] },
+            { "titulo": "No hace", "items": ["No gobierna: la política la dirige el Gobierno (art. 97).", "No actúa solo: sus actos sin refrendo no son válidos (art. 56.3).", "No responde personalmente: responden quienes refrendan (arts. 56.3 y 64.2)."] }
+          ]
+        } },
+        { "tipo": "h3", "texto": "Cuatro presidencias que se confunden" },
+        { "tipo": "esquema", "esquema": {
+          "tipo": "comparativa",
+          "titulo": "Jefe del Estado y tres presidencias",
+          "columnas": ["Cargo", "Quién lo elige o nombra", "Qué hace"],
+          "filas": [
+            ["Rey (Jefe del Estado)", "Lo establece el Título II de la Constitución (art. 56)", "Arbitra y modera; sanciona las leyes; propone el candidato a Presidente"],
+            ["Presidente del Gobierno", "Lo elige el Congreso en la investidura y lo nombra el Rey (art. 99)", "Dirige la acción del Gobierno (art. 98.2)"],
+            ["Presidente del Congreso", "Lo elige el propio Congreso (art. 72.2)", "Ejerce los poderes administrativos de la Cámara (art. 72.3) y refrenda el nombramiento del Presidente del Gobierno (art. 64.1)"],
+            ["Presidente de una comunidad autónoma", "Lo elige su Asamblea entre sus miembros y lo nombra el Rey (art. 152.1)", "Dirige el Consejo de Gobierno de la comunidad (art. 152.1)"]
+          ]
+        } }
+      ],
+      "ejemplo": "Tras unas elecciones, el Rey consulta a los grupos y propone un candidato; pero si el Congreso no lo apoya, no puede nombrarlo Presidente.",
+      "error": {
+        "titulo": "No es lo mismo Jefe del Estado que Presidente del Gobierno",
+        "texto": "El Rey representa al Estado y no gobierna. Quien gobierna es el Presidente del Gobierno, elegido por el Congreso."
+      },
+      "normas": ["ce-56-1", "ce-56-3", "ce-62", "ce-64", "ce-91", "ce-99-1", "ce-99-3", "ce-115-1", "ce-72-2", "ce-152-1"],
+      "profundizar": ["boe-constitucion", "moncloa-ce-titulo-4"]
+    },
+    {
+      "id": "m2-relaciones",
+      "numero": "2.7",
+      "titulo": "Mapa de relaciones entre instituciones",
+      "resumen": [
+        "Las instituciones se relacionan: unas eligen, nombran, controlan o juzgan a otras.",
+        "Cada flecha del diagrama cita el artículo de la Constitución que la sostiene.",
+        "Puedes filtrar por institución o leer todas las relaciones en forma de lista."
+      ],
+      "explicacion": [
+        { "tipo": "p", "texto": "Elige una institución para ver solo sus relaciones. La lista de debajo del diagrama recoge lo mismo en texto. Los juzgados y tribunales, además, juzgan y hacen ejecutar lo juzgado (art. 117.3)." },
+        { "tipo": "esquema", "esquema": {
+          "tipo": "relaciones",
+          "titulo": "Relaciones entre instituciones",
+          "descripcion": "Las flechas van de quien actúa a quien recibe la acción.",
+          "nodos": [
+            { "id": "ciudadania", "nombre": "Ciudadanía", "x": 340, "y": 40 },
+            { "id": "asambleas", "nombre": "Asambleas autonómicas", "x": 570, "y": 120, "institucion": "comunidades" },
+            { "id": "congreso", "nombre": "Congreso", "x": 180, "y": 130, "institucion": "congreso" },
+            { "id": "senado", "nombre": "Senado", "x": 400, "y": 130, "institucion": "senado" },
+            { "id": "cortes", "nombre": "Cortes Generales", "x": 290, "y": 230, "institucion": "congreso" },
+            { "id": "rey", "nombre": "Rey", "x": 570, "y": 250 },
+            { "id": "gobierno", "nombre": "Gobierno", "x": 100, "y": 300, "institucion": "gobierno" },
+            { "id": "cgpj", "nombre": "CGPJ", "x": 330, "y": 340, "institucion": "justicia" },
+            { "id": "judicial", "nombre": "Juzgados y tribunales", "x": 150, "y": 440, "institucion": "justicia" },
+            { "id": "tc", "nombre": "Trib. Constitucional", "x": 540, "y": 440 }
+          ]
+        } }
+      ],
+      "ejemplo": "Como en un mapa de transporte, cada línea indica una relación concreta: quién elige a quién, quién nombra a quién y quién controla a quién.",
+      "error": {
+        "titulo": "No es lo mismo nombrar que elegir",
+        "texto": "El Rey nombra al Presidente del Gobierno, pero quien lo elige es el Congreso en la investidura. También nombra a los magistrados del Tribunal Constitucional a propuesta de otros órganos."
+      },
+      "normas": ["ce-99-3", "ce-100", "ce-122", "ce-159"],
+      "profundizar": ["boe-constitucion"]
+    },
+    {
+      "id": "m2-repaso",
+      "numero": "2.8",
+      "titulo": "Repaso del módulo 2",
+      "tipo": "repaso",
+      "preguntas_de": ["m2-cortes", "m2-leyes", "m2-control", "m2-gobierno", "m2-justicia", "m2-jefatura", "m2-relaciones"],
+      "resumen": [
+        "Preguntas de todo el módulo, elegidas al azar en cada intento.",
+        "Cubren Congreso y Senado, quién elige al Presidente, qué puede hacer el Rey, Tribunal Constitucional y Poder Judicial, y moción de censura frente a cuestión de confianza.",
+        "Si fallas alguna, podrás repasarla aquí o en su bloque."
+      ],
+      "profundizar": ["boe-constitucion", "boe-ley-gobierno"]
+    }
+  ]
+}

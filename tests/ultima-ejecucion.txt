@@ -1,0 +1,390 @@
+Pruebas de politica-espana
+==========================
+[OK] Ficheros generados al día (build.py --check)
+[OK] Validación de data/competencias.json
+[OK] Validación de data/convocatorias.json
+[OK] Validación de data/glosario.json
+[OK] Validación de data/indicadores.json
+[OK] Validación de data/medios.json
+[OK] Validación de data/normas.json
+[OK] Validación de data/partidos.json
+[OK] Validación de data/preguntas.json
+[OK] Validación de data/relaciones.json
+[OK] Validación de data/sources.json
+[OK] Validación de data/verificadores.json
+[OK] Validación de data/votaciones.json
+[OK] Validador acepta: Datos válidos: uno de ejemplo y uno verificado
+[OK] Validador rechaza: Id repetido dentro del conjunto
+[OK] Validador rechaza: fuente_id que no existe en sources.json
+[OK] Validador rechaza: Dato verificado sin url
+[OK] Validador rechaza: Dato verificado con etiqueta SIMULACIÓN
+[OK] Validador rechaza: Dato de ejemplo sin etiqueta SIMULACIÓN
+[OK] Validador rechaza: Dato de ejemplo con fuente_id (debe omitirse)
+[OK] Validador rechaza: Dato pendiente sin etiqueta PENDIENTE DE VERIFICAR
+[OK] Validador rechaza: Fecha que no existe
+[OK] Validador rechaza: fecha_publicacion posterior a fecha_consulta
+[OK] Validador acepta: Resultado de ejemplo válido
+[OK] Validador rechaza: Votos que no suman votantes
+[OK] Validador rechaza: Más votantes que censo
+[OK] Validador rechaza: Escaños oficiales que no suman los escaños en juego
+[OK] Validador rechaza: Campo de porcentaje en un resultado
+[OK] Validador rechaza: Cita literal de más de 25 palabras
+[OK] Validador rechaza: Fichas de partido con campos en distinto orden
+[OK] Validador acepta: Pregunta numérica de ejemplo válida
+[OK] Validador rechaza: Pregunta que pide una opinión
+[OK] Validador rechaza: Pregunta sin explicación
+[OK] Validador rechaza: Término disputado sin atribución
+[OK] T1: 52 circunscripciones (50 provincias, Ceuta y Melilla)
+        circunscripciones 52, provincias 50, ciudades ['ceuta', 'melilla']
+[OK] T1: los escaños del Congreso suman 350
+        suma 350
+[OK] T1: cada provincia tiene al menos 2 escaños
+[OK] T1: Ceuta y Melilla tienen 1 escaño cada una
+[OK] T1: 102 escaños mínimos y 248 repartidos por población
+        mínimos 102, por población 248
+[OK] T1: frente a 2023 solo cambian Madrid (37 → 38) y Cádiz (9 → 8)
+        cambios {'cadiz': [9, 8], 'madrid': [37, 38]}
+[OK] T1: senadores elegidos 188 + 9 + 4 + 8 = 209
+        total 209, provincias con 4: 47, islas de 3: True, Ceuta y Melilla: True, islas de 1: True
+[OK] T1: los senadores de cada provincia coinciden con la suma de sus circunscripciones del Senado
+[OK] T1: en 2023 se eligieron 208 senadores (Ibiza-Formentera, una circunscripción)
+        total 208
+[OK] T1: las tablas de escaños y senadores de 2026 están verificadas
+[OK] Tema oscuro: el bloque del sistema y el manual son idénticos
+[OK] Contraste WCAG AA en tema claro (40 pares; mínimo 4.62)
+[OK] Contraste WCAG AA en tema oscuro (40 pares; mínimo 4.18)
+[OK] Etiquetas: las diez de etiquetas.js coinciden con el esquema
+[OK] Etiquetas: cada una tiene estilo propio
+[OK] Textos: sin direcciones externas y con enlaces internos válidos
+[OK] Módulos: cada bloque listado existe y no hay bloques sin listar
+[OK] Secciones: cada módulo está en una sola sección, con su entrada de menú y su progreso
+[OK] Bloques: normas, términos, fuentes y repasos existen
+[OK] Textos: los 114 términos enlazados con {{id|texto}} existen en el glosario
+[OK] Glosario: los términos relacionados existen
+[OK] Preguntas: cada una pertenece a un bloque existente
+[OK] Preguntas: cada bloque tiene al menos 4 (cuestionarios de 4 a 6)
+[OK] Relaciones: origen y destino de las 17 relaciones están en el diagrama
+[OK] Mapa: una casilla por cada una de las 52 circunscripciones, sin solaparse
+[OK] Senado: las líneas de la suma cubren todas las circunscripciones y suman 209
+[OK] Competencias: 15 materias × 4 niveles, cada celda con norma o PENDIENTE DE VERIFICAR
+[OK] ¿Quién decide?: 16 preguntas (mínimo 10), cada nivel con su competencia; 9 temas las reutilizan
+[OK] Indicadores: el tablero, las fichas y los gráficos apuntan a datos existentes
+[OK] Calendario del 29-N: 20 hitos con fuente y nota (0 pendientes de contrastar)
+[OK] Partidos: 26 fichas con las mismas fuentes; 350 diputados, 257 senadores de partido y 57 eurodiputados cuadran
+[OK] Votaciones: 76 del criterio (3 investiduras, 56 RDL, 17 leyes orgánicas); en las 68 con desglose, los grupos suman el total oficial
+[OK] Temas: 9 temas con «¿Quién decide?», comparador y al menos 8 preguntas
+[OK] Ciclo de una medida: 8 fases con su prueba y su etiqueta
+[OK] Medios: 25 fichas con las mismas claves, los 18 de EurOMo y los 18 del Anexo D.6, ninguna orientación asignada
+[OK] Verificadores: 6 con estado en la IFCN y fuentes existentes, incluidos los tres del Anexo D.7
+[OK] Módulos 8 y 9: ficha de 8 preguntas simétrica, clasificadores de 12 y 6 frases, ejemplos de 15.4 y 15.6, analizador y al menos 10 preguntas
+[OK] Rutas pendientes: ninguna sección queda por construir
+Navegador: C:\Program Files\Google\Chrome\Application\chrome.exe
+[OK] Unitaria: T2: 8 escaños, sin candidaturas excluidas (coincide con el ejemplo práctico del art. 163 de la LOREG)
+[OK] Unitaria: T3-blancos-en-base: 38 escaños; los votos en blanco cuentan en la base de la barrera (LOREG, arts. 96.5, 108.4 y 163.1.a)
+[OK] Unitaria: T3-blancos-fuera: 38 escaños; lectura alternativa con los blancos fuera de la base (no es la que aplica la web)
+[OK] Unitaria: T4-con-barrera: 38 escaños; la barrera deja fuera a E (2,82 %)
+[OK] Unitaria: T4-sin-barrera: 38 escaños sin barrera: E obtiene un escaño
+[OK] Unitaria: T5: 4 escaños; D tiene el 7,64 % y no obtiene escaño
+[OK] Unitaria: Barrera: con exactamente el 3 % se entra en el reparto (art. 163.1.a, «al menos»)
+[OK] Unitaria: Barrera: con menos del 3 % se queda fuera
+[OK] Unitaria: Empate de cocientes: el escaño va a la candidatura con más votos (art. 163.1.d)
+[OK] Unitaria: Empate con los mismos votos totales: avisa de sorteo y no asigna el escaño
+[OK] Unitaria: Entradas no válidas: 0 escaños provoca un error
+[OK] Unitaria: Umbrales con 350 escaños
+[OK] Unitaria: Mayoría simple: más a favor que en contra; las abstenciones no cuentan en contra
+[OK] Unitaria: T6: inflación de la cesta y PIB real
+[OK] Unitaria: T7: tipo medio y tipo marginal con tramos ficticios
+[OK] Unitaria: T8: puntos y porcentaje relativo; media y mediana
+[OK] Unitaria: T9: deuda sube y su proporción del PIB baja
+[OK] Unitaria: T10: margen de error y diferencia entre diferencias
+[OK] Unitaria: Normalizar: sin tildes, sin apóstrofos y en minúsculas
+[OK] Unitaria: Almacén: guardar, leer, exportar e importar
+[OK] Unitaria: Etiquetas: diez, con icono y texto
+[OK] Unitaria: Glosario: «dhont» encuentra metodo-dhondt en primer lugar (sin apóstrofo y con una letra menos)
+[OK] Unitaria: Glosario: «DHONDT» encuentra metodo-dhondt en primer lugar (en mayúsculas)
+[OK] Unitaria: Glosario: «cgpj» encuentra cgpj en primer lugar (por sigla)
+[OK] Unitaria: Glosario: «consejo general» encuentra cgpj en primer lugar (por parte del nombre)
+[OK] Unitaria: Glosario: «BOE» encuentra boe en primer lugar (sigla en mayúsculas)
+[OK] Unitaria: Glosario: «mocion censura» encuentra mocion-de-censura en primer lugar (sin tilde y sin «de»)
+[OK] Unitaria: Glosario: «decreto ley» encuentra real-decreto-ley en primer lugar (sin guion)
+[OK] Unitaria: Glosario: «jerarquia» encuentra jerarquia-normativa en primer lugar (inicio del nombre sin tilde)
+[OK] Unitaria: Glosario: «invetidura» encuentra investidura en primer lugar (con una errata)
+[OK] Unitaria: Glosario: «ESTADO DE DERECHO» encuentra estado-de-derecho en primer lugar (nombre completo en mayúsculas)
+[OK] Unitaria: Glosario: «Moción de censura» encuentra mocion-de-censura en primer lugar (con tilde)
+[OK] Unitaria: Glosario: «territorial» encuentra senado en primer lugar (palabra de la definición)
+[OK] Unitaria: Glosario: «umbral electoral» encuentra barrera-electoral en primer lugar (por alias)
+[OK] Unitaria: Glosario: «escrutino» encuentra escrutinio en primer lugar (con una letra menos)
+[OK] Unitaria: Glosario: «VOTO EN BLANCO» encuentra voto-en-blanco en primer lugar (nombre en mayúsculas)
+[OK] Unitaria: Glosario: una búsqueda sin parecido no devuelve nada
+[OK] Unitaria: Glosario: distancia de edición con transposición
+[OK] Unitaria: Progreso: un bloque se completa al estudiarlo y contestar un cuestionario
+[OK] Unitaria: Progreso: preguntas falladas, límite de intentos y nada más que aciertos y fechas
+[OK] Unitaria: Cuestionario: elige como máximo 6 preguntas y respeta el orden si se pide
+[OK] Unitaria: Cuestionario: corrección de opciones y de respuestas numéricas
+[OK] Unitaria: Calculadora: los ejercicios guiados dan el resultado que explica su texto
+[OK] Unitaria: Calendario: días que faltan, en curso y pasados, con la fecha de hoy
+[OK] Unitaria: Simulador de mayorías: el ejemplo inicial falla en la primera votación y sale en la segunda
+[OK] Unitaria: Cuestionario: cada bloque de todos los módulos da entre 4 y 6 preguntas
+[OK] Unitaria: Cuestionario: cada pregunta trae explicación, artículo y fuente
+[OK] Humo 1280 px: /
+[OK] Humo 1280 px: /estado
+[OK] Humo 1280 px: /estado/m1-estado
+[OK] Humo 1280 px: /estado/m1-democracia
+[OK] Humo 1280 px: /estado/m1-constitucion
+[OK] Humo 1280 px: /estado/m1-articulo-1
+[OK] Humo 1280 px: /estado/m1-derechos
+[OK] Humo 1280 px: /estado/m1-territorio
+[OK] Humo 1280 px: /estado/m1-ideologia
+[OK] Humo 1280 px: /estado/m1-normas
+[OK] Humo 1280 px: /estado/m2-cortes
+[OK] Humo 1280 px: /estado/m2-leyes
+[OK] Humo 1280 px: /estado/m2-control
+[OK] Humo 1280 px: /estado/m2-gobierno
+[OK] Humo 1280 px: /estado/m2-justicia
+[OK] Humo 1280 px: /estado/m2-jefatura
+[OK] Humo 1280 px: /estado/m2-relaciones
+[OK] Humo 1280 px: /estado/m2-repaso
+[OK] Humo 1280 px: /elecciones
+[OK] Humo 1280 px: /elecciones/m3-que-se-vota
+[OK] Humo 1280 px: /elecciones/m3-circunscripciones
+[OK] Humo 1280 px: /elecciones/m3-papeletas
+[OK] Humo 1280 px: /elecciones/m3-reparto
+[OK] Humo 1280 px: /elecciones/m3-senado
+[OK] Humo 1280 px: /elecciones/m3-convocatoria
+[OK] Humo 1280 px: /elecciones/m3-votar
+[OK] Humo 1280 px: /elecciones/m3-gobierno
+[OK] Humo 1280 px: /elecciones/m3-otras
+[OK] Humo 1280 px: /elecciones/m3-errores
+[OK] Humo 1280 px: /elecciones/m3-repaso
+[OK] Humo 1280 px: /competencias
+[OK] Humo 1280 px: /competencias/m4-niveles
+[OK] Humo 1280 px: /competencias/m4-reparto
+[OK] Humo 1280 px: /competencias/m4-financiacion
+[OK] Humo 1280 px: /competencias/m4-ayuntamientos
+[OK] Humo 1280 px: /competencias/m4-ue
+[OK] Humo 1280 px: /competencias/m4-repaso
+[OK] Humo 1280 px: /economia
+[OK] Humo 1280 px: /economia/m5-indicadores
+[OK] Humo 1280 px: /economia/m5-leer-datos
+[OK] Humo 1280 px: /economia/m5-impuestos
+[OK] Humo 1280 px: /economia/m5-pensiones
+[OK] Humo 1280 px: /economia/m5-monetaria
+[OK] Humo 1280 px: /economia/m5-repaso
+[OK] Humo 1280 px: /partidos
+[OK] Humo 1280 px: /partidos/m6-que-es
+[OK] Humo 1280 px: /partidos/m6-grupos
+[OK] Humo 1280 px: /partidos/m6-tipos
+[OK] Humo 1280 px: /partidos/m6-fichas
+[OK] Humo 1280 px: /partidos/m6-comparador
+[OK] Humo 1280 px: /partidos/m6-repaso
+[OK] Humo 1280 px: /temas
+[OK] Humo 1280 px: /temas/m7-ciclo
+[OK] Humo 1280 px: /temas/m7-vivienda
+[OK] Humo 1280 px: /temas/m7-sanidad-educacion
+[OK] Humo 1280 px: /temas/m7-economia
+[OK] Humo 1280 px: /temas/m7-justicia
+[OK] Humo 1280 px: /temas/m7-territorio
+[OK] Humo 1280 px: /temas/m7-inmigracion
+[OK] Humo 1280 px: /temas/m7-igualdad
+[OK] Humo 1280 px: /temas/m7-medio-ambiente
+[OK] Humo 1280 px: /temas/m7-ue-exterior
+[OK] Humo 1280 px: /temas/m7-disputados
+[OK] Humo 1280 px: /temas/m7-repaso
+[OK] Humo 1280 px: /temas/m8-ficha
+[OK] Humo 1280 px: /temas/m8-afirmaciones
+[OK] Humo 1280 px: /temas/m8-causalidad
+[OK] Humo 1280 px: /temas/m8-fuentes
+[OK] Humo 1280 px: /temas/m8-encuestas
+[OK] Humo 1280 px: /temas/m8-repaso
+[OK] Humo 1280 px: /medios
+[OK] Humo 1280 px: /medios/m9-idea
+[OK] Humo 1280 px: /medios/m9-fichas
+[OK] Humo 1280 px: /medios/m9-orientacion
+[OK] Humo 1280 px: /medios/m9-contrastar
+[OK] Humo 1280 px: /medios/m9-comprobaciones
+[OK] Humo 1280 px: /medios/m9-repaso
+[OK] Humo 1280 px: /partidos
+[OK] Humo 1280 px: /temas
+[OK] Humo 1280 px: /medios
+[OK] Humo 1280 px: /glosario
+[OK] Humo 1280 px: /glosario/investidura
+[OK] Humo 1280 px: /buscar
+[OK] Humo 1280 px: /buscar/dhont
+[OK] Humo 1280 px: /fuentes
+[OK] Humo 1280 px: /aprendizaje
+[OK] Humo 1280 px: /metodologia
+[OK] Humo 1280 px: /metodologia/errores
+[OK] Humo 1280 px: /licencias
+[OK] Humo 1280 px: /leyenda
+[OK] Humo 1280 px: /fuentes/boe-rd-806-2026
+[OK] Humo 1280 px: /estado/bloque-que-no-existe
+[OK] Humo 1280 px: /estado/m3-reparto
+[OK] Humo 1280 px: /ruta-que-no-existe
+[OK] Humo 1280 px: (interacción: definición emergente del glosario)
+[OK] Humo 1280 px: (interacción: modo básico y ampliado)
+[OK] Humo 1280 px: (interacción: cuestionario: aviso, corrección, explicación y fuente)
+[OK] Humo 1280 px: (interacción: marcar como estudiado, progreso en el menú, migas y anterior/siguiente)
+[OK] Humo 1280 px: (interacción: anterior y siguiente en un bloque intermedio)
+[OK] Humo 1280 px: (interacción: repasar las preguntas falladas (vuelta al bloque))
+[OK] Humo 1280 px: (interacción: portada de la sección con el estado de cada bloque)
+[OK] Humo 1280 px: (interacción: Mi aprendizaje refleja el progreso)
+[OK] Humo 1280 px: (interacción: diagrama de relaciones: filtro por institución)
+[OK] Humo 1280 px: (interacción: simulación de ejes: cambiar y reiniciar)
+[OK] Humo 1280 px: (interacción: glosario: búsqueda, filtro por bloque e índice)
+[OK] Humo 1280 px: (interacción: calculadora D'Hondt: ejemplo de la LOREG, ejercicio, edición y comparación)
+[OK] Humo 1280 px: (interacción: circunscripciones: casillas, vista por escaños y tabla buscable)
+[OK] Humo 1280 px: (interacción: Senado: suma de 209 y papeleta de práctica)
+[OK] Humo 1280 px: (interacción: calendario del 29-N: hitos, etiquetas, fuentes y días que faltan)
+[OK] Humo 1280 px: (interacción: simulador de mayorías: segunda votación, sin investidura y suma de escaños)
+[OK] Humo 1280 px: (interacción: competencias: tabla buscable y «¿Quién decide?»)
+[OK] Humo 1280 px: (interacción: economía: tablero, fichas y calculadoras T6 a T9)
+[OK] Humo 1280 px: (interacción: economía: tablero de indicadores y gráfico con tabla)
+[OK] Humo 1280 px: (interacción: economía: gráfico del euríbor con eje desde cero y tabla)
+[OK] Humo 1280 px: (interacción: partidos: fichas con buscador, filtros, orden y estructura común)
+[OK] Humo 1280 px: (interacción: partidos: comparador sin puntuación y tabla de simetría)
+[OK] Humo 1280 px: (interacción: partidos: efecto territorial con datos de 2023 y ejemplo ficticio)
+[OK] Humo 1280 px: (interacción: temas: ciclo de una medida en ocho fases)
+[OK] Humo 1280 px: (interacción: temas: «¿Quién decide?» incrustado y datos del tema)
+[OK] Humo 1280 px: (interacción: análisis: ficha de ocho preguntas con tres medidas y «sin información verificada»)
+[OK] Humo 1280 px: (interacción: análisis: clasificación de doce frases con corrección y explicación)
+[OK] Humo 1280 px: (interacción: análisis: comparador antes-después (12→10 frente a 12→11) y edición)
+[OK] Humo 1280 px: (interacción: análisis: calculadora del margen de error (1.000 entrevistas, 50 %))
+[OK] Humo 1280 px: (interacción: medios: fichas con la misma estructura y filtros sin orientación)
+[OK] Humo 1280 px: (interacción: medios: verificadores con sello de la IFCN, propiedad y metodología)
+[OK] Humo 1280 px: (interacción: medios: analizador de una noticia inventada y clasificación de seis textos)
+[OK] Humo 1280 px: (interacción: fuentes oficiales: índice de grupos, búsqueda, filtro por estado y fecha)
+[OK] Humo 1280 px: (interacción: buscador de la cabecera con una errata)
+[OK] Humo 1280 px: (controles: tema, menú, saltar)
+[OK] Humo 375 px: /
+[OK] Humo 375 px: /estado
+[OK] Humo 375 px: /estado/m1-estado
+[OK] Humo 375 px: /estado/m1-democracia
+[OK] Humo 375 px: /estado/m1-constitucion
+[OK] Humo 375 px: /estado/m1-articulo-1
+[OK] Humo 375 px: /estado/m1-derechos
+[OK] Humo 375 px: /estado/m1-territorio
+[OK] Humo 375 px: /estado/m1-ideologia
+[OK] Humo 375 px: /estado/m1-normas
+[OK] Humo 375 px: /estado/m2-cortes
+[OK] Humo 375 px: /estado/m2-leyes
+[OK] Humo 375 px: /estado/m2-control
+[OK] Humo 375 px: /estado/m2-gobierno
+[OK] Humo 375 px: /estado/m2-justicia
+[OK] Humo 375 px: /estado/m2-jefatura
+[OK] Humo 375 px: /estado/m2-relaciones
+[OK] Humo 375 px: /estado/m2-repaso
+[OK] Humo 375 px: /elecciones
+[OK] Humo 375 px: /elecciones/m3-que-se-vota
+[OK] Humo 375 px: /elecciones/m3-circunscripciones
+[OK] Humo 375 px: /elecciones/m3-papeletas
+[OK] Humo 375 px: /elecciones/m3-reparto
+[OK] Humo 375 px: /elecciones/m3-senado
+[OK] Humo 375 px: /elecciones/m3-convocatoria
+[OK] Humo 375 px: /elecciones/m3-votar
+[OK] Humo 375 px: /elecciones/m3-gobierno
+[OK] Humo 375 px: /elecciones/m3-otras
+[OK] Humo 375 px: /elecciones/m3-errores
+[OK] Humo 375 px: /elecciones/m3-repaso
+[OK] Humo 375 px: /competencias
+[OK] Humo 375 px: /competencias/m4-niveles
+[OK] Humo 375 px: /competencias/m4-reparto
+[OK] Humo 375 px: /competencias/m4-financiacion
+[OK] Humo 375 px: /competencias/m4-ayuntamientos
+[OK] Humo 375 px: /competencias/m4-ue
+[OK] Humo 375 px: /competencias/m4-repaso
+[OK] Humo 375 px: /economia
+[OK] Humo 375 px: /economia/m5-indicadores
+[OK] Humo 375 px: /economia/m5-leer-datos
+[OK] Humo 375 px: /economia/m5-impuestos
+[OK] Humo 375 px: /economia/m5-pensiones
+[OK] Humo 375 px: /economia/m5-monetaria
+[OK] Humo 375 px: /economia/m5-repaso
+[OK] Humo 375 px: /partidos
+[OK] Humo 375 px: /partidos/m6-que-es
+[OK] Humo 375 px: /partidos/m6-grupos
+[OK] Humo 375 px: /partidos/m6-tipos
+[OK] Humo 375 px: /partidos/m6-fichas
+[OK] Humo 375 px: /partidos/m6-comparador
+[OK] Humo 375 px: /partidos/m6-repaso
+[OK] Humo 375 px: /temas
+[OK] Humo 375 px: /temas/m7-ciclo
+[OK] Humo 375 px: /temas/m7-vivienda
+[OK] Humo 375 px: /temas/m7-sanidad-educacion
+[OK] Humo 375 px: /temas/m7-economia
+[OK] Humo 375 px: /temas/m7-justicia
+[OK] Humo 375 px: /temas/m7-territorio
+[OK] Humo 375 px: /temas/m7-inmigracion
+[OK] Humo 375 px: /temas/m7-igualdad
+[OK] Humo 375 px: /temas/m7-medio-ambiente
+[OK] Humo 375 px: /temas/m7-ue-exterior
+[OK] Humo 375 px: /temas/m7-disputados
+[OK] Humo 375 px: /temas/m7-repaso
+[OK] Humo 375 px: /temas/m8-ficha
+[OK] Humo 375 px: /temas/m8-afirmaciones
+[OK] Humo 375 px: /temas/m8-causalidad
+[OK] Humo 375 px: /temas/m8-fuentes
+[OK] Humo 375 px: /temas/m8-encuestas
+[OK] Humo 375 px: /temas/m8-repaso
+[OK] Humo 375 px: /medios
+[OK] Humo 375 px: /medios/m9-idea
+[OK] Humo 375 px: /medios/m9-fichas
+[OK] Humo 375 px: /medios/m9-orientacion
+[OK] Humo 375 px: /medios/m9-contrastar
+[OK] Humo 375 px: /medios/m9-comprobaciones
+[OK] Humo 375 px: /medios/m9-repaso
+[OK] Humo 375 px: /partidos
+[OK] Humo 375 px: /temas
+[OK] Humo 375 px: /medios
+[OK] Humo 375 px: /glosario
+[OK] Humo 375 px: /glosario/investidura
+[OK] Humo 375 px: /buscar
+[OK] Humo 375 px: /buscar/dhont
+[OK] Humo 375 px: /fuentes
+[OK] Humo 375 px: /aprendizaje
+[OK] Humo 375 px: /metodologia
+[OK] Humo 375 px: /metodologia/errores
+[OK] Humo 375 px: /licencias
+[OK] Humo 375 px: /leyenda
+[OK] Humo 375 px: /fuentes/boe-rd-806-2026
+[OK] Humo 375 px: /estado/bloque-que-no-existe
+[OK] Humo 375 px: /estado/m3-reparto
+[OK] Humo 375 px: /ruta-que-no-existe
+[OK] Humo 375 px: (interacción: definición emergente del glosario)
+[OK] Humo 375 px: (interacción: modo básico y ampliado)
+[OK] Humo 375 px: (interacción: cuestionario: aviso, corrección, explicación y fuente)
+[OK] Humo 375 px: (interacción: marcar como estudiado, progreso en el menú, migas y anterior/siguiente)
+[OK] Humo 375 px: (interacción: anterior y siguiente en un bloque intermedio)
+[OK] Humo 375 px: (interacción: repasar las preguntas falladas (vuelta al bloque))
+[OK] Humo 375 px: (interacción: portada de la sección con el estado de cada bloque)
+[OK] Humo 375 px: (interacción: Mi aprendizaje refleja el progreso)
+[OK] Humo 375 px: (interacción: diagrama de relaciones: filtro por institución)
+[OK] Humo 375 px: (interacción: simulación de ejes: cambiar y reiniciar)
+[OK] Humo 375 px: (interacción: glosario: búsqueda, filtro por bloque e índice)
+[OK] Humo 375 px: (interacción: calculadora D'Hondt: ejemplo de la LOREG, ejercicio, edición y comparación)
+[OK] Humo 375 px: (interacción: circunscripciones: casillas, vista por escaños y tabla buscable)
+[OK] Humo 375 px: (interacción: Senado: suma de 209 y papeleta de práctica)
+[OK] Humo 375 px: (interacción: calendario del 29-N: hitos, etiquetas, fuentes y días que faltan)
+[OK] Humo 375 px: (interacción: simulador de mayorías: segunda votación, sin investidura y suma de escaños)
+[OK] Humo 375 px: (interacción: competencias: tabla buscable y «¿Quién decide?»)
+[OK] Humo 375 px: (interacción: economía: tablero, fichas y calculadoras T6 a T9)
+[OK] Humo 375 px: (interacción: economía: tablero de indicadores y gráfico con tabla)
+[OK] Humo 375 px: (interacción: economía: gráfico del euríbor con eje desde cero y tabla)
+[OK] Humo 375 px: (interacción: partidos: fichas con buscador, filtros, orden y estructura común)
+[OK] Humo 375 px: (interacción: partidos: comparador sin puntuación y tabla de simetría)
+[OK] Humo 375 px: (interacción: partidos: efecto territorial con datos de 2023 y ejemplo ficticio)
+[OK] Humo 375 px: (interacción: temas: ciclo de una medida en ocho fases)
+[OK] Humo 375 px: (interacción: temas: «¿Quién decide?» incrustado y datos del tema)
+[OK] Humo 375 px: (interacción: análisis: ficha de ocho preguntas con tres medidas y «sin información verificada»)
+[OK] Humo 375 px: (interacción: análisis: clasificación de doce frases con corrección y explicación)
+[OK] Humo 375 px: (interacción: análisis: comparador antes-después (12→10 frente a 12→11) y edición)
+[OK] Humo 375 px: (interacción: análisis: calculadora del margen de error (1.000 entrevistas, 50 %))
+[OK] Humo 375 px: (interacción: medios: fichas con la misma estructura y filtros sin orientación)
+[OK] Humo 375 px: (interacción: medios: verificadores con sello de la IFCN, propiedad y metodología)
+[OK] Humo 375 px: (interacción: medios: analizador de una noticia inventada y clasificación de seis textos)
+[OK] Humo 375 px: (interacción: fuentes oficiales: índice de grupos, búsqueda, filtro por estado y fecha)
+[OK] Humo 375 px: (interacción: buscador de la cabecera con una errata)
+[OK] Humo 375 px: (controles: tema, menú, saltar)
+[OK] Apertura sin servidor (file://) de index.html
+[OK] Apertura sin servidor (file://) de dist/politica-espana.html
+
+Resultado: 379 de 379 pruebas superadas; 0 fallos.

@@ -1,0 +1,5 @@
+# Finales de línea LF en el repositorio, como los generan tools/build.py y los generadores.
+* text=auto eol=lf
+*.pdf binary
+*.png binary
+*.jpg binary

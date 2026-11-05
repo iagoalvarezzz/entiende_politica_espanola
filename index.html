@@ -1,0 +1,115 @@
+<!doctype html>
+<!-- Entender la política española. Código: licencia MIT (LICENSE). Textos propios: CC BY 4.0 (LICENCIA-TEXTOS.md). -->
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <meta name="description" content="Recurso educativo independiente para entender la política española desde cero. No recomienda ningún voto.">
+  <title>Entender la política española</title>
+  <link rel="stylesheet" href="assets/css/tokens.css">
+  <link rel="stylesheet" href="assets/css/base.css">
+  <link rel="stylesheet" href="assets/css/componentes.css">
+  <link rel="stylesheet" href="assets/css/modulos.css">
+</head>
+<body>
+  <a class="saltar" id="saltar" href="#contenido">Saltar al contenido</a>
+  <header class="cabecera">
+    <div class="cabecera__barra">
+      <a class="marca" id="marca" href="#/">Entender la política española</a>
+      <button class="boton boton-menu" id="boton-menu" type="button" aria-expanded="false" aria-controls="menu-principal"></button>
+      <form class="buscador" id="buscador" role="search">
+        <label class="visualmente-oculto" id="etiqueta-buscador" for="campo-buscador">Buscar</label>
+        <input class="campo campo--buscador" id="campo-buscador" type="search" autocomplete="off">
+        <button class="boton boton--icono" id="boton-buscador" type="submit"></button>
+      </form>
+      <div class="selector-tema">
+        <label id="etiqueta-tema" for="selector-tema">Tema</label>
+        <select class="selector" id="selector-tema"></select>
+      </div>
+    </div>
+  </header>
+  <div class="marco">
+    <nav class="menu-principal" id="menu-principal" aria-label="Menú principal">
+      <ul id="lista-menu"></ul>
+    </nav>
+    <main class="contenido" id="contenido" tabindex="-1">
+      <noscript><p>Esta web necesita JavaScript para mostrar su contenido.</p></noscript>
+    </main>
+  </div>
+  <footer class="pie" id="pie"></footer>
+
+  <!-- Núcleo -->
+  <script src="js/core/pe.js"></script>
+  <script src="js/core/almacen.js"></script>
+  <script src="js/core/iconos.js"></script>
+  <script src="js/core/etiquetas.js"></script>
+  <script src="js/core/fuentes.js"></script>
+  <script src="js/core/glosario.js"></script>
+  <script src="js/core/esquemas.js"></script>
+  <script src="js/core/contenido.js"></script>
+  <script src="js/core/progreso.js"></script>
+  <script src="js/core/cuestionario.js"></script>
+  <script src="js/core/router.js"></script>
+  <!-- Cálculos -->
+  <script src="js/calc/dhondt.js"></script>
+  <script src="js/calc/mayorias.js"></script>
+  <script src="js/calc/economia.js"></script>
+  <script src="js/calc/encuestas.js"></script>
+  <!-- Datos (generados por tools/build.py desde data/*.json) -->
+  <script src="data/_indice.js"></script>
+  <script src="data/sources.js"></script>
+  <script src="data/convocatorias.js"></script>
+  <script src="data/normas.js"></script>
+  <script src="data/glosario.js"></script>
+  <script src="data/preguntas.js"></script>
+  <script src="data/relaciones.js"></script>
+  <script src="data/competencias.js"></script>
+  <script src="data/indicadores.js"></script>
+  <script src="data/partidos.js"></script>
+  <script src="data/votaciones.js"></script>
+  <script src="data/medios.js"></script>
+  <script src="data/verificadores.js"></script>
+  <!-- Textos (generados por tools/build.py desde content/es/*.json) -->
+  <script src="content/es/ui.js"></script>
+  <script src="content/es/inicio.js"></script>
+  <script src="content/es/metodologia.js"></script>
+  <script src="content/es/licencias.js"></script>
+  <script src="content/es/leyenda.js"></script>
+  <script src="content/es/fuentes.js"></script>
+  <script src="content/es/pendientes.js"></script>
+  <script src="content/es/modulos.js"></script>
+  <script src="content/es/m1.js"></script>
+  <script src="content/es/m2.js"></script>
+  <script src="content/es/m3.js"></script>
+  <script src="content/es/m4.js"></script>
+  <script src="content/es/m5.js"></script>
+  <script src="content/es/m6.js"></script>
+  <script src="content/es/m7.js"></script>
+  <script src="content/es/m8.js"></script>
+  <script src="content/es/m9.js"></script>
+  <!-- Vistas y arranque -->
+  <script src="js/vistas/paginas.js"></script>
+  <script src="js/vistas/leyenda.js"></script>
+  <script src="js/vistas/fuentes.js"></script>
+  <script src="js/vistas/modulos.js"></script>
+  <script src="js/vistas/relaciones.js"></script>
+  <script src="js/vistas/ejes.js"></script>
+  <script src="js/vistas/calculadora.js"></script>
+  <script src="js/vistas/mapa.js"></script>
+  <script src="js/vistas/calendario.js"></script>
+  <script src="js/vistas/senado.js"></script>
+  <script src="js/vistas/mayorias.js"></script>
+  <script src="js/vistas/competencias.js"></script>
+  <script src="js/vistas/economia.js"></script>
+  <script src="js/vistas/partidos.js"></script>
+  <script src="js/vistas/temas.js"></script>
+  <script src="js/vistas/ejercicios.js"></script>
+  <script src="js/vistas/analisis.js"></script>
+  <script src="js/vistas/medios.js"></script>
+  <script src="js/vistas/glosario.js"></script>
+  <script src="js/vistas/buscar.js"></script>
+  <script src="js/vistas/aprendizaje.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

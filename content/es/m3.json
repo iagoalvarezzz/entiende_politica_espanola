@@ -1,0 +1,599 @@
+{
+  "bloques": [
+    {
+      "id": "m3-que-se-vota",
+      "numero": "3.1",
+      "titulo": "Qué se vota",
+      "resumen": [
+        "En unas {{elecciones-generales|elecciones generales}} se eligen los diputados del {{congreso|Congreso}} y los senadores. No se vota al Presidente del Gobierno.",
+        "Votas en tu provincia: los votos se cuentan por {{circunscripcion|circunscripción}} y se transforman en escaños.",
+        "Después, el Congreso decide en la {{investidura|investidura}} quién preside el Gobierno."
+      ],
+      "explicacion": [
+        { "tipo": "p", "texto": "El domingo 29 de noviembre de 2026 hay elecciones a Cortes Generales, convocadas por el Real Decreto 806/2026. Se vota con dos papeletas: una para el Congreso y otra para el Senado." },
+        { "tipo": "esquema", "esquema": {
+          "tipo": "pasos",
+          "titulo": "Del voto al Gobierno en cuatro pasos",
+          "pasos": [
+            { "titulo": "La gente vota y cada provincia cuenta sus votos", "texto": "Hay 52 circunscripciones: las 50 provincias, Ceuta y Melilla (Constitución, art. 68.2). No existe una lista nacional." },
+            { "titulo": "Los votos se transforman en los 350 escaños", "institucion": "congreso", "texto": "Cada circunscripción reparte sus escaños por separado (LOREG, art. 163). Lo explica el bloque [Del voto al escaño](#/elecciones/m3-reparto)." },
+            { "titulo": "El Rey propone un candidato", "texto": "Antes consulta a los representantes de los grupos políticos con representación parlamentaria (Constitución, art. 99.1)." },
+            { "titulo": "El Congreso vota la investidura", "institucion": "congreso", "texto": "Si el candidato obtiene la confianza del Congreso, el Rey lo nombra Presidente (art. 99.3)." }
+          ]
+        } },
+        { "tipo": "p", "texto": "**Tú votas en tu provincia, los votos se transforman en diputados y, después, el Congreso decide quién puede ser presidente.**" }
+      ],
+      "ejemplo": "Es como elegir a los miembros de un consejo escolar: no votas a quien lo presidirá, sino a quienes después lo elegirán.",
+      "error": {
+        "titulo": "No se vota al Presidente del Gobierno",
+        "texto": "La papeleta del Congreso lleva una lista de candidatos de tu provincia. Quién preside el Gobierno lo decide después el Congreso en la investidura."
+      },
+      "normas": ["ce-68-1", "ce-68-2", "ce-99-1", "ce-99-3", "loreg-162-1"],
+      "terminos": ["elecciones-generales", "circunscripcion"],
+      "profundizar": ["moncloa-guia-29n", "boe-rd-806-2026", "boe-constitucion"],
+      "ampliado": [
+        { "tipo": "p", "texto": "El Congreso y el Senado se eligen por cuatro años. El mandato termina antes si se disuelven las Cámaras (Constitución, arts. 68.4 y 69.6)." }
+      ]
+    },
+    {
+      "id": "m3-circunscripciones",
+      "numero": "3.2",
+      "titulo": "Circunscripciones y escaños",
+      "resumen": [
+        "Hay 52 circunscripciones: las 50 provincias, Ceuta y Melilla. Cada candidatura se presenta por separado en cada una.",
+        "Cada provincia tiene 2 diputados fijos y Ceuta y Melilla, 1 cada una: 102 escaños. Los otros 248 se reparten según la población.",
+        "Por eso el porcentaje nacional de votos no se convierte directamente en el mismo porcentaje de diputados."
+      ],
+      "explicacion": [
+        { "tipo": "p", "texto": "La Constitución fija la provincia como {{circunscripcion|circunscripción}} y pide un mínimo inicial para cada una (art. 68.2). La LOREG concreta el reparto (art. 162):" },
+        { "tipo": "lista", "items": [
+          "El Congreso tiene 350 diputados.",
+          "Cada provincia tiene 2 diputados iniciales (100 en total) y Ceuta y Melilla, 1 cada una: 102 escaños.",
+          "Los 248 restantes se reparten según la población de derecho de cada provincia, con una cuota y las fracciones decimales mayores.",
+          "El decreto de convocatoria fija los escaños de cada circunscripción. En 2026 es el Real Decreto 806/2026."
+        ] },
+        { "tipo": "esquema", "esquema": {
+          "tipo": "mapa-circunscripciones",
+          "titulo": "Las 52 circunscripciones del Congreso en 2026",
+          "descripcion": "Cartograma de casillas, vista por escaños y tabla buscable con la comparación con 2023.",
+          "convocatoria": "eg-2026",
+          "anterior": "eg-2023",
+          "casillas": [
+            { "id": "a-coruna", "abrev": "C", "x": 0, "y": 0 },
+            { "id": "lugo", "abrev": "LU", "x": 1, "y": 0 },
+            { "id": "asturias", "abrev": "O", "x": 2, "y": 0 },
+            { "id": "cantabria", "abrev": "S", "x": 3, "y": 0 },
+            { "id": "bizkaia", "abrev": "BI", "x": 4, "y": 0 },
+            { "id": "gipuzkoa", "abrev": "SS", "x": 5, "y": 0 },
+            { "id": "navarra", "abrev": "NA", "x": 6, "y": 0 },
+            { "id": "huesca", "abrev": "HU", "x": 7, "y": 0 },
+            { "id": "lleida", "abrev": "L", "x": 8, "y": 0 },
+            { "id": "girona", "abrev": "GI", "x": 9, "y": 0 },
+            { "id": "pontevedra", "abrev": "PO", "x": 0, "y": 1 },
+            { "id": "ourense", "abrev": "OU", "x": 1, "y": 1 },
+            { "id": "leon", "abrev": "LE", "x": 2, "y": 1 },
+            { "id": "palencia", "abrev": "P", "x": 3, "y": 1 },
+            { "id": "burgos", "abrev": "BU", "x": 4, "y": 1 },
+            { "id": "araba", "abrev": "VI", "x": 5, "y": 1 },
+            { "id": "la-rioja", "abrev": "LO", "x": 6, "y": 1 },
+            { "id": "zaragoza", "abrev": "Z", "x": 7, "y": 1 },
+            { "id": "tarragona", "abrev": "T", "x": 8, "y": 1 },
+            { "id": "barcelona", "abrev": "B", "x": 9, "y": 1 },
+            { "id": "zamora", "abrev": "ZA", "x": 1, "y": 2 },
+            { "id": "valladolid", "abrev": "VA", "x": 2, "y": 2 },
+            { "id": "segovia", "abrev": "SG", "x": 3, "y": 2 },
+            { "id": "soria", "abrev": "SO", "x": 4, "y": 2 },
+            { "id": "teruel", "abrev": "TE", "x": 6, "y": 2 },
+            { "id": "castellon", "abrev": "CS", "x": 7, "y": 2 },
+            { "id": "salamanca", "abrev": "SA", "x": 1, "y": 3 },
+            { "id": "avila", "abrev": "AV", "x": 2, "y": 3 },
+            { "id": "madrid", "abrev": "M", "x": 3, "y": 3 },
+            { "id": "guadalajara", "abrev": "GU", "x": 4, "y": 3 },
+            { "id": "cuenca", "abrev": "CU", "x": 5, "y": 3 },
+            { "id": "valencia", "abrev": "V", "x": 6, "y": 3 },
+            { "id": "illes-balears", "abrev": "PM", "x": 9, "y": 3 },
+            { "id": "caceres", "abrev": "CC", "x": 1, "y": 4 },
+            { "id": "toledo", "abrev": "TO", "x": 2, "y": 4 },
+            { "id": "ciudad-real", "abrev": "CR", "x": 3, "y": 4 },
+            { "id": "albacete", "abrev": "AB", "x": 4, "y": 4 },
+            { "id": "alicante", "abrev": "A", "x": 5, "y": 4 },
+            { "id": "badajoz", "abrev": "BA", "x": 1, "y": 5 },
+            { "id": "cordoba", "abrev": "CO", "x": 2, "y": 5 },
+            { "id": "jaen", "abrev": "J", "x": 3, "y": 5 },
+            { "id": "murcia", "abrev": "MU", "x": 4, "y": 5 },
+            { "id": "huelva", "abrev": "H", "x": 1, "y": 6 },
+            { "id": "sevilla", "abrev": "SE", "x": 2, "y": 6 },
+            { "id": "malaga", "abrev": "MA", "x": 3, "y": 6 },
+            { "id": "granada", "abrev": "GR", "x": 4, "y": 6 },
+            { "id": "almeria", "abrev": "AL", "x": 5, "y": 6 },
+            { "id": "cadiz", "abrev": "CA", "x": 2, "y": 7 },
+            { "id": "santa-cruz-de-tenerife", "abrev": "TF", "x": 0, "y": 8 },
+            { "id": "las-palmas", "abrev": "GC", "x": 1, "y": 8 },
+            { "id": "ceuta", "abrev": "CE", "x": 3, "y": 8 },
+            { "id": "melilla", "abrev": "ML", "x": 5, "y": 8 }
+          ],
+          "recuadros": [
+            { "x": 0, "y": 8, "ancho": 2, "alto": 1, "texto": "Canarias" },
+            { "x": 3, "y": 8, "ancho": 1, "alto": 1, "texto": "Ceuta" },
+            { "x": 5, "y": 8, "ancho": 1, "alto": 1, "texto": "Melilla" }
+          ]
+        } },
+        { "tipo": "h3", "texto": "Por qué Madrid elige más diputados que Soria" },
+        { "tipo": "p", "texto": "En 2026 Madrid elige 38 diputados y Soria, 2 (Real Decreto 806/2026). Madrid tiene más población, así que recibe más escaños de los 248 que se reparten por población." },
+        { "tipo": "p", "texto": "Los 2 escaños fijos pesan mucho más en una provincia pequeña que en una grande. Por eso una provincia poco poblada tiene más escaños por habitante. Esta web no da cifras de votos o habitantes por escaño: todavía no ha cargado la población oficial de cada provincia con su fecha." },
+        { "tipo": "p", "texto": "Además, cada circunscripción reparte sus escaños por separado. Los mismos votos pueden dar resultados distintos según dónde estén: lo muestra el ejercicio «Mismos votos, distintos escaños» de la [calculadora](#/elecciones/m3-reparto)." },
+        { "tipo": "h3", "texto": "Cambios respecto a 2023" },
+        { "tipo": "p", "texto": "Solo cambian dos circunscripciones: Madrid pasa de 37 a 38 diputados y Cádiz, de 9 a 8 (Reales Decretos 400/2023 y 806/2026)." }
+      ],
+      "ejemplo": "Imagina que cada grupo de una clase tiene asegurado un delegado, sea grande o pequeño. Los grupos pequeños tienen entonces más delegados por alumno que los grandes.",
+      "error": {
+        "titulo": "No hay una lista nacional",
+        "texto": "En las generales cada candidatura se presenta por separado en cada provincia. Los votos de una provincia no sirven para repartir los escaños de otra."
+      },
+      "normas": ["ce-68-2", "ce-68-3", "loreg-162-1", "loreg-162-2", "loreg-162-3"],
+      "terminos": ["circunscripcion", "escano", "representacion-proporcional"],
+      "profundizar": ["boe-rd-806-2026", "boe-rd-400-2023", "boe-loreg"],
+      "ampliado": [
+        { "tipo": "p", "texto": "El reparto de los 248 escaños usa la «población de derecho» de cada provincia (LOREG, art. 162.3). Las cifras de población que usó el Real Decreto 806/2026 no se han cargado todavía en esta web." }
+      ]
+    },
+    {
+      "id": "m3-papeletas",
+      "numero": "3.3",
+      "titulo": "Papeletas y tipos de voto",
+      "resumen": [
+        "Congreso: papeleta blanca con una {{lista-cerrada|lista cerrada y bloqueada}}. No se cambia el orden ni se tacha a nadie.",
+        "Senado: papeleta sepia con todos los candidatos. Se marcan hasta 3, 2 o 1 según la circunscripción, y se pueden mezclar formaciones.",
+        "El {{voto-en-blanco|voto en blanco}} es válido; el {{voto-nulo|voto nulo}}, no. La {{abstencion|abstención}} es no votar."
+      ],
+      "explicacion": [
+        { "tipo": "esquema", "esquema": {
+          "tipo": "comparativa",
+          "titulo": "Dos papeletas distintas",
+          "columnas": ["Aspecto", "Congreso", "Senado"],
+          "filas": [
+            ["Color", "Blanca", "Sepia"],
+            ["Qué eliges", "Una lista de una candidatura", "Candidatos individuales, de una o de varias formaciones"],
+            ["Cuántos marcas", "Ninguno: metes en el sobre la papeleta de la lista", "Hasta 3 en las provincias; hasta 2 en Gran Canaria, Mallorca, Tenerife, Ceuta y Melilla; 1 en las demás islas"],
+            ["Quién obtiene el puesto", "Los escaños se reparten entre las listas con el método D'Hondt", "Ganan los candidatos más votados"]
+          ]
+        } },
+        { "tipo": "p", "texto": "Colores y forma de votar: guía de La Moncloa del 20-10-2026. Marcas y reglas de reparto: LOREG, arts. 163.1 y 166.1." },
+        { "tipo": "h3", "texto": "Tipos de voto" },
+        { "tipo": "esquema", "esquema": {
+          "tipo": "grupos",
+          "titulo": "Válido, en blanco, nulo y abstención",
+          "grupos": [
+            { "titulo": "Voto válido", "items": ["El voto a una candidatura.", "El voto en blanco."] },
+            { "titulo": "Voto en blanco (válido)", "items": ["Sobre sin papeleta (LOREG, art. 96.5).", "En el Senado, papeleta sin ningún candidato marcado."] },
+            { "titulo": "Voto nulo", "items": [
+              "Sobre o papeleta que no son el modelo oficial, o papeleta sin sobre (art. 96.1).",
+              "Sobre con papeletas de candidaturas distintas. Varias de la misma cuentan como un solo voto válido.",
+              "Papeleta con nombres tachados, añadidos o cambiados de orden, o con cualquier leyenda (art. 96.2).",
+              "En el Senado, más marcas de las permitidas (art. 96.3)."
+            ] },
+            { "titulo": "Abstención", "items": ["No votar. En España votar no es obligatorio (guía de La Moncloa)."] }
+          ]
+        } },
+        { "tipo": "p", "texto": "El voto en blanco cuenta como voto válido. Por eso entra en la base de la barrera del 3 %, como explica el bloque [Del voto al escaño](#/elecciones/m3-reparto)." }
+      ],
+      "ejemplo": "Si en la papeleta del Senado de una provincia peninsular marcas cuatro nombres, la mesa la cuenta como voto nulo, aunque te gusten los cuatro.",
+      "error": {
+        "titulo": "Blanco y nulo no son lo mismo",
+        "texto": "El voto en blanco es válido y cuenta en la base del 3 %. El voto nulo no es válido."
+      },
+      "normas": ["loreg-96-1", "loreg-96-2", "loreg-96-3", "loreg-96-5", "loreg-166-1-a"],
+      "terminos": ["papeleta", "voto-valido", "voto-en-blanco", "voto-nulo", "abstencion"],
+      "profundizar": ["moncloa-guia-29n", "boe-loreg"],
+      "ampliado": [
+        { "tipo": "p", "texto": "La guía de La Moncloa del 29-N nombra «Ibiza-Formentera» en la regla de nulidad del Senado. La LOREG vigente las trata como dos circunscripciones con un candidato marcable en cada una (arts. 96.3 y 166.1.a). Esta web sigue la ley." }
+      ]
+    },
+    {
+      "id": "m3-reparto",
+      "numero": "3.4",
+      "titulo": "Del voto al escaño: barrera y D'Hondt",
+      "resumen": [
+        "Primero, la {{barrera-electoral|barrera}}: una candidatura necesita al menos el 3 % de los votos válidos de su circunscripción.",
+        "Después, el {{metodo-dhondt|método D'Hondt}}: se dividen los votos entre 1, 2, 3… y los escaños van a los {{cociente|cocientes}} mayores.",
+        "En una provincia pequeña, el reparto deja sin escaño a candidaturas con bastante más del 3 %."
+      ],
+      "explicacion": [
+        { "tipo": "esquema", "esquema": {
+          "tipo": "pasos",
+          "titulo": "El reparto en cada circunscripción (LOREG, art. 163.1)",
+          "pasos": [
+            { "titulo": "1. Barrera", "texto": "No entran las candidaturas con menos del 3 % de los votos válidos emitidos (art. 163.1.a). Los votos en blanco son válidos (art. 96.5), así que cuentan en la base." },
+            { "titulo": "2. Cocientes", "institucion": "congreso", "texto": "Los votos de cada candidatura que entra se dividen entre 1, 2, 3… hasta el número de escaños (art. 163.1.c)." },
+            { "titulo": "3. Asignación", "institucion": "congreso", "texto": "Los escaños van a los cocientes mayores, de mayor a menor." },
+            { "titulo": "4. Empates", "texto": "Si dos cocientes coinciden, el escaño va a la candidatura con más votos totales. Si también empatan en votos, el primer empate se resuelve por sorteo (art. 163.1.d)." }
+          ]
+        } },
+        { "tipo": "p", "texto": "En Ceuta y Melilla se elige un solo diputado: gana el candidato con más votos (art. 163.2)." },
+        { "tipo": "h3", "texto": "Calculadora" },
+        { "tipo": "esquema", "esquema": {
+          "tipo": "calculadora-dhondt",
+          "titulo": "Calculadora D'Hondt",
+          "descripcion": "Empieza con el ejemplo práctico del artículo 163 de la LOREG. Elige un ejercicio guiado o cambia los datos.",
+          "inicial": {
+            "escanos": 8,
+            "blancos": 0,
+            "candidaturas": [
+              { "id": "A", "votos": 168000 }, { "id": "B", "votos": 104000 }, { "id": "C", "votos": 72000 },
+              { "id": "D", "votos": 64000 }, { "id": "E", "votos": 40000 }, { "id": "F", "votos": 32000 }
+            ]
+          },
+          "ejercicios": [
+            {
+              "id": "provincia-pequena",
+              "titulo": "Provincia de 4 escaños",
+              "texto": "D tiene el 7,64 % de los votos válidos, más del doble de la barrera, y no obtiene escaño. En una provincia pequeña el umbral real lo marca el reparto. Fíjate en el último cociente con escaño.",
+              "escanos": 4,
+              "blancos": 2000,
+              "candidaturas": [
+                { "id": "A", "votos": 60000 }, { "id": "B", "votos": 52000 }, { "id": "C", "votos": 28000 },
+                { "id": "D", "votos": 12000 }, { "id": "E", "votos": 3000 }
+              ]
+            },
+            {
+              "id": "circunscripcion-grande",
+              "titulo": "Circunscripción de 38 escaños",
+              "texto": "E tiene el 2,82 % de los votos válidos y la barrera la deja fuera. Con 38 escaños, el reparto por sí solo daría escaño a partir de un 2,56 % aproximado de los votos que entran: aquí es la barrera la que decide.",
+              "escanos": 38,
+              "blancos": 55000,
+              "candidaturas": [
+                { "id": "A", "votos": 1520000 }, { "id": "B", "votos": 1290000 }, { "id": "C", "votos": 710000 },
+                { "id": "D", "votos": 390000 }, { "id": "E", "votos": 115000 }
+              ],
+              "comparar": {
+                "titulo": "Sin barrera, que no es lo que dice la ley",
+                "texto": "Sin barrera, E obtendría un escaño y B perdería uno.",
+                "opciones": { "aplicarBarrera": false }
+              }
+            },
+            {
+              "id": "blancos",
+              "titulo": "Los votos en blanco cambian un escaño",
+              "texto": "Hay 100.000 votos válidos, 4.000 de ellos en blanco. P tiene 2.970 votos: el 2,97 %, justo por debajo de la barrera. Si los blancos no contaran, P sí la superaría.",
+              "escanos": 38,
+              "blancos": 4000,
+              "candidaturas": [
+                { "id": "A", "votos": 38000 }, { "id": "B", "votos": 28000 }, { "id": "C", "votos": 17000 },
+                { "id": "D", "votos": 10030 }, { "id": "P", "votos": 2970 }
+              ],
+              "comparar": {
+                "titulo": "Si los blancos no contaran en la base, que no es lo que dice la ley",
+                "texto": "P entraría en el reparto con un escaño y A tendría uno menos. La web aplica la lectura de la LOREG: los blancos son válidos y cuentan.",
+                "opciones": { "baseIncluyeBlancos": false }
+              }
+            },
+            {
+              "id": "dos-provincias",
+              "titulo": "Mismos votos, distintos escaños",
+              "texto": "Los mismos votos en una provincia de 3 escaños y en otra de 10. Con 3 escaños, C se queda sin escaño con el 20 % de los votos; con 10, obtiene 2.",
+              "escanos": 3,
+              "blancos": 0,
+              "candidaturas": [
+                { "id": "A", "votos": 45000 }, { "id": "B", "votos": 35000 }, { "id": "C", "votos": 20000 }
+              ],
+              "comparar": {
+                "titulo": "Los mismos votos con 10 escaños",
+                "opciones": { "escanos": 10 }
+              }
+            }
+          ]
+        } },
+        { "tipo": "h3", "texto": "Una propiedad del método" },
+        { "tipo": "p", "texto": "Con M escaños, una candidatura que entra en el reparto y tiene más de 1/(M+1) de esos votos obtiene al menos un escaño. Con 4 escaños es el 20 %; con 38, un 2,56 % aproximado. Es una propiedad matemática, no un artículo de la ley." },
+        { "tipo": "p", "texto": "En una provincia pequeña, el umbral real lo marca el reparto y no la barrera legal. En una grande ocurre lo contrario: la barrera del 3 % deja fuera a quien queda entre un 2,56 % y un 3 %." },
+        { "tipo": "p", "texto": "Que una candidatura con un porcentaje de voto apreciable se quede sin escaño es un efecto del sistema. Si eso es justo o no es una valoración política, y la web no la hace." }
+      ],
+      "ejemplo": "Un concurso reparte 4 plazas entre grupos según sus votos. Un grupo con el 8 % puede quedarse sin plaza porque los grupos grandes tienen cocientes más altos.",
+      "error": {
+        "titulo": "«Si mi candidatura no obtiene escaño, mi voto no cuenta»",
+        "texto": "Es un voto válido: cuenta en la participación y en la base del 3 %. Lo que no hace es traducirse en un escaño para esa candidatura."
+      },
+      "normas": ["loreg-163-1-a", "loreg-163-1-c", "loreg-163-1-d", "loreg-163-2", "loreg-96-5"],
+      "terminos": ["barrera-electoral", "metodo-dhondt", "cociente"],
+      "profundizar": ["boe-loreg", "moncloa-glosario-electoral"],
+      "ampliado": [
+        { "tipo": "p", "texto": "La LOREG trae su propio ejemplo práctico: 480.000 votos válidos y 8 escaños entre seis candidaturas. Es el que carga la calculadora al empezar: A obtiene 4 escaños, B 2, C 1 y D 1 (art. 163.1.c)." }
+      ]
+    },
+    {
+      "id": "m3-senado",
+      "numero": "3.5",
+      "titulo": "El Senado en las elecciones generales",
+      "resumen": [
+        "El 29-N los votantes eligen 209 senadores. Los parlamentos autonómicos designan otros.",
+        "En el Senado se vota a personas: se marcan hasta 3, 2 o 1 candidatos y se pueden mezclar formaciones.",
+        "Ganan los candidatos más votados de cada circunscripción."
+      ],
+      "explicacion": [
+        { "tipo": "p", "texto": "La Constitución fija cuántos senadores elige cada territorio (art. 69). La reforma de 19 de mayo de 2026 (BOE-A-2026-10881) separa Ibiza y Formentera desde las primeras elecciones al Senado posteriores a su entrada en vigor. El Real Decreto 806/2026 ya las trata por separado (art. 3.2)." },
+        { "tipo": "esquema", "esquema": {
+          "tipo": "suma-senado",
+          "titulo": "Senadores elegidos por los votantes el 29-N",
+          "descripcion": "La suma se calcula con los datos de la convocatoria. Cada línea indica su base.",
+          "convocatoria": "eg-2026",
+          "anterior": "eg-2023",
+          "lineas": [
+            { "tipo": "provincia", "senadores": 4, "texto": "Provincias peninsulares", "articulo": "Constitución, art. 69.2.", "fuente_id": "boe-constitucion" },
+            { "tipo": "isla", "senadores": 3, "texto": "Islas mayores", "articulo": "Constitución, art. 69.3.", "fuente_id": "boe-constitucion" },
+            { "tipo": "ciudad_autonoma", "senadores": 2, "texto": "Ceuta y Melilla", "articulo": "Constitución, art. 69.4.", "fuente_id": "boe-constitucion" },
+            { "tipo": "isla", "senadores": 1, "texto": "Otras islas", "articulo": "Constitución, art. 69.3.", "fuente_id": "boe-constitucion" }
+          ]
+        } },
+        { "tipo": "p", "texto": "Además, cada comunidad autónoma designa un senador y otro más por cada millón de habitantes (art. 69.5). Su número no es fijo y esta web no lo da de memoria: la composición actual se consulta en la web del Senado." },
+        { "tipo": "h3", "texto": "Practica con la papeleta del Senado" },
+        { "tipo": "esquema", "esquema": {
+          "tipo": "papeleta-senado",
+          "titulo": "Papeleta de práctica",
+          "descripcion": "Elige una circunscripción y marca candidatos para ver si el voto sería válido, en blanco o nulo.",
+          "convocatoria": "eg-2026",
+          "inicial": "zaragoza",
+          "candidaturas": [
+            { "id": "A", "nombre": "Formación ficticia A" },
+            { "id": "B", "nombre": "Formación ficticia B" },
+            { "id": "C", "nombre": "Formación ficticia C" }
+          ]
+        } },
+        { "tipo": "h3", "texto": "El papel del Senado en las leyes" },
+        { "tipo": "p", "texto": "El Senado tiene dos meses para vetar un proyecto de ley por mayoría absoluta o para enmendarlo. El Congreso levanta el veto por mayoría absoluta o, pasados dos meses, por mayoría simple, y decide sobre las enmiendas por mayoría simple (Constitución, art. 90.2). Lo explica el bloque [Cómo se aprueba una ley](#/estado/m2-leyes)." }
+      ],
+      "ejemplo": "En una provincia peninsular puedes marcar a dos candidatos de una formación y a uno de otra: es un voto válido.",
+      "error": {
+        "titulo": "«El Senado puede tumbar una ley»",
+        "texto": "Puede vetarla o enmendarla, pero el Congreso puede levantar el veto (Constitución, art. 90.2)."
+      },
+      "normas": ["ce-69-2", "ce-69-3", "ce-69-4", "ce-69-5", "loreg-166-1-a", "loreg-166-1-b", "ce-90-2"],
+      "terminos": ["senador", "senado"],
+      "profundizar": ["boe-rd-806-2026", "moncloa-senado", "senado"],
+      "ampliado": [
+        { "tipo": "p", "texto": "La designación de los senadores autonómicos corresponde a la Asamblea legislativa de cada comunidad, según su Estatuto, que debe asegurar una representación proporcional (Constitución, art. 69.5)." }
+      ]
+    },
+    {
+      "id": "m3-convocatoria",
+      "numero": "3.6",
+      "titulo": "La convocatoria del 29-N",
+      "resumen": [
+        "El Real Decreto 806/2026 disolvió las Cortes y convocó elecciones para el domingo 29 de noviembre de 2026.",
+        "La {{campana-electoral|campaña}} va del 13 al 27 de noviembre, y el 28 es la {{jornada-de-reflexion|jornada de reflexión}}.",
+        "Cada fecha indica su fuente y si está verificada. Los días que faltan se calculan con la fecha de hoy."
+      ],
+      "explicacion": [
+        { "tipo": "p", "texto": "El real decreto se publicó en el BOE el 6 de octubre de 2026 (núm. 248) y entró en vigor ese día. Con disolución anticipada, la LOREG fija la votación el día 54 tras la {{convocatoria|convocatoria}} (art. 42.1)." },
+        { "tipo": "esquema", "esquema": {
+          "tipo": "calendario-electoral",
+          "titulo": "Calendario electoral del 29-N",
+          "descripcion": "Fechas del real decreto, de la información oficial de La Moncloa y del BOE, con su fecha de consulta.",
+          "convocatoria": "eg-2026"
+        } },
+        { "tipo": "p", "texto": "Las fechas están contrastadas con el calendario electoral de la Junta Electoral Central, con el real decreto o con la información oficial de La Moncloa, y coinciden con los plazos de la LOREG. Cuando dos fuentes oficiales no dicen lo mismo, la nota de la fecha lo indica." },
+        { "tipo": "p", "texto": "Mientras dure la convocatoria, esta web no publica encuestas ni estimaciones de voto. La LOREG prohíbe publicar sondeos durante los cinco días anteriores a la votación (art. 69.7)." }
+      ],
+      "ejemplo": "Es como el calendario de unas oposiciones: hay un plazo para inscribirse, una fecha en que se publican las listas y un día de examen, todo fijado de antemano.",
+      "error": {
+        "titulo": "«La campaña dura hasta el día de votar»",
+        "texto": "La campaña termina a las cero horas del día anterior a la votación. El sábado 28 de noviembre es la jornada de reflexión (LOREG, art. 51.3)."
+      },
+      "normas": ["loreg-42-1", "loreg-45", "loreg-47-3", "loreg-51", "loreg-69-7", "ce-68-6"],
+      "terminos": ["convocatoria", "campana-electoral", "censo-electoral", "proclamacion-de-candidaturas"],
+      "profundizar": ["boe-rd-806-2026", "jec-calendario-eg-2026", "moncloa-guia-29n"],
+      "ampliado": [
+        { "tipo": "p", "texto": "El Congreso electo debe reunirse en los 25 días siguientes a las elecciones (Constitución, art. 68.6). El real decreto fija las sesiones constitutivas el 23 de diciembre, a las 10:00 (art. 5): 24 días después de la votación." }
+      ]
+    },
+    {
+      "id": "m3-votar",
+      "numero": "3.7",
+      "titulo": "Votar en la práctica y escrutinio",
+      "resumen": [
+        "Se vota el 29 de noviembre de 9:00 a 20:00, con DNI, pasaporte o carné de conducir con fotografía.",
+        "Si no puedes ir a tu mesa, puedes pedir el {{voto-por-correo|voto por correo}} hasta el 19 de noviembre.",
+        "Al cerrar, cada {{mesa-electoral|mesa}} cuenta los votos. El {{escrutinio|escrutinio}} general es del 4 al 7 de diciembre."
+      ],
+      "explicacion": [
+        { "tipo": "h3", "texto": "El día de la votación" },
+        { "tipo": "lista", "items": [
+          "Horario: de 9:00 a 20:00 (LOREG, art. 84.1). Si a las 20:00 quedan personas en el local o en su acceso, la mesa las deja votar (guía de La Moncloa).",
+          "Documentos: DNI, pasaporte o carné de conducir, con fotografía. El resguardo del DNI en trámite no sirve (guía de La Moncloa; LOREG, art. 85.1).",
+          "La tarjeta censal, que se envía desde el 2 de noviembre, indica el local y la mesa en que te toca votar.",
+          "Quien trabaje ese día tiene derecho a ausentarse: hasta 4 horas libres retribuidas, según la guía de La Moncloa."
+        ] },
+        { "tipo": "h3", "texto": "Las mesas electorales" },
+        { "tipo": "p", "texto": "Una mesa la forman un presidente y dos vocales, elegidos por sorteo entre los electores de la sección. Para el 29-N, el sorteo es del 31 de octubre al 4 de noviembre. Formar parte de una mesa es obligatorio, pero se pueden alegar causas justificadas en los siete días siguientes a la notificación (guía de La Moncloa)." },
+        { "tipo": "h3", "texto": "Voto por correo" },
+        { "tipo": "lista", "items": [
+          "Electores en España: se pide en Correos o en su web hasta el 19 de noviembre. La documentación se envía del 9 al 22 de noviembre y el voto se entrega en Correos hasta el 25 de noviembre (calendario de la Junta Electoral Central).",
+          "Si te aceptan el voto por correo, ya no puedes votar en tu mesa (nota de La Moncloa).",
+          "Residentes en el extranjero: depositan el voto en el consulado del 21 al 26 de noviembre o lo envían por correo a la oficina consular hasta el 24 de noviembre."
+        ] },
+        { "tipo": "h3", "texto": "El escrutinio" },
+        { "tipo": "esquema", "esquema": {
+          "tipo": "pasos",
+          "titulo": "Del recuento al resultado definitivo",
+          "pasos": [
+            { "titulo": "Escrutinio provisional, en cada mesa", "texto": "Al cerrar, el presidente saca los sobres uno a uno, lee cada papeleta y la enseña. Después anuncia el resultado y la mesa lo hace público en un acta." },
+            { "titulo": "Escrutinio general, en cada provincia", "texto": "Del 4 al 7 de diciembre, las Juntas Electorales Provinciales hacen el escrutinio definitivo (guía de La Moncloa; LOREG, art. 103.1)." }
+          ]
+        } },
+        { "tipo": "p", "texto": "Esta web no muestra ni calcula resultados antes de que sean oficiales." }
+      ],
+      "ejemplo": "Si el 29 de noviembre vas a estar de viaje, el voto por correo se pide como tarde el 19. Después ya no podrás votar en tu mesa.",
+      "error": {
+        "titulo": "«El recuento de la noche electoral es el resultado oficial»",
+        "texto": "Esa noche se conoce el escrutinio provisional de las mesas. El definitivo lo hacen las Juntas Electorales Provinciales días después."
+      },
+      "normas": ["loreg-84-1", "loreg-85-1", "loreg-103-1"],
+      "terminos": ["mesa-electoral", "voto-por-correo", "escrutinio", "junta-electoral-central"],
+      "profundizar": ["moncloa-guia-29n", "moncloa-voto-correo-29n", "moncloa-voto-extranjero-29n", "moncloa-escrutinio"],
+      "ampliado": [
+        { "tipo": "p", "texto": "Los residentes en el extranjero ya no tienen que pedir el voto: reciben la documentación por correo. Las papeletas llegan en un segundo envío, del 4 al 8 de noviembre, o hasta el 14 si hay impugnaciones. También se pueden descargar en la web del INE hasta el 7 de noviembre (nota de La Moncloa del 20-10-2026)." }
+      ]
+    },
+    {
+      "id": "m3-gobierno",
+      "numero": "3.8",
+      "titulo": "De los votos al Gobierno",
+      "resumen": [
+        "Gobierna quien logra la {{investidura|investidura}} en el Congreso, no necesariamente el partido más votado.",
+        "Primera votación: hacen falta 176 síes, la {{mayoria-absoluta|mayoría absoluta}}. Segunda, 48 horas después: más síes que noes.",
+        "Investir a un presidente, aprobar los Presupuestos y gobernar en coalición son tres acuerdos distintos."
+      ],
+      "explicacion": [
+        { "tipo": "esquema", "esquema": {
+          "tipo": "pasos",
+          "titulo": "La investidura, paso a paso (Constitución, art. 99)",
+          "pasos": [
+            { "titulo": "Consultas", "texto": "Tras las elecciones, el Rey consulta a los representantes de los grupos políticos con representación parlamentaria." },
+            { "titulo": "Propuesta", "texto": "El Rey propone un candidato a través del Presidente del Congreso." },
+            { "titulo": "Primera votación", "institucion": "congreso", "texto": "El candidato expone su programa. Si obtiene la mayoría absoluta (176 de 350), el Rey lo nombra Presidente." },
+            { "titulo": "Segunda votación", "institucion": "congreso", "texto": "Si no la obtiene, 48 horas después basta la mayoría simple." },
+            { "titulo": "Si no hay investidura", "texto": "Se tramitan nuevas propuestas. Si pasan dos meses desde la primera votación sin investidura, el Rey disuelve las Cámaras y convoca elecciones, con el refrendo del Presidente del Congreso (art. 99.5)." }
+          ]
+        } },
+        { "tipo": "h3", "texto": "Dos mayorías" },
+        { "tipo": "lista", "items": [
+          "**Mayoría absoluta:** más de la mitad de los miembros. En el Congreso, 176 de 350.",
+          "**Mayoría simple:** más votos a favor que en contra, sin contar las abstenciones como votos en contra. Es una definición didáctica: la Constitución exige esta mayoría sin definirla."
+        ] },
+        { "tipo": "h3", "texto": "Tres acuerdos que no son el mismo" },
+        { "tipo": "esquema", "esquema": {
+          "tipo": "comparativa",
+          "titulo": "Investidura, Presupuestos y coalición",
+          "columnas": ["Acuerdo", "Para qué sirve", "Qué exige"],
+          "filas": [
+            ["Investidura o apoyo al Presidente", "Que el candidato obtenga la confianza del Congreso", "Votos a favor: mayoría absoluta o, en la segunda votación, simple (art. 99.3)"],
+            ["Presupuestos", "Aprobar los ingresos y gastos del Estado", "Que las Cortes aprueben la ley de Presupuestos (art. 66.2)"],
+            ["Gobierno de coalición", "Que varias formaciones compartan el Gobierno", "Un acuerdo político. Los ministros los propone el Presidente (art. 100)"]
+          ]
+        } },
+        { "tipo": "p", "texto": "Una formación puede apoyar una investidura sin entrar en el Gobierno, o apoyar unos Presupuestos sin haber apoyado la investidura. Ante una noticia sobre un pacto, conviene preguntar qué acuerdo se ha firmado." },
+        { "tipo": "h3", "texto": "Simulador de mayorías" },
+        { "tipo": "esquema", "esquema": {
+          "tipo": "simulador-mayorias",
+          "titulo": "Simulador de investidura con bloques ficticios",
+          "descripcion": "Cambia los escaños y el voto de cada bloque para ver qué pasa en la primera y en la segunda votación.",
+          "bloques": [
+            { "id": "a", "nombre": "Bloque A" },
+            { "id": "b", "nombre": "Bloque B" },
+            { "id": "c", "nombre": "Bloque C" },
+            { "id": "d", "nombre": "Bloque D" },
+            { "id": "e", "nombre": "Bloque E" }
+          ],
+          "inicial": [
+            { "escanos": 130, "voto": "si" },
+            { "escanos": 120, "voto": "no" },
+            { "escanos": 40, "voto": "si" },
+            { "escanos": 35, "voto": "abstencion" },
+            { "escanos": 25, "voto": "no" }
+          ]
+        } },
+        { "tipo": "p", "texto": "El simulador usa bloques ficticios. La web no muestra cómo quedará el Congreso tras el 29-N, ni propone o evalúa pactos entre partidos reales." }
+      ],
+      "ejemplo": "En una asociación, no preside quien llega con más socios a la asamblea, sino quien reúne los apoyos que piden los estatutos.",
+      "error": {
+        "titulo": "«Gobierna el partido más votado»",
+        "texto": "Gobierna quien obtiene la confianza del Congreso en la investidura. Puede ser el candidato del partido más votado o el de otro que reúna más apoyos."
+      },
+      "normas": ["ce-99-1", "ce-99-3", "ce-99-5", "ce-100"],
+      "terminos": ["investidura", "mayoria-absoluta", "mayoria-simple"],
+      "profundizar": ["boe-constitucion", "moncloa-ce-titulo-4", "congreso"],
+      "ampliado": [
+        { "tipo": "p", "texto": "El Gobierno saliente sigue en funciones hasta que toma posesión el nuevo (Constitución, art. 101.2). Mientras tanto, la Ley del Gobierno limita lo que puede hacer (art. 21)." }
+      ]
+    },
+    {
+      "id": "m3-otras",
+      "numero": "3.9",
+      "titulo": "Otras elecciones",
+      "resumen": [
+        "No todas las elecciones deciden lo mismo: hay generales, autonómicas, municipales y europeas.",
+        "En las {{elecciones-municipales|municipales}} se eligen concejales, con barrera del 5 %. Los concejales eligen al alcalde.",
+        "En las {{elecciones-europeas|europeas}}, España es una sola circunscripción y no hay barrera legal."
+      ],
+      "explicacion": [
+        { "tipo": "esquema", "esquema": {
+          "tipo": "comparativa",
+          "titulo": "¿Qué eliges en cada elección?",
+          "columnas": ["Elección", "Qué se elige", "Qué decide"],
+          "filas": [
+            ["Generales", "Congreso y Senado", "Quién puede formar el Gobierno de España"],
+            ["Autonómicas", "Parlamento de la comunidad autónoma", "Quién dirige el Gobierno autonómico"],
+            ["Municipales", "Concejales", "Quién gobierna el ayuntamiento"],
+            ["Europeas", "Eurodiputados", "Quién representa a los ciudadanos en el Parlamento Europeo"]
+          ]
+        } },
+        { "tipo": "h3", "texto": "Lo que dice la ley de cada una" },
+        { "tipo": "lista", "items": [
+          "**Municipales.** Cada municipio es una circunscripción y elige más o menos concejales según sus residentes (LOREG, art. 179). Se reparte como en el Congreso, pero con barrera del 5 % (art. 180). Si un cabeza de lista obtiene la mayoría absoluta de los votos de los concejales, es alcalde; si nadie la obtiene, lo es quien encabeza la lista más votada (art. 196).",
+          "**Europeas.** La circunscripción es todo el territorio nacional (art. 214). Se reparte con el método D'Hondt, sin la barrera del 3 % (art. 216). En 2024 España eligió 61 de los 720 eurodiputados (guía de La Moncloa de 2024).",
+          "**Autonómicas.** Cada comunidad regula sus {{elecciones-autonomicas|elecciones autonómicas}} en su Estatuto y sus leyes. La Asamblea elegida elige después al Presidente de la comunidad (Constitución, art. 152.1).",
+          "**Quién puede votar.** En las municipales y en las europeas pueden votar también ciudadanos de otros países de la Unión Europea que residen en España y cumplen los requisitos (LOREG, arts. 176 y 210). En las municipales, además, residentes de países con tratado de reciprocidad."
+        ] },
+        { "tipo": "h3", "texto": "Quién decide qué" },
+        { "tipo": "p", "texto": "No todos los problemas dependen del Gobierno central. La sanidad y la educación las gestionan principalmente las comunidades autónomas, los ayuntamientos tienen competencias en asuntos locales y la Unión Europea influye en muchas normas económicas, ambientales y comerciales. El módulo [Quién decide qué](#/competencias) lo detalla con sus fuentes." },
+        { "tipo": "p", "texto": "Esta web no da fechas de próximas elecciones autonómicas ni municipales. Se publicarán cuando haya una convocatoria oficial." }
+      ],
+      "ejemplo": "Votar en las municipales no cambia quién preside el Gobierno de España, y votar en las generales no cambia quién es alcalde.",
+      "error": {
+        "titulo": "«Todas las elecciones sirven para lo mismo»",
+        "texto": "Cada elección elige una institución distinta. Las generales deciden quién puede formar el Gobierno de España; las municipales, quién gobierna el ayuntamiento."
+      },
+      "normas": ["loreg-179-1", "loreg-180", "loreg-196", "loreg-214", "loreg-216", "loreg-176-1", "loreg-210-1", "ce-152-1"],
+      "terminos": ["elecciones-autonomicas", "elecciones-municipales", "elecciones-europeas"],
+      "profundizar": ["boe-loreg", "moncloa-guia-europeas-2024", "moncloa-procesos-electorales"],
+      "ampliado": [
+        { "tipo": "p", "texto": "En los municipios que funcionan en régimen de concejo abierto no se eligen concejales: los electores eligen directamente al alcalde (LOREG, art. 179.2)." }
+      ]
+    },
+    {
+      "id": "m3-errores",
+      "numero": "3.10",
+      "titulo": "Errores frecuentes",
+      "resumen": [
+        "Cinco ideas que se repiten y no son exactas.",
+        "Cada corrección cita la norma en la que se apoya.",
+        "Ninguna dice a quién votar ni qué estrategia de voto conviene."
+      ],
+      "explicacion": [
+        { "tipo": "esquema", "esquema": {
+          "tipo": "comparativa",
+          "titulo": "Idea frecuente y lo que dice la norma",
+          "columnas": ["Idea frecuente", "Lo que ocurre", "Base"],
+          "filas": [
+            ["«Gobierna el partido más votado»", "Gobierna quien obtiene la confianza del Congreso en la investidura.", "Constitución, art. 99"],
+            ["«Se vota al presidente»", "Se vota a listas de diputados y a candidatos al Senado. Al Presidente lo elige el Congreso.", "Constitución, arts. 68, 69 y 99"],
+            ["«Blanco y nulo son lo mismo»", "El voto en blanco es válido y cuenta en la base del 3 %. El nulo no es válido.", "LOREG, arts. 96 y 163.1.a"],
+            ["«Si mi candidatura no saca escaño, mi voto no cuenta»", "Es un voto válido, pero no se traduce en un escaño para esa candidatura.", "LOREG, art. 163.1"],
+            ["«El Senado puede tumbar una ley»", "Puede vetarla o enmendarla, y el Congreso puede levantar el veto.", "Constitución, art. 90.2"]
+          ]
+        } },
+        { "tipo": "p", "texto": "Explicar cómo funciona un sistema no es recomendar un voto. Esta web no dice a quién votar ni qué estrategia de voto conviene." }
+      ],
+      "ejemplo": "Si una noticia dice que un partido «ha ganado las elecciones» sin mayoría absoluta, pregúntate si ya hay una investidura.",
+      "error": {
+        "titulo": "«El voto en blanco no tiene ningún efecto en el reparto»",
+        "texto": "Los votos en blanco no reciben escaños, pero son válidos y cuentan en la base del 3 %. Por eso pueden cambiar qué candidaturas superan la barrera, como muestra el ejercicio de los blancos de la [calculadora](#/elecciones/m3-reparto)."
+      },
+      "normas": ["ce-99-3", "loreg-96-5", "loreg-163-1-a", "ce-90-2"],
+      "terminos": ["voto-en-blanco", "voto-nulo"],
+      "profundizar": ["boe-loreg", "boe-constitucion", "moncloa-guia-29n"]
+    },
+    {
+      "id": "m3-repaso",
+      "numero": "3.11",
+      "titulo": "Repaso del módulo 3",
+      "tipo": "repaso",
+      "preguntas_de": ["m3-que-se-vota", "m3-circunscripciones", "m3-papeletas", "m3-reparto", "m3-senado", "m3-convocatoria", "m3-votar", "m3-gobierno", "m3-otras", "m3-errores"],
+      "resumen": [
+        "Preguntas de todo el módulo, elegidas al azar en cada intento.",
+        "Cubren qué se vota, escaños, papeletas, barrera y D'Hondt, Senado, calendario, cómo se vota, investidura y otras elecciones.",
+        "Si fallas alguna, podrás repasarla aquí o en su bloque."
+      ],
+      "profundizar": ["moncloa-guia-29n", "boe-loreg"]
+    }
+  ]
+}

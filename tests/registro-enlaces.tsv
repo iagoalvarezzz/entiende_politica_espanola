@@ -1,0 +1,394 @@
+fecha	id	url	estado_enlace	resultado
+2026-10-29	boe-rd-806-2026	https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20742	abierta	HTTP 200; aparece el texto esperado «Real Decreto 806/2026»
+2026-10-29	boe-rd-400-2023	https://www.boe.es/eli/es/rd/2023/05/29/400	abierta	HTTP 200; aparece el texto esperado «Real Decreto 400/2023»
+2026-10-29	boe-constitucion	https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229	abierta	HTTP 200; aparece el texto esperado «Constitución Española»
+2026-10-29	boe-loreg	https://www.boe.es/buscar/act.php?id=BOE-A-1985-11672	abierta	HTTP 200; aparece el texto esperado «Régimen Electoral General»
+2026-10-29	jec-eg-2026	https://www.juntaelectoralcentral.es/cs/jec/eleccionesEnCurso/Elecciones_generales_2026	no_verificada	HTTP 200, pero no aparece el texto esperado «Junta Electoral Central». La página puede generarse con JavaScript o haber cambiado.
+2026-10-29	jec-calendario-eg-2026	https://www.juntaelectoralcentral.es/cs/jec/documentos/eg2026_calendario.pdf	abierta	HTTP 200; se recibe un PDF (contenido no comprobado automáticamente)
+2026-10-29	jec-loreg	https://www.juntaelectoralcentral.es/cs/jec/loreg/contenido	no_verificada	HTTP 200, pero no aparece el texto esperado «Régimen Electoral». La página puede generarse con JavaScript o haber cambiado.
+2026-10-29	moncloa-guia-29n	https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/interior/paginas/guia-dudas-elecciones-generales-29n.aspx	abierta	HTTP 200; aparece el texto esperado «elecciones generales»
+2026-10-29	moncloa-congreso	https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/presidencia-justicia-relaciones-cortes/paginas/2025/congreso-diputados-constitucion-composicion-funcionamiento.aspx	abierta	HTTP 200; aparece el texto esperado «Congreso de los Diputados»
+2026-10-29	moncloa-senado	https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/presidencia-justicia-relaciones-cortes/paginas/2025/senado-constitucion-composicion-funcionamiento.aspx	abierta	HTTP 200; aparece el texto esperado «Senado»
+2026-10-29	moncloa-guia-europeas-2024	https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/interior/Paginas/2024/guia-dudas-elecciones-europeas-2024.aspx	abierta	HTTP 200; aparece el texto esperado «europeas»
+2026-10-29	moncloa-procesos-electorales	https://www.lamoncloa.gob.es/paginas/informacion/que-son-los-procesos-electorales.aspx	abierta	HTTP 200; aparece el texto esperado «procesos electorales»
+2026-10-29	moncloa-glosario-electoral	https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/interior/paginas/2024/glosario-elecciones-espana.aspx	abierta	HTTP 200; aparece el texto esperado «Hondt»
+2026-10-29	moncloa-escrutinio	https://www.lamoncloa.gob.es/paginas/informacion/que-es-el-escrutinio-y-como-se-cuentan-los-votos.aspx	abierta	HTTP 200; aparece el texto esperado «escrutinio»
+2026-10-29	moncloa-ce-titulo-3	https://www.lamoncloa.gob.es/espana/leyfundamental/paginas/titulo_tercero.aspx	abierta	HTTP 200; aparece el texto esperado «Artículo 68»
+2026-10-29	moncloa-ce-titulo-4	https://www.lamoncloa.gob.es/espana/leyfundamental/paginas/titulo_cuarto.aspx	abierta	HTTP 200; aparece el texto esperado «Artículo 99»
+2026-10-29	moncloa-ce-titulo-5	https://www.lamoncloa.gob.es/espana/leyfundamental/paginas/titulo_quinto.aspx	abierta	HTTP 200; aparece el texto esperado «Artículo 113»
+2026-10-29	moncloa-ce-titulo-10	https://www.lamoncloa.gob.es/espana/leyfundamental/paginas/titulo_decimo.aspx	abierta	HTTP 200; aparece el texto esperado «Artículo 167»
+2026-10-29	euromo-espana-2025	https://media-ownership.eu/2025-edition/country-reports/spain/	abierta	HTTP 200; aparece el texto esperado «Spain»
+2026-10-29	dnr-espana	https://www.unav.edu/web/digital-news-report/inicio	abierta	HTTP 200; aparece el texto esperado «Digital News Report»
+2026-10-29	dnr-espana-2026-confianza	https://www.unav.edu/web/digital-news-report/entradas/-/blogs/leve-recuperacion-de-la-confianza-en-las-noticias-en-un-contexto-todavia-muy-fragil	abierta	HTTP 200; aparece el texto esperado «confianza»
+2026-10-29	revista-comunicacion-2971	https://revistadecomunicacion.com/es/article/view/2971	abierta	HTTP 200; aparece el texto esperado «Revista de Comunicación» (redirige a https://revistadecomunicacion.com/index.php/rcom/es/article/view/2971)
+2026-10-29	web-pp	https://pp.es/	no_verificada	HTTP 403: el servidor rechaza el acceso automatizado; no se reintenta. Hay que abrirla a mano o pedir el fichero.
+2026-10-29	web-sumar	https://movimientosumar.es/	abierta	HTTP 200; aparece el texto esperado «Sumar»
+2026-10-29	web-ehbildu	https://ehbildu.eus/	abierta	HTTP 200; aparece el texto esperado «Bildu»
+2026-10-29	web-pnv	https://eaj-pnv.eus/	abierta	HTTP 200; aparece el texto esperado «PNV» (redirige a https://www.eaj-pnv.eus/)
+2026-10-29	web-psoe	https://psoe.es/	no_verificada	HTTP 200, pero no aparece el texto esperado «PSOE». La página puede generarse con JavaScript o haber cambiado.
+2026-10-29	web-vox	https://voxespana.es/	no_verificada	HTTP 403: el servidor rechaza el acceso automatizado; no se reintenta. Hay que abrirla a mano o pedir el fichero.
+2026-10-29	web-erc	https://esquerra.cat/	no_verificada	HTTP 403: el servidor rechaza el acceso automatizado; no se reintenta. Hay que abrirla a mano o pedir el fichero.
+2026-10-29	web-junts	https://junts.cat/	abierta	HTTP 200; aparece el texto esperado «Junts»
+2026-10-29	congreso	https://www.congreso.es/	abierta	HTTP 200; aparece el texto esperado «Congreso de los Diputados» (redirige a https://www.congreso.es/es/)
+2026-10-29	senado	https://www.senado.es/	abierta	HTTP 200; aparece el texto esperado «Senado» (redirige a https://www.senado.es/web/index.html)
+2026-10-29	boe	https://www.boe.es/	abierta	HTTP 200; aparece el texto esperado «Boletín Oficial del Estado»
+2026-10-29	interior	https://www.interior.gob.es/	no_verificada	HTTP 403: el servidor rechaza el acceso automatizado; no se reintenta. Hay que abrirla a mano o pedir el fichero.
+2026-10-29	infoelectoral	https://infoelectoral.interior.gob.es/es/inicio/	abierta	HTTP 200; aparece el texto esperado «Infoelectoral»
+2026-10-29	web-29n	https://29neleccionesgenerales.es/	no_verificada	HTTP 403: el servidor rechaza el acceso automatizado; no se reintenta. Hay que abrirla a mano o pedir el fichero.
+2026-10-29	ine	https://www.ine.es/	abierta	HTTP 200; aparece el texto esperado «Instituto Nacional de Estadística»
+2026-10-29	bde	https://www.bde.es/	abierta	HTTP 200; aparece el texto esperado «Banco de España» (redirige a https://www.bde.es/wbe/es/)
+2026-10-29	eurostat	https://ec.europa.eu/eurostat	abierta	HTTP 200; aparece el texto esperado «Eurostat»
+2026-10-29	airef	https://www.airef.es/	abierta	HTTP 200; aparece el texto esperado «AIReF» (redirige a https://www.airef.es/es/)
+2026-10-29	sepe	https://www.sepe.es/	abierta	HTTP 200; aparece el texto esperado «SEPE» (redirige a https://www.sepe.es/HomeSepe)
+2026-10-29	seg-social	https://www.seg-social.es/	no_verificada	HTTP 200, pero no aparece el texto esperado «Seguridad Social» (redirige a https://www.seg-social.es/wps/portal/wss/internet/Inicio). La página puede generarse con JavaScript o haber cambiado.
+2026-10-29	aeat	https://www.agenciatributaria.es/	abierta	HTTP 200; aparece el texto esperado «Agencia Tributaria» (redirige a https://sede.agenciatributaria.gob.es/)
+2026-10-29	hacienda	https://www.hacienda.gob.es/	abierta	HTTP 200; aparece el texto esperado «Hacienda» (redirige a https://www.hacienda.gob.es/es-ES/Paginas/Home.aspx)
+2026-10-29	cis	https://www.cis.es/	abierta	HTTP 200; aparece el texto esperado «Centro de Investigaciones Sociológicas» (redirige a https://www.cis.es/es/)
+2026-10-29	tc	https://www.tribunalconstitucional.es/	abierta	HTTP 200; aparece el texto esperado «Tribunal Constitucional» (redirige a https://www.tribunalconstitucional.es/es/Paginas/default.aspx)
+2026-10-29	cgpj	https://www.poderjudicial.es/	abierta	HTTP 200; aparece el texto esperado «Poder Judicial» (redirige a https://www.poderjudicial.es/cgpj/)
+2026-10-29	tcu	https://www.tcu.es/	abierta	HTTP 200; aparece el texto esperado «Tribunal de Cuentas» (redirige a https://www.tcu.es/es/)
+2026-10-29	defensor-pueblo	https://www.defensordelpueblo.es/	abierta	HTTP 200; aparece el texto esperado «Defensor del Pueblo»
+2026-10-29	parlamento-europeo	https://www.europarl.europa.eu/portal/es	no_verificada	HTTP 403: el servidor rechaza el acceso automatizado; no se reintenta. Hay que abrirla a mano o pedir el fichero.
+2026-10-29	elecciones-europeas	https://elections.europa.eu/	abierta	HTTP 200; aparece el texto esperado «europe»
+2026-10-29	reuters-dnr	https://reutersinstitute.politics.ox.ac.uk/digital-news-report	abierta	HTTP 200; aparece el texto esperado «Digital News Report» (redirige a https://reutersinstitute.politics.ox.ac.uk/digital-news-report/2026)
+2026-10-29	ifcn-signatarios	https://ifcncodeofprinciples.poynter.org/signatories	abierta	HTTP 200; aparece el texto esperado «signator»
+2026-10-29	newtral	https://newtral.es/	no_verificada	HTTP 403: el servidor rechaza el acceso automatizado; no se reintenta. Hay que abrirla a mano o pedir el fichero.
+2026-10-29	efe-verifica	https://verifica.efe.com/	abierta	HTTP 200; aparece el texto esperado «EFE»
+2026-10-29	verificartve	https://rtve.es/verificartve	abierta	HTTP 200; aparece el texto esperado «Verifica» (redirige a https://www.rtve.es/noticias/verificartve/)
+2026-10-29	manifesto-project	https://manifesto-project.wzb.eu/	abierta	HTTP 200; aparece el texto esperado «Manifesto»
+2026-10-29	ches	https://www.chesdata.eu/	abierta	HTTP 200; aparece el texto esperado «Chapel Hill»
+2026-10-29	popu-list	https://popu-list.org/	abierta	HTTP 200; aparece el texto esperado «PopuList»
+2026-10-30	boe-ley-gobierno	https://www.boe.es/buscar/act.php?id=BOE-A-1997-25336	abierta	HTTP 200; aparece el texto esperado «Ley 50/1997»
+2026-10-30	boe-codigo-civil	https://www.boe.es/buscar/act.php?id=BOE-A-1889-4763	abierta	HTTP 200; aparece el texto esperado «Código Civil»
+2026-10-30	boe-reglamento-congreso	https://www.boe.es/buscar/act.php?id=BOE-A-1982-5196	abierta	HTTP 200; aparece el texto esperado «Reglamento del Congreso»
+2026-10-30	rae-liberalismo	https://dle.rae.es/liberalismo	no_verificada	HTTP 403: el servidor rechaza el acceso automatizado; no se reintenta. Hay que abrirla a mano o pedir el fichero.
+2026-10-30	rae-conservadurismo	https://dle.rae.es/conservadurismo	no_verificada	HTTP 403: el servidor rechaza el acceso automatizado; no se reintenta. Hay que abrirla a mano o pedir el fichero.
+2026-10-30	rae-socialdemocracia	https://dle.rae.es/socialdemocracia	no_verificada	HTTP 403: el servidor rechaza el acceso automatizado; no se reintenta. Hay que abrirla a mano o pedir el fichero.
+2026-10-30	rae-democracia	https://dle.rae.es/democracia	no_verificada	HTTP 403: el servidor rechaza el acceso automatizado; no se reintenta. Hay que abrirla a mano o pedir el fichero.
+2026-10-30	rae-ecologismo	https://dle.rae.es/ecologismo	no_verificada	HTTP 403: el servidor rechaza el acceso automatizado; no se reintenta. Hay que abrirla a mano o pedir el fichero.
+2026-10-30	rae-nacionalismo	https://dle.rae.es/nacionalismo	no_verificada	HTTP 403: el servidor rechaza el acceso automatizado; no se reintenta. Hay que abrirla a mano o pedir el fichero.
+2026-10-30	rae-izquierdo	https://dle.rae.es/izquierdo	no_verificada	HTTP 403: el servidor rechaza el acceso automatizado; no se reintenta. Hay que abrirla a mano o pedir el fichero.
+2026-10-30	rae-derecho	https://dle.rae.es/derecho	no_verificada	HTTP 403: el servidor rechaza el acceso automatizado; no se reintenta. Hay que abrirla a mano o pedir el fichero.
+2026-10-30	rae-federalismo	https://dle.rae.es/federalismo	no_verificada	HTTP 403: el servidor rechaza el acceso automatizado; no se reintenta. Hay que abrirla a mano o pedir el fichero.
+2026-10-30	rae-independentismo	https://dle.rae.es/independentismo	no_verificada	HTTP 403: el servidor rechaza el acceso automatizado; no se reintenta. Hay que abrirla a mano o pedir el fichero.
+2026-10-30	rae-estado	https://dle.rae.es/estado	no_verificada	HTTP 403: el servidor rechaza el acceso automatizado; no se reintenta. Hay que abrirla a mano o pedir el fichero.
+2026-10-30	rae-poder	https://dle.rae.es/poder	no_verificada	HTTP 403: el servidor rechaza el acceso automatizado; no se reintenta. Hay que abrirla a mano o pedir el fichero.
+2026-10-30	rae-regimen	https://dle.rae.es/r%C3%A9gimen	no_verificada	HTTP 403: el servidor rechaza el acceso automatizado; no se reintenta. Hay que abrirla a mano o pedir el fichero.
+2026-10-30	rae-mayoria	https://dle.rae.es/mayor%C3%ADa	no_verificada	HTTP 403: el servidor rechaza el acceso automatizado; no se reintenta. Hay que abrirla a mano o pedir el fichero.
+2026-10-30	rae-enmienda	https://dle.rae.es/enmienda	no_verificada	HTTP 403: el servidor rechaza el acceso automatizado; no se reintenta. Hay que abrirla a mano o pedir el fichero.
+2026-10-30	moncloa-voto-correo-29n	https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/interior/Paginas/voto-por-correo-elecciones-generales-29n.aspx	abierta	HTTP 200; aparece el texto esperado «voto por correo»
+2026-10-30	moncloa-voto-extranjero-29n	https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/interior/Paginas/voto-extranjero-elecciones-generales-29n.aspx	abierta	HTTP 200; aparece el texto esperado «extranjero»
+2026-10-30	boe-candidaturas-presentadas-2026	https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22607	abierta	HTTP 200; aparece el texto esperado «Candidaturas presentadas»
+2026-11-04	boe-lbrl	https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392	abierta	HTTP 200; aparece el texto esperado «Bases del Régimen Local»
+2026-11-04	boe-lofca	https://www.boe.es/buscar/act.php?id=BOE-A-1980-21166	abierta	HTTP 200; aparece el texto esperado «Financiación de las Comunidades Autónomas»
+2026-11-04	boe-trlrhl	https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214	abierta	HTTP 200; aparece el texto esperado «Haciendas Locales»
+2026-11-04	boe-ley-22-2009	https://www.boe.es/buscar/act.php?id=BOE-A-2009-20375	abierta	HTTP 200; aparece el texto esperado «Ley 22/2009»
+2026-11-04	boe-lgss	https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724	abierta	HTTP 200; aparece el texto esperado «Ley General de la Seguridad Social»
+2026-11-04	boe-smi-2026	https://www.boe.es/buscar/act.php?id=BOE-A-2026-3815	abierta	HTTP 200; aparece el texto esperado «salario mínimo interprofesional»
+2026-11-04	eurlex-tfue	https://eur-lex.europa.eu/legal-content/ES/TXT/HTML/?uri=CELEX:12016E/TXT	no_verificada	HTTP 202
+2026-11-04	eurlex-tue	https://eur-lex.europa.eu/legal-content/ES/TXT/HTML/?uri=CELEX:12016M/TXT	no_verificada	HTTP 202
+2026-11-04	mpt-estatutos	https://mptmd.gob.es/portal/politica-territorial/autonomica/estatutos_autonomia/est_autonomia	abierta	HTTP 200; aparece el texto esperado «Estatutos de Autonomía»
+2026-11-04	hacienda-presupuestos-eell	https://www.hacienda.gob.es/es-ES/Areas%20Tematicas/Administracion%20Electronica/OVEELL/Paginas/ConsultaPresupuestosYLiquidaciones.aspx	abierta	HTTP 200; aparece el texto esperado «Presupuestos»
+2026-11-04	ine-cntr	https://www.ine.es/dyngs/INEbase/es/operacion.htm?c=Estadistica_C&cid=1254736164439&menu=ultiDatos&idp=1254735576581	abierta	HTTP 200; aparece el texto esperado «Contabilidad nacional trimestral»
+2026-11-04	ine-cna	https://www.ine.es/dyngs/INEbase/es/operacion.htm?c=Estadistica_C&cid=1254736177057&menu=ultiDatos&idp=1254735576581	abierta	HTTP 200; aparece el texto esperado «Contabilidad nacional anual»
+2026-11-04	ine-ipc	https://www.ine.es/dyngs/INEbase/es/operacion.htm?c=Estadistica_C&cid=1254736176802&menu=ultiDatos&idp=1254735976607	abierta	HTTP 200; aparece el texto esperado «Índice de precios de consumo»
+2026-11-04	ine-epa	https://www.ine.es/dyngs/INEbase/es/operacion.htm?c=Estadistica_C&cid=1254736176918&menu=ultiDatos&idp=1254735976595	abierta	HTTP 200; aparece el texto esperado «Encuesta de población activa»
+2026-11-04	ine-ecv	https://www.ine.es/dyngs/INEbase/es/operacion.htm?c=Estadistica_C&cid=1254736176807&menu=ultiDatos&idp=1254735976608	abierta	HTTP 200; aparece el texto esperado «Encuesta de Condiciones de Vida»
+2026-11-04	ine-eaes	https://www.ine.es/dyngs/INEbase/es/operacion.htm?c=Estadistica_C&cid=1254736177025&menu=ultiDatos&idp=1254735976596	abierta	HTTP 200; aparece el texto esperado «estructura salarial»
+2026-11-04	bde-deuda-2026-08	https://www.bde.es/wbe/es/noticias-eventos/actualidad-banco-espana/notas-banco-espana/deuda-aapp-agosto26.html	abierta	HTTP 200; aparece el texto esperado «deuda de las Administraciones Públicas»
+2026-11-04	bde-tipos-interes	https://www.bde.es/webbe/es/estadisticas/temas/tipos-interes.html	abierta	HTTP 200; aparece el texto esperado «tipos de interés»
+2026-11-04	bde-euribor-2026-10	https://www.bde.es/wbe/es/noticias-eventos/actualidad-banco-espana/notas-banco-espana/euribor-octubre-2026.html	abierta	HTTP 200; aparece el texto esperado «euríbor»
+2026-11-04	hacienda-deficit-2025	https://www.hacienda.gob.es/es-ES/Prensa/Noticias/Paginas/2026/20260331-NP-CIERRE-DEFICIT.aspx	abierta	HTTP 200; aparece el texto esperado «déficit»
+2026-11-04	eurostat-presion-fiscal-2025	https://ec.europa.eu/eurostat/web/products-eurostat-news/w/ddn-20261029-3	abierta	HTTP 200; aparece el texto esperado «tax-to-GDP»
+2026-11-04	eurostat-cofog	https://ec.europa.eu/eurostat/databrowser/view/gov_10a_exp/default/table?lang=es	no_verificada	HTTP 200, pero no aparece el texto esperado «COFOG». La página puede generarse con JavaScript o haber cambiado.
+2026-11-04	bce-tipos	https://www.ecb.europa.eu/stats/policy_and_exchange_rates/key_ecb_interest_rates/html/index.es.html	abierta	HTTP 200; aparece el texto esperado «Key ECB interest rates»
+2026-11-04	inclusion-afiliacion-2026-10	https://www.inclusion.gob.es/w/la-seguridad-social-supera-los-22-6-millones-de-afiliados-en-octubre-tras-sumar-784.573-afiliados-en-el-ultimo-ano	abierta	HTTP 200; aparece el texto esperado «afiliados»
+2026-11-04	mites-paro-2026-10	https://prensa.mites.gob.es/webPrensa/listado-noticia/noticia/4575	no_verificada	HTTP 200, pero no aparece el texto esperado «paro registrado». La página puede generarse con JavaScript o haber cambiado.
+2026-11-05	boe-lopp	https://www.boe.es/buscar/act.php?id=BOE-A-2002-12756	abierta	HTTP 200; aparece el texto esperado «Partidos Políticos»
+2026-11-05	boe-lofpp	https://www.boe.es/buscar/act.php?id=BOE-A-2007-13022	abierta	HTTP 200; aparece el texto esperado «financiación de los partidos políticos»
+2026-11-05	boe-reglamento-senado	https://www.boe.es/buscar/act.php?id=BOE-A-1994-10830	abierta	HTTP 200; aparece el texto esperado «Reglamento del Senado»
+2026-11-05	boe-ley-vivienda	https://www.boe.es/buscar/act.php?id=BOE-A-2023-12203	abierta	HTTP 200; aparece el texto esperado «derecho a la vivienda»
+2026-11-05	boe-ley-general-sanidad	https://www.boe.es/buscar/act.php?id=BOE-A-1986-10499	abierta	HTTP 200; aparece el texto esperado «General de Sanidad»
+2026-11-05	boe-loe	https://www.boe.es/buscar/act.php?id=BOE-A-2006-7899	abierta	HTTP 200; aparece el texto esperado «de Educación»
+2026-11-05	boe-lo-extranjeria	https://www.boe.es/buscar/act.php?id=BOE-A-2000-544	abierta	HTTP 200; aparece el texto esperado «derechos y libertades de los extranjeros»
+2026-11-05	boe-ley-asilo	https://www.boe.es/buscar/act.php?id=BOE-A-2009-17242	abierta	HTTP 200; aparece el texto esperado «derecho de asilo»
+2026-11-05	boe-lo-violencia-genero	https://www.boe.es/buscar/act.php?id=BOE-A-2004-21760	abierta	HTTP 200; aparece el texto esperado «Violencia de Género»
+2026-11-05	boe-lo-igualdad	https://www.boe.es/buscar/act.php?id=BOE-A-2007-6115	abierta	HTTP 200; aparece el texto esperado «igualdad efectiva de mujeres y hombres»
+2026-11-05	boe-ley-cambio-climatico	https://www.boe.es/buscar/act.php?id=BOE-A-2021-8447	abierta	HTTP 200; aparece el texto esperado «cambio climático»
+2026-11-05	boe-lo-2-2010	https://www.boe.es/buscar/act.php?id=BOE-A-2010-3514	abierta	HTTP 200; aparece el texto esperado «interrupción voluntaria del embarazo»
+2026-11-05	boe-lo-eutanasia	https://www.boe.es/buscar/act.php?id=BOE-A-2021-4628	abierta	HTTP 200; aparece el texto esperado «eutanasia»
+2026-11-05	boe-ley-memoria-democratica	https://www.boe.es/buscar/act.php?id=BOE-A-2022-17099	abierta	HTTP 200; aparece el texto esperado «Memoria Democrática»
+2026-11-05	boe-ley-indulto	https://www.boe.es/buscar/act.php?id=BOE-A-1870-4759	abierta	HTTP 200; aparece el texto esperado «gracia de indulto»
+2026-11-05	boe-lo-amnistia	https://www.boe.es/buscar/act.php?id=BOE-A-2024-11776	abierta	HTTP 200; aparece el texto esperado «amnistía»
+2026-11-05	boe-stc-137-2025	https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-15939	abierta	HTTP 200; aparece el texto esperado «Sentencia 137/2025»
+2026-11-05	boe-stc-44-2023	https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-13955	abierta	HTTP 200; aparece el texto esperado «Sentencia 44/2023»
+2026-11-05	boe-stc-19-2023	https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-10044	abierta	HTTP 200; aparece el texto esperado «Sentencia 19/2023»
+2026-11-05	boe-resultados-pe-2024	https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-13092	abierta	HTTP 200; aparece el texto esperado «Parlamento Europeo»
+2026-11-05	boe-resultados-eg-2023	https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-18907	abierta	HTTP 200; aparece el texto esperado «resultados de las elecciones al Congreso»
+2026-11-05	congreso-diputados-datos-abiertos	https://www.congreso.es/es/opendata/diputados	no_verificada	HTTP 200, pero no aparece el texto esperado «Diputados». La página puede generarse con JavaScript o haber cambiado.
+2026-11-05	congreso-votaciones-xv	https://www.congreso.es/es/opendata/votaciones	no_verificada	HTTP 200, pero no aparece el texto esperado «Votaciones». La página puede generarse con JavaScript o haber cambiado.
+2026-11-05	senado-composicion-xv	https://www.senado.es/web/composicionorganizacion/senadores/composicionsenado/senadoresdesde1977/consultaorden/index.html	abierta	HTTP 200; aparece el texto esperado «Senado»
+2026-11-05	senado-grupos	https://www.senado.es/web/composicionorganizacion/gruposparlamentarios/composiciongruposparlamentarios/index.html	abierta	HTTP 200; aparece el texto esperado «Grupos Parlamentarios»
+2026-11-05	ches-2024	https://www.chesdata.eu/ches-europe	abierta	HTTP 200; aparece el texto esperado «Chapel Hill»
+2026-11-05	parl-andalucia	https://www.parlamentodeandalucia.es/webdinamica/portal-web-parlamento/composicionyfuncionamiento/gruposparlamentarios.do	abierta	HTTP 200; aparece el texto esperado «Grupos parlamentarios»
+2026-11-05	parl-aragon	https://www.cortesaragon.es/Grupos-parlamentarios.2369.0.html?&no_cache=1	abierta	HTTP 200; aparece el texto esperado «Grupos parlamentarios»
+2026-11-05	parl-baleares	https://www.parlamentib.es/Representants/GrupParlamentaris.aspx	abierta	HTTP 200; aparece el texto esperado «Grup»
+2026-11-05	parl-canarias	https://www.parcan.es/composicion/grupos.py	abierta	HTTP 200; aparece el texto esperado «grupos parlamentarios»
+2026-11-05	parl-cantabria	https://parlamento-cantabria.es/	abierta	HTTP 200; aparece el texto esperado «Parlamento de Cantabria»
+2026-11-05	parl-clm	https://www.cortesclm.es/web2/paginas/grupos.php	abierta	HTTP 200; aparece el texto esperado «GRUPOS PARLAMENTARIOS»
+2026-11-05	parl-cyl	https://www.ccyl.es/Parlamento/GruposParlamentarios	abierta	HTTP 200; aparece el texto esperado «Grupos»
+2026-11-05	parl-catalunya	https://www.parlament.cat/web/composicio/grups-parlamentaris/index.html	abierta	HTTP 200; aparece el texto esperado «Grup»
+2026-11-05	parl-cv	https://www.cortsvalencianes.es/ca-va/composicio/grups-parlamentaris	abierta	HTTP 200; aparece el texto esperado «Grups parlamentaris»
+2026-11-05	parl-extremadura	https://www.asambleaex.es/grupos	abierta	HTTP 200; aparece el texto esperado «Grupo Parlamentario»
+2026-11-05	parl-galicia	https://www.parlamentodegalicia.gal/	no_verificada	HTTP 403: el servidor rechaza el acceso automatizado; no se reintenta. Hay que abrirla a mano o pedir el fichero.
+2026-11-05	parl-madrid	https://www.asambleamadrid.es/composicion/grupos-parlamentarios	no_verificada	HTTP 307
+2026-11-05	parl-murcia	https://www.asambleamurcia.es/arm/grupos-xi	no_verificada	HTTP 400
+2026-11-05	parl-navarra	https://parlamentodenavarra.es/es/composicion-organos/grupos-parlamentarios	no_verificada	HTTP 403: el servidor rechaza el acceso automatizado; no se reintenta. Hay que abrirla a mano o pedir el fichero.
+2026-11-05	parl-pais-vasco	https://www.legebiltzarra.eus/c_comorga_gru_ACT.html	abierta	HTTP 200; aparece el texto esperado «Grupos»
+2026-11-05	parl-rioja	https://www.parlamento-larioja.org/composicion-y-organos/legislatura-grupos-parlamentarios	abierta	HTTP 200; aparece el texto esperado «Grupos Parlamentarios»
+2026-11-05	web-psc	https://www.socialistes.cat/	no_verificada	HTTP 403: el servidor rechaza el acceso automatizado; no se reintenta. Hay que abrirla a mano o pedir el fichero.
+2026-11-05	web-bng	https://www.bng.gal/	no_verificada	HTTP 403: el servidor rechaza el acceso automatizado; no se reintenta. Hay que abrirla a mano o pedir el fichero.
+2026-11-05	web-cc	https://coalicioncanaria.org/	abierta	HTTP 200; aparece el texto esperado «Coalición Canaria»
+2026-11-05	web-upn	https://www.upn.org/	abierta	HTTP 200; aparece el texto esperado «UPN»
+2026-11-05	web-podemos	https://podemos.info/	no_verificada	HTTP 403: el servidor rechaza el acceso automatizado; no se reintenta. Hay que abrirla a mano o pedir el fichero.
+2026-11-05	web-mas-madrid	https://www.masmadrid.org/	no_verificada	HTTP 403: el servidor rechaza el acceso automatizado; no se reintenta. Hay que abrirla a mano o pedir el fichero.
+2026-11-05	web-compromis	https://compromis.net/	abierta	HTTP 200; aparece el texto esperado «Compromís»
+2026-11-05	web-geroa-bai	https://geroabai.eus/	abierta	HTTP 200; aparece el texto esperado «Geroa Bai» (redirige a https://geroabai.eus/es)
+2026-11-05	web-adelante-andalucia	https://adelanteandalucia.org/	abierta	HTTP 200; aparece el texto esperado «Adelante»
+2026-11-05	web-cha	https://www.chunta.org/	abierta	HTTP 200; aparece el texto esperado «Chunta»
+2026-11-05	web-nc-bc	https://nuevacanarias.org/	abierta	HTTP 200; aparece el texto esperado «Nueva Canarias»
+2026-11-05	web-prc	https://www.prc.es/	abierta	HTTP 200; aparece el texto esperado «Regionalista» (redirige a https://prc.es/)
+2026-11-05	web-comuns	https://catalunyaencomu.cat/	abierta	HTTP 200; aparece el texto esperado «Comú» (redirige a https://comuns.cat/)
+2026-11-05	web-cup	https://cup.cat/	abierta	HTTP 200; aparece el texto esperado «CUP»
+2026-11-05	web-mes-mallorca	https://www.mespermallorca.cat/	abierta	HTTP 200; aparece el texto esperado «MÉS»
+2026-11-05	congreso-publicaciones	https://www.congreso.es/es/ultimas-publicaciones-oficiales	no_verificada	HTTP 200, pero no aparece el texto esperado «BOCG». La página puede generarse con JavaScript o haber cambiado.
+2026-11-05	boe-rd-806-2026	https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20742	abierta	HTTP 200; aparece el texto esperado «Real Decreto 806/2026»
+2026-11-05	boe-rd-400-2023	https://www.boe.es/eli/es/rd/2023/05/29/400	abierta	HTTP 200; aparece el texto esperado «Real Decreto 400/2023»
+2026-11-05	boe-constitucion	https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229	abierta	HTTP 200; aparece el texto esperado «Constitución Española»
+2026-11-05	boe-loreg	https://www.boe.es/buscar/act.php?id=BOE-A-1985-11672	abierta	HTTP 200; aparece el texto esperado «Régimen Electoral General»
+2026-11-05	jec-eg-2026	https://www.juntaelectoralcentral.es/cs/jec/eleccionesEnCurso/Elecciones_generales_2026	no_verificada	HTTP 200, pero no aparece el texto esperado «Junta Electoral Central». La página puede generarse con JavaScript o haber cambiado.
+2026-11-05	jec-calendario-eg-2026	https://www.juntaelectoralcentral.es/cs/jec/documentos/eg2026_calendario.pdf	abierta	HTTP 200; se recibe un PDF (contenido no comprobado automáticamente)
+2026-11-05	jec-loreg	https://www.juntaelectoralcentral.es/cs/jec/loreg/contenido	no_verificada	HTTP 200, pero no aparece el texto esperado «Régimen Electoral». La página puede generarse con JavaScript o haber cambiado.
+2026-11-05	moncloa-guia-29n	https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/interior/paginas/guia-dudas-elecciones-generales-29n.aspx	abierta	HTTP 200; aparece el texto esperado «elecciones generales»
+2026-11-05	moncloa-congreso	https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/presidencia-justicia-relaciones-cortes/paginas/2025/congreso-diputados-constitucion-composicion-funcionamiento.aspx	abierta	HTTP 200; aparece el texto esperado «Congreso de los Diputados»
+2026-11-05	moncloa-senado	https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/presidencia-justicia-relaciones-cortes/paginas/2025/senado-constitucion-composicion-funcionamiento.aspx	abierta	HTTP 200; aparece el texto esperado «Senado»
+2026-11-05	moncloa-guia-europeas-2024	https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/interior/Paginas/2024/guia-dudas-elecciones-europeas-2024.aspx	abierta	HTTP 200; aparece el texto esperado «europeas»
+2026-11-05	moncloa-procesos-electorales	https://www.lamoncloa.gob.es/paginas/informacion/que-son-los-procesos-electorales.aspx	abierta	HTTP 200; aparece el texto esperado «procesos electorales»
+2026-11-05	moncloa-glosario-electoral	https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/interior/paginas/2024/glosario-elecciones-espana.aspx	abierta	HTTP 200; aparece el texto esperado «Hondt»
+2026-11-05	moncloa-escrutinio	https://www.lamoncloa.gob.es/paginas/informacion/que-es-el-escrutinio-y-como-se-cuentan-los-votos.aspx	abierta	HTTP 200; aparece el texto esperado «escrutinio»
+2026-11-05	moncloa-ce-titulo-3	https://www.lamoncloa.gob.es/espana/leyfundamental/paginas/titulo_tercero.aspx	abierta	HTTP 200; aparece el texto esperado «Artículo 68»
+2026-11-05	moncloa-ce-titulo-4	https://www.lamoncloa.gob.es/espana/leyfundamental/paginas/titulo_cuarto.aspx	abierta	HTTP 200; aparece el texto esperado «Artículo 99»
+2026-11-05	moncloa-ce-titulo-5	https://www.lamoncloa.gob.es/espana/leyfundamental/paginas/titulo_quinto.aspx	abierta	HTTP 200; aparece el texto esperado «Artículo 113»
+2026-11-05	moncloa-ce-titulo-10	https://www.lamoncloa.gob.es/espana/leyfundamental/paginas/titulo_decimo.aspx	abierta	HTTP 200; aparece el texto esperado «Artículo 167»
+2026-11-05	euromo-espana-2025	https://media-ownership.eu/2025-edition/country-reports/spain/	abierta	HTTP 200; aparece el texto esperado «Spain»
+2026-11-05	dnr-espana	https://www.unav.edu/web/digital-news-report/inicio	abierta	HTTP 200; aparece el texto esperado «Digital News Report»
+2026-11-05	dnr-espana-2026-confianza	https://www.unav.edu/web/digital-news-report/entradas/-/blogs/leve-recuperacion-de-la-confianza-en-las-noticias-en-un-contexto-todavia-muy-fragil	abierta	HTTP 200; aparece el texto esperado «confianza»
+2026-11-05	revista-comunicacion-2971	https://revistadecomunicacion.com/es/article/view/2971	abierta	HTTP 200; aparece el texto esperado «Revista de Comunicación» (redirige a https://revistadecomunicacion.com/index.php/rcom/es/article/view/2971)
+2026-11-05	web-pp	https://pp.es/	no_verificada	HTTP 403: el servidor rechaza el acceso automatizado; no se reintenta. Hay que abrirla a mano o pedir el fichero.
+2026-11-05	web-sumar	https://movimientosumar.es/	abierta	HTTP 200; aparece el texto esperado «Sumar»
+2026-11-05	web-ehbildu	https://ehbildu.eus/	abierta	HTTP 200; aparece el texto esperado «Bildu»
+2026-11-05	web-pnv	https://eaj-pnv.eus/	abierta	HTTP 200; aparece el texto esperado «PNV» (redirige a https://www.eaj-pnv.eus/)
+2026-11-05	web-psoe	https://psoe.es/	no_verificada	HTTP 200, pero no aparece el texto esperado «PSOE». La página puede generarse con JavaScript o haber cambiado.
+2026-11-05	web-vox	https://voxespana.es/	no_verificada	HTTP 403: el servidor rechaza el acceso automatizado; no se reintenta. Hay que abrirla a mano o pedir el fichero.
+2026-11-05	web-erc	https://esquerra.cat/	no_verificada	HTTP 403: el servidor rechaza el acceso automatizado; no se reintenta. Hay que abrirla a mano o pedir el fichero.
+2026-11-05	web-junts	https://junts.cat/	abierta	HTTP 200; aparece el texto esperado «Junts»
+2026-11-05	congreso	https://www.congreso.es/	abierta	HTTP 200; aparece el texto esperado «Congreso de los Diputados» (redirige a https://www.congreso.es/es/)
+2026-11-05	senado	https://www.senado.es/	abierta	HTTP 200; aparece el texto esperado «Senado» (redirige a https://www.senado.es/web/index.html)
+2026-11-05	boe	https://www.boe.es/	abierta	HTTP 200; aparece el texto esperado «Boletín Oficial del Estado»
+2026-11-05	interior	https://www.interior.gob.es/	no_verificada	HTTP 403: el servidor rechaza el acceso automatizado; no se reintenta. Hay que abrirla a mano o pedir el fichero.
+2026-11-05	infoelectoral	https://infoelectoral.interior.gob.es/es/inicio/	no_verificada	HTTP 403: el servidor rechaza el acceso automatizado; no se reintenta. Hay que abrirla a mano o pedir el fichero.
+2026-11-05	web-29n	https://29neleccionesgenerales.es/	no_verificada	HTTP 403: el servidor rechaza el acceso automatizado; no se reintenta. Hay que abrirla a mano o pedir el fichero.
+2026-11-05	ine	https://www.ine.es/	abierta	HTTP 200; aparece el texto esperado «Instituto Nacional de Estadística»
+2026-11-05	bde	https://www.bde.es/	abierta	HTTP 200; aparece el texto esperado «Banco de España» (redirige a https://www.bde.es/wbe/es/)
+2026-11-05	eurostat	https://ec.europa.eu/eurostat	abierta	HTTP 200; aparece el texto esperado «Eurostat»
+2026-11-05	airef	https://www.airef.es/	abierta	HTTP 200; aparece el texto esperado «AIReF» (redirige a https://www.airef.es/es/)
+2026-11-05	sepe	https://www.sepe.es/	abierta	HTTP 200; aparece el texto esperado «SEPE» (redirige a https://www.sepe.es/HomeSepe)
+2026-11-05	seg-social	https://www.seg-social.es/	no_verificada	HTTP 200, pero no aparece el texto esperado «Seguridad Social» (redirige a https://www.seg-social.es/wps/portal/wss/internet/Inicio). La página puede generarse con JavaScript o haber cambiado.
+2026-11-05	aeat	https://www.agenciatributaria.es/	abierta	HTTP 200; aparece el texto esperado «Agencia Tributaria» (redirige a https://sede.agenciatributaria.gob.es/)
+2026-11-05	hacienda	https://www.hacienda.gob.es/	abierta	HTTP 200; aparece el texto esperado «Hacienda» (redirige a https://www.hacienda.gob.es/es-ES/Paginas/Home.aspx)
+2026-11-05	cis	https://www.cis.es/	abierta	HTTP 200; aparece el texto esperado «Centro de Investigaciones Sociológicas» (redirige a https://www.cis.es/es/)
+2026-11-05	tc	https://www.tribunalconstitucional.es/	abierta	HTTP 200; aparece el texto esperado «Tribunal Constitucional» (redirige a https://www.tribunalconstitucional.es/es/Paginas/default.aspx)
+2026-11-05	cgpj	https://www.poderjudicial.es/	abierta	HTTP 200; aparece el texto esperado «Poder Judicial» (redirige a https://www.poderjudicial.es/cgpj/)
+2026-11-05	tcu	https://www.tcu.es/	abierta	HTTP 200; aparece el texto esperado «Tribunal de Cuentas» (redirige a https://www.tcu.es/es/)
+2026-11-05	boe-rd-806-2026	https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20742	abierta	HTTP 200; aparece el texto esperado «Real Decreto 806/2026»
+2026-11-05	boe-rd-400-2023	https://www.boe.es/eli/es/rd/2023/05/29/400	abierta	HTTP 200; aparece el texto esperado «Real Decreto 400/2023»
+2026-11-05	boe-constitucion	https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229	abierta	HTTP 200; aparece el texto esperado «Constitución Española»
+2026-11-05	boe-loreg	https://www.boe.es/buscar/act.php?id=BOE-A-1985-11672	abierta	HTTP 200; aparece el texto esperado «Régimen Electoral General»
+2026-11-05	jec-eg-2026	https://www.juntaelectoralcentral.es/cs/jec/eleccionesEnCurso/Elecciones_generales_2026	no_verificada	HTTP 200, pero no aparece el texto esperado «Junta Electoral Central». La página puede generarse con JavaScript o haber cambiado.
+2026-11-05	jec-calendario-eg-2026	https://www.juntaelectoralcentral.es/cs/jec/documentos/eg2026_calendario.pdf	abierta	HTTP 200; se recibe un PDF (contenido no comprobado automáticamente)
+2026-11-05	jec-loreg	https://www.juntaelectoralcentral.es/cs/jec/loreg/contenido	no_verificada	HTTP 200, pero no aparece el texto esperado «Régimen Electoral». La página puede generarse con JavaScript o haber cambiado.
+2026-11-05	moncloa-guia-29n	https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/interior/paginas/guia-dudas-elecciones-generales-29n.aspx	abierta	HTTP 200; aparece el texto esperado «elecciones generales»
+2026-11-05	moncloa-congreso	https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/presidencia-justicia-relaciones-cortes/paginas/2025/congreso-diputados-constitucion-composicion-funcionamiento.aspx	abierta	HTTP 200; aparece el texto esperado «Congreso de los Diputados»
+2026-11-05	moncloa-senado	https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/presidencia-justicia-relaciones-cortes/paginas/2025/senado-constitucion-composicion-funcionamiento.aspx	abierta	HTTP 200; aparece el texto esperado «Senado»
+2026-11-05	moncloa-guia-europeas-2024	https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/interior/Paginas/2024/guia-dudas-elecciones-europeas-2024.aspx	abierta	HTTP 200; aparece el texto esperado «europeas»
+2026-11-05	moncloa-procesos-electorales	https://www.lamoncloa.gob.es/paginas/informacion/que-son-los-procesos-electorales.aspx	abierta	HTTP 200; aparece el texto esperado «procesos electorales»
+2026-11-05	moncloa-glosario-electoral	https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/interior/paginas/2024/glosario-elecciones-espana.aspx	abierta	HTTP 200; aparece el texto esperado «Hondt»
+2026-11-05	moncloa-escrutinio	https://www.lamoncloa.gob.es/paginas/informacion/que-es-el-escrutinio-y-como-se-cuentan-los-votos.aspx	abierta	HTTP 200; aparece el texto esperado «escrutinio»
+2026-11-05	moncloa-ce-titulo-3	https://www.lamoncloa.gob.es/espana/leyfundamental/paginas/titulo_tercero.aspx	abierta	HTTP 200; aparece el texto esperado «Artículo 68»
+2026-11-05	moncloa-ce-titulo-4	https://www.lamoncloa.gob.es/espana/leyfundamental/paginas/titulo_cuarto.aspx	abierta	HTTP 200; aparece el texto esperado «Artículo 99»
+2026-11-05	moncloa-ce-titulo-5	https://www.lamoncloa.gob.es/espana/leyfundamental/paginas/titulo_quinto.aspx	abierta	HTTP 200; aparece el texto esperado «Artículo 113»
+2026-11-05	moncloa-ce-titulo-10	https://www.lamoncloa.gob.es/espana/leyfundamental/paginas/titulo_decimo.aspx	abierta	HTTP 200; aparece el texto esperado «Artículo 167»
+2026-11-05	euromo-espana-2025	https://media-ownership.eu/2025-edition/country-reports/spain/	abierta	HTTP 200; aparece el texto esperado «Spain»
+2026-11-05	dnr-espana	https://www.unav.edu/web/digital-news-report/inicio	abierta	HTTP 200; aparece el texto esperado «Digital News Report»
+2026-11-05	dnr-espana-2026-confianza	https://www.unav.edu/web/digital-news-report/entradas/-/blogs/leve-recuperacion-de-la-confianza-en-las-noticias-en-un-contexto-todavia-muy-fragil	abierta	HTTP 200; aparece el texto esperado «confianza»
+2026-11-05	revista-comunicacion-2971	https://revistadecomunicacion.com/es/article/view/2971	abierta	HTTP 200; aparece el texto esperado «Revista de Comunicación» (redirige a https://revistadecomunicacion.com/index.php/rcom/es/article/view/2971)
+2026-11-05	web-pp	https://pp.es/	no_verificada	HTTP 403: el servidor rechaza el acceso automatizado; no se reintenta. Hay que abrirla a mano o pedir el fichero.
+2026-11-05	web-sumar	https://movimientosumar.es/	abierta	HTTP 200; aparece el texto esperado «Sumar»
+2026-11-05	web-ehbildu	https://ehbildu.eus/	abierta	HTTP 200; aparece el texto esperado «Bildu»
+2026-11-05	web-pnv	https://eaj-pnv.eus/	abierta	HTTP 200; aparece el texto esperado «PNV» (redirige a https://www.eaj-pnv.eus/)
+2026-11-05	web-psoe	https://psoe.es/	no_verificada	HTTP 200, pero no aparece el texto esperado «PSOE». La página puede generarse con JavaScript o haber cambiado.
+2026-11-05	web-vox	https://voxespana.es/	no_verificada	HTTP 403: el servidor rechaza el acceso automatizado; no se reintenta. Hay que abrirla a mano o pedir el fichero.
+2026-11-05	web-erc	https://esquerra.cat/	no_verificada	HTTP 403: el servidor rechaza el acceso automatizado; no se reintenta. Hay que abrirla a mano o pedir el fichero.
+2026-11-05	web-junts	https://junts.cat/	abierta	HTTP 200; aparece el texto esperado «Junts»
+2026-11-05	congreso	https://www.congreso.es/	abierta	HTTP 200; aparece el texto esperado «Congreso de los Diputados» (redirige a https://www.congreso.es/es/)
+2026-11-05	senado	https://www.senado.es/	abierta	HTTP 200; aparece el texto esperado «Senado» (redirige a https://www.senado.es/web/index.html)
+2026-11-05	boe	https://www.boe.es/	abierta	HTTP 200; aparece el texto esperado «Boletín Oficial del Estado»
+2026-11-05	interior	https://www.interior.gob.es/	no_verificada	HTTP 403: el servidor rechaza el acceso automatizado; no se reintenta. Hay que abrirla a mano o pedir el fichero.
+2026-11-05	infoelectoral	https://infoelectoral.interior.gob.es/es/inicio/	no_verificada	HTTP 403: el servidor rechaza el acceso automatizado; no se reintenta. Hay que abrirla a mano o pedir el fichero.
+2026-11-05	web-29n	https://29neleccionesgenerales.es/	no_verificada	HTTP 403: el servidor rechaza el acceso automatizado; no se reintenta. Hay que abrirla a mano o pedir el fichero.
+2026-11-05	ine	https://www.ine.es/	abierta	HTTP 200; aparece el texto esperado «Instituto Nacional de Estadística»
+2026-11-05	bde	https://www.bde.es/	abierta	HTTP 200; aparece el texto esperado «Banco de España» (redirige a https://www.bde.es/wbe/es/)
+2026-11-05	eurostat	https://ec.europa.eu/eurostat	abierta	HTTP 200; aparece el texto esperado «Eurostat»
+2026-11-05	airef	https://www.airef.es/	abierta	HTTP 200; aparece el texto esperado «AIReF» (redirige a https://www.airef.es/es/)
+2026-11-05	sepe	https://www.sepe.es/	abierta	HTTP 200; aparece el texto esperado «SEPE» (redirige a https://www.sepe.es/HomeSepe)
+2026-11-05	seg-social	https://www.seg-social.es/	no_verificada	HTTP 200, pero no aparece el texto esperado «Seguridad Social» (redirige a https://www.seg-social.es/wps/portal/wss/internet/Inicio). La página puede generarse con JavaScript o haber cambiado.
+2026-11-05	aeat	https://www.agenciatributaria.es/	abierta	HTTP 200; aparece el texto esperado «Agencia Tributaria» (redirige a https://sede.agenciatributaria.gob.es/)
+2026-11-05	hacienda	https://www.hacienda.gob.es/	abierta	HTTP 200; aparece el texto esperado «Hacienda» (redirige a https://www.hacienda.gob.es/es-ES/Paginas/Home.aspx)
+2026-11-05	cis	https://www.cis.es/	abierta	HTTP 200; aparece el texto esperado «Centro de Investigaciones Sociológicas» (redirige a https://www.cis.es/es/)
+2026-11-05	tc	https://www.tribunalconstitucional.es/	abierta	HTTP 200; aparece el texto esperado «Tribunal Constitucional» (redirige a https://www.tribunalconstitucional.es/es/Paginas/default.aspx)
+2026-11-05	cgpj	https://www.poderjudicial.es/	abierta	HTTP 200; aparece el texto esperado «Poder Judicial» (redirige a https://www.poderjudicial.es/cgpj/)
+2026-11-05	tcu	https://www.tcu.es/	abierta	HTTP 200; aparece el texto esperado «Tribunal de Cuentas» (redirige a https://www.tcu.es/es/)
+2026-11-05	defensor-pueblo	https://www.defensordelpueblo.es/	abierta	HTTP 200; aparece el texto esperado «Defensor del Pueblo»
+2026-11-05	parlamento-europeo	https://www.europarl.europa.eu/portal/es	no_verificada	HTTP 403: el servidor rechaza el acceso automatizado; no se reintenta. Hay que abrirla a mano o pedir el fichero.
+2026-11-05	elecciones-europeas	https://elections.europa.eu/	abierta	HTTP 200; aparece el texto esperado «europe»
+2026-11-05	reuters-dnr	https://reutersinstitute.politics.ox.ac.uk/digital-news-report	abierta	HTTP 200; aparece el texto esperado «Digital News Report» (redirige a https://reutersinstitute.politics.ox.ac.uk/digital-news-report/2026)
+2026-11-05	ifcn-signatarios	https://ifcncodeofprinciples.poynter.org/signatories	abierta	HTTP 200; aparece el texto esperado «signator»
+2026-11-05	newtral	https://newtral.es/	no_verificada	HTTP 403: el servidor rechaza el acceso automatizado; no se reintenta. Hay que abrirla a mano o pedir el fichero.
+2026-11-05	efe-verifica	https://verifica.efe.com/	abierta	HTTP 200; aparece el texto esperado «EFE»
+2026-11-05	verificartve	https://rtve.es/verificartve	abierta	HTTP 200; aparece el texto esperado «Verifica» (redirige a https://www.rtve.es/noticias/verificartve/)
+2026-11-05	manifesto-project	https://manifesto-project.wzb.eu/	abierta	HTTP 200; aparece el texto esperado «Manifesto»
+2026-11-05	ches	https://www.chesdata.eu/	abierta	HTTP 200; aparece el texto esperado «Chapel Hill»
+2026-11-05	popu-list	https://popu-list.org/	abierta	HTTP 200; aparece el texto esperado «PopuList»
+2026-11-05	boe-ley-gobierno	https://www.boe.es/buscar/act.php?id=BOE-A-1997-25336	abierta	HTTP 200; aparece el texto esperado «Ley 50/1997»
+2026-11-05	boe-codigo-civil	https://www.boe.es/buscar/act.php?id=BOE-A-1889-4763	abierta	HTTP 200; aparece el texto esperado «Código Civil»
+2026-11-05	boe-reglamento-congreso	https://www.boe.es/buscar/act.php?id=BOE-A-1982-5196	abierta	HTTP 200; aparece el texto esperado «Reglamento del Congreso»
+2026-11-05	rae-liberalismo	https://dle.rae.es/liberalismo	no_verificada	HTTP 403: el servidor rechaza el acceso automatizado; no se reintenta. Hay que abrirla a mano o pedir el fichero.
+2026-11-05	rae-conservadurismo	https://dle.rae.es/conservadurismo	no_verificada	HTTP 403: el servidor rechaza el acceso automatizado; no se reintenta. Hay que abrirla a mano o pedir el fichero.
+2026-11-05	rae-socialdemocracia	https://dle.rae.es/socialdemocracia	no_verificada	HTTP 403: el servidor rechaza el acceso automatizado; no se reintenta. Hay que abrirla a mano o pedir el fichero.
+2026-11-05	rae-democracia	https://dle.rae.es/democracia	no_verificada	HTTP 403: el servidor rechaza el acceso automatizado; no se reintenta. Hay que abrirla a mano o pedir el fichero.
+2026-11-05	rae-ecologismo	https://dle.rae.es/ecologismo	no_verificada	HTTP 403: el servidor rechaza el acceso automatizado; no se reintenta. Hay que abrirla a mano o pedir el fichero.
+2026-11-05	rae-nacionalismo	https://dle.rae.es/nacionalismo	no_verificada	HTTP 403: el servidor rechaza el acceso automatizado; no se reintenta. Hay que abrirla a mano o pedir el fichero.
+2026-11-05	rae-izquierdo	https://dle.rae.es/izquierdo	no_verificada	HTTP 403: el servidor rechaza el acceso automatizado; no se reintenta. Hay que abrirla a mano o pedir el fichero.
+2026-11-05	rae-derecho	https://dle.rae.es/derecho	no_verificada	HTTP 403: el servidor rechaza el acceso automatizado; no se reintenta. Hay que abrirla a mano o pedir el fichero.
+2026-11-05	rae-federalismo	https://dle.rae.es/federalismo	no_verificada	HTTP 403: el servidor rechaza el acceso automatizado; no se reintenta. Hay que abrirla a mano o pedir el fichero.
+2026-11-05	rae-independentismo	https://dle.rae.es/independentismo	no_verificada	HTTP 403: el servidor rechaza el acceso automatizado; no se reintenta. Hay que abrirla a mano o pedir el fichero.
+2026-11-05	rae-estado	https://dle.rae.es/estado	no_verificada	HTTP 403: el servidor rechaza el acceso automatizado; no se reintenta. Hay que abrirla a mano o pedir el fichero.
+2026-11-05	rae-poder	https://dle.rae.es/poder	no_verificada	HTTP 403: el servidor rechaza el acceso automatizado; no se reintenta. Hay que abrirla a mano o pedir el fichero.
+2026-11-05	rae-regimen	https://dle.rae.es/r%C3%A9gimen	no_verificada	HTTP 403: el servidor rechaza el acceso automatizado; no se reintenta. Hay que abrirla a mano o pedir el fichero.
+2026-11-05	rae-mayoria	https://dle.rae.es/mayor%C3%ADa	no_verificada	HTTP 403: el servidor rechaza el acceso automatizado; no se reintenta. Hay que abrirla a mano o pedir el fichero.
+2026-11-05	rae-enmienda	https://dle.rae.es/enmienda	no_verificada	HTTP 403: el servidor rechaza el acceso automatizado; no se reintenta. Hay que abrirla a mano o pedir el fichero.
+2026-11-05	moncloa-voto-correo-29n	https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/interior/Paginas/voto-por-correo-elecciones-generales-29n.aspx	abierta	HTTP 200; aparece el texto esperado «voto por correo»
+2026-11-05	moncloa-voto-extranjero-29n	https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/interior/Paginas/voto-extranjero-elecciones-generales-29n.aspx	abierta	HTTP 200; aparece el texto esperado «extranjero»
+2026-11-05	boe-candidaturas-presentadas-2026	https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22607	abierta	HTTP 200; aparece el texto esperado «Candidaturas presentadas»
+2026-11-05	boe-lbrl	https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392	abierta	HTTP 200; aparece el texto esperado «Bases del Régimen Local»
+2026-11-05	boe-lofca	https://www.boe.es/buscar/act.php?id=BOE-A-1980-21166	abierta	HTTP 200; aparece el texto esperado «Financiación de las Comunidades Autónomas»
+2026-11-05	boe-trlrhl	https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214	abierta	HTTP 200; aparece el texto esperado «Haciendas Locales»
+2026-11-05	boe-ley-22-2009	https://www.boe.es/buscar/act.php?id=BOE-A-2009-20375	abierta	HTTP 200; aparece el texto esperado «Ley 22/2009»
+2026-11-05	boe-lgss	https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724	abierta	HTTP 200; aparece el texto esperado «Ley General de la Seguridad Social»
+2026-11-05	boe-smi-2026	https://www.boe.es/buscar/act.php?id=BOE-A-2026-3815	abierta	HTTP 200; aparece el texto esperado «salario mínimo interprofesional»
+2026-11-05	eurlex-tfue	https://eur-lex.europa.eu/legal-content/ES/TXT/HTML/?uri=CELEX:12016E/TXT	no_verificada	HTTP 202
+2026-11-05	eurlex-tue	https://eur-lex.europa.eu/legal-content/ES/TXT/HTML/?uri=CELEX:12016M/TXT	no_verificada	HTTP 202
+2026-11-05	mpt-estatutos	https://mptmd.gob.es/portal/politica-territorial/autonomica/estatutos_autonomia/est_autonomia	abierta	HTTP 200; aparece el texto esperado «Estatutos de Autonomía»
+2026-11-05	hacienda-presupuestos-eell	https://www.hacienda.gob.es/es-ES/Areas%20Tematicas/Administracion%20Electronica/OVEELL/Paginas/ConsultaPresupuestosYLiquidaciones.aspx	abierta	HTTP 200; aparece el texto esperado «Presupuestos»
+2026-11-05	ine-cntr	https://www.ine.es/dyngs/INEbase/es/operacion.htm?c=Estadistica_C&cid=1254736164439&menu=ultiDatos&idp=1254735576581	abierta	HTTP 200; aparece el texto esperado «Contabilidad nacional trimestral»
+2026-11-05	ine-cna	https://www.ine.es/dyngs/INEbase/es/operacion.htm?c=Estadistica_C&cid=1254736177057&menu=ultiDatos&idp=1254735576581	abierta	HTTP 200; aparece el texto esperado «Contabilidad nacional anual»
+2026-11-05	ine-ipc	https://www.ine.es/dyngs/INEbase/es/operacion.htm?c=Estadistica_C&cid=1254736176802&menu=ultiDatos&idp=1254735976607	abierta	HTTP 200; aparece el texto esperado «Índice de precios de consumo»
+2026-11-05	ine-epa	https://www.ine.es/dyngs/INEbase/es/operacion.htm?c=Estadistica_C&cid=1254736176918&menu=ultiDatos&idp=1254735976595	abierta	HTTP 200; aparece el texto esperado «Encuesta de población activa»
+2026-11-05	ine-ecv	https://www.ine.es/dyngs/INEbase/es/operacion.htm?c=Estadistica_C&cid=1254736176807&menu=ultiDatos&idp=1254735976608	abierta	HTTP 200; aparece el texto esperado «Encuesta de Condiciones de Vida»
+2026-11-05	ine-eaes	https://www.ine.es/dyngs/INEbase/es/operacion.htm?c=Estadistica_C&cid=1254736177025&menu=ultiDatos&idp=1254735976596	abierta	HTTP 200; aparece el texto esperado «estructura salarial»
+2026-11-05	bde-deuda-2026-08	https://www.bde.es/wbe/es/noticias-eventos/actualidad-banco-espana/notas-banco-espana/deuda-aapp-agosto26.html	abierta	HTTP 200; aparece el texto esperado «deuda de las Administraciones Públicas»
+2026-11-05	bde-tipos-interes	https://www.bde.es/webbe/es/estadisticas/temas/tipos-interes.html	abierta	HTTP 200; aparece el texto esperado «tipos de interés»
+2026-11-05	bde-euribor-2026-10	https://www.bde.es/wbe/es/noticias-eventos/actualidad-banco-espana/notas-banco-espana/euribor-octubre-2026.html	abierta	HTTP 200; aparece el texto esperado «euríbor»
+2026-11-05	hacienda-deficit-2025	https://www.hacienda.gob.es/es-ES/Prensa/Noticias/Paginas/2026/20260331-NP-CIERRE-DEFICIT.aspx	abierta	HTTP 200; aparece el texto esperado «déficit»
+2026-11-05	eurostat-presion-fiscal-2025	https://ec.europa.eu/eurostat/web/products-eurostat-news/w/ddn-20261029-3	abierta	HTTP 200; aparece el texto esperado «tax-to-GDP»
+2026-11-05	eurostat-cofog	https://ec.europa.eu/eurostat/databrowser/view/gov_10a_exp/default/table?lang=es	no_verificada	HTTP 200, pero no aparece el texto esperado «COFOG». La página puede generarse con JavaScript o haber cambiado.
+2026-11-05	bce-tipos	https://www.ecb.europa.eu/stats/policy_and_exchange_rates/key_ecb_interest_rates/html/index.es.html	abierta	HTTP 200; aparece el texto esperado «Key ECB interest rates»
+2026-11-05	inclusion-afiliacion-2026-10	https://www.inclusion.gob.es/w/la-seguridad-social-supera-los-22-6-millones-de-afiliados-en-octubre-tras-sumar-784.573-afiliados-en-el-ultimo-ano	abierta	HTTP 200; aparece el texto esperado «afiliados»
+2026-11-05	mites-paro-2026-10	https://prensa.mites.gob.es/webPrensa/listado-noticia/noticia/4575	no_verificada	HTTP 200, pero no aparece el texto esperado «paro registrado». La página puede generarse con JavaScript o haber cambiado.
+2026-11-05	boe-lopp	https://www.boe.es/buscar/act.php?id=BOE-A-2002-12756	abierta	HTTP 200; aparece el texto esperado «Partidos Políticos»
+2026-11-05	boe-lofpp	https://www.boe.es/buscar/act.php?id=BOE-A-2007-13022	abierta	HTTP 200; aparece el texto esperado «financiación de los partidos políticos»
+2026-11-05	boe-reglamento-senado	https://www.boe.es/buscar/act.php?id=BOE-A-1994-10830	abierta	HTTP 200; aparece el texto esperado «Reglamento del Senado»
+2026-11-05	boe-ley-vivienda	https://www.boe.es/buscar/act.php?id=BOE-A-2023-12203	abierta	HTTP 200; aparece el texto esperado «derecho a la vivienda»
+2026-11-05	boe-ley-general-sanidad	https://www.boe.es/buscar/act.php?id=BOE-A-1986-10499	abierta	HTTP 200; aparece el texto esperado «General de Sanidad»
+2026-11-05	boe-loe	https://www.boe.es/buscar/act.php?id=BOE-A-2006-7899	abierta	HTTP 200; aparece el texto esperado «de Educación»
+2026-11-05	boe-lo-extranjeria	https://www.boe.es/buscar/act.php?id=BOE-A-2000-544	abierta	HTTP 200; aparece el texto esperado «derechos y libertades de los extranjeros»
+2026-11-05	boe-ley-asilo	https://www.boe.es/buscar/act.php?id=BOE-A-2009-17242	abierta	HTTP 200; aparece el texto esperado «derecho de asilo»
+2026-11-05	boe-lo-violencia-genero	https://www.boe.es/buscar/act.php?id=BOE-A-2004-21760	abierta	HTTP 200; aparece el texto esperado «Violencia de Género»
+2026-11-05	boe-lo-igualdad	https://www.boe.es/buscar/act.php?id=BOE-A-2007-6115	abierta	HTTP 200; aparece el texto esperado «igualdad efectiva de mujeres y hombres»
+2026-11-05	boe-ley-cambio-climatico	https://www.boe.es/buscar/act.php?id=BOE-A-2021-8447	abierta	HTTP 200; aparece el texto esperado «cambio climático»
+2026-11-05	boe-lo-2-2010	https://www.boe.es/buscar/act.php?id=BOE-A-2010-3514	abierta	HTTP 200; aparece el texto esperado «interrupción voluntaria del embarazo»
+2026-11-05	boe-lo-eutanasia	https://www.boe.es/buscar/act.php?id=BOE-A-2021-4628	abierta	HTTP 200; aparece el texto esperado «eutanasia»
+2026-11-05	boe-ley-memoria-democratica	https://www.boe.es/buscar/act.php?id=BOE-A-2022-17099	abierta	HTTP 200; aparece el texto esperado «Memoria Democrática»
+2026-11-05	boe-ley-indulto	https://www.boe.es/buscar/act.php?id=BOE-A-1870-4759	abierta	HTTP 200; aparece el texto esperado «gracia de indulto»
+2026-11-05	boe-lo-amnistia	https://www.boe.es/buscar/act.php?id=BOE-A-2024-11776	abierta	HTTP 200; aparece el texto esperado «amnistía»
+2026-11-05	boe-stc-137-2025	https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-15939	abierta	HTTP 200; aparece el texto esperado «Sentencia 137/2025»
+2026-11-05	boe-stc-44-2023	https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-13955	abierta	HTTP 200; aparece el texto esperado «Sentencia 44/2023»
+2026-11-05	boe-stc-19-2023	https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-10044	abierta	HTTP 200; aparece el texto esperado «Sentencia 19/2023»
+2026-11-05	boe-resultados-pe-2024	https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-13092	abierta	HTTP 200; aparece el texto esperado «Parlamento Europeo»
+2026-11-05	boe-resultados-eg-2023	https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-18907	abierta	HTTP 200; aparece el texto esperado «resultados de las elecciones al Congreso»
+2026-11-05	congreso-diputados-datos-abiertos	https://www.congreso.es/es/opendata/diputados	no_verificada	HTTP 200, pero no aparece el texto esperado «Diputados». La página puede generarse con JavaScript o haber cambiado.
+2026-11-05	congreso-votaciones-xv	https://www.congreso.es/es/opendata/votaciones	abierta	HTTP 200; aparece el texto esperado «Votaciones»
+2026-11-05	senado-composicion-xv	https://www.senado.es/web/composicionorganizacion/senadores/composicionsenado/senadoresdesde1977/consultaorden/index.html	abierta	HTTP 200; aparece el texto esperado «Senado»
+2026-11-05	senado-grupos	https://www.senado.es/web/composicionorganizacion/gruposparlamentarios/composiciongruposparlamentarios/index.html	abierta	HTTP 200; aparece el texto esperado «Grupos Parlamentarios»
+2026-11-05	ches-2024	https://www.chesdata.eu/ches-europe	abierta	HTTP 200; aparece el texto esperado «Chapel Hill»
+2026-11-05	parl-andalucia	https://www.parlamentodeandalucia.es/webdinamica/portal-web-parlamento/composicionyfuncionamiento/gruposparlamentarios.do	abierta	HTTP 200; aparece el texto esperado «Grupos parlamentarios»
+2026-11-05	parl-aragon	https://www.cortesaragon.es/Grupos-parlamentarios.2369.0.html?&no_cache=1	abierta	HTTP 200; aparece el texto esperado «Grupos parlamentarios»
+2026-11-05	parl-baleares	https://www.parlamentib.es/Representants/GrupParlamentaris.aspx	abierta	HTTP 200; aparece el texto esperado «Grup»
+2026-11-05	parl-canarias	https://www.parcan.es/composicion/grupos.py	abierta	HTTP 200; aparece el texto esperado «grupos parlamentarios»
+2026-11-05	parl-cantabria	https://parlamento-cantabria.es/	abierta	HTTP 200; aparece el texto esperado «Parlamento de Cantabria»
+2026-11-05	parl-clm	https://www.cortesclm.es/web2/paginas/grupos.php	abierta	HTTP 200; aparece el texto esperado «GRUPOS PARLAMENTARIOS»
+2026-11-05	parl-cyl	https://www.ccyl.es/Parlamento/GruposParlamentarios	abierta	HTTP 200; aparece el texto esperado «Grupos»
+2026-11-05	parl-catalunya	https://www.parlament.cat/web/composicio/grups-parlamentaris/index.html	abierta	HTTP 200; aparece el texto esperado «Grup»
+2026-11-05	parl-cv	https://www.cortsvalencianes.es/ca-va/composicio/grups-parlamentaris	abierta	HTTP 200; aparece el texto esperado «Grups parlamentaris»
+2026-11-05	parl-extremadura	https://www.asambleaex.es/grupos	abierta	HTTP 200; aparece el texto esperado «Grupo Parlamentario»
+2026-11-05	parl-galicia	https://www.parlamentodegalicia.gal/	no_verificada	HTTP 403: el servidor rechaza el acceso automatizado; no se reintenta. Hay que abrirla a mano o pedir el fichero.
+2026-11-05	parl-madrid	https://www.asambleamadrid.es/composicion/grupos-parlamentarios	no_verificada	HTTP 307
+2026-11-05	parl-murcia	https://www.asambleamurcia.es/arm/grupos-xi	no_verificada	HTTP 400
+2026-11-05	parl-navarra	https://parlamentodenavarra.es/es/composicion-organos/grupos-parlamentarios	no_verificada	HTTP 403: el servidor rechaza el acceso automatizado; no se reintenta. Hay que abrirla a mano o pedir el fichero.
+2026-11-05	parl-pais-vasco	https://www.legebiltzarra.eus/c_comorga_gru_ACT.html	abierta	HTTP 200; aparece el texto esperado «Grupos»
+2026-11-05	parl-rioja	https://www.parlamento-larioja.org/composicion-y-organos/legislatura-grupos-parlamentarios	abierta	HTTP 200; aparece el texto esperado «Grupos Parlamentarios»
+2026-11-05	web-psc	https://www.socialistes.cat/	no_verificada	HTTP 403: el servidor rechaza el acceso automatizado; no se reintenta. Hay que abrirla a mano o pedir el fichero.
+2026-11-05	web-bng	https://www.bng.gal/	no_verificada	HTTP 403: el servidor rechaza el acceso automatizado; no se reintenta. Hay que abrirla a mano o pedir el fichero.
+2026-11-05	web-cc	https://coalicioncanaria.org/	abierta	HTTP 200; aparece el texto esperado «Coalición Canaria»
+2026-11-05	web-upn	https://www.upn.org/	abierta	HTTP 200; aparece el texto esperado «UPN»
+2026-11-05	web-podemos	https://podemos.info/	no_verificada	HTTP 403: el servidor rechaza el acceso automatizado; no se reintenta. Hay que abrirla a mano o pedir el fichero.
+2026-11-05	web-mas-madrid	https://www.masmadrid.org/	no_verificada	HTTP 403: el servidor rechaza el acceso automatizado; no se reintenta. Hay que abrirla a mano o pedir el fichero.
+2026-11-05	web-compromis	https://compromis.net/	abierta	HTTP 200; aparece el texto esperado «Compromís»
+2026-11-05	web-geroa-bai	https://geroabai.eus/	abierta	HTTP 200; aparece el texto esperado «Geroa Bai» (redirige a https://geroabai.eus/es)
+2026-11-05	web-adelante-andalucia	https://adelanteandalucia.org/	abierta	HTTP 200; aparece el texto esperado «Adelante»
+2026-11-05	web-cha	https://www.chunta.org/	abierta	HTTP 200; aparece el texto esperado «Chunta»
+2026-11-05	web-nc-bc	https://nuevacanarias.org/	abierta	HTTP 200; aparece el texto esperado «Nueva Canarias»
+2026-11-05	web-prc	https://www.prc.es/	abierta	HTTP 200; aparece el texto esperado «Regionalista» (redirige a https://prc.es/)
+2026-11-05	web-comuns	https://catalunyaencomu.cat/	abierta	HTTP 200; aparece el texto esperado «Comú» (redirige a https://comuns.cat/)
+2026-11-05	web-cup	https://cup.cat/	abierta	HTTP 200; aparece el texto esperado «CUP»
+2026-11-05	web-mes-mallorca	https://www.mespermallorca.cat/	abierta	HTTP 200; aparece el texto esperado «MÉS»
+2026-11-05	congreso-publicaciones	https://www.congreso.es/es/ultimas-publicaciones-oficiales	no_verificada	HTTP 200, pero no aparece el texto esperado «BOCG». La página puede generarse con JavaScript o haber cambiado.
+2026-11-05	ifcn-perfil-efe-verifica	https://ifcncodeofprinciples.poynter.org/profile/efe-verifica	no_verificada	HTTP 200, pero no aparece el texto esperado «EFE Verifica». La página puede generarse con JavaScript o haber cambiado.
+2026-11-05	ifcn-perfil-factico	https://ifcncodeofprinciples.poynter.org/profile/factico	no_verificada	HTTP 200, pero no aparece el texto esperado «Factico». La página puede generarse con JavaScript o haber cambiado.
+2026-11-05	ifcn-perfil-infoveritas	https://ifcncodeofprinciples.poynter.org/profile/infoveritas	no_verificada	HTTP 200, pero no aparece el texto esperado «Infoveritas». La página puede generarse con JavaScript o haber cambiado.
+2026-11-05	ifcn-perfil-newtral	https://ifcncodeofprinciples.poynter.org/profile/newtral	no_verificada	HTTP 200, pero no aparece el texto esperado «Newtral». La página puede generarse con JavaScript o haber cambiado.
+2026-11-05	ifcn-perfil-verificat	https://ifcncodeofprinciples.poynter.org/profile/verificat	no_verificada	HTTP 200, pero no aparece el texto esperado «Verificat». La página puede generarse con JavaScript o haber cambiado.
+2026-11-05	efe-verifica-financiacion	https://verifica.efe.com/financiacion/	abierta	HTTP 200; aparece el texto esperado «FINANCIACIÓN»
+2026-11-05	efe-verifica-metodologia	https://verifica.efe.com/metodologia/	abierta	HTTP 200; aparece el texto esperado «Metodología»
+2026-11-05	infoveritas-quienes-somos	https://info-veritas.com/quienes-somos/	abierta	HTTP 200; aparece el texto esperado «Quiénes somos»
+2026-11-05	infoveritas-metodologia	https://info-veritas.com/metodologia/	abierta	HTTP 200; aparece el texto esperado «Metodología»
+2026-11-05	verificat-financament	https://www.verificat.cat/nosaltres/transparencia/financament/	abierta	HTTP 200; aparece el texto esperado «Finançament»
+2026-11-05	verificat-metodologia	https://www.verificat.cat/nosaltres/que-es-el-fact-checking/metodologia/	abierta	HTTP 200; aparece el texto esperado «Metodologia»
+2026-11-05	boe-ley-comunicacion-audiovisual	https://www.boe.es/buscar/act.php?id=BOE-A-2022-11311	abierta	HTTP 200; aparece el texto esperado «Ley 13/2022»
+2026-11-05	boe-orden-desinformacion	https://www.boe.es/diario_boe/txt.php?id=BOE-A-2020-13663	abierta	HTTP 200; aparece el texto esperado «Orden PCM/1030/2020»
+2026-11-05	boe-ley-evaluacion	https://www.boe.es/buscar/act.php?id=BOE-A-2022-21677	abierta	HTTP 200; aparece el texto esperado «Ley 27/2022»
+2026-11-05	fape-codigo	https://fape.es/home/codigo-deontologico-1/	abierta	HTTP 200; aparece el texto esperado «Código Deontológico»
+2026-11-05	cis-muestra-ponderacion	https://www.cis.es/es/estudios/metodologia/muestra-y-ponderacion	abierta	HTTP 200; aparece el texto esperado «Muestra y ponderación»
+2026-11-05	fundeu-noticias-falsas	https://www.fundeu.es/recomendacion/noticia-falsa-falseada-fake-news/	abierta	HTTP 200; aparece el texto esperado «noticias falsas»
+2026-11-05	fundeu-polarizacion	https://www.fundeu.es/recomendacion/polarizar-y-polarizacion-varios-significados/	abierta	HTTP 200; aparece el texto esperado «polarización»
+2026-11-05	repositorio-proyecto	https://github.com/iagoalvarezzz/entiende_politica_espanola	abierta	HTTP 200; aparece el texto esperado «entiende_politica_espanola»

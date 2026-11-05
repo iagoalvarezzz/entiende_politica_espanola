@@ -1,0 +1,309 @@
+{
+  "bloques": [
+    {
+      "id": "m4-niveles",
+      "numero": "4.1",
+      "titulo": "Cuatro niveles y una pregunta guía",
+      "resumen": [
+        "Para cualquier problema, pregunta quién tiene la competencia, quién la ejecuta, quién la paga y qué papel tiene la Unión Europea.",
+        "Hay cuatro niveles: Estado, {{comunidad-autonoma|comunidades autónomas}}, entidades locales y Unión Europea.",
+        "España tiene 17 comunidades autónomas y dos ciudades autónomas, Ceuta y Melilla."
+      ],
+      "explicacion": [
+        { "tipo": "esquema", "esquema": {
+          "tipo": "pasos",
+          "titulo": "La pregunta guía",
+          "pasos": [
+            { "titulo": "¿Quién tiene la competencia?", "texto": "Lo decide la norma: la Constitución, el {{estatuto-de-autonomia|Estatuto de Autonomía}} o la ley." },
+            { "titulo": "¿Quién la ejecuta?", "texto": "Quién gestiona el servicio. No siempre coincide con quien legisla." },
+            { "titulo": "¿Quién la paga?", "texto": "De dónde sale el dinero: lo explica el bloque [Financiación](#/competencias/m4-financiacion)." },
+            { "titulo": "¿Qué papel tiene la Unión Europea?", "institucion": "ue", "texto": "Puede tener competencia exclusiva, compartida o de apoyo (TFUE, arts. 3 a 6)." }
+          ]
+        } },
+        { "tipo": "p", "texto": "Ejemplo: en sanidad, el Estado fija las bases y la coordinación general (Constitución, art. 149.1.16.ª) y las comunidades pueden asumir la sanidad e higiene (art. 148.1.21.ª). Por eso pueden no coincidir quien legisla y quien gestiona." },
+        { "tipo": "esquema", "esquema": {
+          "tipo": "grupos",
+          "titulo": "Cuatro niveles de gobierno",
+          "grupos": [
+            { "titulo": "Estado", "institucion": "gobierno", "items": ["Cortes Generales y Gobierno de España.", "Se elige en las [elecciones generales](#/elecciones).", "Sus competencias exclusivas están en el artículo 149.1 de la Constitución."] },
+            { "titulo": "Comunidades autónomas", "institucion": "comunidades", "items": ["Parlamento y Gobierno propios.", "Competencias según la Constitución (arts. 148 y 149) y su Estatuto de Autonomía.", "17 comunidades y 2 ciudades autónomas."] },
+            { "titulo": "Entidades locales", "institucion": "ayuntamientos", "items": ["Ayuntamientos y, según el territorio, diputaciones provinciales, cabildos y consejos insulares.", "Sus competencias están en la Ley 7/1985, de Bases del Régimen Local."] },
+            { "titulo": "Unión Europea", "institucion": "ue", "items": ["Ejerce las competencias que le atribuyen los Tratados.", "Lo explica el bloque [La Unión Europea](#/competencias/m4-ue)."] }
+          ]
+        } },
+        { "tipo": "h3", "texto": "Las 17 comunidades y las 2 ciudades autónomas" },
+        { "tipo": "p", "texto": "Según la lista de Estatutos de Autonomía vigentes del Ministerio de Política Territorial, en el orden en que la publica:" },
+        { "tipo": "lista", "items": [
+          "País Vasco", "Cataluña", "Galicia", "Andalucía", "Principado de Asturias", "Cantabria", "La Rioja", "Región de Murcia", "Comunitat Valenciana",
+          "Aragón", "Castilla-La Mancha", "Canarias", "Comunidad Foral de Navarra", "Extremadura", "Illes Balears", "Comunidad de Madrid", "Castilla y León",
+          "Ciudad de Ceuta (ciudad autónoma)", "Ciudad de Melilla (ciudad autónoma)"
+        ] }
+      ],
+      "ejemplo": "Un hospital público lo gestiona tu comunidad autónoma, pero las bases de la sanidad las fija el Estado y el ayuntamiento vigila la salubridad pública.",
+      "error": {
+        "titulo": "«El Gobierno central decide todo»",
+        "texto": "La Constitución reparte las materias entre el Estado y las comunidades, la ley da competencias propias a los ayuntamientos y la Unión Europea tiene las que le atribuyen los Tratados."
+      },
+      "normas": ["ce-137", "ce-147-1", "ce-148-1-21", "ce-149-1-16", "ce-149-3", "ce-93"],
+      "terminos": ["comunidad-autonoma", "estatuto-de-autonomia", "competencia-exclusiva"],
+      "profundizar": ["mpt-estatutos", "boe-constitucion"],
+      "ampliado": [
+        { "tipo": "p", "texto": "Las materias que la Constitución no atribuye expresamente al Estado pueden corresponder a las comunidades según sus Estatutos. Lo que los Estatutos no asumen corresponde al Estado (art. 149.3)." }
+      ]
+    },
+    {
+      "id": "m4-reparto",
+      "numero": "4.2",
+      "titulo": "Quién decide cada materia",
+      "resumen": [
+        "La tabla reparte quince materias entre Estado, comunidades, ayuntamientos y Unión Europea.",
+        "Cada celda cita el artículo que la sostiene o dice que falta comprobarlo.",
+        "La herramienta «¿Quién decide?» responde preguntas cotidianas con la misma base."
+      ],
+      "explicacion": [
+        { "tipo": "p", "texto": "Muchas materias se reparten: el Estado fija la {{normativa-basica|normativa básica}} y las comunidades la desarrollan y la gestionan. Otras son exclusivas de un nivel." },
+        { "tipo": "esquema", "esquema": {
+          "tipo": "tabla-competencias",
+          "titulo": "Reparto por materia",
+          "descripcion": "Busca una materia. En el móvil, cada materia se muestra como una ficha.",
+          "materias": [
+            { "id": "sanidad", "nombre": "Sanidad", "claves": "salud hospitales" },
+            { "id": "educacion", "nombre": "Educación", "claves": "colegios universidad títulos" },
+            { "id": "vivienda", "nombre": "Vivienda", "claves": "alquiler urbanismo" },
+            { "id": "transporte", "nombre": "Transporte e infraestructuras", "claves": "trenes carreteras tráfico puertos aeropuertos" },
+            { "id": "seguridad", "nombre": "Seguridad y policía", "claves": "policía local protección civil" },
+            { "id": "justicia", "nombre": "Justicia", "claves": "jueces tribunales" },
+            { "id": "impuestos", "nombre": "Impuestos", "claves": "tributos IRPF IBI IVA" },
+            { "id": "servicios-sociales", "nombre": "Servicios sociales", "claves": "ayudas asistencia social Seguridad Social" },
+            { "id": "medio-ambiente", "nombre": "Medio ambiente", "claves": "residuos contaminación" },
+            { "id": "energia", "nombre": "Energía", "claves": "electricidad" },
+            { "id": "inmigracion", "nombre": "Inmigración y extranjería", "claves": "extranjeros asilo residencia" },
+            { "id": "exterior-defensa", "nombre": "Política exterior y defensa", "claves": "Fuerzas Armadas ejército" },
+            { "id": "moneda", "nombre": "Moneda y política monetaria", "claves": "euro tipos de interés BCE" },
+            { "id": "agricultura-pesca", "nombre": "Agricultura y pesca", "claves": "ganadería" },
+            { "id": "comercio", "nombre": "Comercio", "claves": "mercados aranceles ferias" }
+          ]
+        } },
+        { "tipo": "h3", "texto": "Vivienda: un reparto en discusión" },
+        { "tipo": "p", "texto": "El reparto de la vivienda está en disputa jurídica. La Constitución permite que las comunidades asuman la vivienda (art. 148.1.3.ª), pero el alcance de lo que puede regular el Estado depende de la jurisprudencia del Tribunal Constitucional, que esta web todavía no ha revisado. Por eso esa celda lleva PENDIENTE DE VERIFICAR." },
+        { "tipo": "h3", "texto": "¿Quién decide?" },
+        { "tipo": "esquema", "esquema": {
+          "tipo": "quien-decide",
+          "titulo": "¿Quién decide?",
+          "descripcion": "Elige una pregunta cotidiana para ver qué niveles intervienen y en qué norma se apoyan. Es un resumen: en un caso concreto pueden intervenir también leyes sectoriales o autonómicas que esta web no detalla.",
+          "preguntas": [
+            { "id": "listas-espera", "pregunta": "¿Quién decide sobre las listas de espera de un hospital público?", "niveles": [
+              { "competencia": "sanidad-autonomico", "papel": "Puede asumir la sanidad y gestionar sus servicios según su Estatuto." },
+              { "competencia": "sanidad-estado", "papel": "Fija las bases y la coordinación general de la sanidad." }
+            ], "nota": "La gestión concreta depende de cada comunidad; la web no ha leído los Estatutos uno a uno." },
+            { "id": "residencia", "pregunta": "¿Quién concede un permiso de residencia?", "niveles": [
+              { "competencia": "inmigracion-estado", "papel": "Tiene la competencia exclusiva sobre extranjería e inmigración." },
+              { "competencia": "inmigracion-ue", "papel": "Comparte con los Estados el espacio de libertad, seguridad y justicia." }
+            ] },
+            { "id": "basuras", "pregunta": "¿Quién recoge la basura de mi calle?", "niveles": [
+              { "competencia": "medio-ambiente-local", "papel": "Gestiona los residuos urbanos. La recogida de residuos es obligatoria en todos los municipios (Ley 7/1985, art. 26.1.a)." }
+            ] },
+            { "id": "irpf", "pregunta": "¿Quién fija el tipo del IRPF?", "niveles": [
+              { "competencia": "impuestos-estado", "papel": "Regula el impuesto: solo el Estado crea tributos de forma originaria." },
+              { "competencia": "impuestos-autonomico", "papel": "Puede aprobar la escala autonómica del IRPF." }
+            ], "nota": "El ayuntamiento no fija el IRPF." },
+            { "id": "tipos-interes", "pregunta": "¿Quién decide los tipos de interés del euro?", "niveles": [
+              { "competencia": "moneda-ue", "papel": "La política monetaria del euro es competencia exclusiva de la Unión; la dirige el Eurosistema, con el BCE." },
+              { "competencia": "moneda-estado", "papel": "La Constitución le reserva el sistema monetario y permite atribuir competencias a la Unión por tratado." }
+            ] },
+            { "id": "titulos", "pregunta": "¿Quién regula los títulos académicos?", "niveles": [
+              { "competencia": "educacion-estado", "papel": "Regula la obtención, expedición y homologación de títulos y las normas básicas de la educación." }
+            ] },
+            { "id": "policia", "pregunta": "¿Quién se ocupa de la policía de mi barrio?", "niveles": [
+              { "competencia": "seguridad-local", "papel": "Policía local y protección civil." },
+              { "competencia": "seguridad-autonomico", "papel": "Coordina las policías locales y, según su Estatuto, puede tener policía propia." },
+              { "competencia": "seguridad-estado", "papel": "Tiene la competencia sobre seguridad pública." }
+            ] },
+            { "id": "trenes", "pregunta": "¿Quién decide sobre una línea de tren?", "niveles": [
+              { "competencia": "transporte-estado", "papel": "Si la línea pasa por más de una comunidad autónoma." },
+              { "competencia": "transporte-autonomico", "papel": "Si la línea discurre solo por su territorio." }
+            ] },
+            { "id": "ibi", "pregunta": "¿Quién cobra el IBI de una vivienda?", "niveles": [
+              { "competencia": "impuestos-local", "papel": "El IBI es un impuesto municipal obligatorio." }
+            ] },
+            { "id": "necesidad-social", "pregunta": "¿Quién atiende una situación de necesidad social urgente?", "niveles": [
+              { "competencia": "servicios-sociales-local", "papel": "Evalúa la situación y atiende de inmediato a quien está en riesgo de exclusión social." },
+              { "competencia": "servicios-sociales-autonomico", "papel": "Puede asumir la asistencia social." }
+            ] },
+            { "id": "aranceles", "pregunta": "¿Quién fija los aranceles a productos de fuera de la Unión?", "niveles": [
+              { "competencia": "impuestos-ue", "papel": "La unión aduanera es competencia exclusiva de la Unión." },
+              { "competencia": "comercio-ue", "papel": "También lo es la política comercial común." }
+            ] },
+            { "id": "defensa", "pregunta": "¿Quién decide sobre las Fuerzas Armadas?", "niveles": [
+              { "competencia": "exterior-defensa-estado", "papel": "Defensa y Fuerzas Armadas son competencia exclusiva del Estado." },
+              { "competencia": "exterior-defensa-ue", "papel": "Define una política exterior y de seguridad común, incluida la definición progresiva de una política común de defensa." }
+            ] },
+            { "id": "vivienda", "pregunta": "¿Quién regula el urbanismo y la vivienda protegida de mi ciudad?", "niveles": [
+              { "competencia": "vivienda-autonomico", "papel": "Puede asumir la ordenación del territorio, el urbanismo y la vivienda." },
+              { "competencia": "vivienda-local", "papel": "Gestiona el urbanismo y la vivienda de protección pública, en los términos de las leyes estatales y autonómicas." }
+            ], "nota": "Qué puede regular el Estado en materia de vivienda depende de la jurisprudencia constitucional, que esta web no ha revisado: está pendiente de verificar." },
+            { "id": "juzgados", "pregunta": "¿Quién organiza los juzgados y hace las leyes penales?", "niveles": [
+              { "competencia": "justicia-estado", "papel": "La Administración de Justicia y la legislación penal y procesal son competencia exclusiva del Estado." },
+              { "competencia": "justicia-ue", "papel": "Comparte con los Estados el espacio de libertad, seguridad y justicia." }
+            ], "nota": "Lo que pueden asumir las comunidades autónomas depende de cada Estatuto: está pendiente de verificar." },
+            { "id": "emisiones", "pregunta": "¿Quién fija las normas para proteger el medio ambiente?", "niveles": [
+              { "competencia": "medio-ambiente-ue", "papel": "El medio ambiente es una competencia compartida de la Unión." },
+              { "competencia": "medio-ambiente-estado", "papel": "Dicta la legislación básica." },
+              { "competencia": "medio-ambiente-autonomico", "papel": "Gestiona la protección y puede añadir normas más exigentes." },
+              { "competencia": "medio-ambiente-local", "papel": "Se ocupa del medio ambiente urbano: parques, residuos y contaminación." }
+            ] },
+            { "id": "energia", "pregunta": "¿Quién regula el sistema energético?", "niveles": [
+              { "competencia": "energia-ue", "papel": "La energía es una competencia compartida de la Unión." },
+              { "competencia": "energia-estado", "papel": "Fija las bases del régimen minero y energético." },
+              { "competencia": "energia-local", "papel": "Puede promover comunidades de energía renovable." }
+            ], "nota": "El papel de las comunidades autónomas depende de cada Estatuto: está pendiente de verificar." }
+          ]
+        } }
+      ],
+      "ejemplo": "Si una carretera cruza dos comunidades autónomas, es competencia del Estado; si discurre solo por una, puede serlo de esa comunidad.",
+      "error": {
+        "titulo": "«Si el servicio lo presta mi comunidad, todas las normas son suyas»",
+        "texto": "A menudo el Estado fija las bases y la comunidad las desarrolla y gestiona. Pasa, por ejemplo, en sanidad y en medio ambiente (Constitución, art. 149.1.16.ª y 23.ª)."
+      },
+      "normas": ["ce-148-1-3", "ce-148-1-5", "ce-149-1-21", "ce-149-1-2", "ce-149-1-23", "lbrl-25-2"],
+      "terminos": ["normativa-basica", "competencia-compartida"],
+      "profundizar": ["boe-constitucion", "boe-lbrl", "eurlex-tfue"]
+    },
+    {
+      "id": "m4-financiacion",
+      "numero": "4.3",
+      "titulo": "De dónde sale el dinero",
+      "resumen": [
+        "El Estado tiene sus impuestos y cede total o parcialmente otros a las comunidades: son los {{tributos-cedidos|tributos cedidos}}.",
+        "El País Vasco y Navarra tienen sistemas propios: el {{concierto-convenio|Concierto y el Convenio económicos}}.",
+        "Los ayuntamientos se financian con tributos propios y con su participación en los del Estado y las comunidades."
+      ],
+      "explicacion": [
+        { "tipo": "esquema", "esquema": {
+          "tipo": "pasos",
+          "titulo": "Cuatro capas de financiación",
+          "pasos": [
+            { "titulo": "Impuestos del Estado", "institucion": "gobierno", "texto": "Solo el Estado crea tributos de forma originaria, por ley (Constitución, art. 133.1)." },
+            { "titulo": "Tributos cedidos y transferencias a las comunidades", "institucion": "comunidades", "texto": "La LOFCA regula sus recursos: tributos propios y cedidos, el Fondo de Garantía de Servicios Públicos Fundamentales y otras transferencias (art. 4). En el IRPF, la cesión es parcial, hasta el 50 % (art. 11)." },
+            { "titulo": "Regímenes forales", "institucion": "comunidades", "texto": "El Concierto económico en el País Vasco y el Convenio económico en Navarra (LOFCA, disposiciones adicionales primera y segunda)." },
+            { "titulo": "Financiación local", "institucion": "ayuntamientos", "texto": "Tributos propios, participación en los tributos del Estado y de las comunidades, subvenciones y crédito (Haciendas Locales, art. 2)." }
+          ]
+        } },
+        { "tipo": "p", "texto": "Además, un Fondo de Compensación financia inversiones para corregir desequilibrios entre territorios (Constitución, art. 158.2)." },
+        { "tipo": "h3", "texto": "Lo que esta web no hace" },
+        { "tipo": "p", "texto": "No da cifras de lo que paga y recibe cada comunidad: esas «balanzas fiscales» dependen del método, y solo se publicarán con su fuente, su método y su año. La reforma de la financiación autonómica se tratará como tema, atribuyendo cada valoración a quien la hace." }
+      ],
+      "ejemplo": "Cuando pagas el IRPF, el rendimiento se cede en parte a tu comunidad autónoma de residencia, que además puede fijar su propia escala.",
+      "error": {
+        "titulo": "«Todo lo que pago va al Estado»",
+        "texto": "Parte de los impuestos estatales se cede a las comunidades, y los ayuntamientos tienen sus propios impuestos, como el IBI."
+      },
+      "normas": ["ce-133-1", "ce-133-2", "ce-156-1", "ce-157-1", "ce-158-2", "lofca-4", "lofca-11", "lofca-da1", "lofca-da2", "l22-46"],
+      "terminos": ["tributos-cedidos", "concierto-convenio", "irpf"],
+      "profundizar": ["boe-lofca", "boe-ley-22-2009", "hacienda"],
+      "ampliado": [
+        { "tipo": "p", "texto": "En las comunidades de régimen común, la Ley 22/2009 les cede el rendimiento del IRPF producido en su territorio: el de los contribuyentes con residencia habitual allí (art. 30)." }
+      ]
+    },
+    {
+      "id": "m4-ayuntamientos",
+      "numero": "4.4",
+      "titulo": "Ayuntamientos",
+      "resumen": [
+        "El ayuntamiento lo forman el alcalde y los concejales; los concejales eligen al alcalde.",
+        "La ley fija servicios obligatorios según la población: alumbrado, recogida de residuos, agua, limpieza…",
+        "Su presupuesto se puede consultar en la web del Ministerio de Hacienda."
+      ],
+      "explicacion": [
+        { "tipo": "p", "texto": "El gobierno y la administración del municipio corresponden al ayuntamiento, formado por el alcalde y los concejales. Los concejales se eligen por sufragio universal y el alcalde, en los términos de la ley electoral (Ley 7/1985, art. 19; LOREG, art. 196)." },
+        { "tipo": "esquema", "esquema": {
+          "tipo": "comparativa",
+          "titulo": "Servicios obligatorios según la población (Ley 7/1985, art. 26.1)",
+          "columnas": ["Población", "Servicios obligatorios"],
+          "filas": [
+            ["Todos los municipios", "Alumbrado público, cementerio, recogida de residuos, limpieza viaria, agua potable a domicilio, alcantarillado, acceso a los núcleos y pavimentación de las vías."],
+            ["Más de 5.000 habitantes", "Además: parque público, biblioteca pública y tratamiento de residuos."],
+            ["Más de 20.000 habitantes", "Además: protección civil, atención a situaciones de necesidad social, prevención y extinción de incendios e instalaciones deportivas."],
+            ["Más de 50.000 habitantes", "Además: transporte colectivo urbano de viajeros y medio ambiente urbano."]
+          ]
+        } },
+        { "tipo": "p", "texto": "Además, el municipio tiene competencias propias en urbanismo, medio ambiente urbano, policía local, tráfico, salubridad, cultura o deporte, entre otras (art. 25.2). Las ejerce «en los términos de la legislación del Estado y de las Comunidades Autónomas» (art. 25.2), así que su alcance concreto depende también de las leyes de cada comunidad. En los municipios de menos de 20.000 habitantes, la {{diputacion-provincial|diputación provincial}} coordina algunos servicios (art. 26.2)." },
+        { "tipo": "h3", "texto": "De dónde sale su dinero" },
+        { "tipo": "p", "texto": "Los ayuntamientos se financian con tributos propios —tasas, contribuciones especiales e impuestos—, con su participación en los tributos del Estado y de las comunidades, con subvenciones y con crédito (Haciendas Locales, art. 2). Exigen el IBI, el impuesto de actividades económicas y el de vehículos, y pueden establecer el de construcciones y el de plusvalía (art. 59)." },
+        { "tipo": "h3", "texto": "Dónde consultar el presupuesto de tu ayuntamiento" },
+        { "tipo": "p", "texto": "El Ministerio de Hacienda publica presupuestos, ejecución y liquidaciones de las entidades locales en su página «Presupuestos, ejecución presupuestaria y liquidaciones», que enlaza con la aplicación de consulta CONPREL. La tienes en «Para profundizar»." }
+      ],
+      "ejemplo": "Si tu calle no tiene alumbrado, el responsable es el ayuntamiento: es un servicio obligatorio en todos los municipios.",
+      "error": {
+        "titulo": "«El ayuntamiento fija el IRPF»",
+        "texto": "El IRPF es un impuesto estatal, cedido en parte a las comunidades. El ayuntamiento tiene sus propios impuestos, como el IBI."
+      },
+      "normas": ["lbrl-19", "lbrl-25-2", "lbrl-26-1", "lbrl-36-1", "ce-142", "trlrhl-2", "trlrhl-59"],
+      "terminos": ["diputacion-provincial", "elecciones-municipales"],
+      "profundizar": ["hacienda-presupuestos-eell", "boe-lbrl", "boe-trlrhl"],
+      "ampliado": [
+        { "tipo": "p", "texto": "En los municipios de menos de 1.000 habitantes, la diputación garantiza los servicios de secretaría e intervención (Ley 7/1985, art. 36.1.b)." }
+      ]
+    },
+    {
+      "id": "m4-ue",
+      "numero": "4.5",
+      "titulo": "La Unión Europea",
+      "resumen": [
+        "La Unión ejerce las competencias que le atribuyen los Tratados: unas exclusivas, otras compartidas y otras de apoyo.",
+        "Un {{reglamento-europeo|reglamento}} se aplica directamente; una {{directiva|directiva}} se incorpora con normas de cada Estado.",
+        "La política monetaria del euro es competencia exclusiva de la Unión."
+      ],
+      "explicacion": [
+        { "tipo": "esquema", "esquema": {
+          "tipo": "comparativa",
+          "titulo": "Seis instituciones",
+          "columnas": ["Institución", "Qué hace", "Base"],
+          "filas": [
+            ["{{parlamento-europeo|Parlamento Europeo}}", "Legisla y aprueba el presupuesto con el Consejo; controla y elige al Presidente de la Comisión.", "TUE, art. 14"],
+            ["{{consejo-europeo|Consejo Europeo}}", "Da los impulsos y las orientaciones políticas generales. No legisla.", "TUE, art. 15"],
+            ["{{consejo-ue|Consejo de la Unión Europea}}", "Legisla y aprueba el presupuesto con el Parlamento. Lo forman ministros de cada Estado.", "TUE, art. 16"],
+            ["{{comision-europea|Comisión Europea}}", "Promueve el interés general, toma iniciativas, vela por que se apliquen los Tratados y ejecuta el presupuesto.", "TUE, art. 17"],
+            ["Tribunal de Justicia de la Unión Europea", "Garantiza el respeto del Derecho al interpretar y aplicar los Tratados.", "TUE, art. 19"],
+            ["{{bce|Banco Central Europeo}}", "Con los bancos centrales del euro forma el Eurosistema, que dirige la política monetaria. Su objetivo principal es la estabilidad de precios.", "TFUE, arts. 127 y 282"]
+          ]
+        } },
+        { "tipo": "esquema", "esquema": {
+          "tipo": "comparativa",
+          "titulo": "Tres tipos de competencias (TFUE, arts. 2 a 6)",
+          "columnas": ["Tipo", "Qué significa", "Ámbitos"],
+          "filas": [
+            ["Exclusivas", "Solo la Unión legisla, salvo que faculte a los Estados.", "Unión aduanera, normas de competencia del mercado interior, política monetaria del euro, conservación de recursos marinos y política comercial común."],
+            ["{{competencia-compartida|Compartidas}}", "Legislan la Unión y los Estados; estos, en la medida en que la Unión no lo haya hecho.", "Mercado interior, política social, agricultura y pesca, medio ambiente, consumidores, transportes, energía, y libertad, seguridad y justicia, entre otras."],
+            ["De apoyo", "La Unión apoya, coordina o complementa, sin armonizar las leyes nacionales.", "Salud humana, industria, cultura, turismo, educación, protección civil y cooperación administrativa."]
+          ]
+        } },
+        { "tipo": "h3", "texto": "Reglamento, directiva y trasposición" },
+        { "tipo": "p", "texto": "Un reglamento es obligatorio en todos sus elementos y directamente aplicable en cada Estado. Una directiva obliga a conseguir un resultado y deja a cada Estado la forma y los medios (TFUE, art. 288). Por eso España incorpora las directivas con sus propias normas: es la {{trasposicion|trasposición}}." },
+        { "tipo": "p", "texto": "La Constitución permite autorizar por ley orgánica tratados que atribuyan a una organización internacional el ejercicio de competencias derivadas de la Constitución (art. 93)." },
+        { "tipo": "p", "texto": "Esta web no da cifras de fondos europeos, incluido el plan de recuperación, sin su fuente oficial y su fecha." }
+      ],
+      "ejemplo": "Una directiva fija un objetivo de reciclaje; después, España aprueba una ley para cumplirlo y los ayuntamientos organizan la recogida.",
+      "error": {
+        "titulo": "«La Unión Europea aprueba las leyes españolas»",
+        "texto": "Las leyes españolas las aprueban las Cortes. La Unión aprueba sus propios actos: los reglamentos se aplican directamente y las directivas se incorporan con normas españolas."
+      },
+      "normas": ["tfue-3", "tfue-4", "tfue-6", "tfue-288", "tue-14", "tue-15", "tue-16", "tue-17", "tue-19", "tfue-282", "ce-93"],
+      "terminos": ["directiva", "reglamento-europeo", "trasposicion"],
+      "profundizar": ["eurlex-tfue", "eurlex-tue", "elecciones-europeas"]
+    },
+    {
+      "id": "m4-repaso",
+      "numero": "4.6",
+      "titulo": "Repaso del módulo 4",
+      "tipo": "repaso",
+      "preguntas_de": ["m4-niveles", "m4-reparto", "m4-financiacion", "m4-ayuntamientos", "m4-ue"],
+      "resumen": [
+        "Preguntas de todo el módulo, elegidas al azar en cada intento.",
+        "Incluyen preguntas de «¿quién decide?» y tres de verdadero o falso.",
+        "Si fallas alguna, podrás repasarla aquí o en su bloque."
+      ],
+      "profundizar": ["boe-constitucion", "boe-lbrl", "eurlex-tfue"]
+    }
+  ]
+}

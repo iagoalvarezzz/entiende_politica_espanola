@@ -1,0 +1,217 @@
+{
+  "bloques": [
+    {
+      "id": "m9-idea",
+      "numero": "9.1",
+      "titulo": "Quién hay detrás de un medio",
+      "resumen": [
+        "Los medios tienen propietarios, estructuras y líneas editoriales diferentes.",
+        "Conocer al propietario ayuda a entender el contexto empresarial, pero no demuestra por sí solo que una noticia sea parcial.",
+        "La web ofrece datos con su fuente para que cada persona juzgue; no da veredictos sobre medios."
+      ],
+      "explicacion": [
+        { "tipo": "p", "texto": "Este módulo enseña a contrastar información. No dice qué medios son fiables ni qué orientación tiene cada uno." },
+        { "tipo": "h3", "texto": "Públicos y privados" },
+        { "tipo": "p", "etiqueta": "NORMA VIGENTE", "texto": "Según la Ley 13/2022, General de Comunicación Audiovisual, el {{medio-publico|servicio público de comunicación audiovisual}} lo prestan el Estado, las comunidades autónomas y las entidades locales (art. 50). Entre sus misiones está reflejar en la programación el pluralismo político, social y cultural (art. 51.b)." },
+        { "tipo": "p", "texto": "Un {{medio-privado|medio privado}} pertenece a una empresa o a personas privadas. Quién lo controla lo documenta, para los medios de su muestra, el Euromedia Ownership Monitor (EurOMo)." },
+        { "tipo": "h3", "texto": "Quién decide qué se publica" },
+        { "tipo": "p", "etiqueta": "NORMA VIGENTE", "texto": "La ley llama {{responsabilidad-editorial|responsabilidad editorial}} al control efectivo sobre la selección de los programas y su organización (art. 2.2). Y exige a los noticiarios diferenciar de forma clara y comprensible entre información y opinión (art. 9.1)." },
+        { "tipo": "p", "texto": "Esa ley trata de la comunicación audiovisual. Para el periodismo en general, el Código Deontológico de la Federación de Asociaciones de Periodistas de España (FAPE), aprobado en 2026, pide a los medios distinguir con claridad las informaciones de las opiniones. Es autorregulación, no una ley." },
+        { "tipo": "aviso", "etiqueta": "EXPLICACIÓN DIDÁCTICA", "texto": "Saber quién es el dueño de un medio es contexto, no una prueba. Para valorar una noticia concreta, hay que ir a su fuente original y compararla con otras (bloque 9.5)." }
+      ],
+      "ejemplo": "Dos periódicos del mismo grupo pueden publicar enfoques distintos sobre la misma ley. Y dos de grupos distintos pueden coincidir en los hechos.",
+      "error": {
+        "titulo": "«Es de tal empresa, así que miente»",
+        "texto": "La propiedad no demuestra por sí sola que una noticia sea falsa o parcial. Lo que se comprueba es la noticia: su fuente, su fecha y sus hechos."
+      },
+      "normas": ["lgca-50", "lgca-51-b", "lgca-2-2", "lgca-9-1"],
+      "terminos": ["medio-publico", "medio-privado", "responsabilidad-editorial", "linea-editorial", "propiedad-mediatica"],
+      "profundizar": ["boe-ley-comunicacion-audiovisual", "fape-codigo", "euromo-espana-2025"]
+    },
+    {
+      "id": "m9-fichas",
+      "numero": "9.2",
+      "titulo": "Fichas de medios",
+      "resumen": [
+        "Todas las fichas tienen la misma estructura: identidad, propiedad, línea editorial, audiencia y orientación.",
+        "La propiedad sale de EurOMo España 2025; si un medio no figura, la ficha dice «propiedad sin documentar».",
+        "Se puede filtrar por soporte y por tipo de propietario, nunca por orientación."
+      ],
+      "explicacion": [
+        { "tipo": "h3", "texto": "Qué medios tienen ficha" },
+        { "tipo": "lista", "items": [
+          "Los 18 medios de la muestra de EurOMo España 2025, que incluye televisiones y radios.",
+          "Los cinco medios del Anexo D.6 que no figuran en EurOMo: Público, Libertad Digital, infoLibre, Vozpópuli y The Objective.",
+          "Los medios que cita el Digital News Report España 2026 en su dato de confianza por marcas y que no estaban ya en la lista: OKDIARIO y 20 Minutos."
+        ] },
+        { "tipo": "p", "texto": "Son 25 medios, ordenados alfabéticamente. El criterio está también en la página de [metodología](#/metodologia)." },
+        { "tipo": "esquema", "esquema": { "tipo": "fichas-medios", "titulo": "Fichas de medios", "descripcion": "Misma estructura para todos. Despliega una ficha para ver sus cinco apartados." } },
+        { "tipo": "h3", "texto": "Mapa de propiedad" },
+        { "tipo": "esquema", "esquema": { "tipo": "mapa-propiedad", "titulo": "Grupos y medios según EurOMo 2025", "descripcion": "Solo lo que recoge el informe: sociedad, grupo y año. No se completan participaciones que el informe no recoja." } }
+      ],
+      "ejemplo": "Al filtrar por «Radio» aparecen las cuatro cadenas con ficha; al filtrar por «Propiedad sin documentar», los seis medios cuya propiedad no se ha comprobado.",
+      "error": {
+        "titulo": "«Si no hay dato, la web lo esconde»",
+        "texto": "Lo que falta se dice en cada ficha y falta para todos los medios por igual, como la línea editorial declarada, pendiente de comprobar."
+      },
+      "normas": [],
+      "terminos": ["propiedad-mediatica", "linea-editorial", "medio-publico", "medio-privado"],
+      "profundizar": ["euromo-espana-2025", "dnr-espana-2026-confianza"]
+    },
+    {
+      "id": "m9-orientacion",
+      "numero": "9.3",
+      "titulo": "Orientación, paralelismo y confianza",
+      "resumen": [
+        "La web no asigna orientación política a ningún medio: cada ficha dice «sin clasificación documentada».",
+        "El informe EurOMo España 2025 califica de alto el paralelismo político de los medios españoles.",
+        "En 2026 confía en las noticias en general el 33 % en España, frente al 37 % de media en 48 países."
+      ],
+      "explicacion": [
+        { "tipo": "h3", "texto": "Por qué no hay etiquetas de orientación" },
+        { "tipo": "p", "texto": "Una orientación solo se mostraría si la documenta una fuente académica, con año y metodología, y para todos los medios a la vez. Hoy no la hay para la lista completa, así que ninguna ficha la muestra. Ningún medio se omite por ese motivo." },
+        { "tipo": "p", "texto": "La lista inicial del encargo traía una orientación aproximada, sin fuente, para 7 de sus 18 medios. Se ha descartado: la web no publica estimaciones propias de orientación." },
+        { "tipo": "h3", "texto": "Paralelismo político" },
+        { "tipo": "p", "etiqueta": "DATO DE ESTUDIO", "texto": "El informe EurOMo España 2025 afirma que el {{paralelismo-politico|paralelismo político}} en España sigue siendo alto, aunque los apoyos explícitos de los medios a partidos son menos frecuentes que en años anteriores. Se apoya en estudios académicos, el Media Pluralism Monitor y el Digital News Report." },
+        { "tipo": "p", "texto": "Según el mismo informe, solo dos de los 79 propietarios individuales de su muestra son o han sido cargos electos con vínculos claros con un partido. El paralelismo aparece de otras formas, como la elección de tertulianos de radio y televisión en coordinación con los partidos." },
+        { "tipo": "h3", "texto": "Confianza en las noticias" },
+        { "tipo": "lista", "items": [
+          "En España, el 33 % confía en las noticias en general (el 31 % en 2025).",
+          "En España, el 42 % confía en las noticias que elige consultar.",
+          "En la media de 48 países confía en las noticias el 37 % y desconfía el 29 %."
+        ] },
+        { "tipo": "p", "etiqueta": "DATO DE ESTUDIO", "texto": "Universidad de Navarra, Digital News Report España 2026. Es una encuesta: describe lo que responde su muestra y tiene margen de error. El dato de confianza de cada marca, en las fichas, describe a su audiencia y no al medio." }
+      ],
+      "ejemplo": "Que muchas personas confíen en un medio dice algo de su audiencia; no prueba que cada noticia de ese medio sea cierta.",
+      "error": {
+        "titulo": "«Todo el mundo sabe de qué lado está cada medio»",
+        "texto": "Una impresión no es una clasificación documentada. Sin fuente, año y método, la web no asigna orientación."
+      },
+      "normas": [],
+      "terminos": ["paralelismo-politico", "polarizacion", "linea-editorial"],
+      "profundizar": ["euromo-espana-2025", "dnr-espana-2026-confianza", "reuters-dnr"]
+    },
+    {
+      "id": "m9-contrastar",
+      "numero": "9.4",
+      "titulo": "Páginas para contrastar y verificadores",
+      "resumen": [
+        "Una fuente oficial comprueba qué dice una ley, qué ha votado un diputado o qué dato publica una institución.",
+        "Para saber si una política funciona hacen falta resultados, métodos y especialistas independientes.",
+        "De cada verificador importan su propiedad, su financiación, su metodología y si su sello de la IFCN está vigente."
+      ],
+      "explicacion": [
+        { "tipo": "esquema", "esquema": { "tipo": "comparativa", "titulo": "Qué sirve para comprobar qué", "columnas": ["Fuente", "Sirve para comprobar", "No sirve para"], "filas": [
+          ["congreso.es", "Qué ha votado cada partido, las iniciativas registradas y las transcripciones.", "Saber si una medida funciona."],
+          ["boe.es", "El texto de una ley y, ante un «ya es ley», su publicación y su fecha de entrada en vigor.", "Saber cómo se está aplicando."],
+          ["ine.es", "Inflación, empleo, población y salarios; mira siempre periodo, definición y periodicidad.", "Atribuir una causa a una cifra."],
+          ["Servicios de verificación", "Si una afirmación concreta es cierta, engañosa o falsa, según su metodología.", "Valorar la línea editorial de un medio entero."],
+          ["Digital News Report (Instituto Reuters)", "Consumo de noticias y confianza en ellas.", "Comprobar una noticia concreta."]
+        ] } },
+        { "tipo": "h3", "texto": "Servicios de verificación" },
+        { "tipo": "p", "texto": "Tienen ficha los servicios españoles que figuran en la lista de signatarios de la {{ifcn|IFCN}} consultada el 5 de noviembre de 2026 y los que cita el Anexo D.7 (Newtral, EFE Verifica y VerificaRTVE). Maldita.es no figura en esa lista y no tiene ficha por este criterio." },
+        { "tipo": "esquema", "esquema": { "tipo": "fichas-verificadores", "titulo": "Verificadores: sello de la IFCN, propiedad y metodología", "descripcion": "Estado en la lista pública de la IFCN en la fecha de consulta, no de memoria." } },
+        { "tipo": "p", "etiqueta": "DATO DE ESTUDIO", "texto": "Un artículo académico de 2023 (Moreno-Gil y Salgado-de Dios, Revista de Comunicación) analiza cuatro plataformas españolas de verificación, pero no declara si son signatarias de la IFCN." },
+        { "tipo": "aviso", "etiqueta": "EXPLICACIÓN DIDÁCTICA", "texto": "Un sello caduca. Antes de citar a un verificador, mira su perfil en la IFCN y la fecha de validez." }
+      ],
+      "ejemplo": "Alguien dice que «el Congreso ha aprobado la ley». En congreso.es ves la votación; en el BOE, si se ha publicado y cuándo entra en vigor.",
+      "error": {
+        "titulo": "«Lo ha verificado un servicio, así que el medio entero es fiable»",
+        "texto": "Un verificador comprueba afirmaciones concretas. No valora la línea editorial de un medio entero."
+      },
+      "normas": [],
+      "terminos": ["verificacion-de-datos", "ifcn", "fuente-primaria"],
+      "profundizar": ["ifcn-signatarios", "efe-verifica", "verificartve", "revista-comunicacion-2971", "congreso-votaciones-xv"]
+    },
+    {
+      "id": "m9-comprobaciones",
+      "numero": "9.5",
+      "titulo": "Cinco comprobaciones ante una noticia",
+      "resumen": [
+        "Busca la fuente original, compara medios de distinto propietario y distingue noticia, análisis y opinión.",
+        "Mira la fecha y el contexto, y desconfía de las afirmaciones absolutas.",
+        "Son pautas, no garantías. Los ejemplos son inventados."
+      ],
+      "explicacion": [
+        { "tipo": "lista", "ordenada": true, "items": [
+          "**Comprueba la fuente original**: qué documento, dato o declaración completa hay detrás de la noticia.",
+          "**Busca la misma noticia en medios de distinto propietario** y línea editorial declarada: qué hechos coinciden y en qué se diferencian el énfasis y el vocabulario.",
+          "**Distingue noticia, análisis y opinión.**",
+          "**Mira la fecha y el contexto**: si es reciente y si se ha recortado una declaración.",
+          "**Desconfía de las afirmaciones absolutas** («todos», «nunca», «han prohibido», «han robado»). Una acusación no equivale a una condena."
+        ] },
+        { "tipo": "p", "etiqueta": "NORMA VIGENTE", "texto": "La Ley 13/2022 pide promover la {{alfabetizacion-mediatica|alfabetización mediática}}: analizar críticamente la información, discernir entre hechos y opiniones y reconocer las noticias falsas y los procesos de {{desinformacion|desinformación}} (art. 10.2)." },
+        { "tipo": "h3", "texto": "Analiza una noticia inventada" },
+        { "tipo": "esquema", "esquema": {
+          "tipo": "analizador-noticia",
+          "titulo": "Analizador de una noticia",
+          "descripcion": "Noticia, medio y personas inventados. Marca cada comprobación para ver qué se encuentra.",
+          "noticia": {
+            "medio": "Diario de Ejemplandia (inventado)",
+            "fecha": "Publicada el 3 de marzo de 2019; compartida hoy en redes sociales",
+            "titular": "El Gobierno prohíbe todas las barbacoas del país",
+            "texto": "Según fuentes consultadas por este diario, el Gobierno ha prohibido las barbacoas en todo el país. «Nunca más se podrá cocinar al aire libre», asegura un portavoz vecinal. La medida ha indignado a los hosteleros."
+          },
+          "comprobaciones": [
+            { "titulo": "Fuente original", "pregunta": "¿Qué documento hay detrás?", "hallazgo": "La noticia no enlaza ninguna norma. En el boletín oficial de Ejemplandia hay una orden de 2019 que prohíbe hacer fuego en zonas forestales en verano, no en todo el país ni todo el año." },
+            { "titulo": "Otros medios", "pregunta": "¿Qué cuentan medios de distinto propietario?", "hallazgo": "Dos medios de grupos distintos coinciden en la orden y en su fecha. Uno habla de «prohibición» y otro de «restricción temporal»: mismo hecho, distinto vocabulario." },
+            { "titulo": "Noticia, análisis u opinión", "pregunta": "¿Qué parte es hecho y qué parte es valoración?", "hallazgo": "Hay un hecho (existe una orden) y una valoración sin atribuir a nadie identificado: «la medida ha indignado a los hosteleros»." },
+            { "titulo": "Fecha y contexto", "pregunta": "¿Es reciente? ¿Falta parte de una cita?", "hallazgo": "Es de 2019 y se comparte como si fuera de hoy. La cita está recortada: la frase completa terminaba «en el monte en agosto»." },
+            { "titulo": "Afirmaciones absolutas", "pregunta": "¿Hay «todos», «nunca» o «han prohibido»?", "hallazgo": "«Todas» y «nunca más» no aparecen en la orden, que tiene excepciones y un plazo." }
+          ],
+          "conclusion": "Has hecho las cinco comprobaciones. El titular era engañoso: exageraba una orden real, antigua y limitada. Son pautas, no garantías."
+        } },
+        { "tipo": "h3", "texto": "Noticia, análisis u opinión" },
+        { "tipo": "esquema", "esquema": {
+          "tipo": "clasificador",
+          "titulo": "Clasifica seis textos breves",
+          "instrucciones": "Los seis textos son inventados. Elige si cada uno es una noticia, un análisis o una opinión y pulsa «Comprobar».",
+          "categorias": [
+            { "id": "noticia", "nombre": "Noticia" },
+            { "id": "analisis", "nombre": "Análisis" },
+            { "id": "opinion", "nombre": "Opinión" }
+          ],
+          "items": [
+            { "texto": "«El Parlamento de Ejemplandia aprobó ayer la ley de envases con 180 votos a favor y 120 en contra. Entrará en vigor el 1 de enero».", "correcta": "noticia", "explicacion": "Cuenta hechos comprobables (la votación y la fecha) sin valorarlos." },
+            { "texto": "«La tasa llega en un año de inflación alta. Si los comercios la trasladan al precio, como prevé la memoria de la ley, el efecto dependerá de cuántos envases compre cada hogar».", "correcta": "analisis", "explicacion": "Explica el contexto y las posibles consecuencias con datos atribuidos, sin decir qué debería hacerse." },
+            { "texto": "«Columna. Esta tasa es un error: castiga a las familias y no resuelve nada. El Gobierno debería retirarla».", "correcta": "opinion", "explicacion": "Valora y propone qué hacer. Va firmada y marcada como columna." },
+            { "texto": "«La oficina de estadística publicó el martes que el paro bajó al 10 % en el tercer trimestre, dos décimas menos que en el anterior».", "correcta": "noticia", "explicacion": "Informa de un dato con su fuente y su periodo." },
+            { "texto": "«Editorial. Celebramos la nueva ley de lectura, la mejor noticia educativa en años».", "correcta": "opinion", "explicacion": "Un editorial expresa la posición del medio: es opinión." },
+            { "texto": "«¿Por qué baja el paro? El empleo creció más en turismo; los especialistas consultados discrepan sobre el peso del ciclo económico y el de las medidas recientes».", "correcta": "analisis", "explicacion": "Busca causas, presenta datos y atribuye las interpretaciones a quien las hace." }
+          ]
+        } },
+        { "tipo": "h3", "texto": "Fecha y contexto" },
+        { "tipo": "esquema", "esquema": {
+          "tipo": "ejercicio-revelar",
+          "titulo": "Un titular cierto, pero de hace años",
+          "descripcion": "Titulares inventados que fueron ciertos en su día y vuelven a circular como si fueran de hoy.",
+          "items": [
+            { "titular": "Cierran todos los colegios de la región por la nieve", "texto": "El enlace lleva a una noticia del 12 de enero de 2021 de un diario inventado de Ejemplandia. Hoy circula en redes sin fecha visible.", "pregunta": "¿Es falso?", "respuesta": "No es falso: fue cierto aquel día. Compartido hoy sin fecha es engañoso, porque hace creer que los colegios cierran ahora. Mira siempre la fecha de publicación." },
+            { "titular": "El ministro anuncia que bajará el impuesto de la luz", "texto": "Es un anuncio de un ministro inventado, hecho en 2022. Se comparte hoy con el comentario «por fin lo hacen».", "pregunta": "¿Qué dos cosas comprobarías?", "respuesta": "La fecha (el anuncio es de 2022) y si el anuncio llegó a ser norma: busca en el boletín oficial si se publicó y desde cuándo se aplica. Un anuncio es una PROPUESTA, no una norma." }
+          ]
+        } }
+      ],
+      "ejemplo": "Antes de compartir un titular que te indigna, abre la noticia, mira la fecha y busca el documento que cita.",
+      "error": {
+        "titulo": "«Si lo cuentan muchos, es verdad»",
+        "texto": "Muchos medios pueden repetir la misma fuente. Lo que cuenta es el documento original, no el número de veces que se repite."
+      },
+      "normas": ["lgca-10-2", "lgca-9-1"],
+      "terminos": ["noticia", "analisis", "opinion", "fuente-primaria", "desinformacion", "bulo", "alfabetizacion-mediatica"],
+      "profundizar": ["boe-orden-desinformacion", "fape-codigo", "boe-ley-comunicacion-audiovisual"]
+    },
+    {
+      "id": "m9-repaso",
+      "numero": "9.6",
+      "titulo": "Repaso del módulo 9",
+      "tipo": "repaso",
+      "resumen": [
+        "La propiedad es contexto, no una prueba; las fichas tienen la misma estructura para todos los medios.",
+        "La web no asigna orientación política a ningún medio.",
+        "Cinco comprobaciones: fuente original, otros medios, tipo de texto, fecha y contexto, afirmaciones absolutas."
+      ],
+      "preguntas_de": ["m9-idea", "m9-fichas", "m9-orientacion", "m9-contrastar", "m9-comprobaciones"],
+      "profundizar": ["euromo-espana-2025", "ifcn-signatarios"]
+    }
+  ]
+}

@@ -1,0 +1,240 @@
+{
+  "secciones": [
+    {
+      "id": "estado",
+      "ruta": "/estado",
+      "titulo": "El Estado",
+      "intro": [
+        "Dos módulos para entender las piezas básicas: qué es el Estado, qué dice la Constitución y cómo funcionan las Cortes, el Gobierno, la Justicia y la Jefatura del Estado.",
+        "Cada bloque tiene un resumen, una explicación paso a paso, un ejemplo, un error frecuente, sus fuentes y un cuestionario."
+      ],
+      "pie": "¿Cómo seguir una noticia política? Lo explica la sección [Información y medios](#/medios).",
+      "modulos": [
+        "m1",
+        "m2"
+      ]
+    },
+    {
+      "id": "elecciones",
+      "ruta": "/elecciones",
+      "titulo": "Elecciones generales",
+      "intro": [
+        "Qué se vota el 29 de noviembre de 2026, cómo se convierten los votos en escaños y cómo se llega desde los escaños al Gobierno.",
+        "Las calculadoras y simuladores usan partidos ficticios. La web no publica encuestas, estimaciones ni proyecciones de escaños, y no recomienda ningún voto."
+      ],
+      "pie": "Hay elecciones convocadas. Las fechas pueden cambiar hasta el escrutinio: cada una indica su fuente y el día en que se consultó.",
+      "modulos": [
+        "m3"
+      ]
+    },
+    {
+      "id": "competencias",
+      "ruta": "/competencias",
+      "titulo": "Quién decide qué",
+      "intro": [
+        "Qué decide el Estado, qué las comunidades autónomas, qué los ayuntamientos y qué la Unión Europea, con el artículo que lo sostiene.",
+        "Cuando la web no ha podido comprobar una competencia, lo dice con la etiqueta PENDIENTE DE VERIFICAR."
+      ],
+      "pie": "Las competencias salen de los textos legales consolidados. Los Estatutos de Autonomía no se han leído uno a uno: donde dependen de ellos, la web lo indica.",
+      "modulos": [
+        "m4"
+      ]
+    },
+    {
+      "id": "economia",
+      "ruta": "/economia",
+      "titulo": "Economía y hacienda",
+      "intro": [
+        "Cómo leer los principales indicadores económicos, cómo funcionan los impuestos, los Presupuestos y las pensiones, y quién decide la política monetaria.",
+        "Cada cifra real lleva su fuente, su periodo y su fecha de consulta. Las calculadoras usan cifras ficticias."
+      ],
+      "pie": "Este módulo enseña a leer indicadores; no evalúa políticas concretas.",
+      "modulos": [
+        "m5"
+      ]
+    },
+    {
+      "id": "partidos",
+      "ruta": "/partidos",
+      "titulo": "Partidos",
+      "intro": [
+        "Qué es un partido, una coalición y un grupo parlamentario, y las fichas de las formaciones con representación, todas con la misma estructura y las mismas fuentes.",
+        "Las fichas no puntúan ni recomiendan. El orden por defecto es alfabético y lo que falta comprobar falta para todas por igual."
+      ],
+      "pie": "Hay elecciones convocadas para el 29 de noviembre de 2026. Esta web es un recurso educativo independiente de las candidaturas.",
+      "modulos": [
+        "m6"
+      ]
+    },
+    {
+      "id": "temas",
+      "ruta": "/temas",
+      "titulo": "Temas",
+      "intro": [
+        "Nueve temas con la misma estructura: el problema, quién decide, qué se propone, qué dicen los datos y qué sigue abierto.",
+        "Empieza por el ciclo de una medida y sigue con el módulo 8: cómo analizar una medida y leer encuestas y estadísticas."
+      ],
+      "pie": "Los ejemplos del módulo 8 son medidas inventadas. La web no valora medidas ni analiza propuestas de las candidaturas del 29-N.",
+      "modulos": [
+        "m7",
+        "m8"
+      ]
+    },
+    {
+      "id": "medios",
+      "ruta": "/medios",
+      "titulo": "Información y medios",
+      "intro": [
+        "Quién hay detrás de cada medio, qué páginas sirven para contrastar y cinco comprobaciones ante una noticia.",
+        "Las fichas tienen la misma estructura para todos los medios. La web no asigna orientación política ni dice qué medios son fiables."
+      ],
+      "pie": "Los ejemplos de noticias son inventados: no hay titulares reales ni nombres de medios, partidos o personas.",
+      "modulos": [
+        "m9"
+      ]
+    }
+  ],
+  "modulos": [
+    {
+      "id": "m1",
+      "titulo": "Módulo 1. Fundamentos de política",
+      "titulo_corto": "Módulo 1",
+      "objetivo": "El vocabulario y los modelos mínimos para entender el resto de la web.",
+      "bloques": [
+        "m1-estado",
+        "m1-democracia",
+        "m1-constitucion",
+        "m1-articulo-1",
+        "m1-derechos",
+        "m1-territorio",
+        "m1-ideologia",
+        "m1-normas"
+      ]
+    },
+    {
+      "id": "m2",
+      "titulo": "Módulo 2. El Estado español",
+      "titulo_corto": "Módulo 2",
+      "objetivo": "Qué hace cada institución, cómo se aprueba una ley y cómo se controla al Gobierno.",
+      "bloques": [
+        "m2-cortes",
+        "m2-leyes",
+        "m2-control",
+        "m2-gobierno",
+        "m2-justicia",
+        "m2-jefatura",
+        "m2-relaciones",
+        "m2-repaso"
+      ]
+    },
+    {
+      "id": "m3",
+      "titulo": "Módulo 3. Las elecciones generales",
+      "titulo_corto": "Módulo 3",
+      "objetivo": "Qué se vota, cómo se reparten los escaños, cómo se vota y cómo se forma el Gobierno.",
+      "bloques": [
+        "m3-que-se-vota",
+        "m3-circunscripciones",
+        "m3-papeletas",
+        "m3-reparto",
+        "m3-senado",
+        "m3-convocatoria",
+        "m3-votar",
+        "m3-gobierno",
+        "m3-otras",
+        "m3-errores",
+        "m3-repaso"
+      ]
+    },
+    {
+      "id": "m4",
+      "titulo": "Módulo 4. Quién decide qué",
+      "titulo_corto": "Módulo 4",
+      "objetivo": "Saber qué nivel de gobierno decide, gestiona y paga cada cosa, y qué papel tiene la Unión Europea.",
+      "bloques": [
+        "m4-niveles",
+        "m4-reparto",
+        "m4-financiacion",
+        "m4-ayuntamientos",
+        "m4-ue",
+        "m4-repaso"
+      ]
+    },
+    {
+      "id": "m5",
+      "titulo": "Módulo 5. Economía y hacienda pública",
+      "titulo_corto": "Módulo 5",
+      "objetivo": "Leer indicadores sin malinterpretarlos y entender impuestos, Presupuestos, pensiones y política monetaria.",
+      "bloques": [
+        "m5-indicadores",
+        "m5-leer-datos",
+        "m5-impuestos",
+        "m5-pensiones",
+        "m5-monetaria",
+        "m5-repaso"
+      ]
+    },
+    {
+      "id": "m6",
+      "titulo": "Módulo 6. Los partidos políticos",
+      "titulo_corto": "Módulo 6",
+      "objetivo": "Qué es un partido y un grupo parlamentario, y fichas de los partidos con la misma estructura para todos.",
+      "bloques": [
+        "m6-que-es",
+        "m6-grupos",
+        "m6-tipos",
+        "m6-fichas",
+        "m6-comparador",
+        "m6-repaso"
+      ]
+    },
+    {
+      "id": "m7",
+      "titulo": "Módulo 7. Los temas políticos",
+      "titulo_corto": "Módulo 7",
+      "objetivo": "Para cada tema: el problema, quién decide, qué se propone, qué dicen los datos y qué sigue abierto.",
+      "bloques": [
+        "m7-ciclo",
+        "m7-vivienda",
+        "m7-sanidad-educacion",
+        "m7-economia",
+        "m7-justicia",
+        "m7-territorio",
+        "m7-inmigracion",
+        "m7-igualdad",
+        "m7-medio-ambiente",
+        "m7-ue-exterior",
+        "m7-disputados",
+        "m7-repaso"
+      ]
+    },
+    {
+      "id": "m8",
+      "titulo": "Módulo 8. Análisis de políticas públicas y lectura de datos",
+      "titulo_corto": "Módulo 8",
+      "objetivo": "Un método para analizar una medida, distinguir objetivos de resultados y leer encuestas y estadísticas.",
+      "bloques": [
+        "m8-ficha",
+        "m8-afirmaciones",
+        "m8-causalidad",
+        "m8-fuentes",
+        "m8-encuestas",
+        "m8-repaso"
+      ]
+    },
+    {
+      "id": "m9",
+      "titulo": "Módulo 9. Medios de comunicación y verificación",
+      "titulo_corto": "Módulo 9",
+      "objetivo": "Saber quién hay detrás de un medio, dónde contrastar y cómo detectar una noticia manipulada.",
+      "bloques": [
+        "m9-idea",
+        "m9-fichas",
+        "m9-orientacion",
+        "m9-contrastar",
+        "m9-comprobaciones",
+        "m9-repaso"
+      ]
+    }
+  ]
+}

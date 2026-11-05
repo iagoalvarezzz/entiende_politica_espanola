@@ -1,0 +1,186 @@
+/* Sistema de diseño: variables de color, tipografía y espacio.
+   Colores solo en hexadecimal de 6 cifras: tools/run_tests.py los lee para
+   comprobar el contraste (WCAG 2.2 AA) en modo claro y oscuro.
+   Los colores de institución identifican instituciones y nunca a partidos;
+   ninguno connota «bueno» o «malo» y siempre van con icono y texto. */
+
+:root {
+  color-scheme: light;
+
+  --fondo: #fbfaf7;
+  --superficie: #ffffff;
+  --superficie-2: #f1efe9;
+  --texto: #1d1f23;
+  --texto-suave: #4b5058;
+  --borde: #d9d5cc;
+  --borde-fuerte: #6f6b62;
+  --enlace: #1f4f8f;
+  --foco: #1f4f8f;
+  --cabecera-fondo: #23262b;
+  --cabecera-texto: #f6f4ef;
+
+  --et-oficial-fondo: #e6eef8;
+  --et-oficial-texto: #173a63;
+  --et-oficial-borde: #5b7fae;
+  --et-estudio-fondo: #ece8f6;
+  --et-estudio-texto: #3b2d6b;
+  --et-estudio-borde: #7d6bb3;
+  --et-norma-fondo: #e3eef0;
+  --et-norma-texto: #17414a;
+  --et-norma-borde: #4f8792;
+  --et-didactica-fondo: #f1ede4;
+  --et-didactica-texto: #4a3a12;
+  --et-didactica-borde: #9c8350;
+  --et-simulacion-fondo: #f3e9f1;
+  --et-simulacion-texto: #5a2450;
+  --et-simulacion-borde: #a5679a;
+  --et-propuesta-fondo: #eef0e4;
+  --et-propuesta-texto: #3c4417;
+  --et-propuesta-borde: #8c9653;
+  --et-prevision-fondo: #f4ebe3;
+  --et-prevision-texto: #5a3216;
+  --et-prevision-borde: #b07a52;
+  --et-interpretacion-fondo: #ecebef;
+  --et-interpretacion-texto: #33323d;
+  --et-interpretacion-borde: #85839a;
+  --et-estimacion-fondo: #f1e8ea;
+  --et-estimacion-texto: #57262f;
+  --et-estimacion-borde: #a8737d;
+  --et-pendiente-fondo: #fff4d6;
+  --et-pendiente-texto: #5c4300;
+  --et-pendiente-borde: #a37c00;
+
+  --inst-congreso: #8a4b2d;
+  --inst-senado: #7a5a14;
+  --inst-gobierno: #2e5b7e;
+  --inst-justicia: #5b4b7e;
+  --inst-comunidades: #2b6a5e;
+  --inst-ayuntamientos: #6a5838;
+  --inst-ue: #2a4a8a;
+
+  --fuente: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --fuente-mono: ui-monospace, "Cascadia Mono", Consolas, "Liberation Mono", monospace;
+  --texto-base: 1.0625rem;
+  --interlineado: 1.6;
+  --radio: 0.5rem;
+  --espacio-1: 0.25rem;
+  --espacio-2: 0.5rem;
+  --espacio-3: 0.75rem;
+  --espacio-4: 1rem;
+  --espacio-5: 1.5rem;
+  --espacio-6: 2rem;
+  --ancho-texto: 70ch;
+  --objetivo-tactil: 44px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
+
+    --fondo: #15171a;
+    --superficie: #1d2024;
+    --superficie-2: #262a2f;
+    --texto: #eceae5;
+    --texto-suave: #b9b6ae;
+    --borde: #3a3f46;
+    --borde-fuerte: #8c8a84;
+    --enlace: #9cc3f5;
+    --foco: #9cc3f5;
+    --cabecera-fondo: #0d0e10;
+    --cabecera-texto: #eceae5;
+
+    --et-oficial-fondo: #1c2a3b;
+    --et-oficial-texto: #c6dbf5;
+    --et-oficial-borde: #5b7fae;
+    --et-estudio-fondo: #282339;
+    --et-estudio-texto: #d9d0f5;
+    --et-estudio-borde: #8a79c4;
+    --et-norma-fondo: #172e31;
+    --et-norma-texto: #bfe3e6;
+    --et-norma-borde: #5f9aa4;
+    --et-didactica-fondo: #2e281a;
+    --et-didactica-texto: #eadcb8;
+    --et-didactica-borde: #a88f5c;
+    --et-simulacion-fondo: #33212f;
+    --et-simulacion-texto: #f0cde8;
+    --et-simulacion-borde: #b07aa5;
+    --et-propuesta-fondo: #2a2d1a;
+    --et-propuesta-texto: #e0e6b8;
+    --et-propuesta-borde: #99a35f;
+    --et-prevision-fondo: #33241a;
+    --et-prevision-texto: #f2d2bb;
+    --et-prevision-borde: #bb8761;
+    --et-interpretacion-fondo: #26252d;
+    --et-interpretacion-texto: #dddbe8;
+    --et-interpretacion-borde: #8f8da6;
+    --et-estimacion-fondo: #33212a;
+    --et-estimacion-texto: #f2cdd4;
+    --et-estimacion-borde: #b5808a;
+    --et-pendiente-fondo: #352b0e;
+    --et-pendiente-texto: #f7e1a0;
+    --et-pendiente-borde: #c99d1c;
+
+    --inst-congreso: #d39a7c;
+    --inst-senado: #cfae66;
+    --inst-gobierno: #86b3d6;
+    --inst-justicia: #b1a2d6;
+    --inst-comunidades: #7cc1b3;
+    --inst-ayuntamientos: #c4ae86;
+    --inst-ue: #8fa9e0;
+  }
+}
+
+:root[data-theme="dark"] {
+  color-scheme: dark;
+
+  --fondo: #15171a;
+  --superficie: #1d2024;
+  --superficie-2: #262a2f;
+  --texto: #eceae5;
+  --texto-suave: #b9b6ae;
+  --borde: #3a3f46;
+  --borde-fuerte: #8c8a84;
+  --enlace: #9cc3f5;
+  --foco: #9cc3f5;
+  --cabecera-fondo: #0d0e10;
+  --cabecera-texto: #eceae5;
+
+  --et-oficial-fondo: #1c2a3b;
+  --et-oficial-texto: #c6dbf5;
+  --et-oficial-borde: #5b7fae;
+  --et-estudio-fondo: #282339;
+  --et-estudio-texto: #d9d0f5;
+  --et-estudio-borde: #8a79c4;
+  --et-norma-fondo: #172e31;
+  --et-norma-texto: #bfe3e6;
+  --et-norma-borde: #5f9aa4;
+  --et-didactica-fondo: #2e281a;
+  --et-didactica-texto: #eadcb8;
+  --et-didactica-borde: #a88f5c;
+  --et-simulacion-fondo: #33212f;
+  --et-simulacion-texto: #f0cde8;
+  --et-simulacion-borde: #b07aa5;
+  --et-propuesta-fondo: #2a2d1a;
+  --et-propuesta-texto: #e0e6b8;
+  --et-propuesta-borde: #99a35f;
+  --et-prevision-fondo: #33241a;
+  --et-prevision-texto: #f2d2bb;
+  --et-prevision-borde: #bb8761;
+  --et-interpretacion-fondo: #26252d;
+  --et-interpretacion-texto: #dddbe8;
+  --et-interpretacion-borde: #8f8da6;
+  --et-estimacion-fondo: #33212a;
+  --et-estimacion-texto: #f2cdd4;
+  --et-estimacion-borde: #b5808a;
+  --et-pendiente-fondo: #352b0e;
+  --et-pendiente-texto: #f7e1a0;
+  --et-pendiente-borde: #c99d1c;
+
+  --inst-congreso: #d39a7c;
+  --inst-senado: #cfae66;
+  --inst-gobierno: #86b3d6;
+  --inst-justicia: #b1a2d6;
+  --inst-comunidades: #7cc1b3;
+  --inst-ayuntamientos: #c4ae86;
+  --inst-ue: #8fa9e0;
+}

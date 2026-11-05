@@ -1,0 +1,316 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "partido.schema.json",
+  "title": "Partido (Anexo C.1.5), fichero data/partidos.json",
+  "description": "Mismos campos y mismo orden en todas las fichas (sección 4.1); tools/validate.py lo comprueba. Las direcciones pueden ser null mientras estén pendientes. Ampliación H4: denominacion_fuente (fuente de la denominación), ambito_criterio (por qué es estatal o autonómico), resultados_2023 (elecciones generales anteriores), fuentes (las mismas para todas las fichas) y pendientes (campos sin dato y motivo).",
+  "type": "object",
+  "required": [
+    "id",
+    "nombre_oficial",
+    "siglas",
+    "ambito",
+    "web",
+    "autodefinicion",
+    "clasificacion",
+    "representacion",
+    "gobiernos",
+    "programa",
+    "votaciones"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "$ref": "comun.schema.json#/$defs/id"
+    },
+    "nombre_oficial": {
+      "$ref": "comun.schema.json#/$defs/texto"
+    },
+    "siglas": {
+      "$ref": "comun.schema.json#/$defs/texto"
+    },
+    "ambito": {
+      "enum": [
+        "estatal",
+        "autonomico"
+      ]
+    },
+    "anio_fundacion": {
+      "type": "object",
+      "required": [
+        "valor",
+        "fuente_id"
+      ],
+      "properties": {
+        "valor": {
+          "type": "integer"
+        },
+        "fuente_id": {
+          "$ref": "comun.schema.json#/$defs/id"
+        }
+      }
+    },
+    "web": {
+      "type": "object",
+      "required": [
+        "url",
+        "estado_enlace"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "url": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "estado_enlace": {
+          "enum": [
+            "abierta",
+            "raiz_sin_verificar",
+            "no_verificada"
+          ]
+        },
+        "fuente_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "autodefinicion": {
+      "type": "object",
+      "required": [
+        "cita",
+        "url",
+        "fecha_consulta"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "cita": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "url": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "fecha_consulta": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "clasificacion": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "fuente_id",
+          "anio",
+          "metodologia",
+          "categoria"
+        ],
+        "properties": {
+          "fuente_id": {
+            "$ref": "comun.schema.json#/$defs/id"
+          },
+          "anio": {
+            "type": "integer"
+          },
+          "metodologia": {
+            "$ref": "comun.schema.json#/$defs/texto"
+          },
+          "categoria": {
+            "$ref": "comun.schema.json#/$defs/texto"
+          }
+        }
+      }
+    },
+    "representacion": {
+      "type": "object",
+      "required": [
+        "fecha_referencia",
+        "congreso",
+        "senado",
+        "parlamento_europeo",
+        "parlamentos_autonomicos",
+        "fuente_id"
+      ],
+      "properties": {
+        "fecha_referencia": {
+          "$ref": "comun.schema.json#/$defs/fecha"
+        },
+        "congreso": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "senado": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "parlamento_europeo": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "parlamentos_autonomicos": {
+          "type": [
+            "array",
+            "null"
+          ]
+        },
+        "fuente_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "gobiernos": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "nivel",
+          "territorio",
+          "fuente_id",
+          "fecha"
+        ],
+        "properties": {
+          "nivel": {
+            "$ref": "comun.schema.json#/$defs/texto"
+          },
+          "territorio": {
+            "$ref": "comun.schema.json#/$defs/texto"
+          },
+          "fuente_id": {
+            "$ref": "comun.schema.json#/$defs/id"
+          },
+          "fecha": {
+            "$ref": "comun.schema.json#/$defs/fecha"
+          }
+        }
+      }
+    },
+    "programa": {
+      "type": "object",
+      "required": [
+        "url",
+        "fecha",
+        "propuestas"
+      ],
+      "properties": {
+        "url": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "fecha": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "propuestas": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "tema_id",
+              "texto",
+              "etiqueta"
+            ],
+            "properties": {
+              "tema_id": {
+                "$ref": "comun.schema.json#/$defs/id"
+              },
+              "texto": {
+                "$ref": "comun.schema.json#/$defs/texto"
+              },
+              "etiqueta": {
+                "enum": [
+                  "PROPUESTA"
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "votaciones": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "criterio",
+          "enlace",
+          "resultado"
+        ],
+        "properties": {
+          "criterio": {
+            "$ref": "comun.schema.json#/$defs/texto"
+          },
+          "enlace": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "resultado": {
+            "$ref": "comun.schema.json#/$defs/texto"
+          }
+        }
+      }
+    },
+    "denominacion_fuente": {
+      "$ref": "comun.schema.json#/$defs/id"
+    },
+    "ambito_criterio": {
+      "$ref": "comun.schema.json#/$defs/texto"
+    },
+    "resultados_2023": {
+      "type": [
+        "object",
+        "null"
+      ]
+    },
+    "fuentes": {
+      "type": "array",
+      "items": {
+        "$ref": "comun.schema.json#/$defs/id"
+      }
+    },
+    "pendientes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "campo",
+          "motivo"
+        ],
+        "properties": {
+          "campo": {
+            "type": "string"
+          },
+          "motivo": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

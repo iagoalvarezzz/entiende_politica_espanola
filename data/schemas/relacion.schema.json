@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "relacion.schema.json",
+  "title": "Relación entre instituciones (sección 9.7), fichero data/relaciones.json",
+  "description": "Esquema propio del proyecto (no figura en el Anexo C). Cada relación cita el artículo que la sostiene y sigue las reglas de estado y etiqueta de un dato.",
+  "type": "object",
+  "required": ["id", "origen", "destino", "tipo", "descripcion", "articulo", "fuente_id", "estado", "etiqueta"],
+  "additionalProperties": false,
+  "properties": {
+    "id": { "$ref": "comun.schema.json#/$defs/id" },
+    "origen": { "$ref": "comun.schema.json#/$defs/id" },
+    "destino": { "$ref": "comun.schema.json#/$defs/id" },
+    "tipo": { "enum": ["elige", "designa", "propone", "nombra", "controla", "sanciona", "disuelve", "gobierna", "juzga"] },
+    "descripcion": { "$ref": "comun.schema.json#/$defs/texto" },
+    "articulo": { "$ref": "comun.schema.json#/$defs/texto" },
+    "fuente_id": { "$ref": "comun.schema.json#/$defs/id" },
+    "url": { "$ref": "comun.schema.json#/$defs/url" },
+    "ancla": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+    "fecha_publicacion": { "$ref": "comun.schema.json#/$defs/fecha" },
+    "fecha_consulta": { "$ref": "comun.schema.json#/$defs/fecha" },
+    "estado": { "$ref": "comun.schema.json#/$defs/estado" },
+    "etiqueta": { "$ref": "comun.schema.json#/$defs/etiqueta" }
+  }
+}

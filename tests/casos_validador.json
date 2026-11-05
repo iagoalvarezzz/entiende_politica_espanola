@@ -1,0 +1,205 @@
+{
+  "descripcion": "Casos para comprobar que tools/validate.py rechaza lo que prohíbe el Anexo C.3. Cada caso con error_esperado debe producir un error que contenga ese texto; los casos con error_esperado null no deben producir ninguno.",
+  "casos": [
+    {
+      "nombre": "Datos válidos: uno de ejemplo y uno verificado",
+      "esquema": "dato",
+      "error_esperado": null,
+      "registros": [
+        { "id": "ejemplo-1", "conjunto": "pruebas", "valor": 1, "unidad": "sin unidad", "periodo": "2026", "estado": "ejemplo", "etiqueta": "SIMULACIÓN" },
+        { "id": "verificado-1", "conjunto": "pruebas", "valor": 38, "unidad": "escaños", "periodo": "2026-11-29", "fuente_id": "boe-rd-806-2026", "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20742", "fecha_publicacion": "2026-10-06", "fecha_consulta": "2026-10-29", "estado": "verificado", "etiqueta": "DATO OFICIAL" }
+      ]
+    },
+    {
+      "nombre": "Id repetido dentro del conjunto",
+      "esquema": "dato",
+      "error_esperado": "id repetido",
+      "registros": [
+        { "id": "repetido", "conjunto": "pruebas", "valor": 1, "unidad": "sin unidad", "periodo": "2026", "estado": "ejemplo", "etiqueta": "SIMULACIÓN" },
+        { "id": "repetido", "conjunto": "pruebas", "valor": 2, "unidad": "sin unidad", "periodo": "2026", "estado": "ejemplo", "etiqueta": "SIMULACIÓN" }
+      ]
+    },
+    {
+      "nombre": "fuente_id que no existe en sources.json",
+      "esquema": "dato",
+      "error_esperado": "fuente_id inexistente",
+      "registros": [
+        { "id": "d1", "conjunto": "pruebas", "valor": 1, "unidad": "sin unidad", "periodo": "2026", "fuente_id": "no-existe", "url": "https://www.boe.es/", "fecha_consulta": "2026-10-29", "estado": "verificado", "etiqueta": "DATO OFICIAL" }
+      ]
+    },
+    {
+      "nombre": "Dato verificado sin url",
+      "esquema": "dato",
+      "error_esperado": "sin url o sin fecha_consulta",
+      "registros": [
+        { "id": "d1", "conjunto": "pruebas", "valor": 1, "unidad": "sin unidad", "periodo": "2026", "fuente_id": "boe-rd-806-2026", "fecha_consulta": "2026-10-29", "estado": "verificado", "etiqueta": "DATO OFICIAL" }
+      ]
+    },
+    {
+      "nombre": "Dato verificado con etiqueta SIMULACIÓN",
+      "esquema": "dato",
+      "error_esperado": "verificado con etiqueta",
+      "registros": [
+        { "id": "d1", "conjunto": "pruebas", "valor": 1, "unidad": "sin unidad", "periodo": "2026", "fuente_id": "boe-rd-806-2026", "url": "https://www.boe.es/", "fecha_consulta": "2026-10-29", "estado": "verificado", "etiqueta": "SIMULACIÓN" }
+      ]
+    },
+    {
+      "nombre": "Dato de ejemplo sin etiqueta SIMULACIÓN",
+      "esquema": "dato",
+      "error_esperado": "ejemplo sin etiqueta SIMULACIÓN",
+      "registros": [
+        { "id": "d1", "conjunto": "pruebas", "valor": 1, "unidad": "sin unidad", "periodo": "2026", "estado": "ejemplo", "etiqueta": "EXPLICACIÓN DIDÁCTICA" }
+      ]
+    },
+    {
+      "nombre": "Dato de ejemplo con fuente_id (debe omitirse)",
+      "esquema": "dato",
+      "error_esperado": "debe omitirse",
+      "registros": [
+        { "id": "d1", "conjunto": "pruebas", "valor": 1, "unidad": "sin unidad", "periodo": "2026", "fuente_id": "boe-rd-806-2026", "estado": "ejemplo", "etiqueta": "SIMULACIÓN" }
+      ]
+    },
+    {
+      "nombre": "Dato pendiente sin etiqueta PENDIENTE DE VERIFICAR",
+      "esquema": "dato",
+      "error_esperado": "pendiente sin etiqueta PENDIENTE DE VERIFICAR",
+      "registros": [
+        { "id": "d1", "conjunto": "pruebas", "valor": 1, "unidad": "sin unidad", "periodo": "2026", "fuente_id": "boe-rd-806-2026", "estado": "pendiente", "etiqueta": "DATO OFICIAL" }
+      ]
+    },
+    {
+      "nombre": "Fecha que no existe",
+      "esquema": "dato",
+      "error_esperado": "fecha no válida",
+      "registros": [
+        { "id": "d1", "conjunto": "pruebas", "valor": 1, "unidad": "sin unidad", "periodo": "2026", "fuente_id": "boe-rd-806-2026", "url": "https://www.boe.es/", "fecha_consulta": "2026-13-01", "estado": "verificado", "etiqueta": "DATO OFICIAL" }
+      ]
+    },
+    {
+      "nombre": "fecha_publicacion posterior a fecha_consulta",
+      "esquema": "dato",
+      "error_esperado": "posterior a fecha_consulta",
+      "registros": [
+        { "id": "d1", "conjunto": "pruebas", "valor": 1, "unidad": "sin unidad", "periodo": "2026", "fuente_id": "boe-rd-806-2026", "url": "https://www.boe.es/", "fecha_publicacion": "2026-11-01", "fecha_consulta": "2026-10-29", "estado": "verificado", "etiqueta": "DATO OFICIAL" }
+      ]
+    },
+    {
+      "nombre": "Resultado de ejemplo válido",
+      "esquema": "resultado",
+      "error_esperado": null,
+      "registros": [
+        { "eleccion_id": "ejemplo", "circunscripcion_id": "ficticia", "escanos": 4, "censo": 200000, "votantes": 158000, "votos_blanco": 2000, "votos_nulos": 1000, "candidaturas": [
+          { "siglas": "A", "nombre": "Candidatura A", "votos": 60000, "escanos_oficiales": 2 },
+          { "siglas": "B", "nombre": "Candidatura B", "votos": 52000, "escanos_oficiales": 1 },
+          { "siglas": "C", "nombre": "Candidatura C", "votos": 28000, "escanos_oficiales": 1 },
+          { "siglas": "D", "nombre": "Candidatura D", "votos": 12000, "escanos_oficiales": 0 },
+          { "siglas": "E", "nombre": "Candidatura E", "votos": 3000, "escanos_oficiales": 0 }
+        ], "estado": "ejemplo" }
+      ]
+    },
+    {
+      "nombre": "Votos que no suman votantes",
+      "esquema": "resultado",
+      "error_esperado": "no suman votantes",
+      "registros": [
+        { "eleccion_id": "ejemplo", "circunscripcion_id": "ficticia", "escanos": 1, "censo": 1000, "votantes": 900, "votos_blanco": 10, "votos_nulos": 5, "candidaturas": [
+          { "siglas": "A", "nombre": "Candidatura A", "votos": 800, "escanos_oficiales": 1 }
+        ], "estado": "ejemplo" }
+      ]
+    },
+    {
+      "nombre": "Más votantes que censo",
+      "esquema": "resultado",
+      "error_esperado": "supera el censo",
+      "registros": [
+        { "eleccion_id": "ejemplo", "circunscripcion_id": "ficticia", "escanos": 1, "censo": 500, "votantes": 815, "votos_blanco": 10, "votos_nulos": 5, "candidaturas": [
+          { "siglas": "A", "nombre": "Candidatura A", "votos": 800, "escanos_oficiales": 1 }
+        ], "estado": "ejemplo" }
+      ]
+    },
+    {
+      "nombre": "Escaños oficiales que no suman los escaños en juego",
+      "esquema": "resultado",
+      "error_esperado": "no suman los escaños en juego",
+      "registros": [
+        { "eleccion_id": "ejemplo", "circunscripcion_id": "ficticia", "escanos": 2, "censo": 1000, "votantes": 815, "votos_blanco": 10, "votos_nulos": 5, "candidaturas": [
+          { "siglas": "A", "nombre": "Candidatura A", "votos": 800, "escanos_oficiales": 1 }
+        ], "estado": "ejemplo" }
+      ]
+    },
+    {
+      "nombre": "Campo de porcentaje en un resultado",
+      "esquema": "resultado",
+      "error_esperado": "campo de porcentaje",
+      "registros": [
+        { "eleccion_id": "ejemplo", "circunscripcion_id": "ficticia", "escanos": 1, "censo": 1000, "votantes": 815, "votos_blanco": 10, "votos_nulos": 5, "porcentaje_participacion": 81.5, "candidaturas": [
+          { "siglas": "A", "nombre": "Candidatura A", "votos": 800, "escanos_oficiales": 1 }
+        ], "estado": "ejemplo" }
+      ]
+    },
+    {
+      "nombre": "Cita literal de más de 25 palabras",
+      "esquema": "partido",
+      "error_esperado": "cita de más de 25 palabras",
+      "registros": [
+        { "id": "ficticio-a", "nombre_oficial": "Partido Ficticio A", "siglas": "PFA", "ambito": "estatal",
+          "web": { "url": null, "estado_enlace": "no_verificada" },
+          "autodefinicion": { "cita": "Texto de prueba con más de veinticinco palabras para comprobar que el validador rechaza las citas literales demasiado largas en las fichas de partido de esta web", "url": null, "fecha_consulta": null },
+          "clasificacion": [],
+          "representacion": { "fecha_referencia": "2026-10-06", "congreso": null, "senado": null, "parlamento_europeo": null, "parlamentos_autonomicos": null, "fuente_id": null },
+          "gobiernos": [], "programa": { "url": null, "fecha": null, "propuestas": [] }, "votaciones": [] }
+      ]
+    },
+    {
+      "nombre": "Fichas de partido con campos en distinto orden",
+      "esquema": "partido",
+      "error_esperado": "distinto orden",
+      "registros": [
+        { "id": "ficticio-a", "nombre_oficial": "Partido Ficticio A", "siglas": "PFA", "ambito": "estatal",
+          "web": { "url": null, "estado_enlace": "no_verificada" },
+          "autodefinicion": { "cita": null, "url": null, "fecha_consulta": null },
+          "clasificacion": [],
+          "representacion": { "fecha_referencia": "2026-10-06", "congreso": null, "senado": null, "parlamento_europeo": null, "parlamentos_autonomicos": null, "fuente_id": null },
+          "gobiernos": [], "programa": { "url": null, "fecha": null, "propuestas": [] }, "votaciones": [] },
+        { "id": "ficticio-b", "siglas": "PFB", "nombre_oficial": "Partido Ficticio B", "ambito": "estatal",
+          "web": { "url": null, "estado_enlace": "no_verificada" },
+          "autodefinicion": { "cita": null, "url": null, "fecha_consulta": null },
+          "clasificacion": [],
+          "representacion": { "fecha_referencia": "2026-10-06", "congreso": null, "senado": null, "parlamento_europeo": null, "parlamentos_autonomicos": null, "fuente_id": null },
+          "gobiernos": [], "programa": { "url": null, "fecha": null, "propuestas": [] }, "votaciones": [] }
+      ]
+    },
+    {
+      "nombre": "Pregunta numérica de ejemplo válida",
+      "esquema": "pregunta",
+      "error_esperado": null,
+      "registros": [
+        { "id": "t5-escanos-a", "modulo": "elecciones", "tipo": "numerica", "enunciado": "Con los datos ficticios del ejercicio, ¿cuántos escaños obtiene la candidatura A?", "correcta": 2, "tolerancia": 0, "explicacion": "Sus cocientes 60.000 y 30.000 están entre los cuatro mayores.", "fuente_id": "boe-loreg", "etiqueta": "SIMULACIÓN", "estado": "ejemplo" }
+      ]
+    },
+    {
+      "nombre": "Pregunta que pide una opinión",
+      "esquema": "pregunta",
+      "error_esperado": "pide una opinión",
+      "registros": [
+        { "id": "p1", "modulo": "elecciones", "tipo": "verdadero_falso", "enunciado": "¿Estás de acuerdo con la barrera del 3 %?", "opciones": [ { "id": "verdadero", "texto": "Verdadero" }, { "id": "falso", "texto": "Falso" } ], "correcta": "falso", "explicacion": "Ejemplo de pregunta prohibida.", "fuente_id": "boe-loreg", "etiqueta": "NORMA VIGENTE", "estado": "verificado" }
+      ]
+    },
+    {
+      "nombre": "Pregunta sin explicación",
+      "esquema": "pregunta",
+      "error_esperado": "falta el campo obligatorio «explicacion»",
+      "registros": [
+        { "id": "p1", "modulo": "elecciones", "tipo": "verdadero_falso", "enunciado": "El voto en blanco es un voto válido.", "opciones": [ { "id": "verdadero", "texto": "Verdadero" }, { "id": "falso", "texto": "Falso" } ], "correcta": "verdadero", "fuente_id": "boe-loreg", "etiqueta": "NORMA VIGENTE", "estado": "verificado" }
+      ]
+    },
+    {
+      "nombre": "Término disputado sin atribución",
+      "esquema": "termino",
+      "error_esperado": "disputado sin atribución",
+      "registros": [
+        { "id": "populismo", "termino": "Populismo", "definicion": "Término con varias definiciones académicas.", "ejemplo": "Ejemplo pendiente.", "modulo": "partidos", "fuente_id": "popu-list", "etiqueta": "EXPLICACIÓN DIDÁCTICA", "disputado": true }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,186 @@
+{
+  "meta": {
+    "descripcion": "Vectores de prueba del Anexo C.2. T1 comprueba data/convocatorias.json; T2 a T10 usan datos inventados (SIMULACIÓN). Repartos y umbrales se comparan de forma exacta; T6 a T10, con dos decimales.",
+    "version": "0.1.0",
+    "actualizado": "2026-10-29"
+  },
+  "T1": {
+    "eleccion": "eg-2026",
+    "eleccion_anterior": "eg-2023",
+    "circunscripciones": 52,
+    "provincias": 50,
+    "ciudades_autonomas": ["ceuta", "melilla"],
+    "escanos_total": 350,
+    "minimo_provincia": 2,
+    "escanos_ciudad_autonoma": 1,
+    "escanos_minimos": 102,
+    "escanos_por_poblacion": 248,
+    "cambios_frente_a_anterior": { "madrid": [37, 38], "cadiz": [9, 8] },
+    "senado": {
+      "total": 209,
+      "total_anterior": 208,
+      "provincias_4": { "numero": 47, "senadores": 188 },
+      "islas_3": { "ids": ["gran-canaria", "mallorca", "tenerife"], "senadores": 9 },
+      "ciudades_2": { "ids": ["ceuta", "melilla"], "senadores": 4 },
+      "islas_1": { "ids": ["ibiza", "formentera", "menorca", "fuerteventura", "lanzarote", "la-gomera", "el-hierro", "la-palma"], "senadores": 8 }
+    }
+  },
+  "umbrales": [
+    { "total": 350, "absoluta": 176, "tres_quintos": 210, "dos_tercios": 234, "decima": 35 }
+  ],
+  "reparto": [
+    {
+      "id": "T2",
+      "descripcion": "8 escaños, sin candidaturas excluidas (coincide con el ejemplo práctico del art. 163 de la LOREG)",
+      "escanos": 8,
+      "blancos": 0,
+      "base_incluye_blancos": true,
+      "aplicar_barrera": true,
+      "candidaturas": [
+        { "id": "A", "votos": 168000 },
+        { "id": "B", "votos": 104000 },
+        { "id": "C", "votos": 72000 },
+        { "id": "D", "votos": 64000 },
+        { "id": "E", "votos": 40000 },
+        { "id": "F", "votos": 32000 }
+      ],
+      "esperado": {
+        "escanos": { "A": 4, "B": 2, "C": 1, "D": 1, "E": 0, "F": 0 },
+        "excluidas": [],
+        "ultimo": { "id": "A", "divisor": 4 },
+        "primero_fuera": { "id": "E", "divisor": 1 }
+      }
+    },
+    {
+      "id": "T3-blancos-en-base",
+      "descripcion": "38 escaños; los votos en blanco cuentan en la base de la barrera (LOREG, arts. 96.5, 108.4 y 163.1.a)",
+      "escanos": 38,
+      "blancos": 4000,
+      "base_incluye_blancos": true,
+      "aplicar_barrera": true,
+      "candidaturas": [
+        { "id": "A", "votos": 38000 },
+        { "id": "B", "votos": 28000 },
+        { "id": "C", "votos": 17000 },
+        { "id": "D", "votos": 10030 },
+        { "id": "P", "votos": 2970 }
+      ],
+      "esperado": {
+        "escanos": { "A": 16, "B": 11, "C": 7, "D": 4, "P": 0 },
+        "excluidas": ["P"],
+        "ultimo": { "id": "A", "divisor": 16 },
+        "primero_fuera": { "id": "B", "divisor": 12 }
+      }
+    },
+    {
+      "id": "T3-blancos-fuera",
+      "descripcion": "38 escaños; lectura alternativa con los blancos fuera de la base (no es la que aplica la web)",
+      "escanos": 38,
+      "blancos": 4000,
+      "base_incluye_blancos": false,
+      "aplicar_barrera": true,
+      "candidaturas": [
+        { "id": "A", "votos": 38000 },
+        { "id": "B", "votos": 28000 },
+        { "id": "C", "votos": 17000 },
+        { "id": "D", "votos": 10030 },
+        { "id": "P", "votos": 2970 }
+      ],
+      "esperado": {
+        "escanos": { "A": 15, "B": 11, "C": 7, "D": 4, "P": 1 },
+        "excluidas": [],
+        "ultimo": { "id": "C", "divisor": 7 },
+        "primero_fuera": { "id": "A", "divisor": 16 }
+      }
+    },
+    {
+      "id": "T4-con-barrera",
+      "descripcion": "38 escaños; la barrera deja fuera a E (2,82 %)",
+      "escanos": 38,
+      "blancos": 55000,
+      "base_incluye_blancos": true,
+      "aplicar_barrera": true,
+      "candidaturas": [
+        { "id": "A", "votos": 1520000 },
+        { "id": "B", "votos": 1290000 },
+        { "id": "C", "votos": 710000 },
+        { "id": "D", "votos": 390000 },
+        { "id": "E", "votos": 115000 }
+      ],
+      "esperado": {
+        "escanos": { "A": 15, "B": 13, "C": 7, "D": 3, "E": 0 },
+        "excluidas": ["E"],
+        "ultimo": { "id": "B", "divisor": 13 },
+        "primero_fuera": { "id": "D", "divisor": 4 }
+      }
+    },
+    {
+      "id": "T4-sin-barrera",
+      "descripcion": "38 escaños sin barrera: E obtiene un escaño",
+      "escanos": 38,
+      "blancos": 55000,
+      "base_incluye_blancos": true,
+      "aplicar_barrera": false,
+      "candidaturas": [
+        { "id": "A", "votos": 1520000 },
+        { "id": "B", "votos": 1290000 },
+        { "id": "C", "votos": 710000 },
+        { "id": "D", "votos": 390000 },
+        { "id": "E", "votos": 115000 }
+      ],
+      "esperado": {
+        "escanos": { "A": 15, "B": 12, "C": 7, "D": 3, "E": 1 },
+        "excluidas": []
+      }
+    },
+    {
+      "id": "T5",
+      "descripcion": "4 escaños; D tiene el 7,64 % y no obtiene escaño",
+      "escanos": 4,
+      "blancos": 2000,
+      "base_incluye_blancos": true,
+      "aplicar_barrera": true,
+      "candidaturas": [
+        { "id": "A", "votos": 60000 },
+        { "id": "B", "votos": 52000 },
+        { "id": "C", "votos": 28000 },
+        { "id": "D", "votos": 12000 },
+        { "id": "E", "votos": 3000 }
+      ],
+      "esperado": {
+        "escanos": { "A": 2, "B": 1, "C": 1, "D": 0, "E": 0 },
+        "excluidas": ["E"],
+        "ultimo": { "id": "C", "divisor": 1 },
+        "primero_fuera": { "id": "B", "divisor": 2 }
+      }
+    }
+  ],
+  "economia": {
+    "T6": {
+      "cesta": { "inicial": 100, "final": 103, "esperado": 3.0 },
+      "pib_real": { "nominal": 5, "precios": 3, "esperado": 1.94 }
+    },
+    "T7": {
+      "tramos": [ { "hasta": 12000, "tipo": 10 }, { "hasta": 30000, "tipo": 20 }, { "hasta": null, "tipo": 30 } ],
+      "base": 35000,
+      "esperado": { "cuota": 6300, "tipo_medio": 18.0, "tipo_marginal": 30, "aumento_base": 1000, "aumento_cuota": 300, "aumento_neto": 700 }
+    },
+    "T8": {
+      "paro": { "inicial": 12, "final": 10, "esperado_puntos": -2, "esperado_relativo": -16.67 },
+      "salarios": { "valores": [1000, 1200, 1300, 1500, 8000], "esperado_media": 2600, "esperado_mediana": 1300 }
+    },
+    "T9": {
+      "deuda": 1000, "pib": 1000, "deficit_pct_pib": 3, "crecimiento_nominal_pct": 4,
+      "esperado": { "deuda": 1030, "pib": 1040, "ratio": 99.04 }
+    }
+  },
+  "encuestas": {
+    "T10": {
+      "margen": [
+        { "p": 0.5, "n": 1000, "z": 1.96, "esperado": 3.10 },
+        { "p": 0.5, "n": 2000, "z": 1.96, "esperado": 2.19 }
+      ],
+      "dif_en_dif": { "a_antes": 12, "a_despues": 10, "b_antes": 12, "b_despues": 11, "esperado": -1 }
+    }
+  }
+}

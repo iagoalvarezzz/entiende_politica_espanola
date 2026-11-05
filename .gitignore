@@ -1,0 +1,10 @@
+# Configuración local del asistente
+.claude/
+
+# Material de trabajo del autor que no se publica
+PROMPT.md
+LOREG.pdf
+
+# Python
+__pycache__/
+*.pyc

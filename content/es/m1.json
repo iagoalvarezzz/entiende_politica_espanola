@@ -1,0 +1,350 @@
+{
+  "bloques": [
+    {
+      "id": "m1-estado",
+      "numero": "1.1",
+      "titulo": "Qué es el Estado y qué no lo es",
+      "resumen": [
+        "El {{estado|Estado}} es la organización política de todo el país: incluye las Cortes, el Gobierno, los tribunales y mucho más.",
+        "El {{gobierno|Gobierno}} es solo una parte: dirige la política y la {{administracion|Administración}}.",
+        "Para entender una noticia, pregunta quién aprueba una norma, quién la aplica y quién resuelve los conflictos."
+      ],
+      "explicacion": [
+        { "tipo": "p", "texto": "En el lenguaje diario se dice «el Gobierno» para casi todo. En política conviene distinguir cinco palabras." },
+        { "tipo": "esquema", "esquema": {
+          "tipo": "comparativa",
+          "titulo": "Cinco palabras que no son sinónimos",
+          "columnas": ["Palabra", "Qué es", "Ejemplo"],
+          "filas": [
+            ["Estado", "La organización política del país. Sus poderes emanan del pueblo (Constitución, art. 1.2).", "Cortes, Gobierno, tribunales, comunidades autónomas y ayuntamientos."],
+            ["Parlamento", "En España, las Cortes Generales: aprueban leyes y Presupuestos y controlan al Gobierno (art. 66.2).", "Una votación en el Congreso."],
+            ["Gobierno", "Dirige la política interior y exterior, la Administración y la defensa (art. 97).", "El Consejo de Ministros aprueba un proyecto de ley."],
+            ["Administración", "Organismos y personal que aplican las normas y prestan servicios (art. 103.1).", "La oficina que tramita una beca."],
+            ["{{regimen-politico|Régimen político}}", "El sistema con que se organiza el poder. En España, monarquía parlamentaria (art. 1.3).", "Comparar cómo se organiza la jefatura del Estado en dos países."]
+          ]
+        } },
+        { "tipo": "p", "texto": "Una pregunta ayuda a separarlos: **quién aprueba una ley, quién la aplica y quién resuelve un conflicto sobre ella**." },
+        { "tipo": "esquema", "esquema": {
+          "tipo": "pasos",
+          "titulo": "Una ley, tres papeles",
+          "pasos": [
+            { "titulo": "La aprueban las Cortes Generales", "institucion": "congreso", "texto": "Ejercen la potestad legislativa (art. 66.2)." },
+            { "titulo": "La aplican el Gobierno y la Administración", "institucion": "gobierno", "texto": "Ejecutan las leyes (arts. 97 y 103.1)." },
+            { "titulo": "Los jueces resuelven los conflictos", "institucion": "justicia", "texto": "Juzgan y hacen ejecutar lo juzgado (art. 117.3)." }
+          ]
+        } }
+      ],
+      "ejemplo": "Una ley fija un nuevo límite de velocidad. Las Cortes la aprueban, la Administración pone las multas y, si alguien recurre una multa, decide un juez.",
+      "error": {
+        "titulo": "No es lo mismo el Gobierno que el Estado",
+        "texto": "El Gobierno es un órgano del Estado. Cuando una noticia dice «el Estado», puede referirse también a las Cortes, a los tribunales o a otras administraciones."
+      },
+      "normas": ["ce-1-2", "ce-66", "ce-97", "ce-103-1", "ce-117-3"],
+      "profundizar": ["boe-constitucion", "moncloa-ce-titulo-3", "moncloa-ce-titulo-4"],
+      "ampliado": [
+        { "tipo": "p", "texto": "El Diccionario de la lengua española recoge varios sentidos de «Estado». Uno de ellos es el conjunto de los poderes y órganos de gobierno de un país soberano." }
+      ]
+    },
+    {
+      "id": "m1-democracia",
+      "numero": "1.2",
+      "titulo": "Democracia y separación de poderes",
+      "resumen": [
+        "En una {{democracia|democracia}}, el poder procede del pueblo, que elige a sus representantes en elecciones periódicas.",
+        "La {{separacion-de-poderes|separación de poderes}} reparte hacer leyes, ejecutarlas y juzgar entre órganos distintos.",
+        "Los derechos fundamentales y los jueces protegen a cada persona, también frente a la mayoría."
+      ],
+      "explicacion": [
+        { "tipo": "p", "texto": "La Constitución define a España como un {{estado-de-derecho|Estado social y democrático de Derecho}} (art. 1.1). Sus valores superiores son la libertad, la justicia, la igualdad y el pluralismo político." },
+        { "tipo": "esquema", "esquema": {
+          "tipo": "grupos",
+          "titulo": "Los tres poderes en la Constitución",
+          "grupos": [
+            { "titulo": "Legislativo: Cortes Generales", "institucion": "congreso", "items": ["Aprueban las leyes y los Presupuestos.", "Controlan al Gobierno (art. 66.2)."] },
+            { "titulo": "Ejecutivo: Gobierno", "institucion": "gobierno", "items": ["Dirige la política y la Administración.", "Aprueba reglamentos de acuerdo con las leyes (art. 97)."] },
+            { "titulo": "Judicial: juzgados y tribunales", "institucion": "justicia", "items": ["Juzgan y hacen ejecutar lo juzgado.", "Son independientes y solo están sometidos a la ley (art. 117)."] }
+          ]
+        } },
+        { "tipo": "h3", "texto": "Elecciones libres y pluralismo" },
+        { "tipo": "p", "texto": "Los ciudadanos tienen derecho a participar en los asuntos públicos directamente o mediante representantes elegidos en elecciones periódicas (art. 23.1). El pluralismo político es un valor superior (art. 1.1)." },
+        { "tipo": "h3", "texto": "Qué protege a las minorías frente a la mayoría" },
+        { "tipo": "lista", "items": [
+          "Los derechos del Capítulo II vinculan a todos los poderes públicos; una ley no puede vaciar su contenido esencial (art. 53.1).",
+          "Quien vea vulnerado un derecho fundamental puede acudir a los tribunales y, en su caso, al Tribunal Constitucional (art. 53.2).",
+          "Todos, incluidas las autoridades, están sujetos a la Constitución y a las leyes (art. 9.1).",
+          "La Constitución prohíbe la arbitrariedad de los poderes públicos (art. 9.3)."
+        ] }
+      ],
+      "ejemplo": "En una comunidad de vecinos, la mayoría decide pintar la fachada. Pero no puede decidir que un vecino deje de usar su portal: hay reglas que la mayoría no puede saltarse.",
+      "error": {
+        "titulo": "No es lo mismo democracia que «lo decide la mayoría y ya está»",
+        "texto": "La mayoría gobierna y legisla, pero dentro de la Constitución. Los derechos fundamentales y el control de los jueces también limitan a la mayoría."
+      },
+      "normas": ["ce-1-1", "ce-9-1", "ce-9-3", "ce-23-1", "ce-53-1", "ce-53-2", "ce-117-1"],
+      "profundizar": ["boe-constitucion", "moncloa-ce-titulo-3", "tc"],
+      "ampliado": [
+        { "tipo": "p", "texto": "El Diccionario de la lengua española describe el Estado de derecho como un régimen en el que la Constitución garantiza, entre otras cosas, la separación de poderes y la protección judicial frente al uso arbitrario del poder." }
+      ]
+    },
+    {
+      "id": "m1-constitucion",
+      "numero": "1.3",
+      "titulo": "La Constitución de 1978",
+      "resumen": [
+        "La {{constitucion|Constitución}} organiza el Estado y reconoce derechos y deberes.",
+        "Las demás normas deben respetarla: ciudadanos y poderes públicos están sujetos a ella.",
+        "Reformarla exige mayorías amplias; algunas partes, un procedimiento todavía más exigente."
+      ],
+      "explicacion": [
+        { "tipo": "p", "texto": "La Constitución entró en vigor el mismo día de la publicación de su texto oficial en el BOE (disposición final). Ciudadanos y poderes públicos están sujetos a ella (art. 9.1)." },
+        { "tipo": "p", "texto": "Si una ley la contradice, el Tribunal Constitucional puede declararla inconstitucional (art. 161.1)." },
+        { "tipo": "esquema", "esquema": {
+          "tipo": "comparativa",
+          "titulo": "Las partes de la Constitución",
+          "columnas": ["Parte", "De qué trata", "Artículos"],
+          "filas": [
+            ["Título preliminar", "Principios: Estado social y democrático de Derecho, soberanía popular, monarquía parlamentaria…", "1 a 9"],
+            ["Título I", "Derechos y deberes fundamentales", "10 a 55"],
+            ["Título II", "La Corona", "56 a 65"],
+            ["Título III", "Las Cortes Generales", "66 a 96"],
+            ["Título IV", "El Gobierno y la Administración", "97 a 107"],
+            ["Título V", "Relaciones entre el Gobierno y las Cortes Generales", "108 a 116"],
+            ["Título VI", "El Poder Judicial", "117 a 127"],
+            ["Título VII", "Economía y Hacienda", "128 a 136"],
+            ["Título VIII", "Organización territorial del Estado", "137 a 158"],
+            ["Título IX", "El Tribunal Constitucional", "159 a 165"],
+            ["Título X", "La reforma constitucional", "166 a 169"]
+          ]
+        } },
+        { "tipo": "h3", "texto": "Cómo se reforma" },
+        { "tipo": "esquema", "esquema": {
+          "tipo": "comparativa",
+          "titulo": "Dos procedimientos de reforma",
+          "columnas": ["", "Reforma ordinaria (art. 167)", "Reforma agravada (art. 168)"],
+          "filas": [
+            ["Cuándo se usa", "Para los cambios que no afectan a las partes protegidas.", "Revisión total, o cambios en el título preliminar, los derechos fundamentales (Sección 1.ª del Capítulo II del Título I) o la Corona."],
+            ["Mayoría", "Tres quintos de cada Cámara (210 de 350 en el Congreso).", "Dos tercios de cada Cámara (234 de 350 en el Congreso)."],
+            ["Qué más exige", "Si no hay acuerdo, comisión paritaria; o dos tercios del Congreso con mayoría absoluta del Senado.", "Disolución inmediata de las Cortes; las nuevas Cámaras ratifican la decisión y aprueban el texto por dos tercios."],
+            ["Referéndum", "Solo si lo pide una décima parte de los miembros de una Cámara en quince días.", "Siempre."]
+          ]
+        } },
+        { "tipo": "h3", "texto": "Un ejemplo reciente" },
+        { "tipo": "p", "texto": "El 19 de mayo de 2026 se reformó el artículo 69.3: desde entonces nombra Ibiza y Formentera por separado, con un senador cada una." },
+        { "tipo": "p", "texto": "Según la nota del BOE, el cambio se aplica desde las primeras elecciones al Senado posteriores a la reforma. Las del 29 de noviembre de 2026 son las primeras." }
+      ],
+      "ejemplo": "Las normas de una comunidad de vecinos no pueden contradecir los estatutos del edificio, y estos no pueden contradecir la ley. En el Estado, la cúspide es la Constitución.",
+      "error": {
+        "titulo": "No es lo mismo reformar la Constitución que aprobar una ley",
+        "texto": "Una ley ordinaria no exige mayorías especiales en la Constitución. Una reforma constitucional exige al menos tres quintos de cada Cámara y, en ciertos casos, nuevas elecciones y referéndum."
+      },
+      "normas": ["ce-9-1", "ce-161-1", "ce-167", "ce-168", "ce-69-3", "ce-df"],
+      "profundizar": ["boe-constitucion", "moncloa-ce-titulo-10"]
+    },
+    {
+      "id": "m1-articulo-1",
+      "numero": "1.4",
+      "titulo": "«Estado social y democrático de Derecho» y «monarquía parlamentaria»",
+      "resumen": [
+        "El artículo 1 define a España en tres frases.",
+        "Es un Estado social y democrático de Derecho, la soberanía reside en el pueblo y la forma política es la {{monarquia-parlamentaria|monarquía parlamentaria}}.",
+        "Cada adjetivo tiene un significado concreto que conviene conocer."
+      ],
+      "explicacion": [
+        { "tipo": "definiciones", "items": [
+          { "termino": "Estado social", "definicion": "Los poderes públicos deben promover condiciones para que la libertad y la igualdad sean reales y efectivas (art. 9.2). Ejemplo: la enseñanza básica es obligatoria y gratuita (art. 27.4)." },
+          { "termino": "Estado democrático", "definicion": "La soberanía nacional reside en el pueblo español, del que emanan los poderes del Estado (art. 1.2). Ejemplo: los diputados se eligen en elecciones generales." },
+          { "termino": "Estado de Derecho", "definicion": "Todos, también las autoridades, están sujetos a la Constitución y a las leyes (art. 9.1). Ejemplo: una multa sin base legal se puede recurrir ante un juez." },
+          { "termino": "Monarquía parlamentaria", "definicion": "El Rey es el Jefe del Estado, pero sus actos necesitan refrendo y de ellos responde quien los refrenda (arts. 56 y 64). Ejemplo: la disolución anticipada de las Cortes la decreta el Rey a propuesta del Presidente del Gobierno (art. 115)." }
+        ] },
+        { "tipo": "p", "texto": "El artículo 1.1 añade cuatro valores superiores: libertad, justicia, igualdad y pluralismo político." }
+      ],
+      "ejemplo": "Que el Estado sea «social» se nota, por ejemplo, en que la enseñanza básica es obligatoria y gratuita para todos.",
+      "error": {
+        "titulo": "No es lo mismo monarquía parlamentaria que un Rey que gobierna",
+        "texto": "En la monarquía parlamentaria el Rey no gobierna: sus actos necesitan refrendo y el Gobierno depende de la confianza del Congreso (arts. 56.3, 64 y 99)."
+      },
+      "normas": ["ce-1-1", "ce-1-2", "ce-1-3", "ce-9-2", "ce-27", "ce-56-3", "ce-64"],
+      "profundizar": ["boe-constitucion"]
+    },
+    {
+      "id": "m1-derechos",
+      "numero": "1.5",
+      "titulo": "Derechos y deberes",
+      "resumen": [
+        "La Constitución distingue tres grupos: {{derechos-fundamentales|derechos fundamentales}}, otros derechos y deberes, y principios rectores.",
+        "Cuanto más protegido está el grupo, más fácil es defenderlo ante los tribunales.",
+        "También hay deberes, como contribuir a los gastos públicos."
+      ],
+      "explicacion": [
+        { "tipo": "esquema", "esquema": {
+          "tipo": "comparativa",
+          "titulo": "Tres niveles de protección",
+          "columnas": ["Grupo", "Dónde está", "Ejemplos", "Cómo se protege"],
+          "filas": [
+            ["Derechos fundamentales y libertades públicas", "Igualdad (art. 14) y Sección 1.ª del Capítulo II (arts. 15 a 29)", "Educación (art. 27), reunión y manifestación (art. 21), protección frente al uso de la informática (art. 18.4)", "Ante los tribunales por un procedimiento preferente y, en su caso, con recurso de amparo (art. 53.2)"],
+            ["Derechos y deberes de los ciudadanos", "Sección 2.ª del Capítulo II (arts. 30 a 38)", "Trabajo (art. 35), defensa de España (art. 30), contribuir a los gastos públicos (art. 31)", "Vinculan a los poderes públicos; solo una ley que respete su contenido esencial puede regularlos (art. 53.1)"],
+            ["Principios rectores de la política social y económica", "Capítulo III (arts. 39 a 52)", "Protección de la salud (art. 43), vivienda digna (art. 47)", "Orientan las leyes y la actuación pública; se reclaman ante los jueces según las leyes que los desarrollan (art. 53.3)"]
+          ]
+        } },
+        { "tipo": "p", "texto": "Quién los garantiza: todos los poderes públicos quedan vinculados. Los jueces protegen los derechos, y el {{tribunal-constitucional|Tribunal Constitucional}} resuelve los recursos de amparo." },
+        { "tipo": "h3", "texto": "Deberes" },
+        { "tipo": "lista", "items": [
+          "Contribuir al sostenimiento de los gastos públicos según la capacidad económica (art. 31.1).",
+          "El derecho y el deber de defender a España (art. 30.1).",
+          "El deber de trabajar y el derecho al trabajo (art. 35.1)."
+        ] }
+      ],
+      "ejemplo": "Si una escuela te negara la matrícula por tu origen, estaría en juego un derecho fundamental. Si no encuentras una vivienda asequible, entra en juego un principio rector que orienta las leyes.",
+      "error": {
+        "titulo": "No es lo mismo un derecho fundamental que un principio rector",
+        "texto": "Los dos están en la Constitución, pero solo los derechos fundamentales pueden defenderse con un recurso de amparo. Los principios rectores se reclaman según lo que digan las leyes que los desarrollan."
+      },
+      "normas": ["ce-14", "ce-18-4", "ce-21", "ce-27", "ce-30-1", "ce-31-1", "ce-35-1", "ce-43-1", "ce-47", "ce-53-1", "ce-53-2", "ce-53-3"],
+      "profundizar": ["boe-constitucion", "defensor-pueblo"]
+    },
+    {
+      "id": "m1-territorio",
+      "numero": "1.6",
+      "titulo": "Organización territorial",
+      "resumen": [
+        "El Estado se organiza en municipios, provincias y comunidades autónomas.",
+        "Cada comunidad tiene su Estatuto de Autonomía, su norma institucional básica.",
+        "La Constitución ampara además los derechos históricos de los territorios forales."
+      ],
+      "explicacion": [
+        { "tipo": "esquema", "esquema": {
+          "tipo": "grupos",
+          "titulo": "Tres niveles territoriales (art. 137)",
+          "grupos": [
+            { "titulo": "Municipios", "institucion": "ayuntamientos", "items": ["Los gobiernan los Ayuntamientos: alcalde y concejales (art. 140).", "Los vecinos eligen a los concejales."] },
+            { "titulo": "Provincias e islas", "institucion": "ayuntamientos", "items": ["La provincia agrupa municipios y la gobiernan las Diputaciones u otras corporaciones (art. 141).", "En los archipiélagos, las islas tienen Cabildos o Consejos (art. 141.4)."] },
+            { "titulo": "Comunidades autónomas", "institucion": "comunidades", "items": ["Se constituyen con su Estatuto de Autonomía (arts. 143 y 147).", "El Estatuto es su norma institucional básica (art. 147.1)."] }
+          ]
+        } },
+        { "tipo": "p", "texto": "La Constitución se fundamenta en la unidad de la Nación española. Reconoce el derecho a la autonomía de las nacionalidades y regiones y la solidaridad entre ellas (art. 2)." },
+        { "tipo": "p", "texto": "Ceuta y Melilla son ciudades autónomas: cada una forma una circunscripción con un diputado y dos senadores (LOREG, arts. 161.1, 162.2 y 165.3)." },
+        { "tipo": "p", "texto": "La Constitución ampara y respeta los derechos históricos de los territorios forales (disposición adicional primera). Cómo se financian los territorios forales lo explica [La financiación](#/competencias/m4-financiacion)." },
+        { "tipo": "p", "texto": "La lista de las 17 comunidades y las 2 ciudades autónomas, con su fuente, está en [Los cuatro niveles](#/competencias/m4-niveles)." },
+        { "tipo": "aviso", "texto": "Este bloque describe el sistema tal como está. Los debates sobre su reforma se tratarán en el módulo de temas, con cada posición atribuida a quien la defiende." }
+      ],
+      "ejemplo": "Tu ayuntamiento lo gobiernan el alcalde y los concejales; tu comunidad autónoma tiene su propio parlamento y su Estatuto.",
+      "error": {
+        "titulo": "No es lo mismo provincia que comunidad autónoma",
+        "texto": "La provincia es una entidad local que agrupa municipios (art. 141). La comunidad autónoma tiene autogobierno y Estatuto propio (arts. 143 y 147), y puede abarcar una o varias provincias."
+      },
+      "normas": ["ce-2", "ce-137", "ce-140", "ce-141", "ce-143-1", "ce-147-1", "ce-da1"],
+      "profundizar": ["boe-constitucion", "moncloa-procesos-electorales"]
+    },
+    {
+      "id": "m1-ideologia",
+      "numero": "1.7",
+      "titulo": "Ideología y ejes políticos",
+      "resumen": [
+        "El {{eje-izquierda-derecha|eje izquierda-derecha}} es una convención para ordenar posiciones, no una medida exacta.",
+        "En España importan además otros ejes, como el cultural y el territorial, y la posición ante la Unión Europea.",
+        "Un partido puede estar en sitios distintos en cada eje."
+      ],
+      "explicacion": [
+        { "tipo": "p", "texto": "Hablar de izquierda y derecha es una convención. El Diccionario de la lengua española recoge su uso en las asambleas parlamentarias para agrupar a los representantes de distintos partidos." },
+        { "tipo": "h3", "texto": "Otros ejes" },
+        { "tipo": "lista", "items": [
+          "**Eje cultural**: más peso a las libertades individuales o a los valores tradicionales.",
+          "**Eje territorial**: más centralización, más autonomía, {{federalismo|federalismo}} o {{independentismo|independencia}}.",
+          "**Dimensión europea**: más o menos integración en la Unión Europea."
+        ] },
+        { "tipo": "esquema", "esquema": {
+          "tipo": "ejes",
+          "titulo": "Tres partidos ficticios en dos ejes",
+          "descripcion": "Cambia el eje vertical y observa cómo cambian las posiciones.",
+          "eje_horizontal": { "id": "economico", "titulo": "Eje económico", "menos": "Más intervención pública en la economía", "mas": "Menos intervención pública en la economía", "centro": "Posición intermedia", "menos_corto": "Más intervención", "mas_corto": "Menos intervención" },
+          "ejes_verticales": [
+            { "id": "territorial", "titulo": "Eje territorial", "menos": "Más centralización", "mas": "Más descentralización", "centro": "Posición intermedia", "menos_corto": "Centralización", "mas_corto": "Descentralización" },
+            { "id": "cultural", "titulo": "Eje cultural", "menos": "Más peso a los valores tradicionales", "mas": "Más peso a las libertades individuales", "centro": "Posición intermedia", "menos_corto": "Valores tradicionales", "mas_corto": "Libertades individuales" }
+          ],
+          "partidos": [
+            { "nombre": "Partido A", "forma": "circulo", "posiciones": { "economico": -0.6, "territorial": 0.6, "cultural": 0.5 } },
+            { "nombre": "Partido B", "forma": "cuadrado", "posiciones": { "economico": 0.6, "territorial": 0.5, "cultural": -0.5 } },
+            { "nombre": "Partido C", "forma": "triangulo", "posiciones": { "economico": -0.5, "territorial": -0.6, "cultural": -0.4 } }
+          ]
+        } },
+        { "tipo": "h3", "texto": "Avisos importantes" },
+        { "tipo": "lista", "items": [
+          "Los ejes simplifican: ninguna línea recoge todas las opiniones.",
+          "Un partido puede estar en lugares distintos en cada eje.",
+          "Cómo se sitúa cada votante y dónde se sitúa o es situado un partido son medidas distintas.",
+          "Esta web no sitúa a partidos reales en los ejes. Cuando lo haga, será con estudios académicos, su fuente y su año (módulo de partidos)."
+        ] },
+        { "tipo": "h3", "texto": "Familias ideológicas" },
+        { "tipo": "p", "texto": "Estas son definiciones del Diccionario de la lengua española, resumidas y atribuidas. No describen a ningún partido concreto." },
+        { "tipo": "lista", "items": [
+          "{{liberalismo|Liberalismo}}: libertad individual e iniciativa privada, con menos intervención del Estado.",
+          "{{conservadurismo|Conservadurismo}}: conservar valores y principios establecidos.",
+          "{{socialdemocracia|Socialdemocracia}}: socialismo democrático y reformista.",
+          "{{democracia-cristiana|Democracia cristiana}}: principios democráticos y pensamiento social cristiano.",
+          "{{ecologismo|Ecologismo}}: defensa de la naturaleza y del medio ambiente.",
+          "{{nacionalismo|Nacionalismo}}: término con varios sentidos; consulta su definición atribuida."
+        ] },
+        { "tipo": "aviso", "etiqueta": "PENDIENTE DE VERIFICAR", "texto": "El encargo pide definiciones académicas de ciencia política. Por ahora se usan las del diccionario de la RAE; se completarán con fuentes académicas citadas." }
+      ],
+      "ejemplo": "Dos personas pueden estar de acuerdo en subir el gasto en sanidad y discrepar sobre cuánto poder deben tener las comunidades autónomas: coinciden en un eje y no en otro.",
+      "error": {
+        "titulo": "No es lo mismo cómo se define un partido que cómo lo clasifican los estudios",
+        "texto": "La autodefinición la escribe el propio partido; las clasificaciones académicas las hacen especialistas con un método. La web mostrará las dos, siempre atribuidas."
+      },
+      "normas": [],
+      "terminos": ["eje-izquierda-derecha", "liberalismo", "conservadurismo", "socialdemocracia", "democracia-cristiana", "ecologismo", "nacionalismo", "federalismo", "independentismo"],
+      "profundizar": ["manifesto-project", "ches", "rae-izquierdo"]
+    },
+    {
+      "id": "m1-normas",
+      "numero": "1.8",
+      "titulo": "Tipos de normas y jerarquía",
+      "resumen": [
+        "Las normas tienen rangos: arriba la Constitución, luego las leyes y después los reglamentos.",
+        "Cada tipo lo aprueba un órgano distinto y algunas exigen mayorías especiales.",
+        "Para saber si algo «ya es ley», búscalo en el BOE y mira cuándo entra en vigor."
+      ],
+      "explicacion": [
+        { "tipo": "esquema", "esquema": {
+          "tipo": "jerarquia",
+          "titulo": "De más a menos rango (simplificado)",
+          "niveles": [
+            { "titulo": "Constitución", "texto": "Ciudadanos y poderes públicos están sujetos a ella (art. 9.1)." },
+            { "titulo": "Tratados y Derecho de la Unión Europea", "texto": "Los tratados publicados forman parte del ordenamiento (art. 96.1). Su relación con las leyes se verá en el módulo de competencias." },
+            { "titulo": "Normas con rango de ley", "texto": "Ley orgánica, ley ordinaria, real decreto-ley y real decreto legislativo. Los Estatutos de Autonomía se aprueban por ley orgánica (art. 81)." },
+            { "titulo": "Reglamentos", "texto": "Real decreto y, por debajo, orden ministerial (Ley 50/1997, art. 24.2)." }
+          ]
+        } },
+        { "tipo": "p", "texto": "Una norma no vale si contradice otra de rango superior (Código Civil, art. 1.2): es la {{jerarquia-normativa|jerarquía normativa}} (Constitución, art. 9.3)." },
+        { "tipo": "p", "texto": "Las leyes autonómicas y las ordenanzas municipales no se ordenan solo por rango: dependen del reparto de competencias, que explica el módulo [Quién decide qué](#/competencias)." },
+        { "tipo": "esquema", "esquema": {
+          "tipo": "comparativa",
+          "titulo": "Quién aprueba cada norma",
+          "columnas": ["Norma", "Quién la aprueba", "Mayoría o requisito", "Para qué"],
+          "filas": [
+            ["{{ley-organica|Ley orgánica}}", "Cortes Generales", "Mayoría absoluta del Congreso en una votación final (art. 81.2)", "Derechos fundamentales, Estatutos de Autonomía, régimen electoral general y otras materias previstas"],
+            ["{{ley-ordinaria|Ley ordinaria}}", "Cortes Generales", "Sin mayoría especial en la Constitución", "Materias que no exigen ley orgánica"],
+            ["{{real-decreto-ley|Real decreto-ley}}", "Gobierno", "Extraordinaria y urgente necesidad; el Congreso lo convalida o deroga en treinta días (art. 86)", "No puede afectar a las instituciones básicas, a los derechos del Título I, al régimen autonómico ni al derecho electoral general"],
+            ["{{real-decreto-legislativo|Real decreto legislativo}}", "Gobierno, por delegación de las Cortes", "Delegación expresa, para materia concreta y con plazo (art. 82)", "Textos articulados o refundidos"],
+            ["{{real-decreto|Real decreto}}", "Consejo de Ministros o Presidente del Gobierno", "De acuerdo con la Constitución y las leyes (art. 97)", "Reglamentos"],
+            ["{{orden-ministerial|Orden ministerial}}", "Ministros", "Rango inferior al real decreto (Ley 50/1997, art. 24.2)", "Disposiciones de un ministerio"]
+          ]
+        } },
+        { "tipo": "h3", "texto": "¿Ya es ley? Cómo comprobarlo" },
+        { "tipo": "lista", "ordenada": true, "items": [
+          "Busca la norma en el {{boe|BOE}}.",
+          "Comprueba que está publicada: un proyecto o un anuncio todavía no es una norma.",
+          "Mira su fecha de {{entrada-en-vigor|entrada en vigor}}: la indica el propio texto. Si no dice nada, una ley entra en vigor a los veinte días de su completa publicación (Código Civil, art. 2.1).",
+          "Si es un real decreto-ley, comprueba también si el Congreso lo ha convalidado en los treinta días siguientes a su promulgación (art. 86.2)."
+        ] }
+      ],
+      "ejemplo": "Una ley crea una ayuda al alquiler; un real decreto fija los requisitos y una orden ministerial aprueba el formulario. Ninguno puede contradecir al de arriba.",
+      "error": {
+        "titulo": "No es lo mismo anunciar una medida que publicarla en el BOE",
+        "texto": "Un anuncio o un proyecto no obliga a nadie. Una norma se aplica cuando se publica y entra en vigor; un real decreto-ley necesita además que el Congreso lo convalide en treinta días."
+      },
+      "normas": ["ce-9-3", "ce-81", "ce-82-1", "ce-86-1", "ce-86-2", "ce-96-1", "ce-97", "lg-24-2", "cc-1-2", "cc-2-1", "cc-2-2"],
+      "profundizar": ["boe", "boe-codigo-civil", "boe-ley-gobierno"]
+    }
+  ]
+}

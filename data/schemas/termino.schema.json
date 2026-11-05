@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "termino.schema.json",
+  "title": "Término del glosario (Anexo C.1.8), fichero data/glosario.json",
+  "description": "atribucion es obligatoria si disputado es true (regla en tools/validate.py). Ampliación: alias (otros nombres para el buscador), bloque (los cinco bloques de la sección 17.1) y articulo (dónde se apoya la definición).",
+  "type": "object",
+  "required": ["id", "termino", "definicion", "ejemplo", "modulo", "fuente_id", "etiqueta", "disputado"],
+  "additionalProperties": false,
+  "properties": {
+    "id": { "$ref": "comun.schema.json#/$defs/id" },
+    "termino": { "$ref": "comun.schema.json#/$defs/texto" },
+    "alias": { "type": "array", "items": { "$ref": "comun.schema.json#/$defs/texto" } },
+    "bloque": { "enum": ["estado-instituciones", "elecciones", "leyes-normas", "territorio-ue", "economia", "ideologias", "temas"] },
+    "articulo": { "type": ["string", "null"] },
+    "definicion": { "$ref": "comun.schema.json#/$defs/texto" },
+    "ejemplo": { "$ref": "comun.schema.json#/$defs/texto" },
+    "modulo": { "$ref": "comun.schema.json#/$defs/texto" },
+    "relacionados": { "type": "array", "items": { "$ref": "comun.schema.json#/$defs/id" } },
+    "fuente_id": { "$ref": "comun.schema.json#/$defs/id" },
+    "etiqueta": { "enum": ["EXPLICACIÓN DIDÁCTICA", "NORMA VIGENTE"] },
+    "disputado": { "type": "boolean" },
+    "atribucion": { "type": "string" }
+  }
+}

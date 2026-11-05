@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "resultado.schema.json",
+  "title": "Resultado (Anexo C.1.4), fichero data/resultados.json",
+  "description": "Una entrada por elección y circunscripción del Congreso. Sin porcentajes: se calculan al mostrarlos. fuente_id y fecha_consulta se omiten en los resultados de ejemplo (reglas en tools/validate.py).",
+  "type": "object",
+  "required": ["eleccion_id", "circunscripcion_id", "escanos", "censo", "votantes", "votos_blanco", "votos_nulos", "candidaturas", "estado"],
+  "additionalProperties": false,
+  "properties": {
+    "eleccion_id": { "$ref": "comun.schema.json#/$defs/id" },
+    "circunscripcion_id": { "$ref": "comun.schema.json#/$defs/id" },
+    "escanos": { "type": "integer", "minimum": 1 },
+    "censo": { "type": "integer", "minimum": 0 },
+    "votantes": { "type": "integer", "minimum": 0 },
+    "votos_blanco": { "type": "integer", "minimum": 0 },
+    "votos_nulos": { "type": "integer", "minimum": 0 },
+    "candidaturas": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["siglas", "nombre", "votos", "escanos_oficiales"],
+        "additionalProperties": false,
+        "properties": {
+          "siglas": { "$ref": "comun.schema.json#/$defs/texto" },
+          "nombre": { "$ref": "comun.schema.json#/$defs/texto" },
+          "votos": { "type": "integer", "minimum": 0 },
+          "escanos_oficiales": { "type": "integer", "minimum": 0 }
+        }
+      }
+    },
+    "fuente_id": { "$ref": "comun.schema.json#/$defs/id" },
+    "fecha_consulta": { "$ref": "comun.schema.json#/$defs/fecha" },
+    "estado": { "$ref": "comun.schema.json#/$defs/estado" }
+  }
+}

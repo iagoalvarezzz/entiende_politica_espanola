@@ -1,0 +1,321 @@
+{
+  "bloques": [
+    {
+      "id": "m5-indicadores",
+      "numero": "5.1",
+      "titulo": "Los indicadores y su último dato",
+      "resumen": [
+        "Cada indicador mide algo concreto y tiene límites: conviene saber qué no dice.",
+        "El tablero muestra el último dato oficial de cada uno, con su periodo y su fuente.",
+        "Si un dato no se ha podido cargar, aparece como pendiente."
+      ],
+      "explicacion": [
+        { "tipo": "esquema", "esquema": {
+          "tipo": "tablero-indicadores",
+          "titulo": "Últimos datos oficiales",
+          "descripcion": "Datos precargados el 4 de noviembre de 2026. No se actualizan solos.",
+          "indicadores": [
+            { "id": "pib-trimestral", "nombre": "PIB, variación trimestral" },
+            { "id": "pib-interanual", "nombre": "PIB, variación interanual" },
+            { "id": "ipc-anual", "nombre": "Inflación (IPC)" },
+            { "id": "ipc-subyacente", "nombre": "Inflación subyacente" },
+            { "id": "paro-epa", "nombre": "Tasa de paro (EPA)" },
+            { "id": "paro-registrado", "nombre": "Paro registrado" },
+            { "id": "afiliacion", "nombre": "Afiliación a la Seguridad Social" },
+            { "id": "salario-medio", "nombre": "Salario medio" },
+            { "id": "smi-mensual", "nombre": "Salario mínimo interprofesional" },
+            { "id": "deficit", "nombre": "Déficit público" },
+            { "id": "deuda", "nombre": "Deuda pública" },
+            { "id": "presion-fiscal", "nombre": "Presión fiscal" },
+            { "id": "arope", "nombre": "Riesgo de pobreza o exclusión (AROPE)" },
+            { "id": "bce-deposito", "nombre": "Tipo de la facilidad de depósito del BCE" },
+            { "id": "euribor", "nombre": "Euríbor a un año" }
+          ]
+        } },
+        { "tipo": "h3", "texto": "Cómo leer cada indicador" },
+        { "tipo": "esquema", "esquema": {
+          "tipo": "fichas-indicadores",
+          "titulo": "Fichas de los indicadores",
+          "descripcion": "Despliega cada ficha para ver sus seis partes.",
+          "fichas": [
+            { "nombre": "PIB", "dato": "pib-interanual",
+              "mide": "El valor de los bienes y servicios finales que produce la economía en un periodo.",
+              "calculo": "Se compara con otro periodo: (PIB final − PIB inicial) ÷ PIB inicial × 100. Ejemplo ficticio: de 100 a 102 es un 2 %.",
+              "publica": "El INE: Contabilidad Nacional Trimestral (cada trimestre, primero en avance) y Anual. También Eurostat y el Banco de España.",
+              "no_dice": "No mide cómo se reparte la renta ni el bienestar. El real descuenta la subida de precios; el nominal, no.",
+              "error": "Comparar un avance con un dato revisado, o un dato trimestral con uno interanual." },
+            { "nombre": "PIB per cápita", "dato": "pib-per-capita",
+              "mide": "El PIB dividido entre la población.",
+              "calculo": "PIB ÷ población. Ejemplo ficticio: 50.000 millones ÷ 1 millón de habitantes = 50.000 euros.",
+              "publica": "El INE y Eurostat.",
+              "no_dice": "Es una media: no dice cómo se reparte entre las personas.",
+              "error": "Leerlo como lo que gana una persona típica." },
+            { "nombre": "Inflación (IPC)", "dato": "ipc-anual",
+              "mide": "La evolución de los precios de los bienes y servicios que consume la población residente en viviendas familiares.",
+              "calculo": "Variación del índice entre dos fechas. Ejemplo ficticio: una cesta que pasa de 100 a 103 euros sube un 3 %.",
+              "publica": "El INE, cada mes: primero un indicador adelantado y después el dato completo.",
+              "no_dice": "Mide cuánto suben los precios, no su nivel. Distingue tasa mensual, interanual y subyacente.",
+              "error": "Creer que si la inflación baja, los precios bajan: suben más despacio." },
+            { "nombre": "Tasa de paro", "dato": "paro-epa",
+              "mide": "El porcentaje de personas activas que están paradas, según la Encuesta de Población Activa.",
+              "calculo": "Parados ÷ activos × 100. Ejemplo ficticio: 200 ÷ 2.000 × 100 = 10 %.",
+              "publica": "El INE, cada trimestre, con la Encuesta de Población Activa.",
+              "no_dice": "No es el paro registrado en las oficinas de empleo, que es otra estadística.",
+              "error": "Restar dos tasas y llamar «por ciento» a lo que son puntos porcentuales." },
+            { "nombre": "Afiliación a la Seguridad Social", "dato": "afiliacion",
+              "mide": "Las personas dadas de alta en la Seguridad Social; se publica la media de cada mes.",
+              "calculo": "Media de los afiliados de cada día del mes.",
+              "publica": "El Ministerio de Inclusión, Seguridad Social y Migraciones, cada mes.",
+              "no_dice": "No equivale a la ocupación que mide la EPA: una persona con dos empleos puede contar dos veces.",
+              "error": "Comparar afiliados de un mes con ocupados de la EPA como si fueran lo mismo." },
+            { "nombre": "Salario medio y mediano", "dato": "salario-medio",
+              "mide": "Lo que cobra en bruto al año un trabajador típico.",
+              "calculo": "Media: suma ÷ número de personas. Mediana: el valor central. Ejemplo ficticio: con 1.000, 1.200, 1.300, 1.500 y 8.000 euros, media 2.600 y mediana 1.300.",
+              "publica": "El INE, cada año, con la Encuesta Anual de Estructura Salarial. La mediana todavía no está cargada en esta web.",
+              "no_dice": "La media la suben unos pocos salarios altos; la mediana divide en dos mitades.",
+              "error": "Usar la media como si fuera lo que cobra la mayoría." },
+            { "nombre": "Salario mínimo interprofesional", "dato": "smi-mensual",
+              "mide": "El salario mínimo legal.",
+              "calculo": "Lo fija el Gobierno por real decreto. En 2026: 1.221 euros al mes en 14 pagas, 17.094 euros al año.",
+              "publica": "El BOE, cada año.",
+              "no_dice": "No dice cuántas personas lo cobran.",
+              "error": "Comparar cifras mensuales con anuales o con distinto número de pagas." },
+            { "nombre": "Productividad", "dato": "productividad",
+              "mide": "La producción por hora trabajada o por persona ocupada.",
+              "calculo": "PIB ÷ horas trabajadas, o PIB ÷ ocupados. Ejemplo ficticio: 1.000 de producción ÷ 50 horas = 20 por hora.",
+              "publica": "El INE y Eurostat.",
+              "no_dice": "Cambia mucho según se mida por hora o por persona.",
+              "error": "Comparar productividades calculadas con definiciones distintas." },
+            { "nombre": "Déficit público", "dato": "deficit",
+              "mide": "Lo que gastan las Administraciones Públicas por encima de lo que ingresan en un año.",
+              "calculo": "Gastos − ingresos, y su porcentaje del PIB. Ejemplo ficticio: 30 de déficit con un PIB de 1.000 es el 3 %.",
+              "publica": "El Ministerio de Hacienda (IGAE): ejecución mensual y cierre anual. También Eurostat.",
+              "no_dice": "Es un flujo de un año; no es la deuda acumulada.",
+              "error": "Confundir déficit con deuda." },
+            { "nombre": "Deuda pública", "dato": "deuda",
+              "mide": "Lo que deben, acumulado, las Administraciones Públicas, según el Protocolo de Déficit Excesivo.",
+              "calculo": "Saldo de deuda en euros y como porcentaje del PIB. Ejemplo ficticio: 1.030 de deuda con 1.040 de PIB es el 99,04 %.",
+              "publica": "El Banco de España: avance mensual y dato trimestral. También Eurostat.",
+              "no_dice": "La proporción puede bajar mientras la deuda en euros sube.",
+              "error": "Mirar solo los euros o solo el porcentaje." },
+            { "nombre": "Presión fiscal", "dato": "presion-fiscal",
+              "mide": "Los impuestos y las cotizaciones sociales netas como porcentaje del PIB.",
+              "calculo": "(Impuestos + cotizaciones sociales netas) ÷ PIB × 100. Ejemplo ficticio: 380 ÷ 1.000 = 38 %.",
+              "publica": "Eurostat, cada año. También el Ministerio de Hacienda.",
+              "no_dice": "No dice quién paga ni cuánto paga cada persona.",
+              "error": "Comparar cifras de fuentes con definiciones distintas: compara dentro de una misma fuente." },
+            { "nombre": "Desigualdad y pobreza (AROPE y Gini)", "dato": "arope",
+              "mide": "El riesgo de pobreza o exclusión social (AROPE) y el reparto de la renta (Gini).",
+              "calculo": "Tienen definiciones técnicas en la Encuesta de Condiciones de Vida; léelas antes de comparar. El Gini todavía no está cargado en esta web.",
+              "publica": "El INE, cada año, con la Encuesta de Condiciones de Vida. También Eurostat.",
+              "no_dice": "La AROPE no es lo mismo que la tasa de riesgo de pobreza: combina varios criterios.",
+              "error": "Comparar tasas de pobreza de fuentes o años con definiciones distintas." },
+            { "nombre": "Tipos de interés y euríbor", "dato": "euribor",
+              "mide": "El coste del dinero. Los tipos oficiales los fija el BCE; el euríbor es un índice de referencia de muchas hipotecas.",
+              "calculo": "Se publican como porcentajes. Ejemplo ficticio: una hipoteca al euríbor más 1 punto, con un euríbor del 3 %, paga un 4 %.",
+              "publica": "El BCE, sus tipos oficiales; el Banco de España, el euríbor a un año cada mes.",
+              "no_dice": "El euríbor de un mes no dice cuánto pagará una hipoteca concreta: depende de su contrato y de cuándo se revisa.",
+              "error": "Pensar que el euríbor lo fija el BCE." }
+          ]
+        } },
+        { "tipo": "p", "texto": "Los valores de referencia del 3 % del PIB para el déficit y del 60 % para la deuda están en el Protocolo n.º 12 de los Tratados de la Unión (art. 1). Esta web todavía no ha revisado el resto del marco vigente de reglas fiscales de la Unión." }
+      ],
+      "ejemplo": "Que la tasa de paro baje del 12 % al 10 % es una bajada de 2 puntos, no de un 2 %.",
+      "error": {
+        "titulo": "«Paro registrado y paro de la EPA son lo mismo»",
+        "texto": "La EPA es una encuesta trimestral del INE; el paro registrado cuenta inscripciones en las oficinas de empleo el último día del mes. Sus cifras no coinciden."
+      },
+      "normas": ["tfue-prot12", "rd-smi-2026-1"],
+      "terminos": ["pib", "ipc", "tasa-de-paro", "paro-registrado", "deficit-publico", "deuda-publica"],
+      "profundizar": ["ine", "bde", "eurostat"],
+      "ampliado": [
+        { "tipo": "p", "texto": "El PIB trimestral del INE se presenta ajustado de efectos estacionales y de calendario. Los avances se revisan después: compara siempre el mismo tipo de dato." }
+      ]
+    },
+    {
+      "id": "m5-leer-datos",
+      "numero": "5.2",
+      "titulo": "Reglas para leer datos",
+      "resumen": [
+        "Nominal no es real: hay que descontar la subida de precios.",
+        "Los {{punto-porcentual|puntos porcentuales}} y los porcentajes relativos no son lo mismo.",
+        "La media y la {{mediana|mediana}} pueden contar historias distintas."
+      ],
+      "explicacion": [
+        { "tipo": "lista", "items": [
+          "**Nominal y real.** Si el PIB nominal crece un 5 % y los precios un 3 %, el real crece un 1,94 %, no un 2 %.",
+          "**Inflación.** Una cesta que pasa de 100 a 103 euros sube un 3,0 %. Que la inflación baje no significa que bajen los precios: suben más despacio.",
+          "**Puntos y porcentajes.** Un paro que pasa del 12 % al 10 % baja 2 puntos porcentuales y un 16,7 % en términos relativos.",
+          "**Media y mediana.** Con salarios de 1.000, 1.200, 1.300, 1.500 y 8.000 euros, la media es 2.600 y la mediana 1.300.",
+          "**Deuda y PIB.** Con deuda de 1.000, PIB de 1.000, déficit del 3 % y un PIB nominal que crece un 4 %, la deuda sube a 1.030 y su proporción baja al 99,04 %.",
+          "**Periodos.** Distingue variación mensual, trimestral e interanual, datos corregidos de estacionalidad y datos provisionales que se revisan.",
+          "**Comparaciones.** Entre países o comunidades, usa una fuente con definición común, como Eurostat o el INE, y no mezcles fuentes.",
+          "**Gráficos.** Comprueba que el eje empieza en cero: un eje recortado exagera las diferencias.",
+          "**Recesión.** La regla de dos trimestres seguidos de caída del PIB es una regla práctica; comprueba cómo la define la institución que la usa."
+        ] },
+        { "tipo": "h3", "texto": "Calculadoras" },
+        { "tipo": "esquema", "esquema": {
+          "tipo": "calculadoras-economia",
+          "titulo": "Seis calculadoras",
+          "descripcion": "Los valores iniciales reproducen los ejemplos de arriba. Puedes cambiarlos."
+        } }
+      ],
+      "ejemplo": "Si tu sueldo sube un 3 % y los precios un 4 %, con ese sueldo puedes comprar menos que antes, aunque cobres más.",
+      "error": {
+        "titulo": "«Si la inflación baja, los precios bajan»",
+        "texto": "Si la inflación pasa del 5 % al 3 %, los precios siguen subiendo, pero más despacio."
+      },
+      "terminos": ["punto-porcentual", "mediana", "ipc"],
+      "profundizar": ["ine", "eurostat"]
+    },
+    {
+      "id": "m5-impuestos",
+      "numero": "5.3",
+      "titulo": "Impuestos y Presupuestos",
+      "resumen": [
+        "Los {{presupuestos-generales|Presupuestos Generales del Estado}} los elabora el Gobierno y los aprueban las Cortes; si no se aprueban a tiempo, se prorrogan.",
+        "Hay impuestos directos, como el {{irpf|IRPF}}, indirectos, como el IVA, cotizaciones sociales y tasas.",
+        "Subir de tramo en el IRPF no hace cobrar menos: el {{tipo-marginal|tipo marginal}} solo grava la parte nueva."
+      ],
+      "explicacion": [
+        { "tipo": "h3", "texto": "Presupuestos" },
+        { "tipo": "p", "texto": "Corresponde al Gobierno elaborar los Presupuestos Generales del Estado y a las Cortes examinarlos, enmendarlos y aprobarlos. Son anuales e incluyen todos los gastos e ingresos del sector público estatal. Si no se aprueban antes del 1 de enero, se prorrogan los del año anterior hasta que haya nuevos (Constitución, art. 134)." },
+        { "tipo": "h3", "texto": "Tipos de tributos" },
+        { "tipo": "esquema", "esquema": {
+          "tipo": "comparativa",
+          "titulo": "Quién decide cada tipo de tributo",
+          "columnas": ["Tipo", "Ejemplos", "Quién decide"],
+          "filas": [
+            ["Impuestos directos", "IRPF, Impuesto sobre Sociedades", "El Estado; en el IRPF, las comunidades pueden fijar su escala autonómica (Ley 22/2009, art. 46)."],
+            ["Impuestos indirectos", "IVA, impuestos especiales", "El Estado; parte de su rendimiento se cede a las comunidades (LOFCA, art. 11)."],
+            ["Cotizaciones sociales", "Cuotas a la Seguridad Social", "El Estado, que tiene la legislación básica y el régimen económico de la Seguridad Social (Constitución, art. 149.1.17.ª)."],
+            ["Tributos locales", "IBI, impuesto de vehículos, tasas", "Los ayuntamientos, dentro de la ley (Haciendas Locales, arts. 20 y 59)."]
+          ]
+        } },
+        { "tipo": "h3", "texto": "Tipo medio y tipo marginal" },
+        { "tipo": "p", "texto": "Con tramos ficticios —10 % hasta 12.000 euros, 20 % entre 12.000 y 30.000 y 30 % por encima—, una base de 35.000 euros paga 6.300: el {{tipo-medio|tipo medio}} es del 18 % y el marginal, del 30 %. Si la base sube 1.000 euros, el impuesto sube 300 y la persona se queda con 700 más. Puedes probarlo en las [calculadoras](#/economia/m5-leer-datos). Las tarifas reales las publica la Agencia Tributaria para cada año." },
+        { "tipo": "h3", "texto": "Gasto público por funciones" },
+        { "tipo": "esquema", "esquema": {
+          "tipo": "grafico-serie",
+          "titulo": "Gasto de las Administraciones Públicas por funciones, 2024 (provisional)",
+          "descripcion": "Porcentaje del PIB. Clasificación COFOG de Eurostat.",
+          "grupo": "gasto-funciones",
+          "excluir": ["cofog-total"],
+          "ordenar": true,
+          "orientacion": "horizontal",
+          "paso": 5,
+          "unidad": "% del PIB",
+          "columna": "Función",
+          "nota_fuente": "Eurostat, conjunto gov_10a_exp (COFOG)."
+        } },
+        { "tipo": "p", "texto": "En total, el gasto público fue el 45,5 % del PIB en 2024, según el mismo conjunto de datos. Por redondeo, la suma de las funciones puede no coincidir exactamente con el total." },
+        { "tipo": "h3", "texto": "¿Cuánto costaría y quién lo pagaría?" },
+        { "tipo": "lista", "items": [
+          "Distingue coste bruto y neto, y el año al que se refiere.",
+          "Pregunta de dónde sale el dinero y quién lo paga: Estado, comunidades, ayuntamientos o contribuyentes concretos.",
+          "Mira el efecto en el déficit y los supuestos del cálculo.",
+          "Esta web no calcula el coste de las propuestas de los partidos: solo mostrará costes publicados por entidades identificadas, con su método y su año, y atribuidos a quien los publica. Si dos fuentes difieren, las mostrará juntas."
+        ] }
+      ],
+      "ejemplo": "Si la ley de Presupuestos no se aprueba antes del 1 de enero, el año empieza con los Presupuestos del año anterior.",
+      "error": {
+        "titulo": "«Si paso de tramo, cobro menos en neto»",
+        "texto": "El tipo marginal solo se aplica a la parte de la base que supera el tramo; lo anterior sigue tributando igual."
+      },
+      "normas": ["ce-134-1", "ce-134-4", "ce-133-1", "ce-135-2"],
+      "terminos": ["presupuestos-generales", "presupuesto-prorrogado", "irpf", "tipo-marginal", "tipo-medio"],
+      "profundizar": ["hacienda", "aeat", "eurostat-cofog"]
+    },
+    {
+      "id": "m5-pensiones",
+      "numero": "5.4",
+      "titulo": "Pensiones y Seguridad Social",
+      "resumen": [
+        "La Seguridad Social usa un {{sistema-de-reparto|sistema de reparto}}: las cotizaciones de cada momento financian las prestaciones de ese momento.",
+        "Hay pensiones contributivas, ligadas a lo cotizado, y {{pension-no-contributiva|no contributivas}}.",
+        "Las contributivas se {{revalorizacion|revalorizan}} cada año con la inflación media."
+      ],
+      "explicacion": [
+        { "tipo": "p", "texto": "La Constitución pide un régimen público de Seguridad Social para todos (art. 41) y pensiones adecuadas y periódicamente actualizadas en la tercera edad (art. 50)." },
+        { "tipo": "lista", "items": [
+          "**Sistema de reparto.** Es el sistema financiero de todos los regímenes de la Seguridad Social (Ley General de la Seguridad Social, art. 110). Se financia con cotizaciones y con aportaciones del Estado, entre otros recursos (art. 109).",
+          "**Contributivas y no contributivas.** La acción protectora incluye la jubilación en sus modalidades contributiva y no contributiva (art. 42).",
+          "**Revalorización.** Las pensiones contributivas suben al comenzar el año según la media de las tasas interanuales del IPC de los doce meses previos a diciembre (art. 58)."
+        ] },
+        { "tipo": "h3", "texto": "El debate sobre la sostenibilidad" },
+        { "tipo": "p", "texto": "Hay posiciones distintas sobre la sostenibilidad del sistema. Esta web solo mostrará proyecciones con su autor, su método y su año, con la etiqueta PREVISIÓN, y atribuirá cada posición a quien la sostiene. No hace proyecciones propias y todavía no ha cargado ninguna." }
+      ],
+      "ejemplo": "Si la inflación media fue del 2,8 %, una pensión contributiva de 1.000 euros pasa a 1.028 euros al empezar el año.",
+      "error": {
+        "titulo": "«Mis cotizaciones se guardan en una cuenta a mi nombre»",
+        "texto": "En un sistema de reparto, las cotizaciones de hoy financian las pensiones de hoy."
+      },
+      "normas": ["ce-41", "ce-50", "lgss-42", "lgss-58", "lgss-110"],
+      "terminos": ["sistema-de-reparto", "pension-no-contributiva", "revalorizacion"],
+      "profundizar": ["boe-lgss", "seg-social", "airef"]
+    },
+    {
+      "id": "m5-monetaria",
+      "numero": "5.5",
+      "titulo": "Política monetaria y política fiscal",
+      "resumen": [
+        "La política monetaria del euro la dirige el Eurosistema, con el {{bce|BCE}}; su objetivo principal es la estabilidad de precios.",
+        "La política fiscal —impuestos y gasto— la deciden gobiernos y parlamentos.",
+        "El {{euribor|euríbor}} es un índice de referencia de muchas hipotecas, no uno de los tipos oficiales del BCE."
+      ],
+      "explicacion": [
+        { "tipo": "esquema", "esquema": {
+          "tipo": "comparativa",
+          "titulo": "Dos políticas distintas",
+          "columnas": ["Aspecto", "Política monetaria", "Política fiscal"],
+          "filas": [
+            ["Qué decide", "Los tipos de interés oficiales y los demás instrumentos del Eurosistema", "Los impuestos y el gasto público"],
+            ["Quién decide", "El BCE y los bancos centrales de los países del euro (TFUE, arts. 127 y 282)", "Gobiernos y parlamentos; en España, los Presupuestos los aprueban las Cortes (Constitución, art. 134)"],
+            ["Objetivo", "Principalmente, la estabilidad de precios (TFUE, art. 127)", "Lo fija cada Gobierno y parlamento, dentro de la estabilidad presupuestaria (Constitución, art. 135)"]
+          ]
+        } },
+        { "tipo": "p", "texto": "Los {{tipos-bce|tipos oficiales del BCE}} vigentes desde el 16 de septiembre de 2026 son: 2,50 % la facilidad de depósito, 2,65 % las operaciones principales de financiación y 2,90 % la facilidad marginal de crédito (página de tipos oficiales del BCE, consulta del 4 de noviembre de 2026)." },
+        { "tipo": "h3", "texto": "El euríbor en el último año" },
+        { "tipo": "esquema", "esquema": {
+          "tipo": "grafico-serie",
+          "titulo": "Euríbor a un año, media mensual (de noviembre de 2025 a octubre de 2026)",
+          "descripcion": "Porcentaje. El eje empieza en cero.",
+          "grupo": "euribor-mensual",
+          "orientacion": "vertical",
+          "paso": 0.5,
+          "unidad": "%",
+          "columna": "Mes",
+          "nota_fuente": "Banco de España, notas de prensa mensuales del euríbor.",
+          "etiquetas": {
+            "2025-11": "nov. 25", "2025-12": "dic. 25", "2026-01": "ene. 26", "2026-02": "feb. 26", "2026-03": "mar. 26", "2026-04": "abr. 26",
+            "2026-05": "may. 26", "2026-06": "jun. 26", "2026-07": "jul. 26", "2026-08": "ago. 26", "2026-09": "sep. 26", "2026-10": "oct. 26"
+          }
+        } },
+        { "tipo": "p", "texto": "El Banco de España recuerda que estos índices no son referencia oficial hasta su publicación en el BOE." },
+        { "tipo": "h3", "texto": "Deuda pública y deuda privada" },
+        { "tipo": "p", "texto": "La deuda pública es la de las Administraciones Públicas; la privada, la de hogares y empresas. El déficit de un año se suma a la deuda acumulada: mientras haya déficit, la deuda sigue creciendo, aunque como porcentaje del PIB pueda bajar si el PIB crece más deprisa." }
+      ],
+      "ejemplo": "Una hipoteca variable revisa su tipo según el euríbor: si el euríbor ha subido, la cuota de la siguiente revisión suele subir.",
+      "error": {
+        "titulo": "«El euríbor lo fija el BCE»",
+        "texto": "El BCE fija sus tipos de interés oficiales. El euríbor es otro índice, que el Banco de España publica cada mes como referencia de las hipotecas."
+      },
+      "normas": ["tfue-127", "tfue-282", "ce-135-2"],
+      "terminos": ["bce", "tipos-bce", "euribor"],
+      "profundizar": ["bce-tipos", "bde-tipos-interes", "bde"]
+    },
+    {
+      "id": "m5-repaso",
+      "numero": "5.6",
+      "titulo": "Repaso del módulo 5",
+      "tipo": "repaso",
+      "preguntas_de": ["m5-indicadores", "m5-leer-datos", "m5-impuestos", "m5-pensiones", "m5-monetaria"],
+      "resumen": [
+        "Preguntas de todo el módulo, elegidas al azar en cada intento.",
+        "Muchas usan cifras ficticias y se corrigen solas; tres leen el gráfico real del euríbor.",
+        "Si fallas alguna, podrás repasarla aquí o en su bloque."
+      ],
+      "profundizar": ["ine", "bde", "eurostat"]
+    }
+  ]
+}

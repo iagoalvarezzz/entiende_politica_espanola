@@ -1,0 +1,1014 @@
+{
+  "meta": {
+    "conjunto": "medios",
+    "esquema": "medio",
+    "version": "0.6.0",
+    "actualizado": "2026-11-05",
+    "descripcion": "Medios de la muestra de EurOMo España 2025, del Anexo D.6 y los que cita el Digital News Report España 2026. Misma estructura para todos; ninguna orientación asignada por la web.",
+    "contexto": {
+      "fecha_consulta": "2026-11-05",
+      "euromo": "Informe de España, edición 2025 (diciembre de 2025), CC BY 4.0."
+    }
+  },
+  "registros": [
+    {
+      "id": "20minutos",
+      "nombre": "20 Minutos",
+      "soporte": "nativo_digital",
+      "titularidad": "privada",
+      "propiedad": {
+        "texto": "Propiedad sin documentar: el medio no figura en EurOMo 2025 y no se ha abierto otra fuente.",
+        "fuente_id": null,
+        "edicion": null,
+        "corporacion": null,
+        "grupo": null
+      },
+      "linea_editorial": {
+        "texto": "Pendiente de comprobar.",
+        "url": null,
+        "fecha_consulta": null
+      },
+      "audiencia": {
+        "valor": 41,
+        "unidad": "% de encuestados que confían en sus noticias",
+        "periodo": "2026 (+3 puntos frente a 2025)",
+        "fuente_id": "dnr-espana-2026-confianza",
+        "nota": "Describe a la audiencia, no al medio."
+      },
+      "orientacion": {
+        "clasificacion": "sin clasificación documentada",
+        "fuente_id": null,
+        "anio": null,
+        "metodologia": null
+      },
+      "tipo_propietario": "sin_documentar",
+      "criterio": "dnr",
+      "pendientes": [
+        {
+          "campo": "linea_editorial",
+          "motivo": "Pendiente para todos los medios: no se ha comprobado todavía en la web de cada uno dónde declara su línea editorial."
+        },
+        {
+          "campo": "propiedad",
+          "motivo": "El medio no figura en EurOMo 2025 y no se ha abierto otra fuente."
+        }
+      ]
+    },
+    {
+      "id": "abc",
+      "nombre": "ABC",
+      "soporte": "prensa",
+      "titularidad": "privada",
+      "propiedad": {
+        "texto": "Sociedad: Diario ABC, SL. Grupo: Vocento.",
+        "fuente_id": "euromo-espana-2025",
+        "edicion": 2025,
+        "corporacion": "Diario ABC, SL",
+        "grupo": "Vocento"
+      },
+      "linea_editorial": {
+        "texto": "Pendiente de comprobar.",
+        "url": null,
+        "fecha_consulta": null
+      },
+      "audiencia": {
+        "valor": 45,
+        "unidad": "% de encuestados que confían en sus noticias",
+        "periodo": "2026 (+4 puntos frente a 2025)",
+        "fuente_id": "dnr-espana-2026-confianza",
+        "nota": "Describe a la audiencia, no al medio."
+      },
+      "orientacion": {
+        "clasificacion": "sin clasificación documentada",
+        "fuente_id": null,
+        "anio": null,
+        "metodologia": null
+      },
+      "tipo_propietario": "privado",
+      "criterio": "euromo",
+      "pendientes": [
+        {
+          "campo": "linea_editorial",
+          "motivo": "Pendiente para todos los medios: no se ha comprobado todavía en la web de cada uno dónde declara su línea editorial."
+        }
+      ]
+    },
+    {
+      "id": "antena3",
+      "nombre": "Antena 3",
+      "soporte": "television",
+      "titularidad": "privada",
+      "propiedad": {
+        "texto": "Sociedad: Atresmedia Corporación de Medios S.A. Grupo: Grupo Planeta.",
+        "fuente_id": "euromo-espana-2025",
+        "edicion": 2025,
+        "corporacion": "Atresmedia Corporación de Medios S.A.",
+        "grupo": "Grupo Planeta"
+      },
+      "linea_editorial": {
+        "texto": "Pendiente de comprobar.",
+        "url": null,
+        "fecha_consulta": null
+      },
+      "audiencia": {
+        "valor": 52,
+        "unidad": "% de encuestados que confían en sus noticias",
+        "periodo": "2026 (+2 puntos frente a 2025)",
+        "fuente_id": "dnr-espana-2026-confianza",
+        "nota": "Describe a la audiencia, no al medio."
+      },
+      "orientacion": {
+        "clasificacion": "sin clasificación documentada",
+        "fuente_id": null,
+        "anio": null,
+        "metodologia": null
+      },
+      "tipo_propietario": "privado",
+      "criterio": "euromo",
+      "pendientes": [
+        {
+          "campo": "linea_editorial",
+          "motivo": "Pendiente para todos los medios: no se ha comprobado todavía en la web de cada uno dónde declara su línea editorial."
+        }
+      ]
+    },
+    {
+      "id": "ser",
+      "nombre": "Cadena SER",
+      "soporte": "radio",
+      "titularidad": "privada",
+      "propiedad": {
+        "texto": "Sociedad: Sociedad Española de Radiodifusión, SL. Grupo: Grupo Prisa (Promotora de Informaciones, SA).",
+        "fuente_id": "euromo-espana-2025",
+        "edicion": 2025,
+        "corporacion": "Sociedad Española de Radiodifusión, SL",
+        "grupo": "Grupo Prisa (Promotora de Informaciones, SA)"
+      },
+      "linea_editorial": {
+        "texto": "Pendiente de comprobar.",
+        "url": null,
+        "fecha_consulta": null
+      },
+      "audiencia": {
+        "valor": 51,
+        "unidad": "% de encuestados que confían en sus noticias",
+        "periodo": "2026 (+6 puntos frente a 2025)",
+        "fuente_id": "dnr-espana-2026-confianza",
+        "nota": "Describe a la audiencia, no al medio."
+      },
+      "orientacion": {
+        "clasificacion": "sin clasificación documentada",
+        "fuente_id": null,
+        "anio": null,
+        "metodologia": null
+      },
+      "tipo_propietario": "privado",
+      "criterio": "euromo",
+      "pendientes": [
+        {
+          "campo": "linea_editorial",
+          "motivo": "Pendiente para todos los medios: no se ha comprobado todavía en la web de cada uno dónde declara su línea editorial."
+        }
+      ]
+    },
+    {
+      "id": "cope",
+      "nombre": "COPE",
+      "soporte": "radio",
+      "titularidad": "privada",
+      "propiedad": {
+        "texto": "Sociedad: Radio Popular, S.A. Grupo: Cadena de Ondas Populares Españolas. Según EurOMo, la Conferencia Episcopal Española es el accionista mayoritario de Radio Popular, S.A.",
+        "fuente_id": "euromo-espana-2025",
+        "edicion": 2025,
+        "corporacion": "Radio Popular, S.A.",
+        "grupo": "Cadena de Ondas Populares Españolas"
+      },
+      "linea_editorial": {
+        "texto": "Pendiente de comprobar.",
+        "url": null,
+        "fecha_consulta": null
+      },
+      "audiencia": {
+        "valor": "sin dato publicado",
+        "unidad": "sin unidad",
+        "periodo": "sin periodo",
+        "fuente_id": "dnr-espana-2026-confianza",
+        "nota": "El Digital News Report España 2026 no lo recoge."
+      },
+      "orientacion": {
+        "clasificacion": "sin clasificación documentada",
+        "fuente_id": null,
+        "anio": null,
+        "metodologia": null
+      },
+      "tipo_propietario": "iglesia",
+      "criterio": "euromo",
+      "pendientes": [
+        {
+          "campo": "linea_editorial",
+          "motivo": "Pendiente para todos los medios: no se ha comprobado todavía en la web de cada uno dónde declara su línea editorial."
+        }
+      ]
+    },
+    {
+      "id": "cuatro",
+      "nombre": "Cuatro",
+      "soporte": "television",
+      "titularidad": "privada",
+      "propiedad": {
+        "texto": "Sociedad: Grupo Editorial Telecinco S.A.U. Grupo: Media For Europe.",
+        "fuente_id": "euromo-espana-2025",
+        "edicion": 2025,
+        "corporacion": "Grupo Editorial Telecinco S.A.U.",
+        "grupo": "Media For Europe"
+      },
+      "linea_editorial": {
+        "texto": "Pendiente de comprobar.",
+        "url": null,
+        "fecha_consulta": null
+      },
+      "audiencia": {
+        "valor": "sin dato publicado",
+        "unidad": "sin unidad",
+        "periodo": "sin periodo",
+        "fuente_id": "dnr-espana-2026-confianza",
+        "nota": "El Digital News Report España 2026 no lo recoge."
+      },
+      "orientacion": {
+        "clasificacion": "sin clasificación documentada",
+        "fuente_id": null,
+        "anio": null,
+        "metodologia": null
+      },
+      "tipo_propietario": "privado",
+      "criterio": "euromo",
+      "pendientes": [
+        {
+          "campo": "linea_editorial",
+          "motivo": "Pendiente para todos los medios: no se ha comprobado todavía en la web de cada uno dónde declara su línea editorial."
+        }
+      ]
+    },
+    {
+      "id": "elconfidencial",
+      "nombre": "El Confidencial",
+      "soporte": "nativo_digital",
+      "titularidad": "privada",
+      "propiedad": {
+        "texto": "Sociedad: Titania Compañía Editorial SL.",
+        "fuente_id": "euromo-espana-2025",
+        "edicion": 2025,
+        "corporacion": "Titania Compañía Editorial SL",
+        "grupo": null
+      },
+      "linea_editorial": {
+        "texto": "Pendiente de comprobar.",
+        "url": null,
+        "fecha_consulta": null
+      },
+      "audiencia": {
+        "valor": 39,
+        "unidad": "% de encuestados que confían en sus noticias",
+        "periodo": "2026 (+3 puntos frente a 2025)",
+        "fuente_id": "dnr-espana-2026-confianza",
+        "nota": "Describe a la audiencia, no al medio."
+      },
+      "orientacion": {
+        "clasificacion": "sin clasificación documentada",
+        "fuente_id": null,
+        "anio": null,
+        "metodologia": null
+      },
+      "tipo_propietario": "privado",
+      "criterio": "euromo",
+      "pendientes": [
+        {
+          "campo": "linea_editorial",
+          "motivo": "Pendiente para todos los medios: no se ha comprobado todavía en la web de cada uno dónde declara su línea editorial."
+        }
+      ]
+    },
+    {
+      "id": "elespanol",
+      "nombre": "El Español",
+      "soporte": "nativo_digital",
+      "titularidad": "privada",
+      "propiedad": {
+        "texto": "Sociedad: El León de El Español Publicaciones S.A.",
+        "fuente_id": "euromo-espana-2025",
+        "edicion": 2025,
+        "corporacion": "El León de El Español Publicaciones S.A.",
+        "grupo": null
+      },
+      "linea_editorial": {
+        "texto": "Pendiente de comprobar.",
+        "url": null,
+        "fecha_consulta": null
+      },
+      "audiencia": {
+        "valor": "sin dato publicado",
+        "unidad": "sin unidad",
+        "periodo": "sin periodo",
+        "fuente_id": "dnr-espana-2026-confianza",
+        "nota": "El Digital News Report España 2026 no lo recoge."
+      },
+      "orientacion": {
+        "clasificacion": "sin clasificación documentada",
+        "fuente_id": null,
+        "anio": null,
+        "metodologia": null
+      },
+      "tipo_propietario": "privado",
+      "criterio": "euromo",
+      "pendientes": [
+        {
+          "campo": "linea_editorial",
+          "motivo": "Pendiente para todos los medios: no se ha comprobado todavía en la web de cada uno dónde declara su línea editorial."
+        }
+      ]
+    },
+    {
+      "id": "huffpost",
+      "nombre": "El HuffPost (huffingtonpost.es)",
+      "soporte": "nativo_digital",
+      "titularidad": "privada",
+      "propiedad": {
+        "texto": "Sociedad: BuzzFeed Inc.",
+        "fuente_id": "euromo-espana-2025",
+        "edicion": 2025,
+        "corporacion": "BuzzFeed Inc",
+        "grupo": null
+      },
+      "linea_editorial": {
+        "texto": "Pendiente de comprobar.",
+        "url": null,
+        "fecha_consulta": null
+      },
+      "audiencia": {
+        "valor": "sin dato publicado",
+        "unidad": "sin unidad",
+        "periodo": "sin periodo",
+        "fuente_id": "dnr-espana-2026-confianza",
+        "nota": "El Digital News Report España 2026 no lo recoge."
+      },
+      "orientacion": {
+        "clasificacion": "sin clasificación documentada",
+        "fuente_id": null,
+        "anio": null,
+        "metodologia": null
+      },
+      "tipo_propietario": "privado",
+      "criterio": "euromo",
+      "pendientes": [
+        {
+          "campo": "linea_editorial",
+          "motivo": "Pendiente para todos los medios: no se ha comprobado todavía en la web de cada uno dónde declara su línea editorial."
+        }
+      ]
+    },
+    {
+      "id": "elmundo",
+      "nombre": "El Mundo",
+      "soporte": "prensa",
+      "titularidad": "privada",
+      "propiedad": {
+        "texto": "Sociedad: Unidad Editorial S.A. Grupo: RCS Media Group.",
+        "fuente_id": "euromo-espana-2025",
+        "edicion": 2025,
+        "corporacion": "Unidad Editorial S.A.",
+        "grupo": "RCS Media Group"
+      },
+      "linea_editorial": {
+        "texto": "Pendiente de comprobar.",
+        "url": null,
+        "fecha_consulta": null
+      },
+      "audiencia": {
+        "valor": 47,
+        "unidad": "% de encuestados que confían en sus noticias",
+        "periodo": "2026 (+6 puntos frente a 2025)",
+        "fuente_id": "dnr-espana-2026-confianza",
+        "nota": "Describe a la audiencia, no al medio."
+      },
+      "orientacion": {
+        "clasificacion": "sin clasificación documentada",
+        "fuente_id": null,
+        "anio": null,
+        "metodologia": null
+      },
+      "tipo_propietario": "privado",
+      "criterio": "euromo",
+      "pendientes": [
+        {
+          "campo": "linea_editorial",
+          "motivo": "Pendiente para todos los medios: no se ha comprobado todavía en la web de cada uno dónde declara su línea editorial."
+        }
+      ]
+    },
+    {
+      "id": "elpais",
+      "nombre": "El País",
+      "soporte": "prensa",
+      "titularidad": "privada",
+      "propiedad": {
+        "texto": "Sociedad: Ediciones El País, SL. Grupo: Grupo Prisa (Promotora de Informaciones, SA).",
+        "fuente_id": "euromo-espana-2025",
+        "edicion": 2025,
+        "corporacion": "Ediciones El País, SL",
+        "grupo": "Grupo Prisa (Promotora de Informaciones, SA)"
+      },
+      "linea_editorial": {
+        "texto": "Pendiente de comprobar.",
+        "url": null,
+        "fecha_consulta": null
+      },
+      "audiencia": {
+        "valor": 49,
+        "unidad": "% de encuestados que confían en sus noticias",
+        "periodo": "2026 (+6 puntos frente a 2025)",
+        "fuente_id": "dnr-espana-2026-confianza",
+        "nota": "Describe a la audiencia, no al medio."
+      },
+      "orientacion": {
+        "clasificacion": "sin clasificación documentada",
+        "fuente_id": null,
+        "anio": null,
+        "metodologia": null
+      },
+      "tipo_propietario": "privado",
+      "criterio": "euromo",
+      "pendientes": [
+        {
+          "campo": "linea_editorial",
+          "motivo": "Pendiente para todos los medios: no se ha comprobado todavía en la web de cada uno dónde declara su línea editorial."
+        }
+      ]
+    },
+    {
+      "id": "eldiario",
+      "nombre": "elDiario.es",
+      "soporte": "nativo_digital",
+      "titularidad": "privada",
+      "propiedad": {
+        "texto": "Sociedad: El Diario de Prensa Digital S.L. Según EurOMo, sus periodistas y trabajadores son propietarios directos.",
+        "fuente_id": "euromo-espana-2025",
+        "edicion": 2025,
+        "corporacion": "El Diario de Prensa Digital S.L.",
+        "grupo": null
+      },
+      "linea_editorial": {
+        "texto": "Pendiente de comprobar.",
+        "url": null,
+        "fecha_consulta": null
+      },
+      "audiencia": {
+        "valor": 42,
+        "unidad": "% de encuestados que confían en sus noticias",
+        "periodo": "2026 (+4 puntos frente a 2025)",
+        "fuente_id": "dnr-espana-2026-confianza",
+        "nota": "Describe a la audiencia, no al medio."
+      },
+      "orientacion": {
+        "clasificacion": "sin clasificación documentada",
+        "fuente_id": null,
+        "anio": null,
+        "metodologia": null
+      },
+      "tipo_propietario": "privado",
+      "criterio": "euromo",
+      "pendientes": [
+        {
+          "campo": "linea_editorial",
+          "motivo": "Pendiente para todos los medios: no se ha comprobado todavía en la web de cada uno dónde declara su línea editorial."
+        }
+      ]
+    },
+    {
+      "id": "infolibre",
+      "nombre": "infoLibre",
+      "soporte": "nativo_digital",
+      "titularidad": "privada",
+      "propiedad": {
+        "texto": "Propiedad sin documentar: el medio no figura en EurOMo 2025 y no se ha abierto otra fuente.",
+        "fuente_id": null,
+        "edicion": null,
+        "corporacion": null,
+        "grupo": null
+      },
+      "linea_editorial": {
+        "texto": "Pendiente de comprobar.",
+        "url": null,
+        "fecha_consulta": null
+      },
+      "audiencia": {
+        "valor": "sin dato publicado",
+        "unidad": "sin unidad",
+        "periodo": "sin periodo",
+        "fuente_id": "dnr-espana-2026-confianza",
+        "nota": "El Digital News Report España 2026 no lo recoge."
+      },
+      "orientacion": {
+        "clasificacion": "sin clasificación documentada",
+        "fuente_id": null,
+        "anio": null,
+        "metodologia": null
+      },
+      "tipo_propietario": "sin_documentar",
+      "criterio": "anexo",
+      "pendientes": [
+        {
+          "campo": "linea_editorial",
+          "motivo": "Pendiente para todos los medios: no se ha comprobado todavía en la web de cada uno dónde declara su línea editorial."
+        },
+        {
+          "campo": "propiedad",
+          "motivo": "El medio no figura en EurOMo 2025 y no se ha abierto otra fuente."
+        }
+      ]
+    },
+    {
+      "id": "larazon",
+      "nombre": "La Razón",
+      "soporte": "prensa",
+      "titularidad": "privada",
+      "propiedad": {
+        "texto": "Sociedad: Audiovisual Española 2000, S.A. Grupo: Grupo Planeta.",
+        "fuente_id": "euromo-espana-2025",
+        "edicion": 2025,
+        "corporacion": "Audiovisual Española 2000, S.A.",
+        "grupo": "Grupo Planeta"
+      },
+      "linea_editorial": {
+        "texto": "Pendiente de comprobar.",
+        "url": null,
+        "fecha_consulta": null
+      },
+      "audiencia": {
+        "valor": "sin dato publicado",
+        "unidad": "sin unidad",
+        "periodo": "sin periodo",
+        "fuente_id": "dnr-espana-2026-confianza",
+        "nota": "El Digital News Report España 2026 no lo recoge."
+      },
+      "orientacion": {
+        "clasificacion": "sin clasificación documentada",
+        "fuente_id": null,
+        "anio": null,
+        "metodologia": null
+      },
+      "tipo_propietario": "privado",
+      "criterio": "euromo",
+      "pendientes": [
+        {
+          "campo": "linea_editorial",
+          "motivo": "Pendiente para todos los medios: no se ha comprobado todavía en la web de cada uno dónde declara su línea editorial."
+        }
+      ]
+    },
+    {
+      "id": "lasexta",
+      "nombre": "La Sexta",
+      "soporte": "television",
+      "titularidad": "privada",
+      "propiedad": {
+        "texto": "Sociedad: Atresmedia Corporación de Medios S.A. Grupo: Grupo Planeta.",
+        "fuente_id": "euromo-espana-2025",
+        "edicion": 2025,
+        "corporacion": "Atresmedia Corporación de Medios S.A.",
+        "grupo": "Grupo Planeta"
+      },
+      "linea_editorial": {
+        "texto": "Pendiente de comprobar.",
+        "url": null,
+        "fecha_consulta": null
+      },
+      "audiencia": {
+        "valor": "sin dato publicado",
+        "unidad": "sin unidad",
+        "periodo": "sin periodo",
+        "fuente_id": "dnr-espana-2026-confianza",
+        "nota": "El Digital News Report España 2026 no lo recoge."
+      },
+      "orientacion": {
+        "clasificacion": "sin clasificación documentada",
+        "fuente_id": null,
+        "anio": null,
+        "metodologia": null
+      },
+      "tipo_propietario": "privado",
+      "criterio": "euromo",
+      "pendientes": [
+        {
+          "campo": "linea_editorial",
+          "motivo": "Pendiente para todos los medios: no se ha comprobado todavía en la web de cada uno dónde declara su línea editorial."
+        }
+      ]
+    },
+    {
+      "id": "lavanguardia",
+      "nombre": "La Vanguardia",
+      "soporte": "prensa",
+      "titularidad": "privada",
+      "propiedad": {
+        "texto": "Sociedad: Vanguardia Ediciones, SLU. Grupo: Grupo Godó.",
+        "fuente_id": "euromo-espana-2025",
+        "edicion": 2025,
+        "corporacion": "Vanguardia Ediciones, SLU",
+        "grupo": "Grupo Godó"
+      },
+      "linea_editorial": {
+        "texto": "Pendiente de comprobar.",
+        "url": null,
+        "fecha_consulta": null
+      },
+      "audiencia": {
+        "valor": "sin dato publicado",
+        "unidad": "sin unidad",
+        "periodo": "sin periodo",
+        "fuente_id": "dnr-espana-2026-confianza",
+        "nota": "El Digital News Report España 2026 no lo recoge."
+      },
+      "orientacion": {
+        "clasificacion": "sin clasificación documentada",
+        "fuente_id": null,
+        "anio": null,
+        "metodologia": null
+      },
+      "tipo_propietario": "privado",
+      "criterio": "euromo",
+      "pendientes": [
+        {
+          "campo": "linea_editorial",
+          "motivo": "Pendiente para todos los medios: no se ha comprobado todavía en la web de cada uno dónde declara su línea editorial."
+        }
+      ]
+    },
+    {
+      "id": "libertaddigital",
+      "nombre": "Libertad Digital",
+      "soporte": "nativo_digital",
+      "titularidad": "privada",
+      "propiedad": {
+        "texto": "Propiedad sin documentar: el medio no figura en EurOMo 2025 y no se ha abierto otra fuente.",
+        "fuente_id": null,
+        "edicion": null,
+        "corporacion": null,
+        "grupo": null
+      },
+      "linea_editorial": {
+        "texto": "Pendiente de comprobar.",
+        "url": null,
+        "fecha_consulta": null
+      },
+      "audiencia": {
+        "valor": "sin dato publicado",
+        "unidad": "sin unidad",
+        "periodo": "sin periodo",
+        "fuente_id": "dnr-espana-2026-confianza",
+        "nota": "El Digital News Report España 2026 no lo recoge."
+      },
+      "orientacion": {
+        "clasificacion": "sin clasificación documentada",
+        "fuente_id": null,
+        "anio": null,
+        "metodologia": null
+      },
+      "tipo_propietario": "sin_documentar",
+      "criterio": "anexo",
+      "pendientes": [
+        {
+          "campo": "linea_editorial",
+          "motivo": "Pendiente para todos los medios: no se ha comprobado todavía en la web de cada uno dónde declara su línea editorial."
+        },
+        {
+          "campo": "propiedad",
+          "motivo": "El medio no figura en EurOMo 2025 y no se ha abierto otra fuente."
+        }
+      ]
+    },
+    {
+      "id": "okdiario",
+      "nombre": "OKDIARIO",
+      "soporte": "nativo_digital",
+      "titularidad": "privada",
+      "propiedad": {
+        "texto": "Sociedad: Dos Mil Palabras, SL. En EurOMo 2025 figura como cuenta en una plataforma digital.",
+        "fuente_id": "euromo-espana-2025",
+        "edicion": 2025,
+        "corporacion": "Dos Mil Palabras, SL",
+        "grupo": null
+      },
+      "linea_editorial": {
+        "texto": "Pendiente de comprobar.",
+        "url": null,
+        "fecha_consulta": null
+      },
+      "audiencia": {
+        "valor": 35,
+        "unidad": "% de encuestados que confían en sus noticias",
+        "periodo": "2026 (+4 puntos frente a 2025)",
+        "fuente_id": "dnr-espana-2026-confianza",
+        "nota": "Describe a la audiencia, no al medio."
+      },
+      "orientacion": {
+        "clasificacion": "sin clasificación documentada",
+        "fuente_id": null,
+        "anio": null,
+        "metodologia": null
+      },
+      "tipo_propietario": "privado",
+      "criterio": "dnr",
+      "pendientes": [
+        {
+          "campo": "linea_editorial",
+          "motivo": "Pendiente para todos los medios: no se ha comprobado todavía en la web de cada uno dónde declara su línea editorial."
+        }
+      ]
+    },
+    {
+      "id": "ondacero",
+      "nombre": "Onda Cero",
+      "soporte": "radio",
+      "titularidad": "privada",
+      "propiedad": {
+        "texto": "Sociedad: Atresmedia Corporación de Medios S.A. Grupo: Grupo Planeta.",
+        "fuente_id": "euromo-espana-2025",
+        "edicion": 2025,
+        "corporacion": "Atresmedia Corporación de Medios S.A.",
+        "grupo": "Grupo Planeta"
+      },
+      "linea_editorial": {
+        "texto": "Pendiente de comprobar.",
+        "url": null,
+        "fecha_consulta": null
+      },
+      "audiencia": {
+        "valor": 49,
+        "unidad": "% de encuestados que confían en sus noticias",
+        "periodo": "2026 (+3 puntos frente a 2025)",
+        "fuente_id": "dnr-espana-2026-confianza",
+        "nota": "Describe a la audiencia, no al medio."
+      },
+      "orientacion": {
+        "clasificacion": "sin clasificación documentada",
+        "fuente_id": null,
+        "anio": null,
+        "metodologia": null
+      },
+      "tipo_propietario": "privado",
+      "criterio": "euromo",
+      "pendientes": [
+        {
+          "campo": "linea_editorial",
+          "motivo": "Pendiente para todos los medios: no se ha comprobado todavía en la web de cada uno dónde declara su línea editorial."
+        }
+      ]
+    },
+    {
+      "id": "publico",
+      "nombre": "Público",
+      "soporte": "nativo_digital",
+      "titularidad": "privada",
+      "propiedad": {
+        "texto": "Propiedad sin documentar: el medio no figura en EurOMo 2025 y no se ha abierto otra fuente.",
+        "fuente_id": null,
+        "edicion": null,
+        "corporacion": null,
+        "grupo": null
+      },
+      "linea_editorial": {
+        "texto": "Pendiente de comprobar.",
+        "url": null,
+        "fecha_consulta": null
+      },
+      "audiencia": {
+        "valor": "sin dato publicado",
+        "unidad": "sin unidad",
+        "periodo": "sin periodo",
+        "fuente_id": "dnr-espana-2026-confianza",
+        "nota": "El Digital News Report España 2026 no lo recoge."
+      },
+      "orientacion": {
+        "clasificacion": "sin clasificación documentada",
+        "fuente_id": null,
+        "anio": null,
+        "metodologia": null
+      },
+      "tipo_propietario": "sin_documentar",
+      "criterio": "anexo",
+      "pendientes": [
+        {
+          "campo": "linea_editorial",
+          "motivo": "Pendiente para todos los medios: no se ha comprobado todavía en la web de cada uno dónde declara su línea editorial."
+        },
+        {
+          "campo": "propiedad",
+          "motivo": "El medio no figura en EurOMo 2025 y no se ha abierto otra fuente."
+        }
+      ]
+    },
+    {
+      "id": "rne",
+      "nombre": "RNE",
+      "soporte": "radio",
+      "titularidad": "publica",
+      "propiedad": {
+        "texto": "Sociedad: Corporación de Radio Televisión Española S.A. Propietario: el Estado.",
+        "fuente_id": "euromo-espana-2025",
+        "edicion": 2025,
+        "corporacion": "Corporación de Radio Televisión Española S.A.",
+        "grupo": "Corporación de Radio Televisión Española S.A."
+      },
+      "linea_editorial": {
+        "texto": "Pendiente de comprobar.",
+        "url": null,
+        "fecha_consulta": null
+      },
+      "audiencia": {
+        "valor": "sin dato publicado",
+        "unidad": "sin unidad",
+        "periodo": "sin periodo",
+        "fuente_id": "dnr-espana-2026-confianza",
+        "nota": "El Digital News Report España 2026 no lo recoge."
+      },
+      "orientacion": {
+        "clasificacion": "sin clasificación documentada",
+        "fuente_id": null,
+        "anio": null,
+        "metodologia": null
+      },
+      "tipo_propietario": "publico",
+      "criterio": "euromo",
+      "pendientes": [
+        {
+          "campo": "linea_editorial",
+          "motivo": "Pendiente para todos los medios: no se ha comprobado todavía en la web de cada uno dónde declara su línea editorial."
+        }
+      ]
+    },
+    {
+      "id": "telecinco",
+      "nombre": "Telecinco",
+      "soporte": "television",
+      "titularidad": "privada",
+      "propiedad": {
+        "texto": "Sociedad: Grupo Editorial Telecinco S.A.U. Grupo: Media For Europe.",
+        "fuente_id": "euromo-espana-2025",
+        "edicion": 2025,
+        "corporacion": "Grupo Editorial Telecinco S.A.U.",
+        "grupo": "Media For Europe"
+      },
+      "linea_editorial": {
+        "texto": "Pendiente de comprobar.",
+        "url": null,
+        "fecha_consulta": null
+      },
+      "audiencia": {
+        "valor": 36,
+        "unidad": "% de encuestados que confían en sus noticias",
+        "periodo": "2026 (+4 puntos frente a 2025)",
+        "fuente_id": "dnr-espana-2026-confianza",
+        "nota": "Describe a la audiencia, no al medio."
+      },
+      "orientacion": {
+        "clasificacion": "sin clasificación documentada",
+        "fuente_id": null,
+        "anio": null,
+        "metodologia": null
+      },
+      "tipo_propietario": "privado",
+      "criterio": "euromo",
+      "pendientes": [
+        {
+          "campo": "linea_editorial",
+          "motivo": "Pendiente para todos los medios: no se ha comprobado todavía en la web de cada uno dónde declara su línea editorial."
+        }
+      ]
+    },
+    {
+      "id": "theobjective",
+      "nombre": "The Objective",
+      "soporte": "nativo_digital",
+      "titularidad": "privada",
+      "propiedad": {
+        "texto": "Propiedad sin documentar: el medio no figura en EurOMo 2025 y no se ha abierto otra fuente.",
+        "fuente_id": null,
+        "edicion": null,
+        "corporacion": null,
+        "grupo": null
+      },
+      "linea_editorial": {
+        "texto": "Pendiente de comprobar.",
+        "url": null,
+        "fecha_consulta": null
+      },
+      "audiencia": {
+        "valor": "sin dato publicado",
+        "unidad": "sin unidad",
+        "periodo": "sin periodo",
+        "fuente_id": "dnr-espana-2026-confianza",
+        "nota": "El Digital News Report España 2026 no lo recoge."
+      },
+      "orientacion": {
+        "clasificacion": "sin clasificación documentada",
+        "fuente_id": null,
+        "anio": null,
+        "metodologia": null
+      },
+      "tipo_propietario": "sin_documentar",
+      "criterio": "anexo",
+      "pendientes": [
+        {
+          "campo": "linea_editorial",
+          "motivo": "Pendiente para todos los medios: no se ha comprobado todavía en la web de cada uno dónde declara su línea editorial."
+        },
+        {
+          "campo": "propiedad",
+          "motivo": "El medio no figura en EurOMo 2025 y no se ha abierto otra fuente."
+        }
+      ]
+    },
+    {
+      "id": "tve",
+      "nombre": "TVE (La 1) y rtve.es",
+      "soporte": "television",
+      "titularidad": "publica",
+      "propiedad": {
+        "texto": "Sociedad: Corporación de Radio Televisión Española S.A. Propietario: el Estado.",
+        "fuente_id": "euromo-espana-2025",
+        "edicion": 2025,
+        "corporacion": "Corporación de Radio Televisión Española S.A.",
+        "grupo": "Corporación de Radio Televisión Española S.A."
+      },
+      "linea_editorial": {
+        "texto": "Pendiente de comprobar.",
+        "url": null,
+        "fecha_consulta": null
+      },
+      "audiencia": {
+        "valor": 52,
+        "unidad": "% de encuestados que confían en sus noticias",
+        "periodo": "2026 (+4 puntos frente a 2025)",
+        "fuente_id": "dnr-espana-2026-confianza",
+        "nota": "Describe a la audiencia, no al medio. Marca RTVE."
+      },
+      "orientacion": {
+        "clasificacion": "sin clasificación documentada",
+        "fuente_id": null,
+        "anio": null,
+        "metodologia": null
+      },
+      "tipo_propietario": "publico",
+      "criterio": "euromo",
+      "pendientes": [
+        {
+          "campo": "linea_editorial",
+          "motivo": "Pendiente para todos los medios: no se ha comprobado todavía en la web de cada uno dónde declara su línea editorial."
+        }
+      ]
+    },
+    {
+      "id": "vozpopuli",
+      "nombre": "Vozpópuli",
+      "soporte": "nativo_digital",
+      "titularidad": "privada",
+      "propiedad": {
+        "texto": "Propiedad sin documentar: el medio no figura en EurOMo 2025 y no se ha abierto otra fuente.",
+        "fuente_id": null,
+        "edicion": null,
+        "corporacion": null,
+        "grupo": null
+      },
+      "linea_editorial": {
+        "texto": "Pendiente de comprobar.",
+        "url": null,
+        "fecha_consulta": null
+      },
+      "audiencia": {
+        "valor": "sin dato publicado",
+        "unidad": "sin unidad",
+        "periodo": "sin periodo",
+        "fuente_id": "dnr-espana-2026-confianza",
+        "nota": "El Digital News Report España 2026 no lo recoge."
+      },
+      "orientacion": {
+        "clasificacion": "sin clasificación documentada",
+        "fuente_id": null,
+        "anio": null,
+        "metodologia": null
+      },
+      "tipo_propietario": "sin_documentar",
+      "criterio": "anexo",
+      "pendientes": [
+        {
+          "campo": "linea_editorial",
+          "motivo": "Pendiente para todos los medios: no se ha comprobado todavía en la web de cada uno dónde declara su línea editorial."
+        },
+        {
+          "campo": "propiedad",
+          "motivo": "El medio no figura en EurOMo 2025 y no se ha abierto otra fuente."
+        }
+      ]
+    }
+  ]
+}

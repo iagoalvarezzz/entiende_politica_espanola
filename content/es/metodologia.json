@@ -1,0 +1,240 @@
+{
+  "titulo": "Metodología y límites",
+  "bloques": [
+    {
+      "tipo": "p",
+      "texto": "Esta página explica cómo se ha hecho la web, qué está comprobado y qué no, y cómo avisar de un error."
+    },
+    {
+      "tipo": "h2",
+      "id": "que-es",
+      "texto": "Qué es esta web"
+    },
+    {
+      "tipo": "p",
+      "texto": "Es un recurso educativo para entender, desde cero, cómo funciona la política española."
+    },
+    {
+      "tipo": "p",
+      "texto": "Es independiente de las candidaturas. No recomienda ningún voto, no puntúa partidos y no hace clasificaciones."
+    },
+    {
+      "tipo": "h2",
+      "id": "elaboracion",
+      "texto": "Cómo se ha elaborado"
+    },
+    {
+      "tipo": "p",
+      "texto": "La web se ha elaborado con asistencia de inteligencia artificial. Un modelo de lenguaje (Claude, de Anthropic) redacta los textos y programa la web. Sigue las instrucciones escritas del autor."
+    },
+    {
+      "tipo": "p",
+      "texto": "Cada cifra, fecha y texto legal se comprueba en una fuente oficial antes de presentarlo como dato. Lo que no se ha podido comprobar lleva la etiqueta PENDIENTE DE VERIFICAR."
+    },
+    {
+      "tipo": "p",
+      "texto": "La inteligencia artificial puede equivocarse. Por eso cada dato enlaza con su fuente: si vas a usar un dato, compruébalo allí."
+    },
+    {
+      "tipo": "h2",
+      "id": "verificado",
+      "texto": "Qué está comprobado y qué no"
+    },
+    {
+      "tipo": "definiciones",
+      "items": [
+        {
+          "termino": "Verificado",
+          "definicion": "El dato tiene fuente, fecha de consulta y dirección de la página consultada."
+        },
+        {
+          "termino": "Pendiente",
+          "definicion": "El dato procede de una fuente que aún no se ha contrastado en el original. Lleva la etiqueta PENDIENTE DE VERIFICAR y nunca se presenta como dato oficial."
+        },
+        {
+          "termino": "Ejemplo",
+          "definicion": "Números inventados para explicar un mecanismo. Llevan la etiqueta SIMULACIÓN."
+        }
+      ]
+    },
+    {
+      "tipo": "p",
+      "texto": "Cada afirmación relevante lleva una de las diez etiquetas de fiabilidad. Puedes verlas en la [leyenda de etiquetas](#/leyenda)."
+    },
+    {
+      "tipo": "p",
+      "texto": "Un enlace solo aparece como comprobado si lo ha confirmado el comprobador automático de enlaces. Si no, se muestran la institución, el título y la web, con la etiqueta PENDIENTE DE VERIFICAR."
+    },
+    {
+      "tipo": "p",
+      "texto": "El estado de cada enlace está en [Fuentes oficiales](#/fuentes)."
+    },
+    {
+      "tipo": "h2",
+      "id": "fuentes",
+      "texto": "De dónde salen los datos"
+    },
+    {
+      "tipo": "lista",
+      "items": [
+        "**Normas**: el Boletín Oficial del Estado (BOE), en su texto consolidado.",
+        "**Fechas de las elecciones**: el real decreto de convocatoria y la Junta Electoral Central.",
+        "**Resultados electorales**: el Ministerio del Interior.",
+        "**Votaciones y actividad parlamentaria**: el Congreso de los Diputados y el Senado.",
+        "**Estadísticas**: organismos como el INE, el Banco de España o Eurostat. Siempre se indica qué mide cada indicador y su periodo.",
+        "**Propuestas de los partidos**: su programa original, con fecha.",
+        "**Medios**: el informe Euromedia Ownership Monitor (EurOMo) España 2025 para la propiedad y el Digital News Report España 2026 para la confianza por marca.",
+        "**Verificadores**: la lista pública de signatarios de la IFCN y el perfil de cada servicio, en la fecha de consulta."
+      ]
+    },
+    {
+      "tipo": "p",
+      "texto": "Una fuente oficial sirve para comprobar qué dice una ley, qué se ha votado o qué dato publica una institución."
+    },
+    {
+      "tipo": "p",
+      "texto": "Para saber si una política funciona hacen falta además sus resultados, el método usado y la interpretación de especialistas independientes."
+    },
+    {
+      "tipo": "h2",
+      "id": "neutralidad",
+      "texto": "Reglas de neutralidad"
+    },
+    {
+      "tipo": "lista",
+      "items": [
+        "Todas las fichas de partido tienen la misma estructura y una extensión parecida.",
+        "El orden por defecto es alfabético.",
+        "Esta web no pone etiquetas ideológicas. Muestra cómo se define cada partido y cómo lo clasifican estudios académicos, con fuente y año.",
+        "Tampoco asigna orientación política a los medios de comunicación ni dice qué medios son fiables.",
+        "Las 25 fichas de medios tienen la misma estructura. Ningún medio tiene orientación política asignada: todos dicen «sin clasificación documentada» hasta que una fuente académica la documente para todos.",
+        "La orientación aproximada sin fuente de la lista inicial del encargo (7 de 18 medios) se ha descartado el 5 de noviembre de 2026. Solo se mostraría una clasificación académica con año y metodología, y para todos los medios a la vez.",
+        "Los simuladores usan partidos ficticios (A, B, C…) con colores neutros.",
+        "Los colores identifican instituciones, nunca partidos, y siempre van con icono y texto."
+      ]
+    },
+    {
+      "tipo": "h2",
+      "id": "criterios",
+      "texto": "Criterios de selección"
+    },
+    {
+      "tipo": "p",
+      "texto": "Estos criterios se fijan antes de reunir los datos y se aplican igual a todos."
+    },
+    {
+      "tipo": "lista",
+      "items": [
+        "**Partidos**: los que tienen representación en el Congreso, el Senado o el Parlamento Europeo en la fecha de referencia (6 de octubre de 2026, disolución de las Cortes). Se añaden los de la lista mínima del encargo y los que tienen grupo propio en algún parlamento autonómico. Resultado: 26 fichas, en el [módulo de partidos](#/partidos/m6-fichas). Las coaliciones no tienen ficha propia.",
+        "**Votaciones**: investiduras, presupuestos, convalidación de reales decretos-ley y votación de conjunto de las leyes orgánicas de la XV Legislatura. Resultado: 76 votaciones; ninguna de presupuestos.",
+        "**Medios**: los 18 de la muestra de EurOMo España 2025 (incluye televisiones y radios), los 5 de la lista inicial del encargo que no figuran en EurOMo (Público, Libertad Digital, infoLibre, Vozpópuli y The Objective) y los que cita el Digital News Report España 2026 en su dato de confianza por marcas y no estaban ya (OKDIARIO y 20 Minutos). Resultado: 25 fichas, en el [módulo de medios](#/medios/m9-fichas).",
+        "**Verificadores**: los servicios españoles de la lista de signatarios de la International Fact-Checking Network (IFCN) consultada el 5 de noviembre de 2026, más los que cita el encargo (Newtral, EFE Verifica y VerificaRTVE). Se indica si el sello está vigente o caducado según el perfil de cada uno. Maldita.es no figura en esa lista y no tiene ficha por este criterio. Resultado: 6 servicios."
+      ]
+    },
+    {
+      "tipo": "p",
+      "texto": "Las listas de partidos, votaciones, medios y verificadores están publicadas."
+    },
+    {
+      "tipo": "h2",
+      "id": "periodo-electoral",
+      "texto": "Periodo electoral"
+    },
+    {
+      "tipo": "p",
+      "texto": "Hay unas elecciones generales convocadas. Puedes ver la [fuente de la convocatoria](#/fuentes/boe-rd-806-2026)."
+    },
+    {
+      "tipo": "p",
+      "texto": "Mientras dure la convocatoria, la web no publica encuestas ni estimaciones de voto, y no usa lenguaje de recomendación."
+    },
+    {
+      "tipo": "p",
+      "texto": "La composición del Congreso y del Senado que se muestre será la del momento de la disolución, y lo indicará."
+    },
+    {
+      "tipo": "p",
+      "texto": "No hay resultados de 2026 hasta que sean oficiales. La web no los inventa ni presenta simulaciones como si lo fueran."
+    },
+    {
+      "tipo": "h2",
+      "id": "limites",
+      "texto": "Límites conocidos"
+    },
+    {
+      "tipo": "lista",
+      "items": [
+        "Esta versión corresponde al hito H5. Incluye los nueve módulos, el glosario, los cuestionarios, el progreso de aprendizaje y la página de fuentes oficiales. Quedan decisiones y datos pendientes, que se indican aquí y en cada ficha.",
+        "Las fichas de partidos no muestran todavía la autodefinición, los gobiernos ni el programa. Se publicarán para todos a la vez, cuando se disponga de los textos de todos: las webs de PP, Vox y ERC rechazan el acceso automatizado y los programas del 29-N aún no están publicados.",
+        "La clasificación académica es la del Chapel Hill Expert Survey de 2024, la misma para todos los partidos que cubre. Los que no cubre no tienen clasificación: la web no mezcla otra fuente sin avisar.",
+        "Los resultados de las votaciones se dan por grupo parlamentario, porque los datos abiertos del Congreso registran el grupo de cada diputado y no su partido. Ocho votaciones (por llamamiento o repetidas) solo tienen el total oficial.",
+        "En el Senado, las fichas de senadores con baja por disolución o en la Diputación Permanente suman 258 de 266 escaños; la diferencia no se ha podido explicar con esas fichas.",
+        "La Junta General del Principado de Asturias rechaza el acceso automatizado: sus grupos no se han comprobado.",
+        "Los indicadores económicos están precargados con la fecha de consulta del 4 de noviembre de 2026. La web no los actualiza sola: comprueba el último dato en la fuente enlazada.",
+        "La web no calcula indicadores combinando fuentes. El PIB per cápita, la productividad, el salario mediano y el índice de Gini quedan como PENDIENTE DE VERIFICAR hasta leerlos en su fuente oficial.",
+        "Las definiciones de los indicadores se basan en las páginas de cada operación del INE. No se han leído todavía sus documentos metodológicos completos.",
+        "La tabla de competencias resume la Constitución y las leyes estatales citadas. No recoge las diferencias entre los Estatutos de Autonomía, que no se han leído uno a uno, ni la jurisprudencia del Tribunal Constitucional. Las celdas sin norma comprobada llevan la etiqueta PENDIENTE DE VERIFICAR.",
+        "El calendario del 29-N se contrastó el 30 de octubre de 2026 con el calendario electoral de la Junta Electoral Central, el real decreto de convocatoria y la información oficial de La Moncloa. Si estas fuentes cambian, las fechas pueden quedar desfasadas hasta la siguiente revisión.",
+        "Algunas webs oficiales rechazan el acceso automatizado. En esos casos el enlace queda como no verificado, con el motivo.",
+        "El Diccionario de la lengua española rechaza la comprobación automatizada. Sus entradas se abrieron a mano el 29 de octubre de 2026, pero sus enlaces figuran como no verificados.",
+        "Las definiciones de las ideologías salen, por ahora, del Diccionario. Faltan fuentes académicas, y por eso llevan la etiqueta PENDIENTE DE VERIFICAR donde corresponde.",
+        "Las fechas de una convocatoria pueden cambiar. Cada dato indica cuándo se consultó.",
+        "El mapa de circunscripciones es un cartograma de casillas diseñado para esta web, no un mapa a escala. Va acompañado de una tabla y de una vista por escaños.",
+        "La web no da cifras de votos ni de habitantes por escaño hasta cargar la población oficial de cada provincia con su fecha.",
+        "La línea editorial declarada de los medios está pendiente para todos: no se ha comprobado todavía en la web de cada uno dónde la declara.",
+        "La propiedad de seis medios (Público, Libertad Digital, infoLibre, Vozpópuli, The Objective y 20 Minutos) figura como «propiedad sin documentar»: no están en la muestra de EurOMo y no se ha abierto otra fuente.",
+        "El dato de audiencia de los medios es la confianza en la marca del Digital News Report España 2026. Describe a la audiencia, no al medio, y no existe para todos los medios.",
+        "De Factico no se ha podido abrir una fuente sobre su propiedad ni su metodología. De Newtral y VerificaRTVE no se ha abierto su página de metodología: la web de Newtral rechaza el acceso automatizado.",
+        "Los ejemplos de los módulos 8 y 9 son inventados: medidas del país imaginario de Ejemplandia y noticias sin nombres reales. La web no valora medidas reales ni analiza propuestas del 29-N.",
+        "En el glosario falta «sesgo»: la FundéuRAE, aceptada como fuente para «bulo» y «polarización», no tiene una recomendación que lo defina. Algunas definiciones de los módulos 8 y 9 son explicaciones didácticas de esta web y lo indican."
+      ]
+    },
+    {
+      "tipo": "h2",
+      "id": "privacidad",
+      "texto": "Privacidad"
+    },
+    {
+      "tipo": "p",
+      "texto": "Nada sale de tu navegador. La web no usa cookies, cuentas ni analítica."
+    },
+    {
+      "tipo": "p",
+      "texto": "No pide ni guarda opiniones políticas. El progreso de aprendizaje (bloques estudiados, aciertos y fechas) se guarda solo en tu navegador. Puedes exportarlo, importarlo o borrarlo en [Mi aprendizaje](#/aprendizaje)."
+    },
+    {
+      "tipo": "p",
+      "texto": "Si escribes al correo de la web, tu dirección y tu mensaje solo se usan para responderte y, si procede, corregir la web."
+    },
+    {
+      "tipo": "p",
+      "etiqueta": "PENDIENTE DE VERIFICAR",
+      "texto": "Falta indicar quién es el responsable del tratamiento de esos datos y cuánto tiempo se conservan los mensajes: queda para la revisión jurídica."
+    },
+    {
+      "tipo": "h2",
+      "id": "errores",
+      "texto": "Cómo comunicar un error"
+    },
+    {
+      "tipo": "p",
+      "texto": "Para avisar de un error o presentar una queja, escribe al correo de la web. Puede usarlo cualquier persona: no hace falta ninguna cuenta."
+    },
+    {
+      "tipo": "correo",
+      "texto": "Correo de la web:"
+    },
+    {
+      "tipo": "p",
+      "texto": "Indica la página, qué dice la web y qué dice la fuente que lo contradice, con su enlace y la fecha en que la consultaste. Así podrá corregirse y quedar registrado en el historial de cambios."
+    },
+    {
+      "tipo": "p",
+      "texto": "También puedes abrir una incidencia (issue) en el repositorio del proyecto en GitHub, con la plantilla «Error de contenido». Hace falta una cuenta de GitHub, y las incidencias son públicas: no incluyas datos personales."
+    },
+    {
+      "tipo": "repositorio",
+      "texto": "Repositorio (pestaña «Issues»):"
+    }
+  ]
+}

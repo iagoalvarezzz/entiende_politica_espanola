@@ -1,0 +1,172 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "medio.schema.json",
+  "title": "Medio (Anexo C.1.6), fichero data/medios.json",
+  "description": "Mismos campos y mismo orden en todas las fichas (sección 4.1). Sin fuente académica, orientacion.clasificacion vale «sin clasificación documentada». Ampliación H5: tipo_propietario (para filtrar), criterio (por qué entra en la lista) y pendientes (campos sin dato y motivo).",
+  "type": "object",
+  "required": [
+    "id",
+    "nombre",
+    "soporte",
+    "titularidad",
+    "propiedad",
+    "linea_editorial",
+    "orientacion"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "$ref": "comun.schema.json#/$defs/id"
+    },
+    "nombre": {
+      "$ref": "comun.schema.json#/$defs/texto"
+    },
+    "soporte": {
+      "enum": [
+        "prensa",
+        "television",
+        "radio",
+        "nativo_digital"
+      ]
+    },
+    "titularidad": {
+      "enum": [
+        "publica",
+        "privada"
+      ]
+    },
+    "propiedad": {
+      "type": "object",
+      "required": [
+        "texto",
+        "fuente_id",
+        "edicion"
+      ],
+      "properties": {
+        "texto": {
+          "$ref": "comun.schema.json#/$defs/texto"
+        },
+        "fuente_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "edicion": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        }
+      }
+    },
+    "linea_editorial": {
+      "type": "object",
+      "required": [
+        "texto",
+        "url",
+        "fecha_consulta"
+      ],
+      "properties": {
+        "texto": {
+          "$ref": "comun.schema.json#/$defs/texto"
+        },
+        "url": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "fecha_consulta": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "audiencia": {
+      "type": "object",
+      "required": [
+        "valor",
+        "unidad",
+        "periodo",
+        "fuente_id"
+      ],
+      "properties": {
+        "valor": {
+          "type": [
+            "number",
+            "string"
+          ]
+        },
+        "unidad": {
+          "$ref": "comun.schema.json#/$defs/texto"
+        },
+        "periodo": {
+          "$ref": "comun.schema.json#/$defs/texto"
+        },
+        "fuente_id": {
+          "$ref": "comun.schema.json#/$defs/id"
+        }
+      }
+    },
+    "orientacion": {
+      "type": "object",
+      "required": [
+        "clasificacion",
+        "fuente_id",
+        "anio",
+        "metodologia"
+      ],
+      "properties": {
+        "clasificacion": {
+          "$ref": "comun.schema.json#/$defs/texto"
+        },
+        "fuente_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "anio": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "metodologia": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "tipo_propietario": {
+      "enum": [
+        "publico",
+        "privado",
+        "iglesia",
+        "sin_documentar"
+      ]
+    },
+    "criterio": {
+      "enum": [
+        "euromo",
+        "anexo",
+        "dnr"
+      ]
+    },
+    "pendientes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "campo",
+          "motivo"
+        ]
+      }
+    }
+  }
+}

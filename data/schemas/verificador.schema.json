@@ -1,0 +1,61 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "verificador.schema.json",
+  "title": "Servicio de verificación, fichero data/verificadores.json (ampliación H5, no prevista en el Anexo C)",
+  "description": "Misma estructura para todos (sección 16.5): estado en la IFCN, propiedad y financiación, y metodología publicada.",
+  "type": "object",
+  "required": [
+    "id",
+    "nombre",
+    "ifcn",
+    "ifcn_texto",
+    "ifcn_fuente",
+    "propiedad",
+    "propiedad_fuente",
+    "metodologia_fuente",
+    "fecha_consulta"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "$ref": "comun.schema.json#/$defs/id"
+    },
+    "nombre": {
+      "$ref": "comun.schema.json#/$defs/texto"
+    },
+    "ifcn": {
+      "enum": [
+        "signatario",
+        "caducado",
+        "no_figura"
+      ]
+    },
+    "ifcn_texto": {
+      "$ref": "comun.schema.json#/$defs/texto"
+    },
+    "ifcn_fuente": {
+      "$ref": "comun.schema.json#/$defs/id"
+    },
+    "propiedad": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "propiedad_fuente": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "metodologia_fuente": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "fecha_consulta": {
+      "$ref": "comun.schema.json#/$defs/fecha"
+    }
+  }
+}

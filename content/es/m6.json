@@ -1,0 +1,217 @@
+{
+  "bloques": [
+    {
+      "id": "m6-que-es",
+      "numero": "6.1",
+      "titulo": "Qué es un partido político",
+      "resumen": [
+        "Los {{partido-politico|partidos políticos}} expresan el pluralismo político y son instrumento fundamental para la participación (Constitución, art. 6).",
+        "Se crean libremente, deben funcionar de forma democrática y adquieren personalidad jurídica al inscribirse en el Registro de Partidos Políticos.",
+        "A unas elecciones no solo se presentan partidos: también federaciones, {{coalicion-electoral|coaliciones}} y {{agrupacion-de-electores|agrupaciones de electores}}."
+      ],
+      "explicacion": [
+        { "tipo": "p", "texto": "La Constitución reconoce a los partidos un papel central: concurren a la formación y manifestación de la voluntad popular. Su creación y su actividad son libres dentro de la Constitución y la ley, y su estructura interna debe ser democrática (art. 6)." },
+        { "tipo": "esquema", "esquema": {
+          "tipo": "pasos",
+          "titulo": "Del grupo de personas al partido inscrito",
+          "pasos": [
+            { "titulo": "Libre creación", "texto": "Los ciudadanos de la Unión Europea pueden crear partidos libremente. La afiliación es libre y voluntaria (Ley Orgánica 6/2002, art. 1)." },
+            { "titulo": "Acta fundacional y estatutos", "texto": "Los promotores firman un acta fundacional con la denominación del partido y sus estatutos (art. 3)." },
+            { "titulo": "Inscripción", "texto": "El partido adquiere personalidad jurídica al inscribirse en el Registro de Partidos Políticos del Ministerio del Interior (arts. 3.4 y 4)." },
+            { "titulo": "Funcionamiento democrático", "texto": "Debe tener una asamblea general y fórmulas de participación directa de los afiliados (art. 7)." },
+            { "titulo": "Disolución", "texto": "Puede disolverse por decisión de sus miembros o, en los casos que fija la ley, por decisión judicial (art. 10)." }
+          ]
+        } },
+        { "tipo": "h3", "texto": "Partido, coalición, agrupación y candidatura" },
+        { "tipo": "definiciones", "items": [
+          { "termino": "Partido o federación", "definicion": "Inscritos en el registro, pueden presentar candidaturas (LOREG, art. 44.1.a)." },
+          { "termino": "Coalición", "definicion": "Partidos que pactan presentar una candidatura conjunta. Deben comunicarlo a la Junta Electoral en los diez días siguientes a la convocatoria (LOREG, art. 44.2)." },
+          { "termino": "Agrupación de electores", "definicion": "Electores que presentan una candidatura sin formar un partido, si reúnen los requisitos de la ley (LOREG, art. 44.1.c)." },
+          { "termino": "Candidatura", "definicion": "La lista que se vota en una circunscripción. Su nombre puede no coincidir con el del partido ni con el del grupo parlamentario que se forme después." }
+        ] },
+        { "tipo": "p", "texto": "Ejemplo comprobado en el BOE: en las europeas de 2024, la candidatura «Ahora Repúblicas (ERC-EH BILDU-BNG-ARA MÉS)» reunía en su denominación a cuatro formaciones, y «Se Acabó La Fiesta» concurrió como agrupación de electores." },
+        { "tipo": "h3", "texto": "Cómo se financian y quién los controla" },
+        { "tipo": "p", "texto": "Los partidos tienen recursos públicos, como las subvenciones electorales y las de funcionamiento, y recursos privados (Ley Orgánica 8/2007, art. 2). El control de su actividad económico-financiera corresponde en exclusiva al {{tribunal-de-cuentas|Tribunal de Cuentas}}, que también impone sanciones (arts. 16 y 17)." },
+        { "tipo": "p", "etiqueta": "PENDIENTE DE VERIFICAR", "texto": "Esta web no cita todavía ningún informe de fiscalización del Tribunal de Cuentas: solo lo hará cuando lo haya abierto y leído." }
+      ],
+      "ejemplo": "Unos vecinos pueden presentarse a las elecciones municipales como agrupación de electores sin crear un partido.",
+      "error": {
+        "titulo": "«Partido y candidatura son lo mismo»",
+        "texto": "Una candidatura puede ser una coalición de varios partidos o una agrupación de electores, y su nombre puede no coincidir con el del grupo parlamentario que forme después."
+      },
+      "normas": ["ce-6", "lopp-1-2", "lopp-3-4", "lopp-7-1", "lopp-10-1", "loreg-44-1", "loreg-44-2", "lofpp-2", "lofpp-16", "lofpp-17"],
+      "terminos": ["partido-politico", "federacion-de-partidos", "coalicion-electoral", "agrupacion-de-electores"],
+      "profundizar": ["boe-lopp", "boe-lofpp", "boe-constitucion"]
+    },
+    {
+      "id": "m6-grupos",
+      "numero": "6.2",
+      "titulo": "Grupos parlamentarios y Grupo Mixto",
+      "resumen": [
+        "En las Cámaras, los diputados y senadores actúan en {{grupo-parlamentario|grupos parlamentarios}}, no como partidos.",
+        "En el Congreso, la regla general son quince diputados por grupo; quien no forma o no se integra en uno va al {{grupo-mixto|Grupo Mixto}}.",
+        "El nombre de un grupo puede reunir a varias formaciones y no coincidir con el de la candidatura."
+      ],
+      "explicacion": [
+        { "tipo": "p", "texto": "Los grupos organizan el trabajo de la Cámara: proponen iniciativas, reparten el tiempo de intervención y forman las comisiones." },
+        { "tipo": "esquema", "esquema": {
+          "tipo": "comparativa",
+          "titulo": "Requisitos para formar grupo",
+          "columnas": ["Requisito", "Congreso", "Senado"],
+          "filas": [
+            ["Mínimo general", "15 diputados (Reglamento del Congreso, art. 23.1).", "10 senadores (Reglamento del Senado, art. 27.1)."],
+            ["Excepción", "En la XV Legislatura: 5 escaños y el 15 % de los votos de las circunscripciones donde se presentaron, o el 5 % nacional.", "No consultada en esta web."],
+            ["Si no se alcanza", "Grupo Mixto (art. 25.1).", "Grupo Mixto (no consultado el artículo)."]
+          ]
+        } },
+        { "tipo": "aviso", "titulo": "Cambio para la próxima legislatura", "etiqueta": "NORMA VIGENTE", "texto": "Una reforma del Reglamento del Congreso de 23 de julio de 2026 cambia la excepción desde la XVI Legislatura, la que saldrá del 29-N: bastarán 5 escaños y una media del 10 % de los votos en las circunscripciones donde se obtenga representación, o el 3 % nacional." },
+        { "tipo": "h3", "texto": "Candidatura y grupo no siempre coinciden" },
+        { "tipo": "lista", "items": [
+          "Los diputados elegidos en la candidatura del PSC-PSOE formaban parte del Grupo Parlamentario Socialista.",
+          "Los elegidos en la candidatura SUMAR se repartían entre el Grupo Plurinacional SUMAR (26) y el Grupo Mixto (5) en la disolución.",
+          "En el Senado, el grupo «Izquierda Confederal» lleva en su nombre a Más Madrid, Eivissa i Formentera al Senat, Compromís, Agrupación Socialista Gomera y Geroa Bai."
+        ] },
+        { "tipo": "p", "texto": "Tras la disolución del 6 de octubre de 2026, los grupos quedan reducidos a los miembros de la {{diputacion-permanente|Diputación Permanente}}. Por eso esta web muestra la composición en el momento de la disolución." }
+      ],
+      "ejemplo": "Un diputado que deja su grupo durante la legislatura pasa al Grupo Mixto y sigue siendo diputado.",
+      "error": {
+        "titulo": "«Cada partido tiene su grupo»",
+        "texto": "Hace falta un número mínimo de escaños. Los partidos con pocos diputados suelen ir al Grupo Mixto, y un mismo grupo puede reunir a varias formaciones."
+      },
+      "normas": ["rc-23-1", "rc-23-2", "rc-25-1", "rs-27-1"],
+      "terminos": ["grupo-parlamentario", "grupo-mixto", "diputacion-permanente"],
+      "profundizar": ["boe-reglamento-congreso", "boe-reglamento-senado", "senado-grupos"]
+    },
+    {
+      "id": "m6-tipos",
+      "numero": "6.3",
+      "titulo": "Ámbito, votos y escaños, programa y gobierno",
+      "resumen": [
+        "Hay partidos que se presentan en casi toda España y otros que solo lo hacen en una comunidad.",
+        "Afiliados, votantes y escaños son cosas distintas: un partido puede tener muchos votos y pocos escaños, y al revés.",
+        "Un {{programa-electoral|programa electoral}} contiene propuestas; la acción de gobierno se ve en normas aprobadas y en datos."
+      ],
+      "explicacion": [
+        { "tipo": "h3", "texto": "Partido estatal y partido de ámbito autonómico" },
+        { "tipo": "p", "etiqueta": "EXPLICACIÓN DIDÁCTICA", "texto": "La ley no define estas categorías. Esta web llama estatal a la formación que en las generales de 2023 presentó candidatura en más de la mitad de las 52 circunscripciones; si no se presentó, mira su candidatura a las europeas de 2024. Las demás son de ámbito autonómico." },
+        { "tipo": "h3", "texto": "Afiliados, votantes y escaños" },
+        { "tipo": "definiciones", "items": [
+          { "termino": "Afiliados", "definicion": "Personas que pertenecen al partido. La afiliación es libre y voluntaria (Ley Orgánica 6/2002, art. 1.2)." },
+          { "termino": "Votantes", "definicion": "Personas que votan a su candidatura en unas elecciones." },
+          { "termino": "Escaños", "definicion": "Puestos obtenidos tras el reparto en cada circunscripción. Dependen de dónde están los votos, no solo de cuántos son." }
+        ] },
+        { "tipo": "h3", "texto": "Efecto territorial" },
+        { "tipo": "esquema", "esquema": {
+          "tipo": "efecto-territorial",
+          "titulo": "Dónde obtuvo escaños cada candidatura en 2023",
+          "ejemplo": {
+            "titulo": "Mismo porcentaje, distinto resultado",
+            "texto": "Tres circunscripciones ficticias de 5 escaños y 100.000 votos válidos cada una. A concentra su voto en la primera; B lo reparte por igual.",
+            "partidos": ["A", "B", "C", "D"],
+            "circunscripciones": [
+              { "nombre": "Norte", "escanos": 5, "votos": [30000, 12000, 40000, 18000] },
+              { "nombre": "Centro", "escanos": 5, "votos": [3000, 12000, 50000, 35000] },
+              { "nombre": "Sur", "escanos": 5, "votos": [3000, 12000, 50000, 35000] }
+            ],
+            "conclusion": "A y B tienen el mismo 12 % de los votos. A obtiene 2 escaños porque concentra su voto en Norte; B, con el voto repartido, no obtiene ninguno. Es una propiedad del sistema, no un juicio sobre ningún partido."
+          }
+        } },
+        { "tipo": "h3", "texto": "Programa y acción de gobierno" },
+        { "tipo": "p", "texto": "Lo que un partido promete es una PROPUESTA. Lo que un gobierno hace se prueba con documentos: una ley publicada en el BOE, un presupuesto aprobado o un dato administrativo. El módulo de temas explica el [ciclo de una medida](#/temas/m7-ciclo)." }
+      ],
+      "ejemplo": "Una formación puede tener el 12 % de los votos en España y ningún escaño si su voto está repartido en muchas circunscripciones pequeñas.",
+      "error": {
+        "titulo": "«El programa dice lo que hará el Gobierno»",
+        "texto": "El programa recoge propuestas. Para que una se aplique hace falta una iniciativa, una votación, una norma publicada y su aplicación."
+      },
+      "normas": ["lopp-1-2", "loreg-162-1", "loreg-163-1-a"],
+      "terminos": ["programa-electoral", "circunscripcion", "escano"],
+      "profundizar": ["boe-resultados-eg-2023", "boe-resultados-pe-2024"]
+    },
+    {
+      "id": "m6-fichas",
+      "numero": "6.4",
+      "titulo": "Las fichas de los partidos",
+      "resumen": [
+        "Todas las fichas tienen la misma estructura, el mismo orden y las mismas fuentes.",
+        "Entran las formaciones con representación en el Congreso, el Senado o el Parlamento Europeo en la disolución, las de la lista mínima y las que tienen grupo propio en algún parlamento autonómico.",
+        "Lo que aún no se ha podido comprobar para todos se marca como pendiente para todos."
+      ],
+      "explicacion": [
+        { "tipo": "h3", "texto": "Cómo se han elegido" },
+        { "tipo": "lista", "items": [
+          "**Fecha de referencia**: 6 de octubre de 2026, día de la disolución de las Cortes.",
+          "**Congreso**: diputados en la disolución, según la formación electoral con la que fueron elegidos (datos abiertos del Congreso).",
+          "**Senado**: senadores en la disolución, según el partido que figura en su ficha de senado.es.",
+          "**Parlamento Europeo**: escaños de las elecciones de 2024 según el BOE. No es la composición en la fecha de referencia.",
+          "**Parlamentos autonómicos**: grupos propios en las webs de 16 parlamentos. El de Asturias rechaza el acceso automatizado y no se ha comprobado.",
+          "**Lista mínima del encargo**: PSOE, PP, Vox, Sumar, ERC, Junts, EH Bildu y PNV, más Podemos, BNG, Coalición Canaria y UPN."
+        ] },
+        { "tipo": "p", "texto": "Las coaliciones con grupo propio en un parlamento autonómico (por ejemplo, «Por Andalucía» o «Unidas por Extremadura») no tienen ficha propia: la web no ha comprobado con una fuente oficial qué partidos las forman." },
+        { "tipo": "esquema", "esquema": { "tipo": "fichas-partidos", "titulo": "Fichas de los partidos" } },
+        { "tipo": "aviso", "titulo": "Qué falta y por qué", "etiqueta": "PENDIENTE DE VERIFICAR", "texto": "La autodefinición, los gobiernos y el programa están pendientes en todas las fichas. Las webs de PP, Vox y ERC rechazan el acceso automatizado y los programas del 29-N aún no están publicados. Para no tratar de forma distinta a ningún partido, se publicarán para todos a la vez." }
+      ],
+      "ejemplo": "Si buscas «bildu» o filtras por «Senado», la lista muestra solo las fichas que cumplen la condición, siempre con la misma estructura.",
+      "error": {
+        "titulo": "«El orden de la lista indica preferencia»",
+        "texto": "El orden por defecto es alfabético por siglas. También se puede ordenar por escaños en el Congreso en la fecha de referencia. Nunca por afinidad."
+      },
+      "normas": ["ce-6"],
+      "terminos": ["clasificacion-academica", "partido-politico"],
+      "profundizar": ["congreso-diputados-datos-abiertos", "senado-composicion-xv", "ches-2024"]
+    },
+    {
+      "id": "m6-comparador",
+      "numero": "6.5",
+      "titulo": "Comparar propuestas y votaciones",
+      "resumen": [
+        "El comparador pone las propuestas de cada partido por tema, con cita y enlace a su programa.",
+        "No suma, no puntúa y no ofrece ningún test de afinidad.",
+        "Las votaciones de cada ficha siguen un criterio fijado antes de mirar los resultados."
+      ],
+      "explicacion": [
+        { "tipo": "esquema", "esquema": {
+          "tipo": "comparador-propuestas",
+          "titulo": "Propuestas por tema",
+          "temas": [
+            { "id": "vivienda", "nombre": "Vivienda" },
+            { "id": "sanidad-educacion", "nombre": "Sanidad y educación" },
+            { "id": "economia", "nombre": "Economía, empleo e impuestos" },
+            { "id": "justicia", "nombre": "Justicia y corrupción" },
+            { "id": "territorio", "nombre": "Organización territorial" },
+            { "id": "inmigracion", "nombre": "Inmigración y seguridad" },
+            { "id": "igualdad", "nombre": "Igualdad y derechos sociales" },
+            { "id": "medio-ambiente", "nombre": "Medio ambiente y energía" },
+            { "id": "ue-exterior", "nombre": "Unión Europea y política exterior" }
+          ]
+        } },
+        { "tipo": "h3", "texto": "Qué votaciones aparecen en las fichas" },
+        { "tipo": "p", "texto": "Criterio fijado antes de ver ningún resultado por grupo: todas las investiduras, las votaciones de Presupuestos, la convalidación de cada real decreto-ley y la votación de conjunto de cada ley orgánica de la XV Legislatura. Son 76 votaciones; en esta legislatura no consta ninguna de Presupuestos." },
+        { "tipo": "p", "texto": "Los datos abiertos del Congreso registran el voto de cada diputado y su grupo. Por eso el resultado se da por grupo parlamentario, y en el Grupo Mixto solo para los diputados de BNG, CCa y UPN, elegidos en su propia candidatura. Ocho votaciones solo tienen el total oficial." },
+        { "tipo": "h3", "texto": "Control de simetría" },
+        { "tipo": "esquema", "esquema": { "tipo": "tabla-simetria", "titulo": "Tabla de control de simetría" } }
+      ],
+      "ejemplo": "En el comparador puedes elegir qué partidos ver en columnas; cada celda dice lo mismo para todos mientras no haya programas del 29-N.",
+      "error": {
+        "titulo": "«Votar igual que otro partido significa estar de acuerdo en todo»",
+        "texto": "Una votación muestra la posición sobre un texto concreto en un momento. No dice por qué se votó así ni qué se piensa de otros asuntos."
+      },
+      "normas": ["ce-86-2", "ce-81"],
+      "terminos": ["convalidacion", "ley-organica", "investidura"],
+      "profundizar": ["congreso-votaciones-xv"]
+    },
+    {
+      "id": "m6-repaso",
+      "numero": "6.6",
+      "titulo": "Repaso del módulo 6",
+      "tipo": "repaso",
+      "resumen": [
+        "Partido, coalición, agrupación de electores y candidatura no son lo mismo.",
+        "Los grupos parlamentarios tienen requisitos; quien no los cumple va al Grupo Mixto.",
+        "Las fichas tienen la misma estructura y las mismas fuentes para todos, y lo pendiente es pendiente para todos."
+      ],
+      "preguntas_de": ["m6-que-es", "m6-grupos", "m6-tipos", "m6-fichas", "m6-comparador"],
+      "profundizar": ["boe-lopp", "congreso-votaciones-xv"]
+    }
+  ]
+}

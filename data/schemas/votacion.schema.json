@@ -1,0 +1,99 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "votacion.schema.json",
+  "title": "Votación del Pleno del Congreso, fichero data/votaciones.json (ampliación H4, no prevista en el Anexo C)",
+  "description": "Una votación por registro, con el total oficial y, si los datos abiertos lo permiten, el resultado por grupo parlamentario.",
+  "type": "object",
+  "required": [
+    "id",
+    "tipo",
+    "fecha",
+    "titulo",
+    "totales",
+    "detalle",
+    "enlace",
+    "fuente_id",
+    "fecha_consulta",
+    "estado"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "$ref": "comun.schema.json#/$defs/id"
+    },
+    "tipo": {
+      "enum": [
+        "investidura",
+        "convalidacion-rdl",
+        "ley-organica",
+        "presupuestos"
+      ]
+    },
+    "fecha": {
+      "$ref": "comun.schema.json#/$defs/fecha"
+    },
+    "sesion": {
+      "type": [
+        "integer",
+        "null"
+      ]
+    },
+    "numero": {
+      "type": [
+        "integer",
+        "null"
+      ]
+    },
+    "expediente": {
+      "type": "string"
+    },
+    "titulo": {
+      "$ref": "comun.schema.json#/$defs/texto"
+    },
+    "totales": {
+      "type": "object",
+      "required": [
+        "si",
+        "no",
+        "abstencion",
+        "no_vota"
+      ]
+    },
+    "detalle": {
+      "type": "boolean"
+    },
+    "grupos": {
+      "type": [
+        "object",
+        "null"
+      ]
+    },
+    "mixto": {
+      "type": [
+        "object",
+        "null"
+      ]
+    },
+    "enlace": {
+      "type": "string"
+    },
+    "json": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "fuente_id": {
+      "$ref": "comun.schema.json#/$defs/id"
+    },
+    "fecha_consulta": {
+      "$ref": "comun.schema.json#/$defs/fecha"
+    },
+    "estado": {
+      "$ref": "comun.schema.json#/$defs/estado"
+    },
+    "nota": {
+      "type": "string"
+    }
+  }
+}

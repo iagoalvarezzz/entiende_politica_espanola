@@ -1,0 +1,92 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "fuente.schema.json",
+  "title": "Fuente (Anexo C.1.1), fichero data/sources.json",
+  "description": "Ampliaciones respecto al anexo: grupo (agrupación de la página Fuentes oficiales), uso (columna «Para qué» del Anexo B), texto_esperado (texto que tools/check_links.py busca para confirmar el contenido) y comprobado_por (quién fijó el estado: anexo_b, navegador o check_links).",
+  "type": "object",
+  "required": [
+    "id",
+    "titulo",
+    "institucion",
+    "tipo",
+    "grupo",
+    "url",
+    "estado_enlace",
+    "fecha_comprobacion",
+    "comprobado_por"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "$ref": "comun.schema.json#/$defs/id"
+    },
+    "titulo": {
+      "$ref": "comun.schema.json#/$defs/texto"
+    },
+    "institucion": {
+      "$ref": "comun.schema.json#/$defs/texto"
+    },
+    "tipo": {
+      "enum": [
+        "norma",
+        "estadistica",
+        "resultados",
+        "calendario",
+        "estudio",
+        "programa",
+        "medio",
+        "verificador",
+        "otro"
+      ]
+    },
+    "grupo": {
+      "enum": [
+        "normas",
+        "calendario_resultados",
+        "parlamento",
+        "estadisticas",
+        "justicia",
+        "union_europea",
+        "medios_verificacion",
+        "estudios_academicos",
+        "partidos",
+        "proyecto"
+      ]
+    },
+    "uso": {
+      "type": "string"
+    },
+    "url": {
+      "$ref": "comun.schema.json#/$defs/url"
+    },
+    "texto_esperado": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "estado_enlace": {
+      "enum": [
+        "abierta",
+        "raiz_sin_verificar",
+        "no_verificada"
+      ]
+    },
+    "comprobado_por": {
+      "enum": [
+        "anexo_b",
+        "navegador",
+        "check_links"
+      ]
+    },
+    "fecha_comprobacion": {
+      "$ref": "comun.schema.json#/$defs/fecha"
+    },
+    "resultado": {
+      "type": "string"
+    },
+    "nota": {
+      "type": "string"
+    }
+  }
+}

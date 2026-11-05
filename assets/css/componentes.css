@@ -1,0 +1,319 @@
+/* Componentes: iconos, botones, menú, etiquetas, tarjetas, avisos y listas. */
+
+.icono {
+  width: 1.15em;
+  height: 1.15em;
+  flex: none;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.8;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  vertical-align: -0.2em;
+}
+
+/* Botones y controles: objetivo táctil de 44 px como mínimo. */
+.boton,
+.selector {
+  min-height: var(--objetivo-tactil);
+  font: inherit;
+  border-radius: var(--radio);
+}
+
+.boton {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--espacio-2);
+  padding: var(--espacio-2) var(--espacio-4);
+  border: 1px solid var(--borde-fuerte);
+  background: var(--superficie);
+  color: var(--texto);
+  cursor: pointer;
+}
+
+.cabecera .boton,
+.cabecera .selector {
+  background: transparent;
+  color: var(--cabecera-texto);
+  border: 1px solid var(--cabecera-texto);
+}
+
+.selector-tema {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--espacio-2);
+}
+
+.selector {
+  padding: 0 var(--espacio-2);
+}
+
+.cabecera .selector option {
+  color: #1d1f23;
+  background: #ffffff;
+}
+
+/* Menú principal */
+.menu-principal ul {
+  list-style: none;
+  margin: 0;
+  padding: var(--espacio-2) 0;
+  max-width: none;
+}
+
+.menu-principal a {
+  display: flex;
+  align-items: center;
+  min-height: var(--objetivo-tactil);
+  padding: var(--espacio-2) var(--espacio-4);
+  color: var(--texto);
+  text-decoration: none;
+  border-left: 4px solid transparent;
+}
+
+.menu-principal a:hover {
+  background: var(--superficie-2);
+  text-decoration: underline;
+}
+
+.menu-principal a[aria-current="page"] {
+  border-left-color: var(--foco);
+  background: var(--superficie-2);
+  font-weight: 700;
+}
+
+.menu-principal .menu__hito {
+  margin-left: auto;
+  padding-left: var(--espacio-2);
+  font-size: 0.8rem;
+  color: var(--texto-suave);
+}
+
+/* Etiquetas de fiabilidad: icono + texto + estilo propio. */
+.etiqueta {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35em;
+  padding: 0.1em 0.6em;
+  border: 1px solid;
+  border-radius: 999px;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  line-height: 1.5;
+  white-space: nowrap;
+  vertical-align: middle;
+}
+
+.etiqueta--oficial { background: var(--et-oficial-fondo); color: var(--et-oficial-texto); border-color: var(--et-oficial-borde); }
+.etiqueta--estudio { background: var(--et-estudio-fondo); color: var(--et-estudio-texto); border-color: var(--et-estudio-borde); }
+.etiqueta--norma { background: var(--et-norma-fondo); color: var(--et-norma-texto); border-color: var(--et-norma-borde); }
+.etiqueta--didactica { background: var(--et-didactica-fondo); color: var(--et-didactica-texto); border-color: var(--et-didactica-borde); }
+.etiqueta--simulacion { background: var(--et-simulacion-fondo); color: var(--et-simulacion-texto); border-color: var(--et-simulacion-borde); border-style: dotted; }
+.etiqueta--propuesta { background: var(--et-propuesta-fondo); color: var(--et-propuesta-texto); border-color: var(--et-propuesta-borde); }
+.etiqueta--prevision { background: var(--et-prevision-fondo); color: var(--et-prevision-texto); border-color: var(--et-prevision-borde); }
+.etiqueta--interpretacion { background: var(--et-interpretacion-fondo); color: var(--et-interpretacion-texto); border-color: var(--et-interpretacion-borde); }
+.etiqueta--estimacion { background: var(--et-estimacion-fondo); color: var(--et-estimacion-texto); border-color: var(--et-estimacion-borde); }
+.etiqueta--pendiente { background: var(--et-pendiente-fondo); color: var(--et-pendiente-texto); border-color: var(--et-pendiente-borde); border-style: dashed; }
+
+/* Instituciones: barra lateral de color + icono + nombre. */
+.institucion {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--espacio-2);
+  padding: var(--espacio-1) var(--espacio-3);
+  border: 1px solid var(--borde);
+  border-left: 6px solid var(--color-inst);
+  border-radius: var(--radio);
+  background: var(--superficie);
+}
+
+.institucion .icono {
+  color: var(--color-inst);
+}
+
+.institucion--congreso { --color-inst: var(--inst-congreso); }
+.institucion--senado { --color-inst: var(--inst-senado); }
+.institucion--gobierno { --color-inst: var(--inst-gobierno); }
+.institucion--justicia { --color-inst: var(--inst-justicia); }
+.institucion--comunidades { --color-inst: var(--inst-comunidades); }
+.institucion--ayuntamientos { --color-inst: var(--inst-ayuntamientos); }
+.institucion--ue { --color-inst: var(--inst-ue); }
+
+/* Tarjetas y avisos */
+.tarjeta {
+  background: var(--superficie);
+  border: 1px solid var(--borde);
+  border-radius: var(--radio);
+  padding: var(--espacio-4);
+  margin: 0 0 var(--espacio-4);
+  max-width: var(--ancho-texto);
+}
+
+.tarjeta > :last-child {
+  margin-bottom: 0;
+}
+
+.tarjeta h2 {
+  margin-top: 0;
+}
+
+.aviso {
+  border: 1px solid var(--borde-fuerte);
+  border-left-width: 6px;
+  border-radius: var(--radio);
+  padding: var(--espacio-3) var(--espacio-4);
+  margin: 0 0 var(--espacio-4);
+  background: var(--superficie);
+  max-width: var(--ancho-texto);
+}
+
+.aviso p:last-child {
+  margin-bottom: 0;
+}
+
+.aviso__titulo {
+  font-weight: 700;
+  margin-bottom: var(--espacio-1);
+}
+
+.lista li {
+  margin-bottom: var(--espacio-2);
+}
+
+.definiciones dt {
+  font-weight: 700;
+  margin-top: var(--espacio-3);
+}
+
+.definiciones dd {
+  margin: 0 0 var(--espacio-2);
+}
+
+/* Datos con etiqueta y fuente */
+.dato {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--espacio-2) var(--espacio-3);
+  padding: var(--espacio-3) 0;
+  border-top: 1px solid var(--borde);
+}
+
+.dato:first-of-type {
+  border-top: 0;
+}
+
+.dato__texto {
+  flex: 1 1 16rem;
+  margin: 0;
+}
+
+.ver-fuente {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3em;
+  min-height: var(--objetivo-tactil);
+  padding: 0 var(--espacio-2);
+}
+
+.enlace-externo .icono {
+  margin-left: 0.25em;
+}
+
+/* Leyenda */
+.leyenda {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 var(--espacio-5);
+  max-width: var(--ancho-texto);
+}
+
+.leyenda li {
+  padding: var(--espacio-3) 0;
+  border-top: 1px solid var(--borde);
+}
+
+.leyenda li p {
+  margin: var(--espacio-2) 0 0;
+}
+
+/* Fuentes */
+.fuente {
+  border-top: 1px solid var(--borde);
+  padding: var(--espacio-3) 0;
+  max-width: var(--ancho-texto);
+}
+
+.fuente h3 {
+  margin: 0 0 var(--espacio-1);
+  font-size: 1.02rem;
+}
+
+.fuente p {
+  margin: 0 0 var(--espacio-1);
+}
+
+.fuente--destacada {
+  background: var(--superficie-2);
+  outline: 2px solid var(--foco);
+  outline-offset: 4px;
+}
+
+.meta-texto {
+  color: var(--texto-suave);
+  font-size: 0.92rem;
+}
+
+.enlace-pendiente {
+  display: inline;
+}
+
+/* Tablas con desplazamiento propio (nunca desplazamiento horizontal de página). */
+.tabla-contenedor {
+  max-width: 100%;
+  overflow-x: auto;
+  margin: 0 0 var(--espacio-4);
+}
+
+table {
+  border-collapse: collapse;
+  min-width: 100%;
+}
+
+th,
+td {
+  text-align: left;
+  padding: var(--espacio-2) var(--espacio-3);
+  border-bottom: 1px solid var(--borde);
+  vertical-align: top;
+}
+
+th {
+  background: var(--superficie-2);
+}
+
+td.numero,
+th.numero {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+/* Pie */
+.pie__enlaces {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0 var(--espacio-4);
+}
+
+.pie__enlaces a {
+  display: inline-flex;
+  align-items: center;
+  min-height: var(--objetivo-tactil);
+}
+
+.pie p {
+  margin-bottom: var(--espacio-2);
+}

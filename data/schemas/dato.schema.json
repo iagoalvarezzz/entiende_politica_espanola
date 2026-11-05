@@ -1,0 +1,93 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "dato.schema.json",
+  "title": "Dato (Anexo C.1.2)",
+  "description": "fuente_id, url y fecha_consulta dependen del estado: tools/validate.py aplica las reglas del Anexo C.3 (un dato de ejemplo los omite). Ampliación para normas: norma, articulo, cita (literal, hasta 25 palabras) y ancla (identificador del artículo en la página consolidada del BOE, comprobado al leerla). Ampliación H3: materia y nivel (competencias; el nivel de gobierno va en nivel y lo que decide, en valor), normas (ids de data/normas.json que la sostienen) y grupo (para separar series en un mismo conjunto).",
+  "type": "object",
+  "required": [
+    "id",
+    "conjunto",
+    "valor",
+    "unidad",
+    "periodo",
+    "estado",
+    "etiqueta"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "$ref": "comun.schema.json#/$defs/id"
+    },
+    "conjunto": {
+      "$ref": "comun.schema.json#/$defs/texto"
+    },
+    "norma": {
+      "$ref": "comun.schema.json#/$defs/texto"
+    },
+    "articulo": {
+      "$ref": "comun.schema.json#/$defs/texto"
+    },
+    "cita": {
+      "$ref": "comun.schema.json#/$defs/texto"
+    },
+    "ancla": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$"
+    },
+    "valor": {
+      "type": [
+        "number",
+        "string",
+        "boolean",
+        "array"
+      ]
+    },
+    "unidad": {
+      "$ref": "comun.schema.json#/$defs/texto"
+    },
+    "periodo": {
+      "$ref": "comun.schema.json#/$defs/texto"
+    },
+    "fuente_id": {
+      "$ref": "comun.schema.json#/$defs/id"
+    },
+    "url": {
+      "$ref": "comun.schema.json#/$defs/url"
+    },
+    "fecha_publicacion": {
+      "$ref": "comun.schema.json#/$defs/fecha"
+    },
+    "fecha_consulta": {
+      "$ref": "comun.schema.json#/$defs/fecha"
+    },
+    "estado": {
+      "$ref": "comun.schema.json#/$defs/estado"
+    },
+    "etiqueta": {
+      "$ref": "comun.schema.json#/$defs/etiqueta"
+    },
+    "nota": {
+      "type": "string"
+    },
+    "materia": {
+      "$ref": "comun.schema.json#/$defs/id"
+    },
+    "nivel": {
+      "enum": [
+        "estado",
+        "autonomico",
+        "local",
+        "ue"
+      ]
+    },
+    "normas": {
+      "type": "array",
+      "items": {
+        "$ref": "comun.schema.json#/$defs/id"
+      }
+    },
+    "grupo": {
+      "$ref": "comun.schema.json#/$defs/id"
+    }
+  }
+}

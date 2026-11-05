@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "pregunta.schema.json",
+  "title": "Pregunta (Anexo C.1.7), fichero data/preguntas.json",
+  "description": "opciones es obligatorio salvo en las numéricas; tolerancia solo en las numéricas (reglas en tools/validate.py).",
+  "type": "object",
+  "required": ["id", "modulo", "tipo", "enunciado", "correcta", "explicacion", "fuente_id", "etiqueta", "estado"],
+  "additionalProperties": false,
+  "properties": {
+    "id": { "$ref": "comun.schema.json#/$defs/id" },
+    "modulo": { "$ref": "comun.schema.json#/$defs/texto" },
+    "bloque": { "$ref": "comun.schema.json#/$defs/id" },
+    "articulo": { "$ref": "comun.schema.json#/$defs/texto" },
+    "tipo": { "enum": ["opcion_unica", "verdadero_falso", "numerica"] },
+    "enunciado": { "$ref": "comun.schema.json#/$defs/texto" },
+    "opciones": {
+      "type": "array",
+      "minItems": 2,
+      "items": {
+        "type": "object",
+        "required": ["id", "texto"],
+        "additionalProperties": false,
+        "properties": {
+          "id": { "type": "string", "minLength": 1 },
+          "texto": { "$ref": "comun.schema.json#/$defs/texto" }
+        }
+      }
+    },
+    "correcta": { "type": ["string", "number", "boolean"] },
+    "tolerancia": { "type": "number", "minimum": 0 },
+    "explicacion": { "$ref": "comun.schema.json#/$defs/texto" },
+    "fuente_id": { "$ref": "comun.schema.json#/$defs/id" },
+    "etiqueta": { "$ref": "comun.schema.json#/$defs/etiqueta" },
+    "estado": { "enum": ["verificado", "ejemplo"] }
+  }
+}

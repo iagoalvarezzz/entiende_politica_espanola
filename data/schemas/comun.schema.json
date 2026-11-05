@@ -1,0 +1,124 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "comun.schema.json",
+  "title": "Definiciones comunes a todos los esquemas (Anexo C.1)",
+  "$defs": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+    },
+    "fecha": {
+      "type": "string",
+      "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+    },
+    "url": {
+      "type": "string",
+      "pattern": "^https?://"
+    },
+    "texto": {
+      "type": "string",
+      "minLength": 1
+    },
+    "estado": {
+      "enum": [
+        "verificado",
+        "pendiente",
+        "ejemplo"
+      ]
+    },
+    "etiqueta": {
+      "enum": [
+        "DATO OFICIAL",
+        "DATO DE ESTUDIO",
+        "NORMA VIGENTE",
+        "EXPLICACIÓN DIDÁCTICA",
+        "SIMULACIÓN",
+        "PROPUESTA",
+        "PREVISIÓN",
+        "INTERPRETACIÓN ATRIBUIDA",
+        "ESTIMACIÓN DEL AUTOR",
+        "PENDIENTE DE VERIFICAR"
+      ]
+    },
+    "meta": {
+      "type": "object",
+      "required": [
+        "conjunto",
+        "esquema",
+        "version",
+        "actualizado",
+        "descripcion"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "conjunto": {
+          "$ref": "#/$defs/texto"
+        },
+        "esquema": {
+          "enum": [
+            "fuente",
+            "dato",
+            "convocatoria",
+            "resultado",
+            "partido",
+            "medio",
+            "pregunta",
+            "termino",
+            "relacion",
+            "votacion",
+            "verificador"
+          ]
+        },
+        "version": {
+          "type": "string",
+          "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$"
+        },
+        "actualizado": {
+          "$ref": "#/$defs/fecha"
+        },
+        "descripcion": {
+          "$ref": "#/$defs/texto"
+        },
+        "contexto": {
+          "type": "object",
+          "description": "Datos comunes a todo el conjunto (ampliación H4): fecha de referencia, nombres de grupos, límites de la consulta."
+        }
+      }
+    },
+    "verificacion": {
+      "type": "object",
+      "required": [
+        "ambito",
+        "estado",
+        "etiqueta"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "ambito": {
+          "$ref": "#/$defs/texto"
+        },
+        "estado": {
+          "$ref": "#/$defs/estado"
+        },
+        "etiqueta": {
+          "$ref": "#/$defs/etiqueta"
+        },
+        "fuente_id": {
+          "$ref": "#/$defs/id"
+        },
+        "url": {
+          "$ref": "#/$defs/url"
+        },
+        "fecha_publicacion": {
+          "$ref": "#/$defs/fecha"
+        },
+        "fecha_consulta": {
+          "$ref": "#/$defs/fecha"
+        },
+        "nota": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

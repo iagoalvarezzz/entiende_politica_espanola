@@ -1,0 +1,3257 @@
+{
+  "meta": {
+    "conjunto": "glosario",
+    "esquema": "termino",
+    "version": "0.6.0",
+    "actualizado": "2026-11-05",
+    "descripcion": "Glosario de los módulos 1 a 9. Definiciones a partir de normas del BOE, de la información oficial de La Moncloa, del Diccionario de la lengua española y, en los módulos 8 y 9, del CIS, del informe EurOMo, de la IFCN, del código de la FAPE y de la FundéuRAE."
+  },
+  "bloques": {
+    "estado-instituciones": "Estado e instituciones",
+    "elecciones": "Elecciones",
+    "leyes-normas": "Leyes y normas",
+    "ideologias": "Partidos, ideologías, medios y verificación",
+    "territorio-ue": "Territorio y Unión Europea",
+    "economia": "Economía y hacienda",
+    "temas": "Temas políticos"
+  },
+  "registros": [
+    {
+      "id": "estado",
+      "termino": "Estado",
+      "alias": [],
+      "bloque": "estado-instituciones",
+      "definicion": "Forma de organización política de un país, con poder soberano sobre su población y su territorio. En España, sus poderes emanan del pueblo.",
+      "ejemplo": "Las Cortes, el Gobierno y los tribunales forman parte del Estado: el Estado no es solo el Gobierno.",
+      "modulo": "m1",
+      "relacionados": [
+        "gobierno",
+        "administracion",
+        "regimen-politico"
+      ],
+      "fuente_id": "rae-estado",
+      "articulo": "Constitución, art. 1.2",
+      "etiqueta": "EXPLICACIÓN DIDÁCTICA",
+      "disputado": false
+    },
+    {
+      "id": "gobierno",
+      "termino": "Gobierno",
+      "alias": [],
+      "bloque": "estado-instituciones",
+      "definicion": "Órgano formado por el Presidente, los Vicepresidentes en su caso y los Ministros. Dirige la política interior y exterior, la Administración y la defensa.",
+      "ejemplo": "Cuando el Consejo de Ministros aprueba un proyecto de ley, actúa el Gobierno.",
+      "modulo": "m2",
+      "relacionados": [
+        "consejo-de-ministros",
+        "presidente-del-gobierno",
+        "ministro"
+      ],
+      "fuente_id": "boe-constitucion",
+      "articulo": "arts. 97 y 98",
+      "etiqueta": "NORMA VIGENTE",
+      "disputado": false
+    },
+    {
+      "id": "administracion",
+      "termino": "Administración pública",
+      "alias": [
+        "administración"
+      ],
+      "bloque": "estado-instituciones",
+      "definicion": "Organismos y personal que gestionan los servicios públicos y aplican las normas. Sirve con objetividad los intereses generales y está sometida a la ley.",
+      "ejemplo": "La oficina que te renueva el documento de identidad forma parte de la Administración.",
+      "modulo": "m1",
+      "relacionados": [
+        "gobierno",
+        "estado"
+      ],
+      "fuente_id": "boe-constitucion",
+      "articulo": "art. 103.1",
+      "etiqueta": "NORMA VIGENTE",
+      "disputado": false
+    },
+    {
+      "id": "regimen-politico",
+      "termino": "Régimen político",
+      "alias": [],
+      "bloque": "estado-instituciones",
+      "definicion": "Sistema político por el que se rige un país. En España, la forma política del Estado es la monarquía parlamentaria.",
+      "ejemplo": "Al comparar cómo se organiza el poder en dos países, comparas sus regímenes políticos.",
+      "modulo": "m1",
+      "relacionados": [
+        "monarquia-parlamentaria",
+        "democracia",
+        "estado"
+      ],
+      "fuente_id": "rae-regimen",
+      "articulo": "Constitución, art. 1.3",
+      "etiqueta": "EXPLICACIÓN DIDÁCTICA",
+      "disputado": false
+    },
+    {
+      "id": "democracia",
+      "termino": "Democracia",
+      "alias": [],
+      "bloque": "estado-instituciones",
+      "definicion": "Sistema político en el que la soberanía reside en el pueblo. El pueblo la ejerce directamente o por medio de representantes.",
+      "ejemplo": "Elegir a tus representantes en unas elecciones es una forma de participar en democracia.",
+      "modulo": "m1",
+      "relacionados": [
+        "estado-de-derecho",
+        "separacion-de-poderes"
+      ],
+      "fuente_id": "rae-democracia",
+      "articulo": "Constitución, arts. 1.2 y 23",
+      "etiqueta": "EXPLICACIÓN DIDÁCTICA",
+      "disputado": false
+    },
+    {
+      "id": "estado-de-derecho",
+      "termino": "Estado de derecho",
+      "alias": [],
+      "bloque": "estado-instituciones",
+      "definicion": "Régimen en el que la Constitución garantiza las libertades, los derechos fundamentales, la separación de poderes, el principio de legalidad y la protección judicial. La Constitución española lo proclama en su artículo 1.1.",
+      "ejemplo": "Si una autoridad te multa sin base legal, puedes recurrir ante un juez.",
+      "modulo": "m1",
+      "relacionados": [
+        "separacion-de-poderes",
+        "constitucion",
+        "democracia"
+      ],
+      "fuente_id": "rae-estado",
+      "articulo": "Constitución, arts. 1.1 y 9.3",
+      "etiqueta": "EXPLICACIÓN DIDÁCTICA",
+      "disputado": false
+    },
+    {
+      "id": "separacion-de-poderes",
+      "termino": "Separación de poderes",
+      "alias": [
+        "división de poderes"
+      ],
+      "bloque": "estado-instituciones",
+      "definicion": "Reparto de las funciones de hacer leyes, ejecutarlas y juzgar entre órganos distintos. En España: Cortes Generales, Gobierno y Juzgados y Tribunales.",
+      "ejemplo": "Quien aprueba una ley no es quien juzga si alguien la ha incumplido.",
+      "modulo": "m1",
+      "relacionados": [
+        "cortes-generales",
+        "gobierno",
+        "poder-judicial"
+      ],
+      "fuente_id": "boe-constitucion",
+      "articulo": "arts. 66.2, 97 y 117.3",
+      "etiqueta": "EXPLICACIÓN DIDÁCTICA",
+      "disputado": false
+    },
+    {
+      "id": "constitucion",
+      "termino": "Constitución",
+      "alias": [],
+      "bloque": "estado-instituciones",
+      "definicion": "Norma que organiza el Estado y reconoce derechos y deberes. Ciudadanos y poderes públicos están sujetos a ella y al resto del ordenamiento.",
+      "ejemplo": "Si una ley contradice la Constitución, el Tribunal Constitucional puede declararla inconstitucional.",
+      "modulo": "m1",
+      "relacionados": [
+        "jerarquia-normativa",
+        "tribunal-constitucional"
+      ],
+      "fuente_id": "boe-constitucion",
+      "articulo": "arts. 9.1 y 161.1",
+      "etiqueta": "NORMA VIGENTE",
+      "disputado": false
+    },
+    {
+      "id": "monarquia-parlamentaria",
+      "termino": "Monarquía parlamentaria",
+      "alias": [],
+      "bloque": "estado-instituciones",
+      "definicion": "Forma política del Estado español. El Rey es el Jefe del Estado y sus actos necesitan el refrendo de otra autoridad.",
+      "ejemplo": "El Rey firma el nombramiento del Presidente del Gobierno, pero quien lo elige es el Congreso.",
+      "modulo": "m1",
+      "relacionados": [
+        "jefatura-del-estado",
+        "refrendo"
+      ],
+      "fuente_id": "boe-constitucion",
+      "articulo": "arts. 1.3, 56 y 64",
+      "etiqueta": "NORMA VIGENTE",
+      "disputado": false
+    },
+    {
+      "id": "jefatura-del-estado",
+      "termino": "Jefatura del Estado",
+      "alias": [
+        "jefe del estado",
+        "rey"
+      ],
+      "bloque": "estado-instituciones",
+      "definicion": "Más alta representación del Estado. En España la ejerce el Rey, símbolo de su unidad y permanencia.",
+      "ejemplo": "En una cumbre internacional, la más alta representación de España corresponde al Rey.",
+      "modulo": "m2",
+      "relacionados": [
+        "monarquia-parlamentaria",
+        "refrendo"
+      ],
+      "fuente_id": "boe-constitucion",
+      "articulo": "art. 56.1",
+      "etiqueta": "NORMA VIGENTE",
+      "disputado": false
+    },
+    {
+      "id": "refrendo",
+      "termino": "Refrendo",
+      "alias": [],
+      "bloque": "estado-instituciones",
+      "definicion": "Respaldo que otra autoridad da a un acto del Rey: el Presidente del Gobierno, un ministro o el Presidente del Congreso. Quien refrenda responde del acto.",
+      "ejemplo": "El decreto que disuelve las Cortes lo firma el Rey y lo refrenda el Presidente del Gobierno.",
+      "modulo": "m2",
+      "relacionados": [
+        "jefatura-del-estado",
+        "monarquia-parlamentaria"
+      ],
+      "fuente_id": "boe-constitucion",
+      "articulo": "arts. 56.3 y 64",
+      "etiqueta": "NORMA VIGENTE",
+      "disputado": false
+    },
+    {
+      "id": "cortes-generales",
+      "termino": "Cortes Generales",
+      "alias": [
+        "parlamento",
+        "cortes"
+      ],
+      "bloque": "estado-instituciones",
+      "definicion": "Parlamento de España, formado por el Congreso de los Diputados y el Senado. Aprueban las leyes y los Presupuestos y controlan al Gobierno.",
+      "ejemplo": "Una ley estatal sobre tráfico la aprueban las Cortes Generales.",
+      "modulo": "m2",
+      "relacionados": [
+        "congreso",
+        "senado"
+      ],
+      "fuente_id": "boe-constitucion",
+      "articulo": "art. 66",
+      "etiqueta": "NORMA VIGENTE",
+      "disputado": false
+    },
+    {
+      "id": "congreso",
+      "termino": "Congreso de los Diputados",
+      "alias": [
+        "congreso"
+      ],
+      "bloque": "estado-instituciones",
+      "definicion": "Cámara de las Cortes Generales con 350 diputados, según la ley electoral. Inviste al Presidente del Gobierno y puede exigirle responsabilidad política.",
+      "ejemplo": "La votación de investidura de un candidato a Presidente se celebra en el Congreso.",
+      "modulo": "m2",
+      "relacionados": [
+        "senado",
+        "investidura",
+        "mocion-de-censura"
+      ],
+      "fuente_id": "boe-constitucion",
+      "articulo": "arts. 68, 99 y 113; LOREG, art. 162.1",
+      "etiqueta": "NORMA VIGENTE",
+      "disputado": false
+    },
+    {
+      "id": "senado",
+      "termino": "Senado",
+      "alias": [],
+      "bloque": "estado-instituciones",
+      "definicion": "Cámara de representación territorial. Tiene senadores elegidos en las urnas y senadores designados por los parlamentos autonómicos.",
+      "ejemplo": "Un proyecto de ley aprobado por el Congreso pasa después al Senado.",
+      "modulo": "m2",
+      "relacionados": [
+        "congreso",
+        "veto"
+      ],
+      "fuente_id": "boe-constitucion",
+      "articulo": "art. 69",
+      "etiqueta": "NORMA VIGENTE",
+      "disputado": false
+    },
+    {
+      "id": "pleno",
+      "termino": "Pleno",
+      "alias": [],
+      "bloque": "estado-instituciones",
+      "definicion": "Sesión en la que se reúnen todos los miembros de una Cámara. Las Cámaras funcionan en Pleno y por Comisiones.",
+      "ejemplo": "La votación final de una ley orgánica se hace en el Pleno del Congreso.",
+      "modulo": "m2",
+      "relacionados": [
+        "comision-parlamentaria"
+      ],
+      "fuente_id": "boe-constitucion",
+      "articulo": "art. 75.1",
+      "etiqueta": "EXPLICACIÓN DIDÁCTICA",
+      "disputado": false
+    },
+    {
+      "id": "comision-parlamentaria",
+      "termino": "Comisión parlamentaria",
+      "alias": [
+        "comisión"
+      ],
+      "bloque": "estado-instituciones",
+      "definicion": "Grupo de diputados o senadores que estudia asuntos y textos de la Cámara. Puede aprobar leyes por delegación del Pleno, con excepciones.",
+      "ejemplo": "Antes de llegar al Pleno, un proyecto de ley se debate en una comisión.",
+      "modulo": "m2",
+      "relacionados": [
+        "pleno"
+      ],
+      "fuente_id": "boe-constitucion",
+      "articulo": "art. 75",
+      "etiqueta": "EXPLICACIÓN DIDÁCTICA",
+      "disputado": false
+    },
+    {
+      "id": "diputacion-permanente",
+      "termino": "Diputación Permanente",
+      "alias": [],
+      "bloque": "estado-instituciones",
+      "definicion": "Órgano de cada Cámara con al menos veintiún miembros. Vela por los poderes de la Cámara cuando no está reunida o ha sido disuelta.",
+      "ejemplo": "Con las Cortes disueltas, la Diputación Permanente puede pronunciarse sobre un real decreto-ley.",
+      "modulo": "m2",
+      "relacionados": [
+        "cortes-generales",
+        "real-decreto-ley"
+      ],
+      "fuente_id": "boe-constitucion",
+      "articulo": "art. 78",
+      "etiqueta": "NORMA VIGENTE",
+      "disputado": false
+    },
+    {
+      "id": "consejo-de-ministros",
+      "termino": "Consejo de Ministros",
+      "alias": [],
+      "bloque": "estado-instituciones",
+      "definicion": "Reunión de los miembros del Gobierno. Aprueba, entre otros, los proyectos de ley, el proyecto de Presupuestos y los reales decretos-leyes.",
+      "ejemplo": "Tras la reunión semanal del Consejo de Ministros se anuncian los proyectos aprobados.",
+      "modulo": "m2",
+      "relacionados": [
+        "gobierno",
+        "proyecto-de-ley"
+      ],
+      "fuente_id": "boe-ley-gobierno",
+      "articulo": "Ley 50/1997, art. 5",
+      "etiqueta": "NORMA VIGENTE",
+      "disputado": false
+    },
+    {
+      "id": "presidente-del-gobierno",
+      "termino": "Presidente del Gobierno",
+      "alias": [
+        "presidente"
+      ],
+      "bloque": "estado-instituciones",
+      "definicion": "Dirige la acción del Gobierno y coordina a sus miembros. Lo elige el Congreso en la investidura y lo nombra el Rey.",
+      "ejemplo": "Quien preside el Gobierno propone al Rey el nombramiento de cada ministro.",
+      "modulo": "m2",
+      "relacionados": [
+        "investidura",
+        "gobierno",
+        "ministro"
+      ],
+      "fuente_id": "boe-constitucion",
+      "articulo": "arts. 98.2 y 99",
+      "etiqueta": "NORMA VIGENTE",
+      "disputado": false
+    },
+    {
+      "id": "ministro",
+      "termino": "Ministro",
+      "alias": [
+        "ministra"
+      ],
+      "bloque": "estado-instituciones",
+      "definicion": "Miembro del Gobierno que dirige un departamento y responde de su gestión. Lo nombra y separa el Rey a propuesta del Presidente.",
+      "ejemplo": "Quien dirige el ministerio competente responde en el Congreso sobre su área.",
+      "modulo": "m2",
+      "relacionados": [
+        "gobierno",
+        "presidente-del-gobierno"
+      ],
+      "fuente_id": "boe-constitucion",
+      "articulo": "arts. 98 y 100",
+      "etiqueta": "NORMA VIGENTE",
+      "disputado": false
+    },
+    {
+      "id": "poder-judicial",
+      "termino": "Poder Judicial",
+      "alias": [
+        "jueces",
+        "tribunales"
+      ],
+      "bloque": "estado-instituciones",
+      "definicion": "Jueces y magistrados que juzgan y hacen ejecutar lo juzgado. Son independientes y solo están sometidos a la ley.",
+      "ejemplo": "Si dos vecinos no se ponen de acuerdo sobre una obra, puede resolverlo un juzgado.",
+      "modulo": "m2",
+      "relacionados": [
+        "cgpj",
+        "tribunal-supremo",
+        "separacion-de-poderes"
+      ],
+      "fuente_id": "boe-constitucion",
+      "articulo": "art. 117",
+      "etiqueta": "NORMA VIGENTE",
+      "disputado": false
+    },
+    {
+      "id": "cgpj",
+      "termino": "Consejo General del Poder Judicial",
+      "alias": [
+        "CGPJ"
+      ],
+      "bloque": "estado-instituciones",
+      "definicion": "Órgano de gobierno del Poder Judicial. Lo forman el Presidente del Tribunal Supremo y veinte miembros nombrados por cinco años.",
+      "ejemplo": "Los nombramientos y ascensos de los jueces son funciones del CGPJ.",
+      "modulo": "m2",
+      "relacionados": [
+        "poder-judicial",
+        "tribunal-supremo"
+      ],
+      "fuente_id": "boe-constitucion",
+      "articulo": "art. 122",
+      "etiqueta": "NORMA VIGENTE",
+      "disputado": false
+    },
+    {
+      "id": "tribunal-supremo",
+      "termino": "Tribunal Supremo",
+      "alias": [
+        "TS"
+      ],
+      "bloque": "estado-instituciones",
+      "definicion": "Órgano judicial superior en toda España en todos los órdenes. La excepción son las garantías constitucionales.",
+      "ejemplo": "Una sentencia puede llegar al Tribunal Supremo por recurso.",
+      "modulo": "m2",
+      "relacionados": [
+        "poder-judicial",
+        "tribunal-constitucional"
+      ],
+      "fuente_id": "boe-constitucion",
+      "articulo": "art. 123.1",
+      "etiqueta": "NORMA VIGENTE",
+      "disputado": false
+    },
+    {
+      "id": "tribunal-constitucional",
+      "termino": "Tribunal Constitucional",
+      "alias": [
+        "TC"
+      ],
+      "bloque": "estado-instituciones",
+      "definicion": "Controla que las leyes respeten la Constitución y resuelve recursos de amparo. Se regula en un título propio, distinto del Poder Judicial.",
+      "ejemplo": "Si un grupo de diputados cree que una ley es inconstitucional, puede recurrirla ante el Tribunal Constitucional.",
+      "modulo": "m2",
+      "relacionados": [
+        "recurso-de-inconstitucionalidad",
+        "recurso-de-amparo",
+        "poder-judicial"
+      ],
+      "fuente_id": "boe-constitucion",
+      "articulo": "arts. 159 y 161",
+      "etiqueta": "NORMA VIGENTE",
+      "disputado": false
+    },
+    {
+      "id": "ministerio-fiscal",
+      "termino": "Ministerio Fiscal",
+      "alias": [
+        "fiscalía",
+        "fiscal"
+      ],
+      "bloque": "estado-instituciones",
+      "definicion": "Promueve la acción de la justicia en defensa de la legalidad, de los derechos y del interés público.",
+      "ejemplo": "En un juicio penal, la fiscalía puede formular acusación.",
+      "modulo": "m2",
+      "relacionados": [
+        "poder-judicial"
+      ],
+      "fuente_id": "boe-constitucion",
+      "articulo": "art. 124",
+      "etiqueta": "NORMA VIGENTE",
+      "disputado": false
+    },
+    {
+      "id": "defensor-del-pueblo",
+      "termino": "Defensor del Pueblo",
+      "alias": [],
+      "bloque": "estado-instituciones",
+      "definicion": "Alto comisionado de las Cortes Generales para defender los derechos. Puede supervisar la actividad de la Administración.",
+      "ejemplo": "Si una administración no responde a tus solicitudes, puedes presentar una queja al Defensor del Pueblo.",
+      "modulo": "m2",
+      "relacionados": [
+        "cortes-generales",
+        "administracion"
+      ],
+      "fuente_id": "boe-constitucion",
+      "articulo": "art. 54",
+      "etiqueta": "NORMA VIGENTE",
+      "disputado": false
+    },
+    {
+      "id": "tribunal-de-cuentas",
+      "termino": "Tribunal de Cuentas",
+      "alias": [],
+      "bloque": "estado-instituciones",
+      "definicion": "Supremo órgano fiscalizador de las cuentas y de la gestión económica del Estado y del sector público. Depende de las Cortes Generales.",
+      "ejemplo": "Revisar si un organismo público ha justificado bien sus gastos es tarea del Tribunal de Cuentas.",
+      "modulo": "m2",
+      "relacionados": [
+        "cortes-generales"
+      ],
+      "fuente_id": "boe-constitucion",
+      "articulo": "art. 136",
+      "etiqueta": "NORMA VIGENTE",
+      "disputado": false
+    },
+    {
+      "id": "derechos-fundamentales",
+      "termino": "Derechos fundamentales",
+      "alias": [],
+      "bloque": "estado-instituciones",
+      "definicion": "Derechos de los artículos 15 a 29 de la Constitución, junto con la igualdad del artículo 14. Tienen la protección más fuerte, incluido el recurso de amparo.",
+      "ejemplo": "El derecho a la educación es un derecho fundamental; el derecho a la vivienda es un principio rector.",
+      "modulo": "m1",
+      "relacionados": [
+        "recurso-de-amparo",
+        "ley-organica"
+      ],
+      "fuente_id": "boe-constitucion",
+      "articulo": "art. 53",
+      "etiqueta": "NORMA VIGENTE",
+      "disputado": false
+    },
+    {
+      "id": "boe",
+      "termino": "Boletín Oficial del Estado",
+      "alias": [
+        "BOE"
+      ],
+      "bloque": "estado-instituciones",
+      "definicion": "Diario oficial en el que se publican las leyes y otras normas del Estado. Si una ley no dice otra cosa, entra en vigor a los veinte días de publicarse en él.",
+      "ejemplo": "Para saber si algo «ya es ley», búscalo en el BOE y mira su fecha de entrada en vigor.",
+      "modulo": "m1",
+      "relacionados": [
+        "publicacion",
+        "entrada-en-vigor"
+      ],
+      "fuente_id": "boe-codigo-civil",
+      "articulo": "Código Civil, art. 2.1",
+      "etiqueta": "NORMA VIGENTE",
+      "disputado": false
+    },
+    {
+      "id": "investidura",
+      "termino": "Investidura",
+      "alias": [],
+      "bloque": "elecciones",
+      "definicion": "Votación en la que el Congreso otorga su confianza a un candidato a Presidente del Gobierno. Exige mayoría absoluta en la primera votación y simple en la segunda.",
+      "ejemplo": "Tras unas elecciones, el candidato propuesto por el Rey expone su programa y pide la confianza del Congreso.",
+      "modulo": "m2",
+      "relacionados": [
+        "presidente-del-gobierno",
+        "mayoria-absoluta",
+        "mayoria-simple"
+      ],
+      "fuente_id": "boe-constitucion",
+      "articulo": "art. 99",
+      "etiqueta": "NORMA VIGENTE",
+      "disputado": false
+    },
+    {
+      "id": "mocion-de-censura",
+      "termino": "Moción de censura",
+      "alias": [],
+      "bloque": "elecciones",
+      "definicion": "Iniciativa del Congreso para exigir la responsabilidad política del Gobierno. Incluye un candidato alternativo y necesita mayoría absoluta.",
+      "ejemplo": "Si prospera una moción de censura, su candidato pasa a presidir el Gobierno sin nuevas elecciones.",
+      "modulo": "m2",
+      "relacionados": [
+        "cuestion-de-confianza",
+        "mayoria-absoluta"
+      ],
+      "fuente_id": "boe-constitucion",
+      "articulo": "arts. 113 y 114",
+      "etiqueta": "NORMA VIGENTE",
+      "disputado": false
+    },
+    {
+      "id": "cuestion-de-confianza",
+      "termino": "Cuestión de confianza",
+      "alias": [],
+      "bloque": "elecciones",
+      "definicion": "Votación que plantea el Presidente del Gobierno sobre su programa o una declaración de política general. La confianza se otorga por mayoría simple.",
+      "ejemplo": "Un Presidente puede pedir al Congreso que respalde su programa para comprobar si mantiene apoyos.",
+      "modulo": "m2",
+      "relacionados": [
+        "mocion-de-censura",
+        "mayoria-simple"
+      ],
+      "fuente_id": "boe-constitucion",
+      "articulo": "arts. 112 y 114.1",
+      "etiqueta": "NORMA VIGENTE",
+      "disputado": false
+    },
+    {
+      "id": "legislatura",
+      "termino": "Legislatura",
+      "alias": [],
+      "bloque": "elecciones",
+      "definicion": "Periodo de mandato de unas Cortes Generales. Dura cuatro años desde la elección o termina antes si se disuelven las Cámaras.",
+      "ejemplo": "Si las Cortes se disuelven al tercer año, la legislatura termina antes de tiempo.",
+      "modulo": "m2",
+      "relacionados": [
+        "disolucion-de-las-cortes",
+        "cortes-generales"
+      ],
+      "fuente_id": "boe-constitucion",
+      "articulo": "arts. 68.4 y 69.6",
+      "etiqueta": "EXPLICACIÓN DIDÁCTICA",
+      "disputado": false
+    },
+    {
+      "id": "gobierno-en-funciones",
+      "termino": "Gobierno en funciones",
+      "alias": [],
+      "bloque": "elecciones",
+      "definicion": "Gobierno cesante que sigue actuando hasta que toma posesión el nuevo. Limita su gestión al despacho ordinario de los asuntos públicos.",
+      "ejemplo": "Un Gobierno en funciones no puede presentar al Congreso nuevos proyectos de ley.",
+      "modulo": "m2",
+      "relacionados": [
+        "gobierno",
+        "investidura"
+      ],
+      "fuente_id": "boe-ley-gobierno",
+      "articulo": "Constitución, art. 101; Ley 50/1997, art. 21",
+      "etiqueta": "NORMA VIGENTE",
+      "disputado": false
+    },
+    {
+      "id": "mayoria-absoluta",
+      "termino": "Mayoría absoluta",
+      "alias": [],
+      "bloque": "elecciones",
+      "definicion": "Mayoría de más de la mitad de los votos o, cuando la Constitución lo exige, de los miembros de la Cámara. En un Congreso de 350 diputados son 176.",
+      "ejemplo": "Una ley orgánica necesita 176 votos a favor en la votación final del Congreso.",
+      "modulo": "m2",
+      "relacionados": [
+        "mayoria-simple",
+        "investidura",
+        "ley-organica"
+      ],
+      "fuente_id": "rae-mayoria",
+      "articulo": "Constitución, arts. 81.2 y 99.3",
+      "etiqueta": "EXPLICACIÓN DIDÁCTICA",
+      "disputado": false
+    },
+    {
+      "id": "mayoria-simple",
+      "termino": "Mayoría simple",
+      "alias": [],
+      "bloque": "elecciones",
+      "definicion": "Mayoría que la Constitución exige, por ejemplo, en la segunda votación de investidura. El Reglamento del Congreso la exige, como regla general, entre los miembros presentes.",
+      "ejemplo": "La segunda votación de investidura se celebra 48 horas después de la primera.",
+      "modulo": "m2",
+      "relacionados": [
+        "mayoria-absoluta",
+        "investidura"
+      ],
+      "fuente_id": "boe-reglamento-congreso",
+      "articulo": "Constitución, art. 99.3; Reglamento del Congreso, art. 79.1",
+      "etiqueta": "NORMA VIGENTE",
+      "disputado": false
+    },
+    {
+      "id": "disolucion-de-las-cortes",
+      "termino": "Disolución de las Cortes",
+      "alias": [
+        "disolución"
+      ],
+      "bloque": "elecciones",
+      "definicion": "Fin anticipado del mandato de las Cámaras. La propone el Presidente del Gobierno y la decreta el Rey; el decreto fija la fecha de las elecciones.",
+      "ejemplo": "El real decreto que convoca unas elecciones anticipadas disuelve a la vez el Congreso y el Senado.",
+      "modulo": "m2",
+      "relacionados": [
+        "legislatura",
+        "refrendo"
+      ],
+      "fuente_id": "boe-constitucion",
+      "articulo": "arts. 99.5 y 115",
+      "etiqueta": "NORMA VIGENTE",
+      "disputado": false
+    },
+    {
+      "id": "metodo-dhondt",
+      "termino": "Método D'Hondt",
+      "alias": [
+        "D'Hondt",
+        "ley D'Hondt"
+      ],
+      "bloque": "elecciones",
+      "definicion": "Método para repartir escaños: se dividen los votos de cada candidatura entre 1, 2, 3… y los escaños van a los cocientes mayores.",
+      "ejemplo": "Con 8 escaños en juego, los 8 cocientes más altos reciben un escaño cada uno.",
+      "modulo": "m3",
+      "relacionados": [
+        "barrera-electoral",
+        "cociente",
+        "circunscripcion"
+      ],
+      "fuente_id": "boe-loreg",
+      "articulo": "LOREG, art. 163",
+      "etiqueta": "NORMA VIGENTE",
+      "disputado": false
+    },
+    {
+      "id": "elecciones-generales",
+      "termino": "Elecciones generales",
+      "alias": [
+        "elecciones a Cortes Generales"
+      ],
+      "bloque": "elecciones",
+      "definicion": "Elecciones en las que se eligen a la vez los diputados del Congreso y los senadores que votan los ciudadanos.",
+      "ejemplo": "El 29 de noviembre de 2026 se vota con dos papeletas: una para el Congreso y otra para el Senado.",
+      "modulo": "m3",
+      "relacionados": [
+        "congreso",
+        "senado",
+        "convocatoria"
+      ],
+      "fuente_id": "boe-constitucion",
+      "articulo": "arts. 68 y 69",
+      "etiqueta": "NORMA VIGENTE",
+      "disputado": false
+    },
+    {
+      "id": "convocatoria",
+      "termino": "Convocatoria electoral",
+      "alias": [
+        "convocar elecciones"
+      ],
+      "bloque": "elecciones",
+      "definicion": "Decreto que fija la fecha de unas elecciones. Con disolución anticipada, la votación es el día 54 después de la convocatoria.",
+      "ejemplo": "El Real Decreto 806/2026 se publicó el 6 de octubre y fijó la votación para el 29 de noviembre.",
+      "modulo": "m3",
+      "relacionados": [
+        "disolucion-de-las-cortes",
+        "elecciones-generales"
+      ],
+      "fuente_id": "boe-loreg",
+      "articulo": "LOREG, art. 42.1",
+      "etiqueta": "NORMA VIGENTE",
+      "disputado": false
+    },
+    {
+      "id": "circunscripcion",
+      "termino": "Circunscripción",
+      "alias": [
+        "circunscripción electoral"
+      ],
+      "bloque": "elecciones",
+      "definicion": "Territorio cuyos votos se cuentan por separado para repartir sus escaños. Para el Congreso es la provincia, además de Ceuta y Melilla.",
+      "ejemplo": "Los votos de Soria solo sirven para repartir los escaños de Soria.",
+      "modulo": "m3",
+      "relacionados": [
+        "escano",
+        "metodo-dhondt"
+      ],
+      "fuente_id": "boe-constitucion",
+      "articulo": "art. 68.2",
+      "etiqueta": "NORMA VIGENTE",
+      "disputado": false
+    },
+    {
+      "id": "escano",
+      "termino": "Escaño",
+      "alias": [
+        "escaños"
+      ],
+      "bloque": "elecciones",
+      "definicion": "Cada uno de los puestos que se reparten en una elección. El Congreso tiene 350.",
+      "ejemplo": "Si una provincia elige 4 diputados, en ella se reparten 4 escaños.",
+      "modulo": "m3",
+      "relacionados": [
+        "diputado",
+        "circunscripcion"
+      ],
+      "fuente_id": "boe-loreg",
+      "articulo": "LOREG, arts. 162 y 163",
+      "etiqueta": "EXPLICACIÓN DIDÁCTICA",
+      "disputado": false
+    },
+    {
+      "id": "diputado",
+      "termino": "Diputado o diputada",
+      "alias": [
+        "diputados"
+      ],
+      "bloque": "elecciones",
+      "definicion": "Miembro del Congreso de los Diputados. Hay 350, elegidos por circunscripciones.",
+      "ejemplo": "Cada provincia elige al menos dos diputados.",
+      "modulo": "m3",
+      "relacionados": [
+        "congreso",
+        "escano"
+      ],
+      "fuente_id": "boe-loreg",
+      "articulo": "LOREG, art. 162",
+      "etiqueta": "NORMA VIGENTE",
+      "disputado": false
+    },
+    {
+      "id": "senador",
+      "termino": "Senador o senadora",
+      "alias": [
+        "senadores"
+      ],
+      "bloque": "elecciones",
+      "definicion": "Miembro del Senado. Unos los eligen los votantes y otros los designan los parlamentos autonómicos.",
+      "ejemplo": "En cada provincia peninsular los votantes eligen cuatro senadores.",
+      "modulo": "m3",
+      "relacionados": [
+        "senado"
+      ],
+      "fuente_id": "boe-constitucion",
+      "articulo": "art. 69",
+      "etiqueta": "NORMA VIGENTE",
+      "disputado": false
+    },
+    {
+      "id": "candidatura",
+      "termino": "Candidatura",
+      "alias": [
+        "lista electoral"
+      ],
+      "bloque": "elecciones",
+      "definicion": "Lista de candidatos que presentan un partido, una federación, una coalición o una agrupación de electores.",
+      "ejemplo": "Cada partido presenta una candidatura distinta en cada provincia.",
+      "modulo": "m3",
+      "relacionados": [
+        "lista-cerrada",
+        "proclamacion-de-candidaturas"
+      ],
+      "fuente_id": "boe-loreg",
+      "articulo": "LOREG, art. 45",
+      "etiqueta": "NORMA VIGENTE",
+      "disputado": false
+    },
+    {
+      "id": "lista-cerrada",
+      "termino": "Lista cerrada y bloqueada",
+      "alias": [
+        "lista cerrada",
+        "lista bloqueada"
+      ],
+      "bloque": "elecciones",
+      "definicion": "Lista en la que no se puede cambiar el orden ni tachar nombres. Los escaños van a los candidatos por su orden en la lista.",
+      "ejemplo": "Si una lista obtiene dos escaños, entran las dos primeras personas de la lista.",
+      "modulo": "m3",
+      "relacionados": [
+        "candidatura",
+        "papeleta"
+      ],
+      "fuente_id": "boe-loreg",
+      "articulo": "LOREG, arts. 96.2 y 163.1.e",
+      "etiqueta": "NORMA VIGENTE",
+      "disputado": false
+    },
+    {
+      "id": "papeleta",
+      "termino": "Papeleta",
+      "alias": [
+        "papeletas"
+      ],
+      "bloque": "elecciones",
+      "definicion": "Impreso con el que se vota. La del Congreso es blanca y la del Senado, sepia.",
+      "ejemplo": "En el Senado hay una sola papeleta con los candidatos de todas las formaciones.",
+      "modulo": "m3",
+      "relacionados": [
+        "lista-cerrada",
+        "voto-nulo"
+      ],
+      "fuente_id": "moncloa-guia-29n",
+      "articulo": "Guía de La Moncloa del 20-10-2026",
+      "etiqueta": "EXPLICACIÓN DIDÁCTICA",
+      "disputado": false
+    },
+    {
+      "id": "voto-valido",
+      "termino": "Voto válido",
+      "alias": [
+        "votos válidos"
+      ],
+      "bloque": "elecciones",
+      "definicion": "Voto emitido según la ley, a una candidatura o en blanco.",
+      "ejemplo": "Un sobre con la papeleta de un partido es un voto válido.",
+      "modulo": "m3",
+      "relacionados": [
+        "voto-en-blanco",
+        "voto-nulo",
+        "barrera-electoral"
+      ],
+      "fuente_id": "boe-loreg",
+      "articulo": "LOREG, art. 96",
+      "etiqueta": "NORMA VIGENTE",
+      "disputado": false
+    },
+    {
+      "id": "voto-en-blanco",
+      "termino": "Voto en blanco",
+      "alias": [
+        "en blanco"
+      ],
+      "bloque": "elecciones",
+      "definicion": "Sobre que no contiene papeleta y, en el Senado, también la papeleta sin ningún candidato marcado. Es un voto válido.",
+      "ejemplo": "Quien mete el sobre vacío en la urna vota en blanco.",
+      "modulo": "m3",
+      "relacionados": [
+        "voto-valido",
+        "voto-nulo"
+      ],
+      "fuente_id": "boe-loreg",
+      "articulo": "LOREG, art. 96.5",
+      "etiqueta": "NORMA VIGENTE",
+      "disputado": false
+    },
+    {
+      "id": "voto-nulo",
+      "termino": "Voto nulo",
+      "alias": [
+        "nulo"
+      ],
+      "bloque": "elecciones",
+      "definicion": "Voto que no es válido, por ejemplo una papeleta sin sobre, tachada o con algo escrito.",
+      "ejemplo": "Una papeleta del Senado con cuatro cruces en una provincia peninsular es un voto nulo.",
+      "modulo": "m3",
+      "relacionados": [
+        "voto-valido",
+        "voto-en-blanco"
+      ],
+      "fuente_id": "boe-loreg",
+      "articulo": "LOREG, art. 96",
+      "etiqueta": "NORMA VIGENTE",
+      "disputado": false
+    },
+    {
+      "id": "abstencion",
+      "termino": "Abstención",
+      "alias": [
+        "abstenerse"
+      ],
+      "bloque": "elecciones",
+      "definicion": "En unas elecciones, no ir a votar. En España votar no es obligatorio.",
+      "ejemplo": "Quien no vota el día de las elecciones ni ha votado por correo se abstiene.",
+      "modulo": "m3",
+      "relacionados": [
+        "voto-valido",
+        "censo-electoral"
+      ],
+      "fuente_id": "moncloa-guia-29n",
+      "articulo": "Guía de La Moncloa del 20-10-2026",
+      "etiqueta": "EXPLICACIÓN DIDÁCTICA",
+      "disputado": false
+    },
+    {
+      "id": "censo-electoral",
+      "termino": "Censo electoral",
+      "alias": [
+        "censo"
+      ],
+      "bloque": "elecciones",
+      "definicion": "Registro de las personas que pueden votar. Lo elabora la Oficina del Censo Electoral, que forma parte del INE.",
+      "ejemplo": "Para el 29 de noviembre de 2026 se usa el censo cerrado el 1 de agosto.",
+      "modulo": "m3",
+      "relacionados": [
+        "mesa-electoral",
+        "voto-por-correo"
+      ],
+      "fuente_id": "moncloa-guia-29n",
+      "articulo": "Guía de La Moncloa del 20-10-2026",
+      "etiqueta": "EXPLICACIÓN DIDÁCTICA",
+      "disputado": false
+    },
+    {
+      "id": "mesa-electoral",
+      "termino": "Mesa electoral",
+      "alias": [
+        "mesa"
+      ],
+      "bloque": "elecciones",
+      "definicion": "Un presidente y dos vocales, elegidos por sorteo, que dirigen la votación y cuentan los votos.",
+      "ejemplo": "Si te toca por sorteo, formar parte de una mesa es obligatorio.",
+      "modulo": "m3",
+      "relacionados": [
+        "escrutinio",
+        "junta-electoral-central"
+      ],
+      "fuente_id": "moncloa-guia-29n",
+      "articulo": "Guía de La Moncloa del 20-10-2026",
+      "etiqueta": "EXPLICACIÓN DIDÁCTICA",
+      "disputado": false
+    },
+    {
+      "id": "junta-electoral-central",
+      "termino": "Junta Electoral Central",
+      "alias": [
+        "JEC",
+        "Junta Electoral"
+      ],
+      "bloque": "elecciones",
+      "definicion": "Una de las juntas que forman la Administración Electoral, con las provinciales, las de zona y las mesas. Garantizan la transparencia y la objetividad del proceso.",
+      "ejemplo": "Las Juntas Electorales Provinciales hacen el escrutinio general de las elecciones generales.",
+      "modulo": "m3",
+      "relacionados": [
+        "mesa-electoral",
+        "escrutinio"
+      ],
+      "fuente_id": "moncloa-guia-29n",
+      "articulo": "Guía de La Moncloa del 20-10-2026",
+      "etiqueta": "EXPLICACIÓN DIDÁCTICA",
+      "disputado": false
+    },
+    {
+      "id": "campana-electoral",
+      "termino": "Campaña electoral",
+      "alias": [
+        "campaña"
+      ],
+      "bloque": "elecciones",
+      "definicion": "Periodo en que las candidaturas piden el voto. Dura quince días y acaba a las cero horas del día anterior a la votación.",
+      "ejemplo": "En el 29-N la campaña va del 13 al 27 de noviembre.",
+      "modulo": "m3",
+      "relacionados": [
+        "jornada-de-reflexion",
+        "convocatoria"
+      ],
+      "fuente_id": "boe-loreg",
+      "articulo": "LOREG, art. 51",
+      "etiqueta": "NORMA VIGENTE",
+      "disputado": false
+    },
+    {
+      "id": "jornada-de-reflexion",
+      "termino": "Jornada de reflexión",
+      "alias": [
+        "reflexión"
+      ],
+      "bloque": "elecciones",
+      "definicion": "Día anterior a la votación, en el que ya no hay campaña electoral.",
+      "ejemplo": "En el 29-N es el sábado 28 de noviembre.",
+      "modulo": "m3",
+      "relacionados": [
+        "campana-electoral"
+      ],
+      "fuente_id": "boe-loreg",
+      "articulo": "LOREG, art. 51.3",
+      "etiqueta": "NORMA VIGENTE",
+      "disputado": false
+    },
+    {
+      "id": "escrutinio",
+      "termino": "Escrutinio",
+      "alias": [
+        "recuento"
+      ],
+      "bloque": "elecciones",
+      "definicion": "Recuento de los votos. El provisional lo hace cada mesa al cerrar; el general, días después, la Junta Electoral Provincial.",
+      "ejemplo": "En el 29-N el escrutinio general es del 4 al 7 de diciembre.",
+      "modulo": "m3",
+      "relacionados": [
+        "mesa-electoral",
+        "junta-electoral-central"
+      ],
+      "fuente_id": "moncloa-guia-29n",
+      "articulo": "Guía de La Moncloa del 20-10-2026; LOREG, art. 103.1",
+      "etiqueta": "EXPLICACIÓN DIDÁCTICA",
+      "disputado": false
+    },
+    {
+      "id": "proclamacion-de-candidaturas",
+      "termino": "Proclamación de candidaturas",
+      "alias": [
+        "proclamación"
+      ],
+      "bloque": "elecciones",
+      "definicion": "Acto en que la Junta Electoral admite las candidaturas que cumplen los requisitos. Se hace el día 27 tras la convocatoria.",
+      "ejemplo": "Solo las candidaturas proclamadas aparecen en las papeletas.",
+      "modulo": "m3",
+      "relacionados": [
+        "candidatura",
+        "convocatoria"
+      ],
+      "fuente_id": "boe-loreg",
+      "articulo": "LOREG, art. 47",
+      "etiqueta": "NORMA VIGENTE",
+      "disputado": false
+    },
+    {
+      "id": "barrera-electoral",
+      "termino": "Barrera electoral",
+      "alias": [
+        "umbral electoral",
+        "barrera del 3 %"
+      ],
+      "bloque": "elecciones",
+      "definicion": "Porcentaje mínimo de votos válidos para entrar en el reparto de escaños. En el Congreso es el 3 % de cada circunscripción.",
+      "ejemplo": "Una candidatura con el 2 % de los votos válidos de su provincia no entra en el reparto.",
+      "modulo": "m3",
+      "relacionados": [
+        "metodo-dhondt",
+        "voto-valido"
+      ],
+      "fuente_id": "boe-loreg",
+      "articulo": "LOREG, art. 163.1.a",
+      "etiqueta": "NORMA VIGENTE",
+      "disputado": false
+    },
+    {
+      "id": "cociente",
+      "termino": "Cociente",
+      "alias": [
+        "cocientes"
+      ],
+      "bloque": "elecciones",
+      "definicion": "En el método D'Hondt, resultado de dividir los votos de una candidatura entre 1, 2, 3… Los cocientes mayores ganan escaño.",
+      "ejemplo": "Con 10.000 votos, los cocientes son 10.000, 5.000, 3.333 y así sucesivamente.",
+      "modulo": "m3",
+      "relacionados": [
+        "metodo-dhondt"
+      ],
+      "fuente_id": "boe-loreg",
+      "articulo": "LOREG, art. 163.1.c",
+      "etiqueta": "NORMA VIGENTE",
+      "disputado": false
+    },
+    {
+      "id": "representacion-proporcional",
+      "termino": "Representación proporcional",
+      "alias": [
+        "proporcionalidad"
+      ],
+      "bloque": "elecciones",
+      "definicion": "Reparto de escaños según los votos de cada candidatura. La Constitución la exige en cada circunscripción del Congreso.",
+      "ejemplo": "Con más votos, una candidatura suele obtener más escaños en su provincia.",
+      "modulo": "m3",
+      "relacionados": [
+        "metodo-dhondt",
+        "circunscripcion"
+      ],
+      "fuente_id": "boe-constitucion",
+      "articulo": "art. 68.3",
+      "etiqueta": "NORMA VIGENTE",
+      "disputado": false
+    },
+    {
+      "id": "voto-por-correo",
+      "termino": "Voto por correo",
+      "alias": [
+        "por correo"
+      ],
+      "bloque": "elecciones",
+      "definicion": "Forma de votar sin ir a la mesa. Se pide en Correos y se envía el voto antes de la fecha límite.",
+      "ejemplo": "Quien estará de viaje el día de la votación puede votar por correo.",
+      "modulo": "m3",
+      "relacionados": [
+        "censo-electoral"
+      ],
+      "fuente_id": "moncloa-voto-correo-29n",
+      "articulo": "Nota de La Moncloa del 20-10-2026",
+      "etiqueta": "EXPLICACIÓN DIDÁCTICA",
+      "disputado": false
+    },
+    {
+      "id": "elecciones-autonomicas",
+      "termino": "Elecciones autonómicas",
+      "alias": [
+        "autonómicas"
+      ],
+      "bloque": "elecciones",
+      "definicion": "Elecciones a la Asamblea Legislativa de una comunidad autónoma. La Asamblea elige después al Presidente de la comunidad.",
+      "ejemplo": "Votar al parlamento de una comunidad no cambia la composición del Congreso.",
+      "modulo": "m3",
+      "relacionados": [
+        "elecciones-generales"
+      ],
+      "fuente_id": "boe-constitucion",
+      "articulo": "art. 152.1",
+      "etiqueta": "NORMA VIGENTE",
+      "disputado": false
+    },
+    {
+      "id": "elecciones-municipales",
+      "termino": "Elecciones municipales",
+      "alias": [
+        "municipales"
+      ],
+      "bloque": "elecciones",
+      "definicion": "Elecciones de los concejales de cada municipio. Los concejales eligen después al alcalde.",
+      "ejemplo": "En un municipio de 80.000 residentes se eligen 25 concejales.",
+      "modulo": "m3",
+      "relacionados": [
+        "elecciones-generales"
+      ],
+      "fuente_id": "boe-loreg",
+      "articulo": "LOREG, arts. 179, 180 y 196",
+      "etiqueta": "NORMA VIGENTE",
+      "disputado": false
+    },
+    {
+      "id": "elecciones-europeas",
+      "termino": "Elecciones europeas",
+      "alias": [
+        "europeas"
+      ],
+      "bloque": "elecciones",
+      "definicion": "Elecciones al Parlamento Europeo. En España hay una sola circunscripción para todo el territorio.",
+      "ejemplo": "En 2024 se eligieron en España 61 de los 720 eurodiputados.",
+      "modulo": "m3",
+      "relacionados": [
+        "elecciones-generales"
+      ],
+      "fuente_id": "boe-loreg",
+      "articulo": "LOREG, art. 214",
+      "etiqueta": "NORMA VIGENTE",
+      "disputado": false
+    },
+    {
+      "id": "ley-organica",
+      "termino": "Ley orgánica",
+      "alias": [],
+      "bloque": "leyes-normas",
+      "definicion": "Ley sobre derechos fundamentales, Estatutos de Autonomía, régimen electoral general y otras materias previstas. Exige mayoría absoluta del Congreso en una votación final.",
+      "ejemplo": "La ley que regula las elecciones generales es una ley orgánica.",
+      "modulo": "m1",
+      "relacionados": [
+        "ley-ordinaria",
+        "mayoria-absoluta",
+        "derechos-fundamentales"
+      ],
+      "fuente_id": "boe-constitucion",
+      "articulo": "art. 81",
+      "etiqueta": "NORMA VIGENTE",
+      "disputado": false
+    },
+    {
+      "id": "ley-ordinaria",
+      "termino": "Ley ordinaria",
+      "alias": [],
+      "bloque": "leyes-normas",
+      "definicion": "Ley de las Cortes Generales sobre materias que no exigen ley orgánica. No necesita la mayoría absoluta del artículo 81.",
+      "ejemplo": "Muchas leyes sobre impuestos o tráfico son leyes ordinarias.",
+      "modulo": "m1",
+      "relacionados": [
+        "ley-organica"
+      ],
+      "fuente_id": "boe-constitucion",
+      "articulo": "arts. 66.2 y 81",
+      "etiqueta": "EXPLICACIÓN DIDÁCTICA",
+      "disputado": false
+    },
+    {
+      "id": "real-decreto-ley",
+      "termino": "Real decreto-ley",
+      "alias": [
+        "decreto ley",
+        "decreto-ley"
+      ],
+      "bloque": "leyes-normas",
+      "definicion": "Norma con rango de ley que dicta el Gobierno en caso de extraordinaria y urgente necesidad. El Congreso debe convalidarla o derogarla en treinta días.",
+      "ejemplo": "Ante una emergencia, el Gobierno puede aprobar una ayuda por real decreto-ley y después someterla al Congreso.",
+      "modulo": "m1",
+      "relacionados": [
+        "convalidacion",
+        "ley-ordinaria"
+      ],
+      "fuente_id": "boe-constitucion",
+      "articulo": "art. 86",
+      "etiqueta": "NORMA VIGENTE",
+      "disputado": false
+    },
+    {
+      "id": "real-decreto-legislativo",
+      "termino": "Real decreto legislativo",
+      "alias": [],
+      "bloque": "leyes-normas",
+      "definicion": "Norma con rango de ley que dicta el Gobierno por delegación expresa de las Cortes Generales, para una materia concreta y con plazo.",
+      "ejemplo": "Un texto refundido que reúne varias leyes dispersas suele aprobarse por real decreto legislativo.",
+      "modulo": "m1",
+      "relacionados": [
+        "real-decreto-ley",
+        "real-decreto"
+      ],
+      "fuente_id": "boe-constitucion",
+      "articulo": "art. 82; Ley 50/1997, art. 24.1",
+      "etiqueta": "NORMA VIGENTE",
+      "disputado": false
+    },
+    {
+      "id": "real-decreto",
+      "termino": "Real decreto",
+      "alias": [],
+      "bloque": "leyes-normas",
+      "definicion": "Forma de las normas reglamentarias que aprueba el Consejo de Ministros o el Presidente del Gobierno. Está por encima de la orden ministerial.",
+      "ejemplo": "El reglamento que detalla cómo se aplica una ley suele aprobarse por real decreto.",
+      "modulo": "m1",
+      "relacionados": [
+        "reglamento",
+        "orden-ministerial"
+      ],
+      "fuente_id": "boe-ley-gobierno",
+      "articulo": "Ley 50/1997, art. 24",
+      "etiqueta": "NORMA VIGENTE",
+      "disputado": false
+    },
+    {
+      "id": "orden-ministerial",
+      "termino": "Orden ministerial",
+      "alias": [],
+      "bloque": "leyes-normas",
+      "definicion": "Forma de las disposiciones y resoluciones de los ministros. Tiene un rango inferior al real decreto.",
+      "ejemplo": "Los modelos de un trámite concreto pueden aprobarse por orden ministerial.",
+      "modulo": "m1",
+      "relacionados": [
+        "real-decreto",
+        "reglamento"
+      ],
+      "fuente_id": "boe-ley-gobierno",
+      "articulo": "Ley 50/1997, art. 24",
+      "etiqueta": "NORMA VIGENTE",
+      "disputado": false
+    },
+    {
+      "id": "reglamento",
+      "termino": "Reglamento",
+      "alias": [],
+      "bloque": "leyes-normas",
+      "definicion": "Norma que aprueba el Gobierno con su potestad reglamentaria, de acuerdo con la Constitución y las leyes. Desarrolla o completa lo que fijan las leyes.",
+      "ejemplo": "Una ley crea una ayuda y un reglamento detalla cómo se solicita.",
+      "modulo": "m1",
+      "relacionados": [
+        "real-decreto",
+        "orden-ministerial",
+        "jerarquia-normativa"
+      ],
+      "fuente_id": "boe-constitucion",
+      "articulo": "art. 97; Ley 50/1997, art. 24.2",
+      "etiqueta": "NORMA VIGENTE",
+      "disputado": false
+    },
+    {
+      "id": "proyecto-de-ley",
+      "termino": "Proyecto de ley",
+      "alias": [],
+      "bloque": "leyes-normas",
+      "definicion": "Texto de ley que aprueba el Consejo de Ministros y envía al Congreso con una exposición de motivos.",
+      "ejemplo": "Cuando el Gobierno quiere cambiar una ley, aprueba un proyecto de ley y lo envía al Congreso.",
+      "modulo": "m2",
+      "relacionados": [
+        "proposicion-de-ley",
+        "consejo-de-ministros"
+      ],
+      "fuente_id": "boe-constitucion",
+      "articulo": "art. 88",
+      "etiqueta": "NORMA VIGENTE",
+      "disputado": false
+    },
+    {
+      "id": "proposicion-de-ley",
+      "termino": "Proposición de ley",
+      "alias": [],
+      "bloque": "leyes-normas",
+      "definicion": "Texto de ley que presentan el Congreso, el Senado, las Asambleas autonómicas o la ciudadanía con al menos 500.000 firmas.",
+      "ejemplo": "Una iniciativa ciudadana que reúne las firmas necesarias presenta una proposición de ley.",
+      "modulo": "m2",
+      "relacionados": [
+        "proyecto-de-ley"
+      ],
+      "fuente_id": "boe-constitucion",
+      "articulo": "arts. 87 y 89",
+      "etiqueta": "NORMA VIGENTE",
+      "disputado": false
+    },
+    {
+      "id": "enmienda",
+      "termino": "Enmienda",
+      "alias": [],
+      "bloque": "leyes-normas",
+      "definicion": "Propuesta de cambio, adición o sustitución en un texto que se está tramitando. El Senado puede introducir enmiendas a los proyectos que le llegan del Congreso.",
+      "ejemplo": "Un grupo propone cambiar un plazo de un artículo: presenta una enmienda.",
+      "modulo": "m2",
+      "relacionados": [
+        "tramitacion",
+        "veto"
+      ],
+      "fuente_id": "rae-enmienda",
+      "articulo": "Constitución, art. 90.2",
+      "etiqueta": "EXPLICACIÓN DIDÁCTICA",
+      "disputado": false
+    },
+    {
+      "id": "tramitacion",
+      "termino": "Tramitación",
+      "alias": [],
+      "bloque": "leyes-normas",
+      "definicion": "Conjunto de pasos que sigue un texto en las Cámaras hasta su aprobación: debate, enmiendas y votaciones.",
+      "ejemplo": "Un proyecto de ley puede tardar meses en completar su tramitación.",
+      "modulo": "m2",
+      "relacionados": [
+        "enmienda",
+        "proyecto-de-ley"
+      ],
+      "fuente_id": "boe-constitucion",
+      "articulo": "arts. 87 a 91",
+      "etiqueta": "EXPLICACIÓN DIDÁCTICA",
+      "disputado": false
+    },
+    {
+      "id": "sancion",
+      "termino": "Sanción de una ley",
+      "alias": [
+        "sanción"
+      ],
+      "bloque": "leyes-normas",
+      "definicion": "Acto del Rey sobre una ley ya aprobada por las Cortes Generales, en un plazo de quince días. Después la promulga y ordena publicarla.",
+      "ejemplo": "Una ley aprobada por las Cortes aún no se publica hasta su sanción y promulgación.",
+      "modulo": "m2",
+      "relacionados": [
+        "promulgacion",
+        "publicacion"
+      ],
+      "fuente_id": "boe-constitucion",
+      "articulo": "arts. 62.a y 91",
+      "etiqueta": "NORMA VIGENTE",
+      "disputado": false
+    },
+    {
+      "id": "promulgacion",
+      "termino": "Promulgación",
+      "alias": [],
+      "bloque": "leyes-normas",
+      "definicion": "Acto del Rey que sigue a la sanción de una ley y precede a su publicación.",
+      "ejemplo": "La sanción, la promulgación y la publicación son tres pasos distintos al final de una ley.",
+      "modulo": "m2",
+      "relacionados": [
+        "sancion",
+        "publicacion"
+      ],
+      "fuente_id": "boe-constitucion",
+      "articulo": "arts. 62.a y 91",
+      "etiqueta": "NORMA VIGENTE",
+      "disputado": false
+    },
+    {
+      "id": "publicacion",
+      "termino": "Publicación",
+      "alias": [],
+      "bloque": "leyes-normas",
+      "definicion": "Inserción de una norma en el diario oficial para que se conozca y pueda aplicarse. La Constitución garantiza la publicidad de las normas.",
+      "ejemplo": "Las leyes del Estado se publican en el BOE.",
+      "modulo": "m1",
+      "relacionados": [
+        "boe",
+        "entrada-en-vigor"
+      ],
+      "fuente_id": "boe-constitucion",
+      "articulo": "arts. 9.3 y 91",
+      "etiqueta": "NORMA VIGENTE",
+      "disputado": false
+    },
+    {
+      "id": "entrada-en-vigor",
+      "termino": "Entrada en vigor",
+      "alias": [],
+      "bloque": "leyes-normas",
+      "definicion": "Momento desde el que una norma se aplica. Si la ley no dice otra cosa, a los veinte días de su completa publicación en el BOE.",
+      "ejemplo": "Una ley publicada el día 1 que no dice nada sobre su vigencia empieza a aplicarse veinte días después.",
+      "modulo": "m1",
+      "relacionados": [
+        "publicacion",
+        "boe"
+      ],
+      "fuente_id": "boe-codigo-civil",
+      "articulo": "Código Civil, art. 2.1",
+      "etiqueta": "NORMA VIGENTE",
+      "disputado": false
+    },
+    {
+      "id": "convalidacion",
+      "termino": "Convalidación",
+      "alias": [],
+      "bloque": "leyes-normas",
+      "definicion": "Votación en la que el Congreso se pronuncia a favor de mantener un real decreto-ley. Debe hacerse en los treinta días siguientes a su promulgación.",
+      "ejemplo": "Si el Congreso no convalida un real decreto-ley, queda derogado.",
+      "modulo": "m1",
+      "relacionados": [
+        "real-decreto-ley"
+      ],
+      "fuente_id": "boe-constitucion",
+      "articulo": "art. 86.2",
+      "etiqueta": "NORMA VIGENTE",
+      "disputado": false
+    },
+    {
+      "id": "veto",
+      "termino": "Veto del Senado",
+      "alias": [
+        "veto"
+      ],
+      "bloque": "leyes-normas",
+      "definicion": "Oposición del Senado, aprobada por mayoría absoluta, a un proyecto que le envía el Congreso. El Congreso puede levantarlo.",
+      "ejemplo": "Tras un veto, el Congreso puede ratificar el texto por mayoría absoluta o, pasados dos meses, por mayoría simple.",
+      "modulo": "m2",
+      "relacionados": [
+        "senado",
+        "enmienda"
+      ],
+      "fuente_id": "boe-constitucion",
+      "articulo": "art. 90.2",
+      "etiqueta": "NORMA VIGENTE",
+      "disputado": false
+    },
+    {
+      "id": "derogacion",
+      "termino": "Derogación",
+      "alias": [],
+      "bloque": "leyes-normas",
+      "definicion": "Pérdida de vigencia de una norma por otra posterior. Las leyes solo se derogan por otras posteriores.",
+      "ejemplo": "Cuando una ley nueva sustituye a otra antigua, la antigua queda derogada.",
+      "modulo": "m1",
+      "relacionados": [
+        "entrada-en-vigor",
+        "jerarquia-normativa"
+      ],
+      "fuente_id": "boe-codigo-civil",
+      "articulo": "Código Civil, art. 2.2",
+      "etiqueta": "NORMA VIGENTE",
+      "disputado": false
+    },
+    {
+      "id": "jerarquia-normativa",
+      "termino": "Jerarquía normativa",
+      "alias": [],
+      "bloque": "leyes-normas",
+      "definicion": "Orden de rango entre normas. Una norma no es válida si contradice otra de rango superior.",
+      "ejemplo": "Una orden ministerial no puede contradecir una ley.",
+      "modulo": "m1",
+      "relacionados": [
+        "constitucion",
+        "reglamento",
+        "derogacion"
+      ],
+      "fuente_id": "boe-constitucion",
+      "articulo": "Constitución, art. 9.3; Código Civil, art. 1.2",
+      "etiqueta": "NORMA VIGENTE",
+      "disputado": false
+    },
+    {
+      "id": "recurso-de-inconstitucionalidad",
+      "termino": "Recurso de inconstitucionalidad",
+      "alias": [],
+      "bloque": "leyes-normas",
+      "definicion": "Recurso ante el Tribunal Constitucional contra leyes y normas con fuerza de ley que pueden ser contrarias a la Constitución.",
+      "ejemplo": "Un gobierno autonómico que considera inconstitucional una ley estatal puede recurrirla.",
+      "modulo": "m2",
+      "relacionados": [
+        "tribunal-constitucional",
+        "cuestion-de-inconstitucionalidad"
+      ],
+      "fuente_id": "boe-constitucion",
+      "articulo": "art. 161.1.a",
+      "etiqueta": "NORMA VIGENTE",
+      "disputado": false
+    },
+    {
+      "id": "recurso-de-amparo",
+      "termino": "Recurso de amparo",
+      "alias": [
+        "amparo"
+      ],
+      "bloque": "leyes-normas",
+      "definicion": "Recurso ante el Tribunal Constitucional para proteger la igualdad, los derechos fundamentales y la objeción de conciencia.",
+      "ejemplo": "Quien considera vulnerado su derecho de reunión puede llegar, tras los tribunales, al recurso de amparo.",
+      "modulo": "m2",
+      "relacionados": [
+        "tribunal-constitucional",
+        "derechos-fundamentales"
+      ],
+      "fuente_id": "boe-constitucion",
+      "articulo": "arts. 53.2 y 161.1.b",
+      "etiqueta": "NORMA VIGENTE",
+      "disputado": false
+    },
+    {
+      "id": "cuestion-de-inconstitucionalidad",
+      "termino": "Cuestión de inconstitucionalidad",
+      "alias": [],
+      "bloque": "leyes-normas",
+      "definicion": "Consulta que un juez plantea al Tribunal Constitucional cuando duda de que una ley aplicable al caso respete la Constitución.",
+      "ejemplo": "Un juez que debe aplicar una ley dudosa no la deja de lado: plantea la cuestión al Tribunal Constitucional.",
+      "modulo": "m2",
+      "relacionados": [
+        "tribunal-constitucional",
+        "recurso-de-inconstitucionalidad"
+      ],
+      "fuente_id": "boe-constitucion",
+      "articulo": "art. 163",
+      "etiqueta": "NORMA VIGENTE",
+      "disputado": false
+    },
+    {
+      "id": "eje-izquierda-derecha",
+      "termino": "Eje izquierda-derecha",
+      "alias": [
+        "izquierda",
+        "derecha"
+      ],
+      "bloque": "ideologias",
+      "definicion": "Convención para ordenar posiciones políticas en una línea. En las asambleas parlamentarias, el diccionario llama derecha a los partidos conservadores e izquierda a los no conservadores ni centristas.",
+      "ejemplo": "Un mismo partido puede situarse a la izquierda en economía y en otra posición en cuestiones territoriales.",
+      "modulo": "m1",
+      "relacionados": [
+        "liberalismo",
+        "conservadurismo",
+        "socialdemocracia"
+      ],
+      "fuente_id": "rae-izquierdo",
+      "articulo": "RAE, entradas «izquierdo» y «derecho»",
+      "etiqueta": "EXPLICACIÓN DIDÁCTICA",
+      "disputado": true,
+      "atribucion": "Diccionario de la lengua española (RAE-ASALE), entradas «izquierdo» y «derecho», consulta del 29-10-2026. Es una simplificación y se usa con sentidos distintos según quien la emplea."
+    },
+    {
+      "id": "liberalismo",
+      "termino": "Liberalismo",
+      "alias": [],
+      "bloque": "ideologias",
+      "definicion": "Doctrina política que defiende la libertad individual y social y la iniciativa privada, limitando la intervención del Estado.",
+      "ejemplo": "Pedir menos trámites públicos para abrir un negocio es un argumento propio del liberalismo económico.",
+      "modulo": "m1",
+      "relacionados": [
+        "conservadurismo",
+        "socialdemocracia"
+      ],
+      "fuente_id": "rae-liberalismo",
+      "articulo": "RAE, entrada «liberalismo»",
+      "etiqueta": "EXPLICACIÓN DIDÁCTICA",
+      "disputado": false
+    },
+    {
+      "id": "conservadurismo",
+      "termino": "Conservadurismo",
+      "alias": [],
+      "bloque": "ideologias",
+      "definicion": "Tendencia a conservar valores y principios establecidos. En política, actitud conservadora.",
+      "ejemplo": "Defender que una institución tradicional se mantenga sin cambios es una posición conservadora.",
+      "modulo": "m1",
+      "relacionados": [
+        "liberalismo",
+        "democracia-cristiana"
+      ],
+      "fuente_id": "rae-conservadurismo",
+      "articulo": "RAE, entrada «conservadurismo»",
+      "etiqueta": "EXPLICACIÓN DIDÁCTICA",
+      "disputado": false
+    },
+    {
+      "id": "socialdemocracia",
+      "termino": "Socialdemocracia",
+      "alias": [],
+      "bloque": "ideologias",
+      "definicion": "Movimiento político que propugna un socialismo democrático y reformista.",
+      "ejemplo": "Defender cambios graduales mediante leyes, y no rupturas, encaja con el carácter reformista de esta familia.",
+      "modulo": "m1",
+      "relacionados": [
+        "liberalismo",
+        "eje-izquierda-derecha"
+      ],
+      "fuente_id": "rae-socialdemocracia",
+      "articulo": "RAE, entrada «socialdemocracia»",
+      "etiqueta": "EXPLICACIÓN DIDÁCTICA",
+      "disputado": false
+    },
+    {
+      "id": "democracia-cristiana",
+      "termino": "Democracia cristiana",
+      "alias": [],
+      "bloque": "ideologias",
+      "definicion": "Movimiento político que une los principios democráticos con algunos postulados del pensamiento social cristiano.",
+      "ejemplo": "Inspirarse en el pensamiento social cristiano para proponer políticas, dentro de las reglas democráticas, es el rasgo de esta familia.",
+      "modulo": "m1",
+      "relacionados": [
+        "conservadurismo"
+      ],
+      "fuente_id": "rae-democracia",
+      "articulo": "RAE, entrada «democracia», locución «democracia cristiana»",
+      "etiqueta": "EXPLICACIÓN DIDÁCTICA",
+      "disputado": false
+    },
+    {
+      "id": "ecologismo",
+      "termino": "Ecologismo",
+      "alias": [],
+      "bloque": "ideologias",
+      "definicion": "Doctrina que defiende la naturaleza y la preservación del medio ambiente, y movimiento sociopolítico que la promueve.",
+      "ejemplo": "Pedir que se proteja un espacio natural frente a una construcción es una reivindicación ecologista.",
+      "modulo": "m1",
+      "relacionados": [
+        "eje-izquierda-derecha"
+      ],
+      "fuente_id": "rae-ecologismo",
+      "articulo": "RAE, entrada «ecologismo»",
+      "etiqueta": "EXPLICACIÓN DIDÁCTICA",
+      "disputado": false
+    },
+    {
+      "id": "nacionalismo",
+      "termino": "Nacionalismo",
+      "alias": [],
+      "bloque": "ideologias",
+      "definicion": "Sentimiento de pertenencia a una nación. También, ideología de un pueblo que, afirmándose como nación, aspira a constituirse como Estado.",
+      "ejemplo": "La palabra se aplica a movimientos muy distintos: conviene comprobar en qué sentido la usa cada fuente.",
+      "modulo": "m1",
+      "relacionados": [
+        "federalismo",
+        "independentismo"
+      ],
+      "fuente_id": "rae-nacionalismo",
+      "articulo": "RAE, entrada «nacionalismo»",
+      "etiqueta": "EXPLICACIÓN DIDÁCTICA",
+      "disputado": true,
+      "atribucion": "Diccionario de la lengua española (RAE-ASALE), entrada «nacionalismo», consulta del 29-10-2026. El término se usa con sentidos distintos según quien lo emplea."
+    },
+    {
+      "id": "federalismo",
+      "termino": "Federalismo",
+      "alias": [],
+      "bloque": "ideologias",
+      "definicion": "Sistema de organización federal de un Estado y corriente política que defiende los principios de la federación.",
+      "ejemplo": "Proponer que los territorios y el Estado compartan el poder según reglas federales es una posición federalista.",
+      "modulo": "m1",
+      "relacionados": [
+        "nacionalismo",
+        "independentismo"
+      ],
+      "fuente_id": "rae-federalismo",
+      "articulo": "RAE, entrada «federalismo»",
+      "etiqueta": "EXPLICACIÓN DIDÁCTICA",
+      "disputado": false
+    },
+    {
+      "id": "independentismo",
+      "termino": "Independentismo",
+      "alias": [],
+      "bloque": "ideologias",
+      "definicion": "Movimiento que reclama la independencia de un territorio respecto del Estado al que pertenece.",
+      "ejemplo": "Un movimiento que pide que su territorio se convierta en un Estado propio es independentista.",
+      "modulo": "m1",
+      "relacionados": [
+        "nacionalismo",
+        "federalismo"
+      ],
+      "fuente_id": "rae-independentismo",
+      "articulo": "RAE, entrada «independentismo»",
+      "etiqueta": "EXPLICACIÓN DIDÁCTICA",
+      "disputado": false
+    },
+    {
+      "id": "comunidad-autonoma",
+      "termino": "Comunidad autónoma",
+      "alias": [
+        "comunidades autónomas",
+        "autonomía"
+      ],
+      "bloque": "territorio-ue",
+      "definicion": "Territorio con autonomía política y con Parlamento y Gobierno propios. Hay 17, y Ceuta y Melilla son ciudades autónomas.",
+      "ejemplo": "Andalucía y la Comunitat Valenciana son comunidades autónomas.",
+      "modulo": "m4",
+      "relacionados": [
+        "estatuto-de-autonomia",
+        "competencia-exclusiva"
+      ],
+      "fuente_id": "mpt-estatutos",
+      "articulo": "Ministerio de Política Territorial, Estatutos vigentes",
+      "etiqueta": "EXPLICACIÓN DIDÁCTICA",
+      "disputado": false
+    },
+    {
+      "id": "estatuto-de-autonomia",
+      "termino": "Estatuto de Autonomía",
+      "alias": [
+        "Estatuto"
+      ],
+      "bloque": "territorio-ue",
+      "definicion": "Norma institucional básica de cada comunidad autónoma. Fija sus instituciones y sus competencias.",
+      "ejemplo": "Para saber qué gestiona una comunidad hay que leer su Estatuto.",
+      "modulo": "m4",
+      "relacionados": [
+        "comunidad-autonoma"
+      ],
+      "fuente_id": "boe-constitucion",
+      "articulo": "art. 147.1",
+      "etiqueta": "NORMA VIGENTE",
+      "disputado": false
+    },
+    {
+      "id": "competencia-exclusiva",
+      "termino": "Competencia exclusiva",
+      "alias": [
+        "competencias exclusivas"
+      ],
+      "bloque": "territorio-ue",
+      "definicion": "Materia que corresponde a un solo nivel de gobierno. La Constitución enumera las del Estado en el artículo 149.1.",
+      "ejemplo": "La defensa y las Fuerzas Armadas son competencia exclusiva del Estado.",
+      "modulo": "m4",
+      "relacionados": [
+        "competencia-compartida",
+        "normativa-basica"
+      ],
+      "fuente_id": "boe-constitucion",
+      "articulo": "art. 149.1",
+      "etiqueta": "NORMA VIGENTE",
+      "disputado": false
+    },
+    {
+      "id": "competencia-compartida",
+      "termino": "Competencia compartida",
+      "alias": [
+        "competencias compartidas"
+      ],
+      "bloque": "territorio-ue",
+      "definicion": "Materia en la que pueden legislar la Unión Europea y los Estados. Los Estados la ejercen en la medida en que la Unión no lo haya hecho.",
+      "ejemplo": "El medio ambiente es una competencia compartida entre la Unión y los Estados.",
+      "modulo": "m4",
+      "relacionados": [
+        "competencia-exclusiva",
+        "directiva"
+      ],
+      "fuente_id": "eurlex-tfue",
+      "articulo": "TFUE, arts. 2.2 y 4",
+      "etiqueta": "NORMA VIGENTE",
+      "disputado": false
+    },
+    {
+      "id": "normativa-basica",
+      "termino": "Normativa básica",
+      "alias": [
+        "legislación básica",
+        "bases"
+      ],
+      "bloque": "territorio-ue",
+      "definicion": "Mínimo común que fija el Estado y que las comunidades autónomas pueden desarrollar. Ocurre, por ejemplo, en sanidad y en medio ambiente.",
+      "ejemplo": "El Estado fija las bases de la sanidad y cada comunidad organiza sus hospitales.",
+      "modulo": "m4",
+      "relacionados": [
+        "competencia-exclusiva",
+        "comunidad-autonoma"
+      ],
+      "fuente_id": "boe-constitucion",
+      "articulo": "art. 149.1.16.ª y 23.ª",
+      "etiqueta": "NORMA VIGENTE",
+      "disputado": false
+    },
+    {
+      "id": "diputacion-provincial",
+      "termino": "Diputación provincial",
+      "alias": [
+        "diputación"
+      ],
+      "bloque": "territorio-ue",
+      "definicion": "Gobierno y administración de la provincia. Coordina servicios municipales y ayuda a los municipios pequeños.",
+      "ejemplo": "En los municipios de menos de 1.000 habitantes la diputación garantiza los servicios de secretaría.",
+      "modulo": "m4",
+      "relacionados": [
+        "comunidad-autonoma"
+      ],
+      "fuente_id": "boe-lbrl",
+      "articulo": "Constitución, art. 141.2; Ley 7/1985, art. 36",
+      "etiqueta": "NORMA VIGENTE",
+      "disputado": false
+    },
+    {
+      "id": "directiva",
+      "termino": "Directiva europea",
+      "alias": [
+        "directiva",
+        "directivas"
+      ],
+      "bloque": "territorio-ue",
+      "definicion": "Norma de la Unión que obliga a conseguir un resultado y deja a cada Estado la forma y los medios.",
+      "ejemplo": "Una directiva fija un objetivo y cada país aprueba después su propia ley para cumplirlo.",
+      "modulo": "m4",
+      "relacionados": [
+        "reglamento-europeo",
+        "trasposicion"
+      ],
+      "fuente_id": "eurlex-tfue",
+      "articulo": "TFUE, art. 288",
+      "etiqueta": "NORMA VIGENTE",
+      "disputado": false
+    },
+    {
+      "id": "reglamento-europeo",
+      "termino": "Reglamento europeo",
+      "alias": [
+        "reglamento de la Unión"
+      ],
+      "bloque": "territorio-ue",
+      "definicion": "Norma de la Unión obligatoria en todos sus elementos y directamente aplicable en cada Estado.",
+      "ejemplo": "Un reglamento europeo se aplica en España sin necesidad de una ley española.",
+      "modulo": "m4",
+      "relacionados": [
+        "directiva"
+      ],
+      "fuente_id": "eurlex-tfue",
+      "articulo": "TFUE, art. 288",
+      "etiqueta": "NORMA VIGENTE",
+      "disputado": false
+    },
+    {
+      "id": "trasposicion",
+      "termino": "Trasposición",
+      "alias": [
+        "transposición"
+      ],
+      "bloque": "territorio-ue",
+      "definicion": "Incorporación de una directiva al Derecho de cada Estado mediante sus propias normas.",
+      "ejemplo": "España traspone una directiva cuando aprueba la ley que la desarrolla.",
+      "modulo": "m4",
+      "relacionados": [
+        "directiva"
+      ],
+      "fuente_id": "eurlex-tfue",
+      "articulo": "TFUE, art. 288",
+      "etiqueta": "EXPLICACIÓN DIDÁCTICA",
+      "disputado": false
+    },
+    {
+      "id": "comision-europea",
+      "termino": "Comisión Europea",
+      "alias": [
+        "Comisión"
+      ],
+      "bloque": "territorio-ue",
+      "definicion": "Promueve el interés general de la Unión y toma las iniciativas. Vela por que se apliquen los Tratados y ejecuta el presupuesto.",
+      "ejemplo": "La Comisión propone una norma y después la debaten el Parlamento y el Consejo.",
+      "modulo": "m4",
+      "relacionados": [
+        "parlamento-europeo",
+        "consejo-ue"
+      ],
+      "fuente_id": "eurlex-tue",
+      "articulo": "TUE, art. 17",
+      "etiqueta": "NORMA VIGENTE",
+      "disputado": false
+    },
+    {
+      "id": "consejo-europeo",
+      "termino": "Consejo Europeo",
+      "alias": [],
+      "bloque": "territorio-ue",
+      "definicion": "Reúne a los jefes de Estado o de Gobierno. Marca las orientaciones políticas de la Unión y no legisla.",
+      "ejemplo": "Las cumbres de jefes de Gobierno de la Unión son reuniones del Consejo Europeo.",
+      "modulo": "m4",
+      "relacionados": [
+        "consejo-ue"
+      ],
+      "fuente_id": "eurlex-tue",
+      "articulo": "TUE, art. 15",
+      "etiqueta": "NORMA VIGENTE",
+      "disputado": false
+    },
+    {
+      "id": "consejo-ue",
+      "termino": "Consejo de la Unión Europea",
+      "alias": [
+        "Consejo de la UE",
+        "Consejo de Ministros de la UE"
+      ],
+      "bloque": "territorio-ue",
+      "definicion": "Reúne a un representante de rango ministerial de cada Estado. Legisla y aprueba el presupuesto junto con el Parlamento Europeo.",
+      "ejemplo": "Los ministros de Agricultura de la Unión se reúnen en el Consejo para votar normas agrarias.",
+      "modulo": "m4",
+      "relacionados": [
+        "consejo-europeo",
+        "parlamento-europeo"
+      ],
+      "fuente_id": "eurlex-tue",
+      "articulo": "TUE, art. 16",
+      "etiqueta": "NORMA VIGENTE",
+      "disputado": false
+    },
+    {
+      "id": "parlamento-europeo",
+      "termino": "Parlamento Europeo",
+      "alias": [
+        "Eurocámara"
+      ],
+      "bloque": "territorio-ue",
+      "definicion": "Representa a los ciudadanos de la Unión. Legisla y aprueba el presupuesto con el Consejo, y elige al Presidente de la Comisión.",
+      "ejemplo": "Los eurodiputados elegidos en España forman parte del Parlamento Europeo.",
+      "modulo": "m4",
+      "relacionados": [
+        "consejo-ue",
+        "comision-europea",
+        "elecciones-europeas"
+      ],
+      "fuente_id": "eurlex-tue",
+      "articulo": "TUE, art. 14",
+      "etiqueta": "NORMA VIGENTE",
+      "disputado": false
+    },
+    {
+      "id": "bce",
+      "termino": "Banco Central Europeo",
+      "alias": [
+        "BCE"
+      ],
+      "bloque": "territorio-ue",
+      "definicion": "Con los bancos centrales de los países del euro forma el Eurosistema, que dirige la política monetaria. Su objetivo principal es la estabilidad de precios.",
+      "ejemplo": "Cuando el BCE sube sus tipos de interés, pedir prestado suele salir más caro.",
+      "modulo": "m4",
+      "relacionados": [
+        "tipos-bce",
+        "euribor"
+      ],
+      "fuente_id": "eurlex-tfue",
+      "articulo": "TFUE, arts. 127 y 282",
+      "etiqueta": "NORMA VIGENTE",
+      "disputado": false
+    },
+    {
+      "id": "tributos-cedidos",
+      "termino": "Tributos cedidos",
+      "alias": [
+        "impuestos cedidos"
+      ],
+      "bloque": "territorio-ue",
+      "definicion": "Impuestos del Estado cuyo rendimiento se cede, total o parcialmente, a las comunidades autónomas.",
+      "ejemplo": "Parte de lo que se paga de IRPF va a la comunidad autónoma de residencia.",
+      "modulo": "m4",
+      "relacionados": [
+        "irpf",
+        "concierto-convenio"
+      ],
+      "fuente_id": "boe-lofca",
+      "articulo": "Constitución, art. 157.1; LOFCA, art. 11",
+      "etiqueta": "NORMA VIGENTE",
+      "disputado": false
+    },
+    {
+      "id": "concierto-convenio",
+      "termino": "Concierto y Convenio económicos",
+      "alias": [
+        "concierto económico",
+        "convenio económico",
+        "régimen foral"
+      ],
+      "bloque": "territorio-ue",
+      "definicion": "Sistemas forales con los que el País Vasco (Concierto) y Navarra (Convenio) regulan su actividad tributaria.",
+      "ejemplo": "En Navarra, el sistema tradicional del Convenio Económico regula su actividad financiera y tributaria.",
+      "modulo": "m4",
+      "relacionados": [
+        "tributos-cedidos"
+      ],
+      "fuente_id": "boe-lofca",
+      "articulo": "LOFCA, disposiciones adicionales primera y segunda",
+      "etiqueta": "NORMA VIGENTE",
+      "disputado": false
+    },
+    {
+      "id": "pib",
+      "termino": "Producto interior bruto",
+      "alias": [
+        "PIB"
+      ],
+      "bloque": "economia",
+      "definicion": "Valor de los bienes y servicios finales que produce una economía en un periodo. El INE lo da a precios corrientes y en volumen.",
+      "ejemplo": "Si el PIB crece un 0,6 % en un trimestre, la economía ha producido un 0,6 % más que en el trimestre anterior.",
+      "modulo": "m5",
+      "relacionados": [
+        "presion-fiscal",
+        "deuda-publica"
+      ],
+      "fuente_id": "ine-cntr",
+      "articulo": "INE, Contabilidad Nacional Trimestral",
+      "etiqueta": "EXPLICACIÓN DIDÁCTICA",
+      "disputado": false
+    },
+    {
+      "id": "ipc",
+      "termino": "Índice de precios de consumo",
+      "alias": [
+        "IPC",
+        "inflación"
+      ],
+      "bloque": "economia",
+      "definicion": "Medida de la evolución de los precios de los bienes y servicios que consume la población residente en viviendas familiares.",
+      "ejemplo": "Si el IPC anual es del 3 %, la cesta cuesta un 3 % más que hace un año.",
+      "modulo": "m5",
+      "relacionados": [
+        "inflacion-subyacente"
+      ],
+      "fuente_id": "ine-ipc",
+      "articulo": "INE, Índice de Precios de Consumo",
+      "etiqueta": "EXPLICACIÓN DIDÁCTICA",
+      "disputado": false
+    },
+    {
+      "id": "inflacion-subyacente",
+      "termino": "Inflación subyacente",
+      "alias": [
+        "subyacente"
+      ],
+      "bloque": "economia",
+      "definicion": "Variación de los precios sin los alimentos no elaborados ni los productos energéticos.",
+      "ejemplo": "Si sube mucho el petróleo, la inflación general puede subir más que la subyacente.",
+      "modulo": "m5",
+      "relacionados": [
+        "ipc"
+      ],
+      "fuente_id": "ine-ipc",
+      "articulo": "INE, Índice de Precios de Consumo",
+      "etiqueta": "EXPLICACIÓN DIDÁCTICA",
+      "disputado": false
+    },
+    {
+      "id": "tasa-de-paro",
+      "termino": "Tasa de paro",
+      "alias": [
+        "paro",
+        "tasa de desempleo"
+      ],
+      "bloque": "economia",
+      "definicion": "Porcentaje de personas paradas sobre la población activa. En España la publica el INE con la Encuesta de Población Activa.",
+      "ejemplo": "Con 100 personas activas y 10 paradas, la tasa de paro es del 10 %.",
+      "modulo": "m5",
+      "relacionados": [
+        "paro-registrado",
+        "afiliacion"
+      ],
+      "fuente_id": "ine-epa",
+      "articulo": "INE, Encuesta de Población Activa",
+      "etiqueta": "EXPLICACIÓN DIDÁCTICA",
+      "disputado": false
+    },
+    {
+      "id": "paro-registrado",
+      "termino": "Paro registrado",
+      "alias": [],
+      "bloque": "economia",
+      "definicion": "Personas inscritas como paradas en las oficinas de empleo el último día del mes. No es lo mismo que el paro de la Encuesta de Población Activa.",
+      "ejemplo": "Una persona puede buscar empleo sin inscribirse en una oficina de empleo.",
+      "modulo": "m5",
+      "relacionados": [
+        "tasa-de-paro"
+      ],
+      "fuente_id": "mites-paro-2026-10",
+      "articulo": "Ministerio de Trabajo y Economía Social",
+      "etiqueta": "EXPLICACIÓN DIDÁCTICA",
+      "disputado": false
+    },
+    {
+      "id": "afiliacion",
+      "termino": "Afiliación a la Seguridad Social",
+      "alias": [
+        "afiliados"
+      ],
+      "bloque": "economia",
+      "definicion": "Personas dadas de alta en la Seguridad Social. Se publica la media de afiliados de cada mes.",
+      "ejemplo": "Una persona con dos empleos puede contar dos veces en la afiliación.",
+      "modulo": "m5",
+      "relacionados": [
+        "tasa-de-paro"
+      ],
+      "fuente_id": "inclusion-afiliacion-2026-10",
+      "articulo": "Ministerio de Inclusión, Seguridad Social y Migraciones",
+      "etiqueta": "EXPLICACIÓN DIDÁCTICA",
+      "disputado": false
+    },
+    {
+      "id": "smi",
+      "termino": "Salario mínimo interprofesional",
+      "alias": [
+        "SMI",
+        "salario mínimo"
+      ],
+      "bloque": "economia",
+      "definicion": "Salario mínimo legal que fija el Gobierno por real decreto. En 2026 es de 1.221 euros al mes.",
+      "ejemplo": "Al comparar salarios mínimos, mira si son mensuales o anuales y cuántas pagas hay.",
+      "modulo": "m5",
+      "relacionados": [
+        "mediana"
+      ],
+      "fuente_id": "boe-smi-2026",
+      "articulo": "Real Decreto 126/2026, art. 1",
+      "etiqueta": "NORMA VIGENTE",
+      "disputado": false
+    },
+    {
+      "id": "deficit-publico",
+      "termino": "Déficit público",
+      "alias": [
+        "déficit"
+      ],
+      "bloque": "economia",
+      "definicion": "Diferencia entre gastos e ingresos de las Administraciones Públicas en un año, cuando los gastos son mayores. Es un flujo anual.",
+      "ejemplo": "Con un déficit cada año, la deuda acumulada sigue creciendo.",
+      "modulo": "m5",
+      "relacionados": [
+        "deuda-publica",
+        "presupuestos-generales"
+      ],
+      "fuente_id": "hacienda-deficit-2025",
+      "articulo": "Ministerio de Hacienda",
+      "etiqueta": "EXPLICACIÓN DIDÁCTICA",
+      "disputado": false
+    },
+    {
+      "id": "deuda-publica",
+      "termino": "Deuda pública",
+      "alias": [
+        "deuda"
+      ],
+      "bloque": "economia",
+      "definicion": "Lo que deben, en total y acumulado, las Administraciones Públicas. En la Unión se mide según el Protocolo de Déficit Excesivo.",
+      "ejemplo": "La deuda puede subir en euros y a la vez bajar como porcentaje del PIB si el PIB crece más.",
+      "modulo": "m5",
+      "relacionados": [
+        "deficit-publico",
+        "pib"
+      ],
+      "fuente_id": "bde-deuda-2026-08",
+      "articulo": "Banco de España",
+      "etiqueta": "EXPLICACIÓN DIDÁCTICA",
+      "disputado": false
+    },
+    {
+      "id": "presion-fiscal",
+      "termino": "Presión fiscal",
+      "alias": [
+        "ratio impuestos-PIB"
+      ],
+      "bloque": "economia",
+      "definicion": "Impuestos y cotizaciones sociales netas como porcentaje del PIB. Su definición varía según la fuente.",
+      "ejemplo": "Compara la presión fiscal de dos países con la misma fuente, por ejemplo Eurostat.",
+      "modulo": "m5",
+      "relacionados": [
+        "pib"
+      ],
+      "fuente_id": "eurostat-presion-fiscal-2025",
+      "articulo": "Eurostat",
+      "etiqueta": "EXPLICACIÓN DIDÁCTICA",
+      "disputado": false
+    },
+    {
+      "id": "arope",
+      "termino": "Tasa AROPE",
+      "alias": [
+        "AROPE",
+        "riesgo de pobreza o exclusión social"
+      ],
+      "bloque": "economia",
+      "definicion": "Porcentaje de la población en riesgo de pobreza o exclusión social. En España la publica el INE con la Encuesta de Condiciones de Vida.",
+      "ejemplo": "La AROPE combina varios criterios, así que no es lo mismo que la tasa de riesgo de pobreza.",
+      "modulo": "m5",
+      "relacionados": [
+        "mediana"
+      ],
+      "fuente_id": "ine-ecv",
+      "articulo": "INE, Encuesta de Condiciones de Vida",
+      "etiqueta": "EXPLICACIÓN DIDÁCTICA",
+      "disputado": false
+    },
+    {
+      "id": "euribor",
+      "termino": "Euríbor",
+      "alias": [],
+      "bloque": "economia",
+      "definicion": "Índice que sirve de referencia principal para el tipo de muchas hipotecas. No es uno de los tipos oficiales que fija el BCE.",
+      "ejemplo": "Si el euríbor sube, la cuota de una hipoteca variable suele subir en la siguiente revisión.",
+      "modulo": "m5",
+      "relacionados": [
+        "tipos-bce",
+        "bce"
+      ],
+      "fuente_id": "bde-euribor-2026-10",
+      "articulo": "Banco de España; BCE, tipos oficiales",
+      "etiqueta": "EXPLICACIÓN DIDÁCTICA",
+      "disputado": false
+    },
+    {
+      "id": "tipos-bce",
+      "termino": "Tipos de interés oficiales del BCE",
+      "alias": [
+        "tipos de interés",
+        "tipo de depósito"
+      ],
+      "bloque": "economia",
+      "definicion": "Tipos que fija el Consejo de Gobierno del BCE para la zona del euro, como el de la facilidad de depósito.",
+      "ejemplo": "Un cambio de los tipos oficiales influye en lo que cuesta pedir dinero prestado.",
+      "modulo": "m5",
+      "relacionados": [
+        "bce",
+        "euribor"
+      ],
+      "fuente_id": "bce-tipos",
+      "articulo": "Banco Central Europeo",
+      "etiqueta": "EXPLICACIÓN DIDÁCTICA",
+      "disputado": false
+    },
+    {
+      "id": "presupuestos-generales",
+      "termino": "Presupuestos Generales del Estado",
+      "alias": [
+        "PGE",
+        "Presupuestos"
+      ],
+      "bloque": "economia",
+      "definicion": "Ley anual con los gastos e ingresos del sector público estatal. La elabora el Gobierno y la aprueban las Cortes.",
+      "ejemplo": "Una subida de las becas estatales suele aparecer en la ley de Presupuestos.",
+      "modulo": "m5",
+      "relacionados": [
+        "presupuesto-prorrogado",
+        "deficit-publico"
+      ],
+      "fuente_id": "boe-constitucion",
+      "articulo": "art. 134",
+      "etiqueta": "NORMA VIGENTE",
+      "disputado": false
+    },
+    {
+      "id": "presupuesto-prorrogado",
+      "termino": "Presupuesto prorrogado",
+      "alias": [
+        "Presupuestos prorrogados"
+      ],
+      "bloque": "economia",
+      "definicion": "Si la ley de Presupuestos no se aprueba antes del 1 de enero, siguen vigentes los del año anterior hasta que haya nuevos.",
+      "ejemplo": "Un Gobierno sin Presupuestos aprobados trabaja con los del año anterior.",
+      "modulo": "m5",
+      "relacionados": [
+        "presupuestos-generales"
+      ],
+      "fuente_id": "boe-constitucion",
+      "articulo": "art. 134.4",
+      "etiqueta": "NORMA VIGENTE",
+      "disputado": false
+    },
+    {
+      "id": "irpf",
+      "termino": "IRPF",
+      "alias": [
+        "impuesto sobre la renta"
+      ],
+      "bloque": "economia",
+      "definicion": "Impuesto sobre la Renta de las Personas Físicas. Es estatal, se cede en parte a las comunidades y estas pueden fijar su propia escala.",
+      "ejemplo": "El ayuntamiento no fija el IRPF.",
+      "modulo": "m5",
+      "relacionados": [
+        "tributos-cedidos",
+        "tipo-marginal"
+      ],
+      "fuente_id": "boe-ley-22-2009",
+      "articulo": "LOFCA, art. 11; Ley 22/2009, art. 46",
+      "etiqueta": "NORMA VIGENTE",
+      "disputado": false
+    },
+    {
+      "id": "tipo-marginal",
+      "termino": "Tipo marginal",
+      "alias": [],
+      "bloque": "economia",
+      "definicion": "Porcentaje que se paga por cada euro adicional de base. Solo se aplica a la parte que supera el tramo anterior.",
+      "ejemplo": "Pasar a un tramo superior no hace cobrar menos en neto: solo se grava más la parte nueva.",
+      "modulo": "m5",
+      "relacionados": [
+        "tipo-medio",
+        "irpf"
+      ],
+      "fuente_id": "aeat",
+      "articulo": "Explicación con tramos ficticios",
+      "etiqueta": "EXPLICACIÓN DIDÁCTICA",
+      "disputado": false
+    },
+    {
+      "id": "tipo-medio",
+      "termino": "Tipo medio",
+      "alias": [],
+      "bloque": "economia",
+      "definicion": "Cuota total dividida entre la base. Es el porcentaje que se paga de media.",
+      "ejemplo": "Con una cuota de 6.300 euros sobre 35.000, el tipo medio es del 18 %.",
+      "modulo": "m5",
+      "relacionados": [
+        "tipo-marginal"
+      ],
+      "fuente_id": "aeat",
+      "articulo": "Explicación con tramos ficticios",
+      "etiqueta": "EXPLICACIÓN DIDÁCTICA",
+      "disputado": false
+    },
+    {
+      "id": "sistema-de-reparto",
+      "termino": "Sistema de reparto",
+      "alias": [
+        "reparto"
+      ],
+      "bloque": "economia",
+      "definicion": "Sistema financiero en el que las cotizaciones de cada momento financian las prestaciones de ese momento. Es el de la Seguridad Social española.",
+      "ejemplo": "Las cotizaciones de quienes trabajan hoy pagan las pensiones de hoy.",
+      "modulo": "m5",
+      "relacionados": [
+        "pension-no-contributiva",
+        "revalorizacion"
+      ],
+      "fuente_id": "boe-lgss",
+      "articulo": "Ley General de la Seguridad Social, art. 110",
+      "etiqueta": "NORMA VIGENTE",
+      "disputado": false
+    },
+    {
+      "id": "pension-no-contributiva",
+      "termino": "Pensión no contributiva",
+      "alias": [
+        "no contributiva"
+      ],
+      "bloque": "economia",
+      "definicion": "Pensión a la que no se accede por haber cotizado. La ley distingue la jubilación contributiva de la no contributiva.",
+      "ejemplo": "Una pensión contributiva depende de lo cotizado; una no contributiva, no.",
+      "modulo": "m5",
+      "relacionados": [
+        "sistema-de-reparto"
+      ],
+      "fuente_id": "boe-lgss",
+      "articulo": "Ley General de la Seguridad Social, art. 42",
+      "etiqueta": "NORMA VIGENTE",
+      "disputado": false
+    },
+    {
+      "id": "revalorizacion",
+      "termino": "Revalorización de las pensiones",
+      "alias": [
+        "revalorización"
+      ],
+      "bloque": "economia",
+      "definicion": "Subida anual de las pensiones contributivas según la media de la inflación interanual de los doce meses previos a diciembre.",
+      "ejemplo": "Si la inflación media fue del 2,8 %, las pensiones contributivas suben en ese porcentaje al empezar el año.",
+      "modulo": "m5",
+      "relacionados": [
+        "sistema-de-reparto",
+        "ipc"
+      ],
+      "fuente_id": "boe-lgss",
+      "articulo": "Ley General de la Seguridad Social, art. 58",
+      "etiqueta": "NORMA VIGENTE",
+      "disputado": false
+    },
+    {
+      "id": "punto-porcentual",
+      "termino": "Punto porcentual",
+      "alias": [
+        "puntos porcentuales"
+      ],
+      "bloque": "economia",
+      "definicion": "Diferencia entre dos porcentajes. Pasar del 12 % al 10 % es bajar 2 puntos, que es un 16,7 % en términos relativos.",
+      "ejemplo": "Si el paro baja del 12 % al 10 %, baja 2 puntos, no un 2 %.",
+      "modulo": "m5",
+      "relacionados": [
+        "tasa-de-paro"
+      ],
+      "fuente_id": "ine",
+      "articulo": "Explicación con cifras ficticias",
+      "etiqueta": "EXPLICACIÓN DIDÁCTICA",
+      "disputado": false
+    },
+    {
+      "id": "mediana",
+      "termino": "Mediana",
+      "alias": [],
+      "bloque": "economia",
+      "definicion": "Valor que deja la mitad de los datos por debajo y la otra mitad por encima. Unos pocos valores muy altos no la mueven.",
+      "ejemplo": "Con salarios de 1.000, 1.200, 1.300, 1.500 y 8.000 euros, la mediana es 1.300 y la media 2.600.",
+      "modulo": "m5",
+      "relacionados": [
+        "punto-porcentual"
+      ],
+      "fuente_id": "ine",
+      "articulo": "Explicación con cifras ficticias",
+      "etiqueta": "EXPLICACIÓN DIDÁCTICA",
+      "disputado": false
+    },
+    {
+      "id": "partido-politico",
+      "termino": "Partido político",
+      "alias": [
+        "partido",
+        "partidos"
+      ],
+      "bloque": "ideologias",
+      "definicion": "Asociación que expresa el pluralismo político y concurre a la formación de la voluntad popular. Adquiere personalidad jurídica al inscribirse en el Registro de Partidos Políticos.",
+      "ejemplo": "Un partido recién creado no existe legalmente hasta que se inscribe en el registro del Ministerio del Interior.",
+      "modulo": "m6",
+      "relacionados": [
+        "coalicion-electoral",
+        "federacion-de-partidos",
+        "grupo-parlamentario"
+      ],
+      "fuente_id": "boe-constitucion",
+      "articulo": "Constitución, art. 6; Ley Orgánica 6/2002, art. 3.4",
+      "etiqueta": "NORMA VIGENTE",
+      "disputado": false
+    },
+    {
+      "id": "federacion-de-partidos",
+      "termino": "Federación de partidos",
+      "alias": [
+        "federación"
+      ],
+      "bloque": "ideologias",
+      "definicion": "Unión de partidos que se constituye e inscribe como tal, con el acuerdo expreso de sus órganos competentes.",
+      "ejemplo": "Varios partidos de distintas comunidades pueden unirse en una federación inscrita.",
+      "modulo": "m6",
+      "relacionados": [
+        "partido-politico",
+        "coalicion-electoral"
+      ],
+      "fuente_id": "boe-lopp",
+      "articulo": "Ley Orgánica 6/2002, art. 1.3",
+      "etiqueta": "NORMA VIGENTE",
+      "disputado": false
+    },
+    {
+      "id": "coalicion-electoral",
+      "termino": "Coalición electoral",
+      "alias": [
+        "coalición"
+      ],
+      "bloque": "ideologias",
+      "definicion": "Pacto de partidos o federaciones para presentar una candidatura conjunta en una elección. Se comunica a la Junta Electoral en los diez días siguientes a la convocatoria.",
+      "ejemplo": "Dos partidos pueden ir juntos en una misma lista sin fusionarse.",
+      "modulo": "m6",
+      "relacionados": [
+        "partido-politico",
+        "candidatura",
+        "agrupacion-de-electores"
+      ],
+      "fuente_id": "boe-loreg",
+      "articulo": "LOREG, art. 44.2",
+      "etiqueta": "NORMA VIGENTE",
+      "disputado": false
+    },
+    {
+      "id": "agrupacion-de-electores",
+      "termino": "Agrupación de electores",
+      "alias": [
+        "agrupación"
+      ],
+      "bloque": "ideologias",
+      "definicion": "Grupo de electores que presenta una candidatura sin ser un partido, si reúne los requisitos de la ley electoral.",
+      "ejemplo": "En las europeas de 2024 concurrió la agrupación de electores «Se Acabó La Fiesta».",
+      "modulo": "m6",
+      "relacionados": [
+        "coalicion-electoral",
+        "candidatura"
+      ],
+      "fuente_id": "boe-loreg",
+      "articulo": "LOREG, art. 44.1.c",
+      "etiqueta": "NORMA VIGENTE",
+      "disputado": false
+    },
+    {
+      "id": "grupo-parlamentario",
+      "termino": "Grupo parlamentario",
+      "alias": [
+        "grupo"
+      ],
+      "bloque": "ideologias",
+      "definicion": "Conjunto de diputados o senadores que actúan juntos en su Cámara. En el Congreso, la regla general exige quince diputados.",
+      "ejemplo": "Los diputados del PSC formaban parte del Grupo Parlamentario Socialista.",
+      "modulo": "m6",
+      "relacionados": [
+        "grupo-mixto",
+        "partido-politico"
+      ],
+      "fuente_id": "boe-reglamento-congreso",
+      "articulo": "Reglamento del Congreso, art. 23",
+      "etiqueta": "NORMA VIGENTE",
+      "disputado": false
+    },
+    {
+      "id": "grupo-mixto",
+      "termino": "Grupo Mixto",
+      "alias": [],
+      "bloque": "ideologias",
+      "definicion": "Grupo que reúne a los miembros de la Cámara que no se integran en ningún otro grupo parlamentario.",
+      "ejemplo": "Un diputado que abandona su grupo pasa al Grupo Mixto.",
+      "modulo": "m6",
+      "relacionados": [
+        "grupo-parlamentario"
+      ],
+      "fuente_id": "boe-reglamento-congreso",
+      "articulo": "Reglamento del Congreso, art. 25.1",
+      "etiqueta": "NORMA VIGENTE",
+      "disputado": false
+    },
+    {
+      "id": "programa-electoral",
+      "termino": "Programa electoral",
+      "alias": [
+        "programa"
+      ],
+      "bloque": "ideologias",
+      "definicion": "Documento con las propuestas que presenta una candidatura a unas elecciones. Lo que contiene son propuestas, no leyes ni resultados.",
+      "ejemplo": "Que una medida esté en un programa no significa que vaya a aprobarse.",
+      "modulo": "m6",
+      "relacionados": [
+        "partido-politico",
+        "evaluacion-de-politicas"
+      ],
+      "fuente_id": "boe-loreg",
+      "articulo": "Explicación didáctica de esta web",
+      "etiqueta": "EXPLICACIÓN DIDÁCTICA",
+      "disputado": false
+    },
+    {
+      "id": "clasificacion-academica",
+      "termino": "Clasificación académica de partidos",
+      "alias": [
+        "familia de partidos"
+      ],
+      "bloque": "ideologias",
+      "definicion": "Agrupación de partidos que hacen especialistas con un método explícito. Es una clasificación atribuida a su fuente, no un hecho.",
+      "ejemplo": "CHES 2024 agrupa a los partidos en familias a partir de las valoraciones de expertos.",
+      "modulo": "m6",
+      "relacionados": [
+        "partido-politico",
+        "eje-izquierda-derecha"
+      ],
+      "fuente_id": "ches-2024",
+      "articulo": "Chapel Hill Expert Survey 2024",
+      "etiqueta": "EXPLICACIÓN DIDÁCTICA",
+      "disputado": false
+    },
+    {
+      "id": "desarrollo-reglamentario",
+      "termino": "Desarrollo reglamentario",
+      "alias": [],
+      "bloque": "temas",
+      "definicion": "Normas, como reales decretos u órdenes, que concretan una ley para que pueda aplicarse.",
+      "ejemplo": "Una ley crea una ayuda; una orden posterior fija el formulario y los requisitos.",
+      "modulo": "m7",
+      "relacionados": [
+        "reglamento",
+        "entrada-en-vigor"
+      ],
+      "fuente_id": "boe-constitucion",
+      "articulo": "Explicación didáctica de esta web",
+      "etiqueta": "EXPLICACIÓN DIDÁCTICA",
+      "disputado": false
+    },
+    {
+      "id": "evaluacion-de-politicas",
+      "termino": "Evaluación de políticas",
+      "alias": [
+        "evaluación"
+      ],
+      "bloque": "temas",
+      "definicion": "Proceso sistemático de generación de conocimiento para valorar, con evidencias, el diseño, la aplicación y los efectos de una política pública.",
+      "ejemplo": "Comparar un grupo que recibió una ayuda con otro parecido que no la recibió.",
+      "modulo": "m7",
+      "relacionados": [
+        "desarrollo-reglamentario",
+        "programa-electoral",
+        "politica-publica",
+        "indicador",
+        "evaluacion-ex-ante",
+        "evaluacion-ex-post"
+      ],
+      "fuente_id": "boe-ley-evaluacion",
+      "articulo": "Ley 27/2022, art. 8.1",
+      "etiqueta": "NORMA VIGENTE",
+      "disputado": false
+    },
+    {
+      "id": "amnistia",
+      "termino": "Amnistía",
+      "alias": [],
+      "bloque": "temas",
+      "definicion": "Ley que extingue la responsabilidad por unos hechos ya cometidos. La Ley Orgánica 1/2024 amnistió actos ligados a las consultas de Cataluña de 2014 y 2017.",
+      "ejemplo": "A diferencia del indulto, la amnistía se refiere a hechos, no a una pena concreta.",
+      "modulo": "m7",
+      "relacionados": [
+        "indulto"
+      ],
+      "fuente_id": "boe-lo-amnistia",
+      "articulo": "Ley Orgánica 1/2024, art. 1.1",
+      "etiqueta": "NORMA VIGENTE",
+      "disputado": false
+    },
+    {
+      "id": "indulto",
+      "termino": "Indulto",
+      "alias": [],
+      "bloque": "temas",
+      "definicion": "Perdón de toda o parte de la pena a una persona condenada, con arreglo a la ley. La Constitución prohíbe los indultos generales.",
+      "ejemplo": "Un indulto se refiere a una pena concreta de una persona condenada.",
+      "modulo": "m7",
+      "relacionados": [
+        "amnistia"
+      ],
+      "fuente_id": "boe-constitucion",
+      "articulo": "Constitución, art. 62.i; Ley de 18 de junio de 1870, art. 1",
+      "etiqueta": "NORMA VIGENTE",
+      "disputado": false
+    },
+    {
+      "id": "extranjero",
+      "termino": "Extranjero",
+      "alias": [
+        "extranjera",
+        "extranjeros"
+      ],
+      "bloque": "temas",
+      "definicion": "Quien carece de la nacionalidad española, a los efectos de la ley de extranjería.",
+      "ejemplo": "Los ciudadanos de otros países de la Unión tienen además un régimen propio.",
+      "modulo": "m7",
+      "relacionados": [
+        "derecho-de-asilo"
+      ],
+      "fuente_id": "boe-lo-extranjeria",
+      "articulo": "Ley Orgánica 4/2000, art. 1.1",
+      "etiqueta": "NORMA VIGENTE",
+      "disputado": false
+    },
+    {
+      "id": "derecho-de-asilo",
+      "termino": "Derecho de asilo",
+      "alias": [
+        "asilo"
+      ],
+      "bloque": "temas",
+      "definicion": "Protección que se da a quienes se reconoce la condición de refugiado. La regula la Ley 12/2009.",
+      "ejemplo": "Pedir asilo no es lo mismo que pedir un permiso de residencia por trabajo.",
+      "modulo": "m7",
+      "relacionados": [
+        "refugiado",
+        "extranjero"
+      ],
+      "fuente_id": "boe-ley-asilo",
+      "articulo": "Ley 12/2009, art. 2",
+      "etiqueta": "NORMA VIGENTE",
+      "disputado": false
+    },
+    {
+      "id": "refugiado",
+      "termino": "Refugiado",
+      "alias": [
+        "refugiada",
+        "refugiados"
+      ],
+      "bloque": "temas",
+      "definicion": "Persona fuera de su país que tiene fundados temores de ser perseguida por motivos como raza, religión, opiniones políticas, género u orientación sexual.",
+      "ejemplo": "La condición de refugiado da acceso al derecho de asilo.",
+      "modulo": "m7",
+      "relacionados": [
+        "derecho-de-asilo"
+      ],
+      "fuente_id": "boe-ley-asilo",
+      "articulo": "Ley 12/2009, art. 3",
+      "etiqueta": "NORMA VIGENTE",
+      "disputado": false
+    },
+    {
+      "id": "violencia-de-genero",
+      "termino": "Violencia de género",
+      "alias": [],
+      "bloque": "temas",
+      "definicion": "Violencia que ejercen sobre las mujeres sus cónyuges o parejas, actuales o pasadas, como manifestación de la discriminación y la desigualdad.",
+      "ejemplo": "La ley la define aunque no haya convivencia.",
+      "modulo": "m7",
+      "relacionados": [],
+      "fuente_id": "boe-lo-violencia-genero",
+      "articulo": "Ley Orgánica 1/2004, art. 1.1",
+      "etiqueta": "NORMA VIGENTE",
+      "disputado": false
+    },
+    {
+      "id": "interrupcion-voluntaria-del-embarazo",
+      "termino": "Interrupción voluntaria del embarazo",
+      "alias": [
+        "aborto"
+      ],
+      "bloque": "temas",
+      "definicion": "Aborto que la ley permite a petición de la mujer dentro de las primeras catorce semanas de gestación.",
+      "ejemplo": "La Sentencia del Tribunal Constitucional 44/2023 desestimó el recurso contra esta ley en lo principal.",
+      "modulo": "m7",
+      "relacionados": [],
+      "fuente_id": "boe-lo-2-2010",
+      "articulo": "Ley Orgánica 2/2010, art. 14",
+      "etiqueta": "NORMA VIGENTE",
+      "disputado": false
+    },
+    {
+      "id": "eutanasia",
+      "termino": "Eutanasia",
+      "alias": [],
+      "bloque": "temas",
+      "definicion": "Ayuda necesaria para morir que solicita y recibe una persona que cumple las condiciones de la ley.",
+      "ejemplo": "La Sentencia del Tribunal Constitucional 19/2023 desestimó el recurso contra la ley.",
+      "modulo": "m7",
+      "relacionados": [],
+      "fuente_id": "boe-lo-eutanasia",
+      "articulo": "Ley Orgánica 3/2021, art. 1",
+      "etiqueta": "NORMA VIGENTE",
+      "disputado": false
+    },
+    {
+      "id": "memoria-democratica",
+      "termino": "Memoria democrática",
+      "alias": [
+        "memoria histórica"
+      ],
+      "bloque": "temas",
+      "definicion": "Recuperación, salvaguarda y difusión del conocimiento de la defensa de los valores democráticos en la historia contemporánea de España, según la Ley 20/2022.",
+      "ejemplo": "Es el nombre que usa la ley vigente; en el debate se usan también otras denominaciones.",
+      "modulo": "m7",
+      "relacionados": [],
+      "fuente_id": "boe-ley-memoria-democratica",
+      "articulo": "Ley 20/2022, art. 1",
+      "etiqueta": "NORMA VIGENTE",
+      "disputado": false
+    },
+    {
+      "id": "politica-publica",
+      "termino": "Política pública",
+      "alias": [
+        "políticas públicas"
+      ],
+      "bloque": "temas",
+      "definicion": "Conjunto de actuaciones dirigidas al interés general o a resolver un problema o necesidad públicos. Puede tomar forma de norma, plan, programa o medida.",
+      "ejemplo": "Una ayuda al alquiler o un plan de becas son políticas públicas.",
+      "modulo": "m8",
+      "relacionados": [
+        "evaluacion-de-politicas",
+        "indicador"
+      ],
+      "fuente_id": "boe-ley-evaluacion",
+      "articulo": "Ley 27/2022, art. 2.1",
+      "etiqueta": "NORMA VIGENTE",
+      "disputado": false
+    },
+    {
+      "id": "indicador",
+      "termino": "Indicador",
+      "alias": [],
+      "bloque": "temas",
+      "definicion": "Dato o información, individual o agrupada, que permite medir el progreso o los efectos de una política pública.",
+      "ejemplo": "El número de viajes de jóvenes en transporte público puede ser un indicador de un abono joven.",
+      "modulo": "m8",
+      "relacionados": [
+        "politica-publica",
+        "evaluacion-de-politicas"
+      ],
+      "fuente_id": "boe-ley-evaluacion",
+      "articulo": "Ley 27/2022, art. 2.7",
+      "etiqueta": "NORMA VIGENTE",
+      "disputado": false
+    },
+    {
+      "id": "evaluacion-ex-ante",
+      "termino": "Evaluación ex ante",
+      "alias": [
+        "ex ante"
+      ],
+      "bloque": "temas",
+      "definicion": "Evaluación que se hace cuando la política pública está en la fase de planificación, formulación o diseño.",
+      "ejemplo": "Estimar cuánto costará una ayuda antes de aprobarla.",
+      "modulo": "m8",
+      "relacionados": [
+        "evaluacion-ex-post",
+        "evaluacion-de-politicas"
+      ],
+      "fuente_id": "boe-ley-evaluacion",
+      "articulo": "Ley 27/2022, art. 10.1.a",
+      "etiqueta": "NORMA VIGENTE",
+      "disputado": false
+    },
+    {
+      "id": "evaluacion-ex-post",
+      "termino": "Evaluación ex post",
+      "alias": [
+        "ex post"
+      ],
+      "bloque": "temas",
+      "definicion": "Evaluación que se hace después de terminar la ejecución de una política pública.",
+      "ejemplo": "Medir, al acabar un programa de becas, si los becados terminaron sus estudios.",
+      "modulo": "m8",
+      "relacionados": [
+        "evaluacion-ex-ante",
+        "evaluacion-de-politicas"
+      ],
+      "fuente_id": "boe-ley-evaluacion",
+      "articulo": "Ley 27/2022, art. 10.1.c",
+      "etiqueta": "NORMA VIGENTE",
+      "disputado": false
+    },
+    {
+      "id": "muestra",
+      "termino": "Muestra",
+      "alias": [
+        "universo"
+      ],
+      "bloque": "temas",
+      "definicion": "Selección representativa de la población de referencia, llamada universo, a la que se hace una encuesta. Toda muestra tiene un margen de error.",
+      "ejemplo": "Una encuesta entrevista a unas pocas miles de personas para describir a millones.",
+      "modulo": "m8",
+      "relacionados": [
+        "margen-de-error",
+        "ponderacion"
+      ],
+      "fuente_id": "cis-muestra-ponderacion",
+      "articulo": "CIS, Muestra y ponderación",
+      "etiqueta": "EXPLICACIÓN DIDÁCTICA",
+      "disputado": false
+    },
+    {
+      "id": "margen-de-error",
+      "termino": "Margen de error",
+      "alias": [
+        "error muestral",
+        "error de muestreo"
+      ],
+      "bloque": "temas",
+      "definicion": "Intervalo alrededor del resultado de una encuesta en el que estaría el valor de toda la población con cierta confianza. Depende del tamaño y del diseño de la muestra.",
+      "ejemplo": "Un 50 % con un margen de ±3,1 puntos significa, aproximadamente, entre el 46,9 % y el 53,1 %.",
+      "modulo": "m8",
+      "relacionados": [
+        "muestra"
+      ],
+      "fuente_id": "cis-muestra-ponderacion",
+      "articulo": "CIS, Muestra y ponderación; explicación didáctica de esta web",
+      "etiqueta": "EXPLICACIÓN DIDÁCTICA",
+      "disputado": false
+    },
+    {
+      "id": "ponderacion",
+      "termino": "Ponderación",
+      "alias": [
+        "ponderar"
+      ],
+      "bloque": "temas",
+      "definicion": "Ajuste de una muestra comparando su composición con la de la población, por ejemplo por sexo, edad o región.",
+      "ejemplo": "Si una muestra tiene pocos jóvenes, sus respuestas cuentan más al calcular el total.",
+      "modulo": "m8",
+      "relacionados": [
+        "muestra"
+      ],
+      "fuente_id": "cis-muestra-ponderacion",
+      "articulo": "CIS, Muestra y ponderación",
+      "etiqueta": "EXPLICACIÓN DIDÁCTICA",
+      "disputado": false
+    },
+    {
+      "id": "medio-publico",
+      "termino": "Medio público",
+      "alias": [
+        "medio público y privado",
+        "servicio público de comunicación audiovisual"
+      ],
+      "bloque": "ideologias",
+      "definicion": "Medio que presta el servicio público de comunicación audiovisual. Lo prestan el Estado, las comunidades autónomas y las entidades locales.",
+      "ejemplo": "La televisión de una comunidad autónoma puede ser un servicio público de ámbito autonómico.",
+      "modulo": "m9",
+      "relacionados": [
+        "medio-privado",
+        "responsabilidad-editorial"
+      ],
+      "fuente_id": "boe-ley-comunicacion-audiovisual",
+      "articulo": "Ley 13/2022, art. 50",
+      "etiqueta": "NORMA VIGENTE",
+      "disputado": false
+    },
+    {
+      "id": "medio-privado",
+      "termino": "Medio privado",
+      "alias": [],
+      "bloque": "ideologias",
+      "definicion": "Medio cuyo propietario es una empresa o una persona privada. El Euromedia Ownership Monitor documenta quién controla los medios de su muestra.",
+      "ejemplo": "Una cadena de radio de un grupo empresarial es un medio privado.",
+      "modulo": "m9",
+      "relacionados": [
+        "medio-publico",
+        "propiedad-mediatica"
+      ],
+      "fuente_id": "euromo-espana-2025",
+      "articulo": "Explicación didáctica de esta web",
+      "etiqueta": "EXPLICACIÓN DIDÁCTICA",
+      "disputado": false
+    },
+    {
+      "id": "responsabilidad-editorial",
+      "termino": "Responsabilidad editorial",
+      "alias": [],
+      "bloque": "ideologias",
+      "definicion": "Control efectivo sobre la selección de los programas y sobre su organización, en un horario de programación o en un catálogo.",
+      "ejemplo": "Quien decide qué programas emite una cadena y a qué hora tiene la responsabilidad editorial.",
+      "modulo": "m9",
+      "relacionados": [
+        "linea-editorial",
+        "medio-publico"
+      ],
+      "fuente_id": "boe-ley-comunicacion-audiovisual",
+      "articulo": "Ley 13/2022, art. 2.2",
+      "etiqueta": "NORMA VIGENTE",
+      "disputado": false
+    },
+    {
+      "id": "linea-editorial",
+      "termino": "Línea editorial",
+      "alias": [],
+      "bloque": "ideologias",
+      "definicion": "Criterios con los que un medio decide qué publica y cómo lo enfoca. Algunos medios la declaran en su web.",
+      "ejemplo": "Un periódico puede declarar en sus principios editoriales qué valores defiende.",
+      "modulo": "m9",
+      "relacionados": [
+        "responsabilidad-editorial",
+        "opinion"
+      ],
+      "fuente_id": "boe-ley-comunicacion-audiovisual",
+      "articulo": "Explicación didáctica a partir de la Ley 13/2022, arts. 2.2 y 2.3",
+      "etiqueta": "EXPLICACIÓN DIDÁCTICA",
+      "disputado": false
+    },
+    {
+      "id": "propiedad-mediatica",
+      "termino": "Propiedad mediática",
+      "alias": [
+        "propiedad de los medios"
+      ],
+      "bloque": "ideologias",
+      "definicion": "Quién posee y controla un medio: la sociedad que lo edita, su grupo y sus accionistas. El Euromedia Ownership Monitor la documenta por países.",
+      "ejemplo": "Dos periódicos distintos pueden pertenecer al mismo grupo.",
+      "modulo": "m9",
+      "relacionados": [
+        "medio-privado",
+        "paralelismo-politico"
+      ],
+      "fuente_id": "euromo-espana-2025",
+      "articulo": "Euromedia Ownership Monitor, España 2025",
+      "etiqueta": "EXPLICACIÓN DIDÁCTICA",
+      "disputado": false
+    },
+    {
+      "id": "paralelismo-politico",
+      "termino": "Paralelismo político",
+      "alias": [],
+      "bloque": "ideologias",
+      "definicion": "Relación entre los medios y los partidos o corrientes políticas de un país. El informe EurOMo España 2025 lo califica de alto en España.",
+      "ejemplo": "Elegir a los tertulianos de un programa en coordinación con los partidos es un rasgo que ese informe asocia al paralelismo.",
+      "modulo": "m9",
+      "relacionados": [
+        "propiedad-mediatica",
+        "linea-editorial"
+      ],
+      "fuente_id": "euromo-espana-2025",
+      "articulo": "Euromedia Ownership Monitor, España 2025, apartado sobre paralelismo político",
+      "etiqueta": "EXPLICACIÓN DIDÁCTICA",
+      "disputado": false
+    },
+    {
+      "id": "verificacion-de-datos",
+      "termino": "Verificación de datos",
+      "alias": [
+        "fact-checking",
+        "verificación"
+      ],
+      "bloque": "ideologias",
+      "definicion": "Método para comprobar si una afirmación concreta es cierta, engañosa o falsa contrastando fuentes. Los servicios de verificación publican su metodología.",
+      "ejemplo": "Comprobar en el BOE si una ley que «ya es ley» se ha publicado.",
+      "modulo": "m9",
+      "relacionados": [
+        "ifcn",
+        "fuente-primaria",
+        "desinformacion"
+      ],
+      "fuente_id": "fape-codigo",
+      "articulo": "Código Deontológico de la FAPE, apartado II; explicación didáctica de esta web",
+      "etiqueta": "EXPLICACIÓN DIDÁCTICA",
+      "disputado": false
+    },
+    {
+      "id": "desinformacion",
+      "termino": "Desinformación",
+      "alias": [],
+      "bloque": "ideologias",
+      "definicion": "Información verificablemente falsa o engañosa que se crea, presenta y divulga para obtener beneficio o engañar deliberadamente, y que puede causar un perjuicio público.",
+      "ejemplo": "Un vídeo manipulado que se difunde para engañar sobre la fecha de unas elecciones.",
+      "modulo": "m9",
+      "relacionados": [
+        "verificacion-de-datos",
+        "alfabetizacion-mediatica"
+      ],
+      "fuente_id": "boe-orden-desinformacion",
+      "articulo": "Orden PCM/1030/2020, que cita la Comunicación COM(2018) 236 de la Comisión Europea",
+      "etiqueta": "NORMA VIGENTE",
+      "disputado": false
+    },
+    {
+      "id": "noticia",
+      "termino": "Noticia",
+      "alias": [
+        "información"
+      ],
+      "bloque": "ideologias",
+      "definicion": "Texto que informa de hechos contrastados, con sus fuentes, separado de las opiniones.",
+      "ejemplo": "«El Parlamento aprobó ayer la ley con 180 votos a favor» es una noticia.",
+      "modulo": "m9",
+      "relacionados": [
+        "analisis",
+        "opinion",
+        "fuente-primaria"
+      ],
+      "fuente_id": "fape-codigo",
+      "articulo": "Código Deontológico de la FAPE: distinción entre informaciones y opiniones",
+      "etiqueta": "EXPLICACIÓN DIDÁCTICA",
+      "disputado": false
+    },
+    {
+      "id": "analisis",
+      "termino": "Análisis",
+      "alias": [
+        "texto de análisis"
+      ],
+      "bloque": "ideologias",
+      "definicion": "Texto que explica el contexto, las causas o las consecuencias de unos hechos con datos e interpretaciones atribuidas. No propone qué debe hacerse.",
+      "ejemplo": "Un texto que explica por qué ha bajado el paro, con datos y especialistas citados.",
+      "modulo": "m9",
+      "relacionados": [
+        "noticia",
+        "opinion"
+      ],
+      "fuente_id": "fape-codigo",
+      "articulo": "Explicación didáctica de esta web",
+      "etiqueta": "EXPLICACIÓN DIDÁCTICA",
+      "disputado": false
+    },
+    {
+      "id": "opinion",
+      "termino": "Opinión",
+      "alias": [
+        "columna",
+        "editorial",
+        "artículo de opinión"
+      ],
+      "bloque": "ideologias",
+      "definicion": "Texto que valora unos hechos o propone qué debería hacerse. El código de la FAPE pide distinguirla claramente de la información.",
+      "ejemplo": "Un editorial que pide retirar una ley es opinión.",
+      "modulo": "m9",
+      "relacionados": [
+        "noticia",
+        "analisis",
+        "linea-editorial"
+      ],
+      "fuente_id": "fape-codigo",
+      "articulo": "Código Deontológico de la FAPE: distinción entre informaciones y opiniones",
+      "etiqueta": "EXPLICACIÓN DIDÁCTICA",
+      "disputado": false
+    },
+    {
+      "id": "fuente-primaria",
+      "termino": "Fuente primaria",
+      "alias": [
+        "fuente original"
+      ],
+      "bloque": "ideologias",
+      "definicion": "Documento, dato o declaración completa de la que procede una información, como una ley publicada o una estadística oficial.",
+      "ejemplo": "La fuente primaria de un «ya es ley» es el boletín oficial que la publica.",
+      "modulo": "m9",
+      "relacionados": [
+        "noticia",
+        "verificacion-de-datos"
+      ],
+      "fuente_id": "fape-codigo",
+      "articulo": "Explicación didáctica a partir del Código Deontológico de la FAPE (citar las fuentes)",
+      "etiqueta": "EXPLICACIÓN DIDÁCTICA",
+      "disputado": false
+    },
+    {
+      "id": "ifcn",
+      "termino": "IFCN",
+      "alias": [
+        "International Fact-Checking Network",
+        "Red Internacional de Verificación de Datos"
+      ],
+      "bloque": "ideologias",
+      "definicion": "Red internacional de verificadores (International Fact-Checking Network). Publica la lista de servicios signatarios de su código de principios.",
+      "ejemplo": "Antes de citar a un verificador, comprueba en la lista de la IFCN si su sello está vigente.",
+      "modulo": "m9",
+      "relacionados": [
+        "verificacion-de-datos"
+      ],
+      "fuente_id": "ifcn-signatarios",
+      "articulo": "Lista pública de signatarios de la IFCN",
+      "etiqueta": "EXPLICACIÓN DIDÁCTICA",
+      "disputado": false
+    },
+    {
+      "id": "alfabetizacion-mediatica",
+      "termino": "Alfabetización mediática",
+      "alias": [],
+      "bloque": "ideologias",
+      "definicion": "Competencias para acceder a la información y analizarla críticamente, distinguir hechos y opiniones y reconocer noticias falsas y desinformación.",
+      "ejemplo": "Comprobar la fecha y la fuente de un titular antes de compartirlo.",
+      "modulo": "m9",
+      "relacionados": [
+        "desinformacion",
+        "verificacion-de-datos"
+      ],
+      "fuente_id": "boe-ley-comunicacion-audiovisual",
+      "articulo": "Ley 13/2022, art. 10.2",
+      "etiqueta": "NORMA VIGENTE",
+      "disputado": false
+    },
+    {
+      "id": "bulo",
+      "termino": "Bulo",
+      "alias": [
+        "noticia falsa",
+        "noticia falseada",
+        "fake news"
+      ],
+      "bloque": "ideologias",
+      "definicion": "Noticia falsa que se difunde con algún fin. La FundéuRAE lo propone, junto a «noticia falsa», como alternativa a «fake news».",
+      "ejemplo": "Un mensaje que atribuye a una ley algo que su texto no dice, difundido para que se comparta, es un bulo.",
+      "modulo": "m9",
+      "relacionados": [
+        "desinformacion",
+        "verificacion-de-datos"
+      ],
+      "fuente_id": "fundeu-noticias-falsas",
+      "articulo": "FundéuRAE, «noticias falsas» o «falseadas», mejor que «fake news» (2017)",
+      "etiqueta": "EXPLICACIÓN DIDÁCTICA",
+      "disputado": false
+    },
+    {
+      "id": "polarizacion",
+      "termino": "Polarización",
+      "alias": [
+        "polarizar"
+      ],
+      "bloque": "ideologias",
+      "definicion": "División en dos bloques, posiciones u opiniones enfrentadas. Se usa también para situaciones con dos posturas muy distanciadas, a veces con crispación.",
+      "ejemplo": "Que un debate se reduzca a dos posturas que no se escuchan suele describirse como polarización.",
+      "modulo": "m9",
+      "relacionados": [
+        "paralelismo-politico"
+      ],
+      "fuente_id": "fundeu-polarizacion",
+      "articulo": "FundéuRAE, «polarizar» y «polarización», varios significados (2023)",
+      "etiqueta": "EXPLICACIÓN DIDÁCTICA",
+      "disputado": false
+    }
+  ]
+}
