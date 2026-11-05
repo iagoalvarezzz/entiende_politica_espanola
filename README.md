@@ -58,6 +58,9 @@ tools/build.py             genera envoltorios y dist/politica-espana.html
 tools/validate.py          valida data/ contra los esquemas y las reglas del Anexo C.3
 tools/check_links.py       comprueba los enlaces de data/sources.json y registra el resultado
 tools/run_tests.py         ejecuta todas las pruebas
+tools/neutralidad.py       barrido de expresiones que hay que revisar por neutralidad
+tools/generadores/         generadores históricos de los datos (ver su README)
+CLAUDE.md                  reglas de trabajo para Claude Code
 tests/                     vectores de prueba, casos del validador, pruebas en navegador e informes
 dist/                      versión de un solo archivo (generada)
 ```
