@@ -14,20 +14,22 @@ Estado: **hito H5** (los nueve módulos). Incluye:
 
 Quedan decisiones pendientes del autor (ver `tests/informe-h5.md`). Los datos económicos del tablero están precargados con su fecha y no se actualizan solos. Las propuestas de los partidos se cargarán con los programas del 29-N.
 
-Repositorio: https://github.com/iagoalvarezzz/entiende_politica_espanola
-
 ## Abrir la web
 
+**Entra en https://iagoalvarezzz.github.io/entiende_politica_espanola/ y ya está.** No hace falta instalar ni descargar nada.
+
+La web no tiene backend, cuentas, cookies ni analítica. El código está en este repositorio: https://github.com/iagoalvarezzz/entiende_politica_espanola
+
+### Abrirla en tu ordenador (para desarrollar)
+
 - **Con doble clic**: abre `index.html` o `dist/politica-espana.html` (un solo archivo con todo incrustado). Funciona sin servidor porque los datos se cargan como scripts clásicos.
-- **Con un servidor local** (recomendado para desarrollar):
+- **Con un servidor local**:
 
   ```bash
   python -m http.server 8000
   ```
 
   y visita `http://localhost:8000/`.
-
-Se puede publicar tal cual en cualquier alojamiento estático (por ejemplo, GitHub Pages). No hay backend, cuentas, cookies ni analítica.
 
 ## Requisitos
 
